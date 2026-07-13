@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Beast of Reincarnation: Mecánicas de Juego y Guía de Combate",
+  description: "Domina Beast of Reincarnation, el RPG de acción de Game Freak. Aprende sobre mecánicas de combate, verticalidad aérea, sistemas de compañeros y consejos de progresión.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Combat+and+Mechanics+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Beast of Reincarnation",
+  keywords: "Beast of Reincarnation, guía de combate, mecánicas de juego, Game Freak, RPG de acción, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Beast of Reincarnation** es un próximo RPG de acción desarrollado por Game Freak, programado para su lanzamiento en **2026**.
+- El **combate principal** combina la precisión de alta velocidad de los Souls-like con el desplazamiento vertical y mecánicas asistidas por compañeros.
+- La **movilidad aérea** es una característica destacada, que permite a los jugadores utilizar puntos de enganche ambientales para ataques descendentes devastadores.
+- La **disponibilidad en plataformas** está confirmada para PlayStation 5, Xbox Series X/S y PC a través de Steam.
+</Callout>
+
+<Section icon={Map} title="Descripción General de Beast of Reincarnation y Detalles de Plataformas">
+
+**Beast of Reincarnation** marca un alejamiento masivo para el desarrollador Game Freak, alejándose de sus raíces tradicionales de recolección de monstruos para entrar en el reino de los RPG de acción oscuros y de alta fidelidad. Ambientado en un mundo misterioso y exuberante lleno de antiguas amenazas mecánicas y maravillas orgánicas, los jugadores controlan a un hábil protagonista que navega por ruinas de bosques densos junto a un leal compañero canino.
+
+**Puntos Destacados del Video:**
+- **Revelación Sorpresa**: La transición de Game Freak de los RPG clásicos a un título de acción de alto octanaje.
+- **Sigilo y Desplazamiento**: Mostrando asesinatos aéreos y mecánicas de gancho de agarre.
+- **Mecánicas de Compañeros**: Avistamiento del compañero canino y pilotos de mechas gigantes asistiendo en el combate.
+
+<YouTubeEmbed videoId="u37HHp68_ow" title="Beast Of Reincarnation es una compra obligada para mí" />
+
+### Plataformas Objetivo y Ventana de Lanzamiento
+
+El juego está programado para un lanzamiento global en **2026**. A diferencia de muchos títulos anteriores del desarrollador, este juego apunta a plataformas de alto rendimiento para ofrecer una fidelidad visual impresionante y un combate fluido.
+
+| Plataforma | Estado | Soporte de Modo Gráfico |
+| --- | --- | --- |
+| **PlayStation 5** | Confirmado | Resolución 4K / Objetivo de 60 FPS |
+| **Xbox Series X/S** | Confirmado | Escalamiento Dinámico / Modo Rendimiento |
+| **PC (Steam)** | Confirmado | Tasa de Fotogramas Ilimitada / Soporte Ultra Gran Angular |
+
+<Callout type="tip" title="Disponibilidad en Plataformas">
+Aunque el marketing inicial presentó momentos destacados en eventos de Xbox, se ha confirmado oficialmente que el juego será un lanzamiento multiplataforma. No es una exclusiva de consola para Xbox.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Combate y Desplazamiento Vertical">
+
+El bucle de combate principal de **Beast of Reincarnation** incorpora fuertemente elementos de los juegos clásicos tipo Souls, requiriendo una sincronización precisa, gestión de resistencia y un posicionamiento cuidadoso. Sin embargo, se distingue por su increíble verticalidad ambiental y sistemas de desplazamiento orgánicos.
+
+### Comparación de Arquetipos de Combate
+
+| Atributo | Combate Terrestre | Combate Aéreo | Enfoque de Sigilo |
+| --- | --- | --- | --- |
+| **Enfoque Principal** | Desvío y Contraataque | Ataques Descendentes de Alto Impacto | Eliminaciones Silenciosas |
+| **Nivel de Riesgo** | Medio (Requiere sincronización de parry) | Alto (Vulnerable a ataques antiaéreos) | Bajo (Enfrentamiento más seguro) |
+| **Velocidad de Movilidad** | Estándar | Extremadamente Rápido | Lento y Calculado |
+| **Objetivos Ideales** | Caballeros de Élite y Jefes | Esbirros Agrupados | Patrullas Aisladas |
+
+### Manipulación Ambiental
+
+Los jugadores pueden interactuar directamente con la flora del bosque para alterar el campo de batalla. Se pueden lanzar o activar semillas especiales en las proximidades para hacer brotar flores masivas y brillantes. Estas flores actúan como plataformas de lanzamiento orgánicas, permitiendo al jugador salir disparado por los aires para escapar del peligro o iniciar remates aéreos.
+
+<CardGrid cols={3}>
+  <Card title="Flores de Agarre">
+    - **Brotan bajo demanda** usando objetos de semilla.
+    - **Puntos de agarre** para un escape vertical rápido.
+    - Se abren automáticamente cuando se está dentro del alcance.
+  </Card>
+  <Card title="Remates Aéreos">
+    - **Multiplicadores de daño alto** en enemigos desprevenidos.
+    - Activa ondas de choque amplias al aterrizar.
+    - Perfecto para dispersar grupos muy compactos.
+  </Card>
+  <Card title="Follaje de Sigilo">
+    - **Ocúltate fácilmente** de las rutas de patrulla.
+    - Establece puntos de emboscada con tu compañero.
+    - Reduce el rango de detección del enemigo.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Gestión de Resistencia">
+Las maniobras aéreas y el uso del gancho consumen un medidor de desplazamiento único. No agotes este medidor por completo sobre zonas peligrosas, o sufrirás daños severos por caída.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sistemas de Compañeros: Bestias y Mechas">
+
+No tienes que enfrentarte solo a la peligrosa naturaleza de **Beast of Reincarnation**. El juego presenta un sistema de compañeros dual que combina bestias orgánicas con apoyo mecánico pesado.
+
+### Roles y Funciones de los Compañeros
+
+| Compañero | Tipo | Rol Principal | Habilidad Clave |
+| --- | --- | --- | --- |
+| **Compañero Canino** | Bestia Orgánica | Sigilo y Distracción | Rastreo de enemigos y recuperación de objetos |
+| **Mecha del Bosque** | Máquina Pesada | Apoyo en Combate y Defensa | Escudo blindado y artillería pesada |
+
+### Utilizando el Mecha del Bosque
+
+Durante segmentos específicos del juego, los jugadores coordinarán con un mecha gigante pilotado. El protagonista puede montar en su interior o luchar junto a esta unidad, combinando un ágil manejo de la espada con potencia de fuego pesada. 
+
+<Steps>
+  <Step num="1" title="Localiza Estaciones de Mechas">
+    Encuentra unidades de mechas inactivas o invoca a tu compañero mecánico en puestos de avanzada designados en el bosque.
+  </Step>
+  <Step num="2" title="Coordina Ataques">
+    Usa marcadores de objetivo para dirigir la artillería pesada del mecha mientras flanqueas a los enemigos desde el dosel forestal.
+  </Step>
+  <Step num="3" title="Pilota la Unidad">
+    Entra en la cabina durante batallas de asedio de alta intensidad para atravesar barricadas enemigas reforzadas.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Sinergia de Compañeros">
+Tu compañero canino puede explorar por delante para marcar las debilidades de los enemigos, que luego tu mecha puede atacar con proyectiles explosivos de largo alcance.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión e Hitos">
+
+Para asegurarte de estar completamente preparado para los desafíos dentro de **Beast of Reincarnation**, sigue esta ruta de progresión estructurada.
+
+<Checklist
+  id="reincarnation-goals"
+  title="Hitos del Inicio del Juego:"
+  items={[
+    "Desbloquea la habilidad Semilla de Agarre para un desplazamiento vertical instantáneo.",
+    "Mejora la habilidad de rastreo de tu compañero canino para localizar materiales de mejora ocultos.",
+    "Derrota al primer guardián del bosque para desbloquear el sistema de invocación del mecha.",
+    "Adquiere el núcleo del Motor de Reencarnación para comenzar a personalizar tu árbol de habilidades activas."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Beast of Reincarnation un juego puramente Souls-like?",
+    answer: "Presenta elementos pesados de Souls-like, como combates desafiantes contra jefes, gestión de resistencia y mecánicas de parry precisas, pero también incluye desplazamiento de alta movilidad y sistemas de compañeros que hacen que el juego sea mucho más rápido y vertical."
+  },
+  {
+    question: "¿Quién está desarrollando el juego?",
+    answer: "El juego está siendo desarrollado por Game Freak, marcando su primera gran incursión en RPGs de acción maduros y de alta fidelidad fuera de sus franquicias tradicionales."
+  },
+  {
+    question: "¿Puedes personalizar a tus compañeros?",
+    answer: "Sí. Tanto tu compañero canino como el mecha del bosque tienen rutas de mejora dedicadas que te permiten personalizar sus roles de combate, capacidades defensivas y apariencias cosméticas."
+  },
+  {
+    question: "¿Cuándo se lanzará el juego?",
+    answer: "Beast of Reincarnation está programado oficialmente para lanzarse en PlayStation 5, Xbox Series X/S y PC en 2026."
+  }
+]} />
+
+</Section>

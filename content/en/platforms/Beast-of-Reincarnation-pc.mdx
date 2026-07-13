@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Beast of Reincarnation PC: Setup Guide & Performance Boosts",
+  description: "Optimize Beast of Reincarnation PC performance with our complete setup guide, system requirements, controls, and launch day troubleshooting tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=PC+Setup+Guide",
+  date: "2026-07-13",
+  author: "Beast of Reincarnation Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Beast of Reincarnation PC**: Optimize your system settings to ensure stable frame rates and smooth gameplay.
+- **Hardware baseline**: A modern solid-state drive (SSD) is highly recommended to prevent asset streaming hitches.
+- **Control preference**: While keyboard and mouse offer precise camera control, a gamepad provides smoother movement.
+- **Launch preparation**: Keep graphics drivers updated to avoid common launch day crashes and shader compilation issues.
+</Callout>
+
+<Section icon={Shield} title="System Requirements & Official Trailer">
+
+Preparing your rig for the launch of this highly anticipated action RPG requires a clear understanding of the hardware demands. The game utilizes advanced rendering techniques that can tax older hardware, making it essential to evaluate your current setup before diving into the adventure.
+
+**Video Highlights:**
+- Official look at the pre-order bonuses and exclusive cosmetics.
+- Showcase of the high-fidelity environments and beast transformations.
+- Glimpse of the real-time combat system running on PC hardware.
+
+<YouTubeEmbed videoId="3dw0ePZ8GLc" title="Beast of Reincarnation - Official Pre Order Trailer" />
+
+To ensure a stable experience, compare your hardware against the official specifications. Operating the game below the minimum threshold may result in severe performance degradation or launch failures.
+
+| Component | Minimum Requirements | Recommended Specs |
+| --- | --- | --- |
+| Processor | Intel Core i5-8400 / AMD Ryzen 5 2600 | Intel Core i7-10700K / AMD Ryzen 7 5800X |
+| Memory | 8 GB RAM | 16 GB RAM |
+| Graphics | Nvidia GTX 1060 / AMD RX 580 | Nvidia RTX 3070 / AMD RX 6800 XT |
+| DirectX | Version 12 | Version 12 |
+| Storage | 50 GB available space (HDD supported) | 50 GB available space (SSD required) |
+
+Running the game on a standard mechanical hard drive can lead to significant texture pop-in and longer loading screens during fast travel. Installing the installation files on a high-speed NVMe solid-state drive improves asset streaming and reduces micro-stuttering in densely populated zones.
+
+<Callout type="warning" title="Driver Update Required">
+Ensure your graphics card drivers are updated to the latest version released in 2026. Both Nvidia and AMD release game-ready drivers specifically optimized for new releases, which resolve known stability issues and rendering glitches.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="PC Optimization & Graphics Settings">
+
+Achieving a consistent 60 frames per second requires balancing visual fidelity with system performance. Several graphics options impact performance more than others, and tweaking these settings can yield massive frame rate gains without sacrificing the overall aesthetic of the game.
+
+| Setting | Recommended Value | Performance Impact |
+| --- | --- | --- |
+| Shadow Quality | Medium | High |
+| Volumetric Fog | Low or Medium | High |
+| Ray Tracing | Off | Very High |
+| Texture Quality | High (Requires 8GB+ VRAM) | Low |
+| Anti-Aliasing | TAA or DLSS Quality | Medium |
+
+Shadows and volumetric effects are the primary culprits behind frame rate drops in forested areas and dungeons. Lowering these options by a single tier can recover up to fifteen percent of your overall performance. If your graphics card supports hardware-accelerated upscaling, utilizing DLSS, FSR, or XeSS is highly recommended to boost frame rates at higher resolutions.
+
+<CardGrid cols={3}>
+  <Card title="Max Performance Profile">
+    - **Target Hardware**: Older GPUs (GTX 10-series, RX 500-series)
+    - **Key Adjustments**: Set shadows to Low, disable motion blur, set FSR to Performance.
+    - **Expected Outcome**: Stable 60 FPS at 1080p resolution.
+  </Card>
+  <Card title="Balanced Visual Profile">
+    - **Target Hardware**: Mid-range GPUs (RTX 3060, RX 6700 XT)
+    - **Key Adjustments**: Set textures to High, shadows to Medium, enable DLSS Quality.
+    - **Expected Outcome**: Smooth 60+ FPS at 1440p resolution.
+  </Card>
+  <Card title="Ultra Quality Profile">
+    - **Target Hardware**: High-end GPUs (RTX 4070+, RX 7800 XT+)
+    - **Key Adjustments**: Maximize all settings, enable ray tracing, use Frame Generation.
+    - **Expected Outcome**: 100+ FPS at 4K resolution.
+  </Card>
+</CardGrid>
+
+Adjusting the field of view (FOV) slider can also impact performance. A wider FOV forces the engine to render more objects on screen simultaneously, which can bottleneck performance on systems with weaker processors. Keep the FOV close to the default value if you experience CPU-bound stutters.
+
+<Callout type="tip" title="Upscaling Tip">
+When using DLSS or FSR, avoid the Ultra Performance mode unless you are playing at 4K resolution. At lower resolutions like 1080p, this mode can make the game look overly blurry and create shimmering artifacts around fine details.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Controls & Keybindings Mapping">
+
+The combat system relies heavily on precise timing, dodging, and executing complex ability rotations. Configuring your input layout to match your personal preferences can dramatically improve your combat efficiency and reaction times during challenging boss encounters.
+
+| Action | Keyboard & Mouse | Controller (Xbox / PlayStation) |
+| --- | --- | --- |
+| Move Character | WASD | Left Thumbstick |
+| Light Attack | Left Click | X / Square |
+| Heavy Attack | Right Click | Y / Triangle |
+| Dodge / Dash | Spacebar | B / Circle |
+| Reincarnation Skill | Q | LB + RB / L1 + R1 |
+| Interact | E | X / Square |
+
+Keyboard and mouse setups allow for instant camera panning, which is highly beneficial when tracking multiple targets in open areas. However, the analog input of a controller provides superior movement precision, making it easier to navigate narrow platforms and dodge incoming area-of-effect attacks.
+
+For players utilizing keyboard and mouse, remapping the dodge action to a side mouse button can free up your thumb for jumping and other movement controls. Additionally, binding your active skills to keys close to WASD (such as R, F, and C) ensures you can execute abilities without lifting your fingers off the movement keys.
+
+<Callout type="info" title="Controller Support">
+The PC version features native plug-and-play support for standard modern controllers. If you are using a PlayStation controller, make sure to enable Steam Input in the game properties if the button prompts do not display correctly.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Pre-Order Rewards & Launch Progression">
+
+Starting your journey efficiently requires understanding how to claim your pre-order bonuses and navigate the initial hours of gameplay. Early progression choices can set the tone for your entire playthrough, helping you unlock essential features much faster.
+
+<Steps>
+  <Step num="1" title="Redeem Pre-Order Codes">
+    Locate the promotional code sent to your email or digital library. Input this code in the in-game shop menu to unlock your exclusive cosmetic pack and starting consumables.
+  </Step>
+  <Step num="2" title="Select Your Archetype">
+    Choose your starting class archetype carefully. Each archetype features unique scaling attributes that influence your combat style and early-game equipment options.
+  </Step>
+  <Step num="3" title="Complete the Tutorial Zone">
+    Follow the primary objectives in the starting area to learn the core combat mechanics, dodging windows, and how to utilize the reincarnation gauge.
+  </Step>
+  <Step num="4" title="Unlock the Reincarnation System">
+    Progress through the first major story mission to unlock the ability to transform into beasts, which dramatically increases your combat capabilities.
+  </Step>
+</Steps>
+
+Different editions of the game offer varying starting bonuses. Review the contents of each package to ensure you have successfully claimed all items associated with your purchase tier.
+
+| Edition | Bonus Items Included | Early Access |
+| --- | --- | --- |
+| Standard Edition | Base Game, Pre-Order Cosmetic Pack | No |
+| Deluxe Edition | Base Game, Cosmetic Pack, Digital Soundtrack, 3 Days Early Access | Yes |
+| Collector's Edition | Deluxe Contents, Digital Artbook, Exclusive Mount Skin | Yes |
+
+Prioritize completing the main story missions during your first few hours. Side quests provide valuable experience points and materials, but key mechanics like mounts, advanced crafting, and fast travel nodes are locked behind main campaign progression.
+
+<Callout type="success" title="Leveling Optimization">
+Do not hoard your early-game upgrade materials. Weapon enhancement stones are plentiful in the starting regions, and upgrading your primary weapon early on will significantly speed up your monster hunting and quest completion times.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Launch Day Checklist & Troubleshooting">
+
+To avoid common launch issues and maximize your playtime, run through a quick system checklist before launching the client. Technical problems can often be resolved with simple configuration changes before contacting official support channels.
+
+<Checklist
+  id="launch-checklist"
+  title="Pre-Launch Checklist:"
+  items={[
+    "Verify game file integrity via Steam or your chosen launcher",
+    "Close background applications to free up system memory",
+    "Configure Windows Power Plan to High Performance",
+    "Disable third-party overlays that may conflict with the game client",
+    "Ensure your system drive has at least 10 GB of free space for temp files"
+  ]}
+/>
+
+If you encounter crashes on startup, check if your system meets the minimum requirements. Many launch day crashes are caused by outdated operating system files or missing DirectX components. Running the game client as an administrator can also resolve permission conflicts with security software.
+
+Another common issue is screen tearing, which occurs when the frame rate of the game does not align with your monitor refresh rate. Enabling V-Sync in the options menu or setting a frame rate cap via your GPU control panel can resolve this visual issue and provide a much smoother rendering experience.
+
+<Callout type="warning" title="Overlay Conflicts">
+Overlays from applications like Discord, GeForce Experience, and RivaTuner can sometimes cause stability issues, micro-stuttering, or input lag. If you experience unexpected performance drops, try disabling these overlays one by one to isolate the issue.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I run Beast of Reincarnation PC on a Steam Deck?",
+    answer: "Yes, the game is playable on Steam Deck, but you will need to adjust the graphics settings to Low or Medium and lock the frame rate to 30 or 40 FPS to ensure stable performance and battery life."
+  },
+  {
+    question: "How do I fix stuttering issues on Beast of Reincarnation PC?",
+    answer: "Stuttering is often caused by shader compilation or running the game on a standard HDD. Make sure the game is installed on an SSD, update your graphics drivers, and set the shader cache size to Unlimited in your GPU control panel."
+  },
+  {
+    question: "Does the PC version support cross-play and cross-progression?",
+    answer: "Yes, cross-play and cross-progression are supported across all platforms. You must link your game account to a centralized service account in the main menu to share progress between platforms."
+  },
+  {
+    question: "What is the best API to use for Beast of Reincarnation PC?",
+    answer: "The game runs natively on DirectX 12. Ensure your Windows operating system is fully updated to the latest build to prevent compatibility issues with modern rendering features."
+  }
+]} />
+
+<Callout type="tip" title="Community Support">
+If you continue to experience technical difficulties or performance issues, check the official forums or community hub. Players frequently share custom configuration files and community-made patches that address niche hardware compatibility issues.
+</Callout>
+
+</Section>

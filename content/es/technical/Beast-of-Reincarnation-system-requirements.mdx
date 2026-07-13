@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Requisitos del sistema de Beast of Reincarnation: Guía de rendimiento y configuración de PC",
+  description: "Consulta los requisitos oficiales del sistema de Beast of Reincarnation. Conoce las especificaciones mínimas y recomendadas para PC, la optimización del rendimiento y las características del juego.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=System+Requirements+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Beast of Reincarnation",
+  keywords: "requisitos del sistema, Beast of Reincarnation, rendimiento PC, guía de configuración, Game Freak, RPG de acción"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Los requisitos del sistema de Beast of Reincarnation** exigen un procesador multinúcleo moderno y una tarjeta gráfica de gama media para un rendimiento estable a 1080p.
+- **El RPG de acción de Game Freak** cuenta con combate hack-and-slash en tiempo real, un sistema de paradas inspirado en Sekiro y la mecánica táctica de "Blooming Arts".
+- **La ventana de lanzamiento** está programada para el verano de 2026 (Q3/Q4) en PC y las principales consolas.
+- **Un Japón postapocalíptico** sirve como escenario donde los jugadores limpian la "plaga" al derrotar a enormes jefes corruptos conocidos como Nushi.
+</Callout>
+
+<Section icon={Shield} title="Requisitos del sistema de Beast of Reincarnation">
+
+Para preparar tu PC para el muy esperado RPG de acción AAA de Game Freak, necesitas entender los objetivos de hardware estimados. **Los requisitos del sistema de Beast of Reincarnation** reflejan un motor moderno diseñado para renderizar entornos expansivos y cambiantes y un combate en tiempo real de ritmo rápido.
+
+**Puntos destacados del video:**
+- Desglose detallado del cambio de Game Freak de títulos por turnos a mecánicas de RPG de acción AAA.
+- Explicación del entorno postapocalíptico, las habilidades de selladora de Emma y su compañero lobo Co.
+- Mirada profunda al sistema de paradas inspirado en Sekiro y las Blooming Arts tácticas.
+
+<YouTubeEmbed videoId="HztmZeosNJI" title="Beast of Reincarnation Todo lo que NECESITAS saber - El NUEVO RPG de acción de Game Freak" />
+
+El juego presenta una transformación ambiental dinámica en tiempo real mientras purgas la "plaga" parasitaria. Esta mecánica requiere una potencia de procesamiento de CPU robusta y almacenamiento de alta velocidad para evitar micro-tirones durante las transiciones.
+
+| Componente de hardware | Requisitos mínimos (estimados) | Requisitos recomendados (estimados) |
+| :--- | :--- | :--- |
+| **SO** | Windows 10/11 (64 bits) | Windows 10/11 (64 bits) |
+| **CPU** | Intel Core i5-8400 / AMD Ryzen 5 2600 | Intel Core i7-10700K / AMD Ryzen 7 5800X |
+| **RAM** | 12 GB RAM | 16 GB RAM |
+| **GPU** | NVIDIA GTX 1070 / AMD RX 5600 XT | NVIDIA RTX 3070 / AMD RX 6800 XT |
+| **DirectX** | Versión 12 | Versión 12 |
+| **Almacenamiento** | 70 GB de espacio disponible (Se requiere SSD) | 70 GB de espacio disponible (SSD NVMe) |
+
+<Callout type="warning" title="SSD Obligatorio">
+Se desaconseja encarecidamente el uso de discos duros mecánicos (HDD). El cambio ambiental en tiempo real y la transmisión de activos al entrar en zonas corrompidas por los Nushi requieren las velocidades de lectura/escritura de un SSD para evitar caídas severas de fotogramas y problemas de carga de texturas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sistemas de combate y mecánicas de juego">
+
+El combate en Beast of Reincarnation se aleja significativamente de la fórmula tradicional por turnos de Game Freak, ofreciendo un robusto sistema hack-and-slash en tiempo real con capas tácticas profundas. Los jugadores controlan a Emma, una Selladora que empuña una katana y armas a distancia, junto a su compañero lobo Co.
+
+### Blooming Arts Tácticas
+Al realizar paradas con éxito, llenas el medidor de Co. Cuando se activa, el tiempo se ralentiza, permitiéndote seleccionar poderosas "Blooming Arts" desde un menú radial. Este sistema híbrido combina la acción rápida con la toma de decisiones tácticas, recordando a las fórmulas de los RPG de acción modernos.
+
+| Mecánica de combate | Entrada / Activación | Efecto de juego |
+| :--- | :--- | :--- |
+| **Parada Perfecta** | Bloqueo con L1/LB en el momento justo | Llena el medidor de Co, acumula aturdimiento en los enemigos |
+| **Blooming Arts** | Ralentiza el tiempo mediante menú radial | Inflige daño masivo, aplica efectos de estado |
+| **Overdrive** | Presionar L3 + R3 (Medidor al máximo) | Activa el Overdrive de Entrelazamiento para daño explosivo |
+| **Comando de Compañero** | Gatillo izquierdo + D-pad | Ordena a Co mantener la posición o atacar objetivos |
+
+<CardGrid cols={3}>
+  <Card title="Combate con Katana">
+    - **Combos de ritmo rápido**
+    - Alta sinergia con paradas
+    - Se enfoca en la acumulación de aturdimiento
+  </Card>
+  <Card title="Soporte a Distancia">
+    - **Opciones de arco y ballesta**
+    - Múltiples tipos de munición elemental
+    - Daño seguro desde la distancia
+  </Card>
+  <Card title="Sigilo y Utilidad">
+    - **Mecánicas de asesinato**
+    - Navegación por el entorno mediante raíces
+    - Ventajas de posicionamiento táctico
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Bonificación de Medidor Máximo">
+Activar una Blooming Art cuando el medidor de Co está completamente lleno otorga una bonificación de daño del 100% y un aumento del 50% en la acumulación de aturdimiento. Intenta siempre acumular tus recursos antes de ejecutar artes mayores contra enemigos de élite.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Progresión y personalización">
+
+El crecimiento del personaje se centra en árboles de habilidades duales tanto para Emma como para Co, junto con un profundo sistema de equipo que utiliza atributos elementales y Piedras Espirituales.
+
+### Fortalezas y debilidades elementales
+Prestar atención a las afinidades elementales es crucial para las etapas avanzadas del juego. Los enemigos muestran sus debilidades activas junto a sus barras de salud.
+
+| Tipo de elemento | Efecto principal | Mejor usado contra |
+| :--- | :--- | :--- |
+| **Veneno** | Daño con el tiempo | Bestias orgánicas Malefax |
+| **Corrosión** | Reduce armadura/defensa | Constructos robóticos Golem |
+| **Quemadura** | Daño alto, evita curación | Híbridos basados en plantas |
+| **Descarga** | Aturde e interrumpe acciones | Objetivos ágiles y rápidos |
+
+<Steps>
+  <Step num="1" title="Derrota a los jefes (Nushi)">
+    Rastrea y derrota a los jefes Nushi en escenarios amplios y no lineales para purgar la plaga ambiental.
+  </Step>
+  <Step num="2" title="Recoge Piedras Espirituales">
+    Adquiere Piedras Espirituales mediante la exploración y los encuentros de combate para insertarlas en tus atuendos y obtener bonificaciones pasivas.
+  </Step>
+  <Step num="3" title="Mejora habilidades en los campamentos">
+    Regresa a los campamentos o a tu base de operaciones para gastar los puntos de habilidad acumulados en árboles separados para Emma y Co.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Nivelación de Piedras Espirituales">
+Las Piedras Espirituales funcionan de manera similar a las Materias; pueden subirse de nivel para desbloquear rasgos secundarios, como mejoras de rastreo o aumentos de ataque automáticos cuando se tiene poca salud.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Optimización del sistema y lista de verificación de lanzamiento">
+
+Para asegurar que tu PC esté totalmente optimizada para el lanzamiento en el verano de 2026, sigue esta lista de preparación para cumplir con los **requisitos del sistema de Beast of Reincarnation** sin problemas.
+
+<Checklist
+  id="pc-prep-checklist"
+  title="Lista de verificación para el lanzamiento en PC:"
+  items={[
+    "Verifica que tu CPU y GPU cumplan con los objetivos de hardware recomendados",
+    "Instala el juego en un SSD NVMe de alta velocidad con al menos 70 GB libres",
+    "Actualiza los controladores de gráficos a la última versión lista para el juego",
+    "Configura el Modo de Juego de Windows y habilita la programación de GPU acelerada por hardware",
+    "Prepara un mando, ya que las mecánicas de parada del RPG de acción están optimizadas para gamepads"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son los requisitos mínimos del sistema para Beast of Reincarnation?",
+    answer: "Para ejecutar el juego, necesitarás al menos una CPU Intel Core i5-8400 o AMD Ryzen 5 2600, 12 GB de RAM y una tarjeta gráfica NVIDIA GTX 1070 o AMD RX 5600 XT, junto con 70 GB de almacenamiento SSD."
+  },
+  {
+    question: "¿Es Beast of Reincarnation un juego de mundo abierto?",
+    answer: "No, no es un mundo abierto en el sentido tradicional. Presenta un viaje estructurado con escenarios amplios, espaciosos y no lineales que fomentan la exploración profunda y el regreso a zonas anteriores para encontrar secretos."
+  },
+  {
+    question: "¿El juego es compatible con controles de teclado y ratón?",
+    answer: "Sí, pero debido a las precisas mecánicas de parada y la selección del menú radial durante las Blooming Arts, se recomienda encarecidamente un mando para la mejor experiencia de juego."
+  },
+  {
+    question: "¿Cuándo es la fecha de lanzamiento de Beast of Reincarnation?",
+    answer: "El lanzamiento del juego está programado para el verano de 2026, apuntando a una ventana de lanzamiento en el tercer o cuarto trimestre (Q3/Q4)."
+  }
+]} />
+
+</Section>

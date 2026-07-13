@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Taxa de Quadros em Beast of Reincarnation: Guia Passo a Passo de Otimização para PC",
+  description: "Aumente a taxa de quadros de Beast of Reincarnation e corrija o lag com este guia passo a passo de otimização para PC. Aprenda configurações da Nvidia, ajustes do Windows e correções de inicialização.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Framerate+Optimization+Guide",
+  date: "2026-07-13",
+  author: "Equipe do Wiki de Beast of Reincarnation"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Principal**: Maximizar a sua **taxa de quadros em Beast of Reincarnation** e eliminar o atraso de entrada (input lag) em PCs fracos e potentes.
+- **Ajuste Chave da Nvidia**: Altere as configurações do seu painel de controle do modo qualidade para o modo desempenho.
+- **Ajuste do Windows**: Ative planos de energia de alto desempenho e configure as opções de armazenamento para limpar processos desnecessários em segundo plano.
+- **Prioridade do Inicializador**: Execute o inicializador do jogo como administrador e defina a prioridade da tarefa como alta.
+- **Atualizações de Drivers**: Mantenha sempre os drivers da sua placa de vídeo atualizados para obter um ganho de desempenho de até 10%.
+</Callout>
+
+<Section icon={Sparkles} title="Otimizações do Painel de Controle da GPU">
+
+Otimizar o painel de controle da sua placa de vídeo é a maneira mais direta de aumentar a sua **taxa de quadros em Beast of Reincarnation**. Ao priorizar o desempenho em vez da qualidade visual bruta nas configurações do driver da GPU, você pode liberar grandes ganhos de taxa de quadros sem prejudicar muito a sua experiência visual.
+
+**Destaques do Vídeo:**
+- **Painel de Controle da Nvidia**: Altere as configurações 3D globais de qualidade para desempenho.
+- **Redução de Resolução**: Diminuir levemente a resolução nativa pode gerar grandes aumentos de FPS.
+- **Alinhamento de Tela**: Certifique-se de que a resolução do Windows corresponda às configurações do jogo para evitar atrasos de dimensionamento.
+
+<YouTubeEmbed videoId="tnUwuu0nTn4" title="Como aumentei o FPS de Beast of Reincarnation para mais de 240 em um PC SUPER FRACO! ✅ (Aumentar FPS e Corrigir Lag)" />
+
+| Configuração | Valor Recomendado | Impacto no Desempenho |
+| :--- | :--- | :--- |
+| **Configurações de Imagem 3D** | Usar minhas preferências enfatizando Desempenho | Extremamente Alto |
+| **Escala de Resolução** | 1920x1080 (Nativa) ou 1768x992 (Econômica) | Alto |
+| **Taxa de Atualização** | A maior disponível | Médio |
+| **Sincronização Vertical** | Desativado | Baixo (Reduz o Atraso de Entrada) |
+
+<Callout type="tip" title="Dica de Resolução">
+Se você estiver com dificuldades para alcançar 60 FPS estáveis, diminuir a resolução de 1920x1080 para 1768x992 no painel de controle da sua GPU pode aumentar instantaneamente o desempenho em até 15% em placas de vídeo mais antigas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ajustes do Sistema e de Energia do Windows">
+
+Os serviços em segundo plano do Windows frequentemente consomem recursos valiosos de hardware que deveriam ser dedicados ao seu jogo. Ao ajustar as configurações do sistema, você garante que o processador e a memória se concentrem inteiramente na renderização do jogo.
+
+<CardGrid cols={3}>
+  <Card title="Otimização do Plano de Energia">
+    - Modo de **Alto Desempenho**
+    - Libera a velocidade máxima de clock do processador
+    - Evita o estrangulamento (throttling) de hardware
+  </Card>
+  <Card title="Limpeza do Sensor de Armazenamento">
+    - Execuções **semanais automáticas**
+    - Limpa arquivos temporários desnecessários
+    - Libera espaço no disco do sistema
+  </Card>
+  <Card title="Alinhamento de Tela">
+    - Mantenha a escala em **100%**
+    - Combine a resolução do Windows e a do jogo
+    - Reduz o lag no modo janela
+  </Card>
+</CardGrid>
+
+| Recurso | Configuração Recomendada | Objetivo |
+| :--- | :--- | :--- |
+| **Plano de Energia** | Alto Desempenho ou Equilibrado (Teste ambos) | Evita lentidões devido à economia de energia do processador |
+| **Sensor de Armazenamento** | Ativo (Executar semanalmente) | Mantém a unidade do sistema livre de arquivos temporários inúteis |
+| **Escala da Tela** | 100% (Recomendado) | Evita lag de dimensionamento da interface no jogo |
+
+<Callout type="warning" title="Aviso sobre o Plano de Energia">
+Algumas configurações personalizadas de processador funcionam melhor no plano 'Equilibrado' em vez de 'Alto Desempenho'. Teste ambas as opções no jogo para ver qual oferece um gráfico de tempo de quadro (frametime) mais estável.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuração Passo a Passo do Inicializador e Compatibilidade">
+
+Configurar as propriedades do inicializador do jogo garante que o sistema operacional conceda privilégios administrativos ao jogo e contorne camadas desnecessárias de otimização de tela cheia que causam micro-travamentos.
+
+<Steps>
+  <Step num="1" title="Acessar as Propriedades do Inicializador">
+    Localize o inicializador do jogo (como o Steam), clique com o botão direito no ícone e selecione **Propriedades**.
+  </Step>
+  <Step num="2" title="Modificar Configurações de Compatibilidade">
+    Navegue até a aba **Compatibilidade**. Marque a caixa **Executar este programa como administrador**.
+  </Step>
+  <Step num="3" title="Desativar Otimizações de Tela Cheia">
+    Marque a caixa **Desativar otimizações de tela inteira**. Isso força o Windows a permitir que o jogo gerencie sua própria exibição, reduzindo o atraso de entrada.
+  </Step>
+  <Step num="4" title="Aplicar e Reiniciar">
+    Clique em **Aplicar** e depois em **OK**. Reinicie o PC para garantir que todas as permissões administrativas sejam registradas corretamente antes de iniciar o jogo.
+  </Step>
+</Steps>
+
+| Configuração de Compatibilidade | Status | Objetivo |
+| :--- | :--- | :--- |
+| **Executar como Administrador** | Ativado | Concede acesso total aos recursos do sistema |
+| **Desativar Otimizações de Tela Inteira** | Ativado | Reduz micro-travamentos e atraso de entrada |
+| **Modo de Compatibilidade** | Windows 8 (Opcional) | Resolve travamentos de engine antiga |
+
+<Callout type="info" title="Modo Administrador">
+Executar o inicializador como administrador garante que softwares em segundo plano não impeçam o jogo de acessar threads essenciais de hardware.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Aplicativos em Segundo Plano e Ajuste do Gerenciador de Tarefas">
+
+Executar muitas tarefas em segundo plano é a principal causa de quedas repentinas na taxa de quadros. Você deve limpar a lista de inicialização e ajustar as prioridades dos processos para garantir uma jogabilidade fluida.
+
+| Ação do Processo | Configuração Recomendada | Recurso Economizado |
+| :--- | :--- | :--- |
+| **Xbox Game Bar** | Desativado | Processador / RAM em segundo plano |
+| **Gravação em Segundo Plano** | Desativado | Sobrecarga do codificador da GPU |
+| **Aplicativos de Inicialização** | Desativar todos os itens não essenciais | Memória de boot do sistema |
+| **Prioridade do Jogo** | Alta ou Acima do Normal | Agendamento de núcleos do processador |
+
+<Callout type="success" title="Dica de Prioridade">
+Definir a prioridade do processo do jogo como 'Alta' na aba Detalhes do Gerenciador de Tarefas instrui o processador a processar as instruções do jogo antes de lidar com as tarefas do sistema em segundo plano.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificação e Metas de Desempenho">
+
+Para obter o melhor desempenho possível, siga esta lista de verificação de forma sistemática. Acompanhar essas metas garantirá uma experiência estável.
+
+<Checklist
+  id="fps-optimization-milestones"
+  title="Metas Essenciais de Otimização:"
+  items={[
+    "Configurar o painel de controle da GPU para desempenho máximo",
+    "Combinar a resolução do Windows com a resolução do jogo",
+    "Ativar o plano de energia de Alto Desempenho nas configurações do sistema",
+    "Desativar o Xbox Game Bar e as ferramentas de gravação em segundo plano",
+    "Definir a compatibilidade do inicializador do jogo para executar como administrador",
+    "Atualizar os drivers da placa de vídeo para a versão mais recente"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como posso corrigir travamentos repentinos e manter uma taxa de quadros estável em Beast of Reincarnation?",
+    answer: "Desative as otimizações de tela inteira nas propriedades do inicializador, desligue a gravação em segundo plano nas configurações do Windows e feche aplicativos pesados em segundo plano, como navegadores de internet, antes de jogar."
+  },
+  {
+    question: "Devo ativar ou desativar o Modo de Jogo no Windows?",
+    answer: "Cada configuração de hardware de PC reage de maneira diferente ao Modo de Jogo. É altamente recomendável testar o desempenho no jogo com o Modo de Jogo ativado e depois desativado, para ver qual configuração oferece melhor estabilidade."
+  },
+  {
+    question: "Qual aumento de FPS posso esperar ao atualizar os drivers da minha GPU?",
+    answer: "Atualizar para os drivers oficiais mais recentes da GPU pode aumentar o desempenho em até 10%, além de corrigir bugs comuns de renderização e travamentos específicos da engine."
+  },
+  {
+    question: "Diminuir a resolução prejudica muito os gráficos do jogo?",
+    answer: "Embora diminuir a resolução torne a imagem um pouco mais suave, reduzir de 1080p para uma resolução personalizada como 1768x992 oferece um aumento massivo de desempenho, tornando o combate acelerado muito mais fluido."
+  }
+]} />
+
+</Section>

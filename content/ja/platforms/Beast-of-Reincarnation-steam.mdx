@@ -1,0 +1,153 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Beast of Reincarnation Steam：必須セットアップ＆起動ガイド",
+  description: "Steam版『Beast of Reincarnation / ビースト・オブ・リンカネーション』に向けて、パフォーマンスのヒント、システム要件、初日の戦略を網羅した専門ガイドで準備を整えましょう。",
+  keywords: "Beast of Reincarnation, Steam, ガイド, セットアップ, システム要件, パフォーマンス",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Beast+of+Reincarnation+Steam",
+  date: "2026-07-13",
+  author: "Beast of Reincarnation Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Steam版『Beast of Reincarnation』**の起動には、最適なパフォーマンスとアカウントのセキュリティを確保するための準備が必要です。
+- 激しい戦闘中に高いフレームレートを維持するためには、**システムの最適化**が不可欠です。
+- **予約特典**や早期報酬は、最初のログイン時にすぐに受け取る必要があります。
+- **コミュニティのリソース**や公式フォーラムは、進行中のサーバー状況を確認するのに最適な場所です。
+</Callout>
+
+<Section icon={Map} title="Steamで始める">
+
+新タイトルのリリース直後は戸惑うことが多いものです。Steamで『Beast of Reincarnation』をスムーズに体験するために、ゲームファイルのプリロードとハードウェアドライバーの確認に重点を置いてください。
+
+**動画の見どころ：**
+- 予約特典コンテンツの公式紹介。
+- キャラクターカスタマイズオプションの先行公開。
+- ゲームの世界観を伝えるシネマティック映像。
+
+<YouTubeEmbed videoId="abdHif5Zwxw" title="Beast of Reincarnation - Official Pre Order Trailer" />
+
+プレイヤーはゲームを起動する前に、初日パッチの確認を優先すべきです。初期展開時のファイル破損を避けるため、クリーンインストールをお勧めします。
+
+<Callout type="tip" title="プロのヒント">
+インストール後に予期しないグラフィックの不具合やクラッシュが発生した場合は、必ずSteamライブラリのプロパティメニューからゲームファイルの整合性を確認してください。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="システム要件の比較">
+
+ハードウェアのパフォーマンスは、ターゲット解像度やグラフィック設定によって異なります。以下の表を参考に、お使いのPCが冒険の準備ができているか確認してください。
+
+| コンポーネント | 最低要件 | 推奨スペック |
+| :--- | :--- | :--- |
+| OS | Windows 10 64-bit | Windows 11 64-bit |
+| プロセッサ | Intel Core i5-8400 | Intel Core i7-12700 |
+| メモリ | 8 GB RAM | 16 GB RAM |
+| グラフィック | GTX 1060 6GB | RTX 3070 8GB |
+| ストレージ | 50 GB SSD | 50 GB NVMe SSD |
+
+<Callout type="warning" title="重要なお知らせ">
+従来のHDDでゲームを実行すると、テクスチャの読み込みに大幅な遅延が生じます。スムーズな体験のためには、SSDを強く推奨します。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="ステップバイステップの起動準備">
+
+<Steps>
+  <Step num="1" title="アカウント連携">
+    Steamアカウントを公式ゲームポータルに接続し、必要に応じてすべてのプラットフォームで進行状況が同期されるようにします。
+  </Step>
+  <Step num="2" title="グラフィック設定">
+    初回起動時に設定メニューを開きます。モニターのリフレッシュレートに合わせて、シャドウとアンチエイリアスを調整してください。
+  </Step>
+  <Step num="3" title="キーバインド設定">
+    アビリティのホットキーを早めに設定しましょう。入力方法を統一することで、ボス戦での反応速度が向上します。
+  </Step>
+  <Step num="4" title="報酬の受け取り">
+    ゲーム内のメールボックスを確認し、初期ステータスを強化するための予約特典や早期アクセス報酬を受け取ってください。
+  </Step>
+</Steps>
+
+<Callout type="success" title="パフォーマンスの最適化">
+モーションブラーと被写界深度を無効にすると、敵の予備動作（予兆）が見やすくなり、高難易度の戦闘で有利になります。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="ゲームプレイ戦略ティア">
+
+プレイスタイルを早めに決めることで、リソースの配分が決まります。以下は、現在のメタにおける各ビルドのパフォーマンス分析です。
+
+<CardGrid cols={3}>
+  <Card title="ウォーリア">
+    - 高い物理防御
+    - 信頼できる近接ダメージ
+    - 初心者に最適
+  </Card>
+  <Card title="メイジ">
+    - 強力なバースト魔法
+    - 低い体力
+    - 位置取りが重要
+  </Card>
+  <Card title="ローグ">
+    - 優れた機動力
+    - クリティカルヒット重視
+    - 高いプレイヤースキルが必要
+  </Card>
+</CardGrid>
+
+| ビルドタイプ | 難易度 | 持続力 | ダメージ出力 |
+| :--- | :--- | :--- | :--- |
+| タンク | 初級 | 非常に高い | 普通 |
+| DPS | 上級 | 低い | 非常に高い |
+| サポート | 中級 | 良い | 低い |
+
+</Section>
+
+<Section icon={Trophy} title="進行の節目">
+
+<Checklist
+  id="progression-goals"
+  title="序盤の必須チェックリスト："
+  items={[
+    "導入チュートリアルを完了する",
+    "バフを得るためにクランやソーシャルグループに参加する",
+    "最初のエリート戦闘アビリティを解放する",
+    "レベル20に到達してデイリーダンジョンを解放する"
+  ]}
+/>
+
+<Callout type="info" title="コミュニティノート">
+公式Steamフォーラムでコミュニティと交流することで、レアスポーンの場所や周回ルートに関する隠れたヒントを得られることがよくあります。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="よくある質問">
+
+<FAQ items={[
+  {
+    question: "Steam版『Beast of Reincarnation』はクロスプラットフォームに対応していますか？",
+    answer: "はい、ゲームはクロスプラットフォームプレイに対応しており、ランチャーやハードウェアに関係なく友達とチームを組むことができます。"
+  },
+  {
+    question: "PCで動作しない場合、予約注文を返金できますか？",
+    answer: "プレイ時間が2時間未満であれば、Steamの標準的な返金ポリシーが適用されます。"
+  },
+  {
+    question: "最新のパッチノートはどこで確認できますか？",
+    answer: "最新のパッチノートや開発者アップデートは、Steamの公式ニュースハブに直接投稿されます。"
+  }
+]} />
+
+</Section>

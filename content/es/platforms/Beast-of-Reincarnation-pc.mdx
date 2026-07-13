@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Beast of Reincarnation en PC: Guía de Configuración y Mejora de Rendimiento",
+  description: "Optimiza el rendimiento de Beast of Reincarnation en PC con nuestra guía completa de configuración, requisitos del sistema, controles y consejos para solucionar problemas el día del lanzamiento.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=PC+Setup+Guide",
+  date: "2026-07-13",
+  author: "Equipo de Wiki de Beast of Reincarnation",
+  keywords: "Beast of Reincarnation, PC, configuración, optimización, requisitos, controles"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Beast of Reincarnation en PC**: Optimiza la configuración de tu sistema para garantizar fotogramas estables y una jugabilidad fluida.
+- **Base de hardware**: Se recomienda encarecidamente una unidad de estado sólido (SSD) moderna para evitar tirones en la carga de texturas y elementos.
+- **Preferencia de control**: Aunque el teclado y el ratón ofrecen un control preciso de la cámara, un mando proporciona un movimiento más fluido.
+- **Preparación para el lanzamiento**: Mantén actualizados los controladores gráficos para evitar los bloqueos comunes del día de lanzamiento y problemas de compilación de sombreadores.
+</Callout>
+
+<Section icon={Shield} title="Requisitos del Sistema y Tráiler Oficial">
+
+Preparar tu equipo para el lanzamiento de este esperado RPG de acción requiere una comprensión clara de las exigencias de hardware. El juego utiliza técnicas de renderizado avanzadas que pueden sobrecargar el hardware más antiguo, por lo que es esencial evaluar tu configuración actual antes de sumergirte en la aventura.
+
+**Aspectos Destacados del Vídeo:**
+- Vistazo oficial a las bonificaciones por reserva y cosméticos exclusivos.
+- Muestra de los entornos de alta fidelidad y las transformaciones de bestias.
+- Un vistazo al sistema de combate en tiempo real ejecutándose en hardware de PC.
+
+<YouTubeEmbed videoId="3dw0ePZ8GLc" title="Beast of Reincarnation - Official Pre Order Trailer" />
+
+Para garantizar una experiencia estable, compara tu hardware con las especificaciones oficiales. Ejecutar el juego por debajo del umbral mínimo puede provocar una degradación grave del rendimiento o fallos en el inicio.
+
+| Componente | Requisitos Mínimos | Especificaciones Recomendadas |
+| --- | --- | --- |
+| Procesador | Intel Core i5-8400 / AMD Ryzen 5 2600 | Intel Core i7-10700K / AMD Ryzen 7 5800X |
+| Memoria | 8 GB de RAM | 16 GB de RAM |
+| Gráficos | Nvidia GTX 1060 / AMD RX 580 | Nvidia RTX 3070 / AMD RX 6800 XT |
+| DirectX | Versión 12 | Versión 12 |
+| Almacenamiento | 50 GB de espacio disponible (compatible con HDD) | 50 GB de espacio disponible (se requiere SSD) |
+
+Ejecutar el juego en un disco duro mecánico estándar puede provocar una aparición tardía de texturas (pop-in) y pantallas de carga más largas durante el viaje rápido. Instalar los archivos del juego en una unidad de estado sólido NVMe de alta velocidad mejora la transmisión de elementos y reduce los microtirones en las zonas densamente pobladas.
+
+<Callout type="warning" title="Se Requiere Actualización de Controladores">
+Asegúrate de que los controladores de tu tarjeta gráfica estén actualizados a la última versión lanzada en 2026. Tanto Nvidia como AMD lanzan controladores listos para el juego (Game-Ready) optimizados específicamente para los nuevos lanzamientos, que resuelven problemas de estabilidad conocidos y fallos de renderizado.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimización de PC y Ajustes Gráficos">
+
+Lograr unos 60 fotogramas por segundo estables requiere equilibrar la fidelidad visual con el rendimiento del sistema. Varias opciones gráficas afectan al rendimiento más que otras, y ajustar estos valores puede generar enormes ganancias de tasa de fotogramas sin sacrificar la estética general del juego.
+
+| Ajuste | Valor Recomendado | Impacto en el Rendimiento |
+| --- | --- | --- |
+| Calidad de Sombras | Medio | Alto |
+| Niebla Volumétrica | Bajo o Medio | Alto |
+| Trazado de Rayos (Ray Tracing) | Desactivado | Muy Alto |
+| Calidad de Texturas | Alto (Requiere VRAM de 8GB+) | Bajo |
+| Antialiasing | TAA o DLSS Calidad | Medio |
+
+Las sombras y los efectos volumétricos son los principales culpables de las caídas de fotogramas en zonas boscosas y mazmorras. Reducir estas opciones un solo nivel puede recuperar hasta un quince por ciento de tu rendimiento general. Si tu tarjeta gráfica es compatible con el escalado acelerado por hardware, se recomienda encarecidamente utilizar DLSS, FSR o XeSS para aumentar la tasa de fotogramas a resoluciones más altas.
+
+<CardGrid cols={3}>
+  <Card title="Perfil de Rendimiento Máximo">
+    - **Hardware Objetivo**: GPUs más antiguas (series GTX 10, RX 500)
+    - **Ajustes Clave**: Establecer sombras en Bajo, desactivar el desenfoque de movimiento, establecer FSR en Rendimiento.
+    - **Resultado Esperado**: 60 FPS estables a resolución 1080p.
+  </Card>
+  <Card title="Perfil Visual Equilibrado">
+    - **Hardware Objetivo**: GPUs de gama media (RTX 3060, RX 6700 XT)
+    - **Ajustes Clave**: Establecer texturas en Alto, sombras en Medio, activar DLSS en Calidad.
+    - **Resultado Esperado**: Más de 60 FPS fluidos a resolución 1440p.
+  </Card>
+  <Card title="Perfil de Calidad Ultra">
+    - **Hardware Objetivo**: GPUs de gama alta (RTX 4070+, RX 7800 XT+)
+    - **Ajustes Clave**: Maximizar todos los ajustes, activar trazado de rayos, usar Generación de Fotogramas.
+    - **Resultado Esperado**: Más de 100 FPS a resolución 4K.
+  </Card>
+</CardGrid>
+
+Ajustar el deslizador del campo de visión (FOV) también puede afectar al rendimiento. Un FOV más amplio obliga al motor a renderizar más objetos en pantalla simultáneamente, lo que puede limitar el rendimiento en sistemas con procesadores más débiles. Mantén el FOV cerca del valor predeterminado si experimentas tirones causados por la CPU.
+
+<Callout type="tip" title="Consejo de Escalado">
+Al usar DLSS o FSR, evita el modo Ultra Rendimiento a menos que juegues a resolución 4K. En resoluciones más bajas como 1080p, este modo puede hacer que el juego se vea excesivamente borroso y crear artefactos de parpadeo alrededor de los detalles finos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Controles y Asignación de Teclas">
+
+El sistema de combate depende en gran medida de la precisión en el tiempo, la esquiva y la ejecución de rotaciones complejas de habilidades. Configurar la distribución de tus controles para que se adapte a tus preferencias personales puede mejorar drásticamente tu eficiencia en el combate y tus tiempos de reacción durante los desafiantes encuentros con jefes.
+
+| Acción | Teclado y Ratón | Mando (Xbox / PlayStation) |
+| --- | --- | --- |
+| Mover Personaje | WASD | Joystick Izquierdo |
+| Ataque Ligero | Clic Izquierdo | X / Cuadrado |
+| Ataque Fuerte | Clic Derecho | Y / Triángulo |
+| Esquivar / Deslizarse | Barra Espaciadora | B / Círculo |
+| Habilidad de Reencarnación | Q | LB + RB / L1 + R1 |
+| Interactuar | E | X / Cuadrado |
+
+Las configuraciones de teclado y ratón permiten un giro de cámara instantáneo, lo cual es muy beneficioso para rastrear múltiples objetivos en áreas abiertas. Sin embargo, la entrada analógica de un mando proporciona una precisión de movimiento superior, lo que facilita la navegación por plataformas estrechas y la esquiva de ataques de área de efecto entrantes.
+
+Para los jugadores que utilizan teclado y ratón, reasignar la acción de esquivar a un botón lateral del ratón puede liberar el pulgar para saltar y otros controles de movimiento. Además, asignar tus habilidades activas a teclas cercanas a WASD (como R, F y C) garantiza que puedas ejecutar habilidades sin levantar los dedos de las teclas de movimiento.
+
+<Callout type="info" title="Soporte para Mandos">
+La versión de PC cuenta con soporte nativo plug-and-play para mandos modernos estándar. Si utilizas un mando de PlayStation, asegúrate de activar Steam Input en las propiedades del juego si las indicaciones de los botones no se muestran correctamente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas por Reserva y Progresión de Lanzamiento">
+
+Comenzar tu viaje de manera eficiente requiere comprender cómo reclamar tus bonificaciones por reserva y cómo navegar por las primeras horas de juego. Las decisiones de progresión tempranas pueden definir el rumbo de toda tu partida, ayudándote a desbloquear características esenciales mucho más rápido.
+
+<Steps>
+  <Step num="1" title="Canjear Códigos de Reserva">
+    Busca el código promocional enviado a tu correo electrónico o biblioteca digital. Introduce este código en el menú de la tienda del juego para desbloquear tu paquete cosmético exclusivo y consumibles de inicio.
+  </Step>
+  <Step num="2" title="Selecciona tu Arquetipo">
+    Elige con cuidado tu arquetipo de clase inicial. Cada arquetipo cuenta con atributos de escalado únicos que influyen en tu estilo de combate y en las opciones de equipamiento al principio del juego.
+  </Step>
+  <Step num="3" title="Completa la Zona del Tutorial">
+    Sigue los objetivos principales en el área de inicio para aprender las mecánicas de combate principales, las ventanas de esquiva y cómo utilizar el indicador de reencarnación.
+  </Step>
+  <Step num="4" title="Desbloquea el Sistema de Reencarnación">
+    Progresa en la primera misión principal de la historia para desbloquear la habilidad de transformarte en bestias, lo que aumentará drásticamente tus capacidades de combate.
+  </Step>
+</Steps>
+
+Las diferentes ediciones del juego ofrecen diversas bonificaciones de inicio. Revisa el contenido de cada paquete para asegurarte de haber reclamado con éxito todos los artículos asociados con tu nivel de compra.
+
+| Edición | Artículos de Bonificación Incluidos | Acceso Anticipado |
+| --- | --- | --- |
+| Edición Estándar | Juego Base, Paquete Cosmético de Reserva | No |
+| Edición Deluxe | Juego Base, Paquete Cosmético, Banda Sonora Digital, 3 Días de Acceso Anticipado | Sí |
+| Edición de Coleccionista | Contenido Deluxe, Libro de Arte Digital, Aspecto de Montura Exclusivo | Sí |
+
+Prioriza completar las misiones de la historia principal durante tus primeras horas. Las misiones secundarias proporcionan valiosos puntos de experiencia y materiales, pero las mecánicas clave como las monturas, la artesanía avanzada y los puntos de viaje rápido están bloqueadas tras el progreso de la campaña principal.
+
+<Callout type="success" title="Optimización de Nivel de Equipo">
+No acumules tus materiales de mejora del principio del juego. Las piedras de mejora de armas abundan en las regiones iniciales, y mejorar tu arma principal desde el principio acelerará significativamente tus tiempos de caza de monstruos y de finalización de misiones.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Lista de Verificación del Día de Lanzamiento y Solución de Problemas">
+
+Para evitar problemas comunes de lanzamiento y maximizar tu tiempo de juego, realiza una verificación rápida del sistema antes de iniciar el cliente. Los problemas técnicos a menudo se pueden resolver con cambios sencillos de configuración antes de contactar con los canales de soporte oficial.
+
+<Checklist
+  id="launch-checklist"
+  title="Lista de Verificación Previa al Lanzamiento:"
+  items={[
+    "Verifica la integridad de los archivos del juego a través de Steam o el lanzador que elijas",
+    "Cierra las aplicaciones en segundo plano para liberar memoria del sistema",
+    "Configura el Plan de Energía de Windows en Alto Rendimiento",
+    "Desactiva las superposiciones (overlays) de terceros que puedan entrar en conflicto con el cliente del juego",
+    "Asegúrate de que la unidad de tu sistema tenga al menos 10 GB de espacio libre para archivos temporales"
+  ]}
+/>
+
+Si experimentas bloqueos al iniciar, comprueba si tu sistema cumple con los requisitos mínimos. Muchos de los bloqueos del día de lanzamiento se deben a archivos del sistema operativo desactualizados o a la falta de componentes de DirectX. Ejecutar el cliente del juego como administrador también puede resolver conflictos de permisos con el software de seguridad.
+
+Otro problema común es el desgarro de pantalla (screen tearing), que ocurre cuando la tasa de fotogramas del juego no se alinea con la frecuencia de actualización de tu monitor. Activar la sincronización vertical (V-Sync) en el menú de opciones o establecer un límite de fotogramas a través del panel de control de tu GPU puede resolver este problema visual y proporcionar una experiencia de renderizado mucho más fluida.
+
+<Callout type="warning" title="Conflictos de Superposición (Overlays)">
+Las superposiciones de aplicaciones como Discord, GeForce Experience y RivaTuner a veces pueden causar problemas de estabilidad, microtirones o retraso de entrada (input lag). Si experimentas caídas de rendimiento inesperadas, intenta desactivar estas superposiciones una por una para aislar el problema.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo jugar a Beast of Reincarnation en PC con una Steam Deck?",
+    answer: "Sí, el juego es jugable en Steam Deck, pero tendrás que ajustar la configuración gráfica a Bajo o Medio y limitar la tasa de fotogramas a 30 o 40 FPS para garantizar un rendimiento estable y una buena duración de la batería."
+  },
+  {
+    question: "¿Cómo soluciono los problemas de tirones (stuttering) en Beast of Reincarnation para PC?",
+    answer: "Los tirones a menudo se deben a la compilación de sombreadores o a la ejecución del juego en un HDD estándar. Asegúrate de que el juego esté instalado en un SSD, actualiza tus controladores gráficos y establece el tamaño de la caché de sombreadores en Ilimitado en el panel de control de tu GPU."
+  },
+  {
+    question: "¿Admite la versión de PC juego cruzado y progresión cruzada?",
+    answer: "Sí, el juego cruzado y la progresión cruzada son compatibles en todas las plataformas. Debes vincular tu cuenta de juego a una cuenta de servicio centralizada en el menú principal para compartir el progreso entre plataformas."
+  },
+  {
+    question: "¿Cuál es la mejor API para usar en Beast of Reincarnation para PC?",
+    answer: "El juego se ejecuta de forma nativa en DirectX 12. Asegúrate de que tu sistema operativo Windows esté completamente actualizado a la última versión para evitar problemas de compatibilidad con las funciones de renderizado modernas."
+  }
+]} />
+
+<Callout type="tip" title="Soporte de la Comunidad">
+Si continúas experimentando dificultades técnicas o problemas de rendimiento, consulta los foros oficiales o el centro de la comunidad. Los jugadores suelen compartir archivos de configuración personalizados y parches creados por la comunidad que solucionan problemas específicos de compatibilidad de hardware.
+</Callout>
+
+</Section>

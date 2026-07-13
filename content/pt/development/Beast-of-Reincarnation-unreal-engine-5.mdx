@@ -1,0 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Beast of Reincarnation Unreal Engine 5: Gráficos e Especificações Técnicas",
+  description: "Explore os recursos técnicos do Unreal Engine 5, configurações gráficas e otimização de desempenho para Beast of Reincarnation no PC, PS5 e Xbox.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/151b16/fff?text=Unreal+Engine+5+Tech+Guide",
+  date: "2026-07-13",
+  author: "Equipe da Wiki de Beast of Reincarnation"
+}
+
+<Callout type="info" title="Visão Geral Técnica Rápida">
+- **Motor Principal**: Construído inteiramente no **Beast of Reincarnation unreal engine 5** para física avançada e iluminação realista.
+- **Recurso Visual Principal**: Transformações ambientais em tempo real onde planícies abertas se transformam em florestas densas e degradadas dinamicamente.
+- **Plataformas Alvo**: Lançamento em 4 de agosto de 2026, no PC, PlayStation 5 e Xbox Series X|S (Day One no Game Pass Ultimate).
+- **Sistema de Protagonista Duplo**: Combate híbrido contínuo ligando as ações de lâmina em tempo real de Emma com as habilidades táticas baseadas em comandos de Koo.
+</Callout>
+
+<Section icon={Sparkles} title="Recursos Técnicos do Beast of Reincarnation Unreal Engine 5">
+
+O próximo RPG de ação da Game Freak aproveita as capacidades avançadas da arquitetura **Beast of Reincarnation unreal engine 5** para entregar uma visão pós-apocalíptica impressionante do Japão no ano 4026. Ao utilizar pipelines de motor modernos, a equipe de desenvolvimento construiu um mundo onde a estética tradicional japonesa se mistura com ruínas de ficção científica decadentes sob o peso opressor da Praga (Blight).
+
+O feito técnico mais exigente alimentado pelo motor é a transformação ambiental em tempo real. Enquanto Emma e Koo viajam pelo deserto, as planícies circundantes podem se transformar abruptamente em florestas densas e hostis. Essa transição é processada dinamicamente sem telas de carregamento, alterando a geometria, a densidade da folhagem e a iluminação atmosférica em tempo real.
+
+| Recurso do Motor | Implementação no Jogo | Impacto no Desempenho |
+| --- | --- | --- |
+| **Folhagem Dinâmica** | Crescimento de floresta em tempo real | Alta carga de CPU/GPU durante transições |
+| **Iluminação Global** | Reflexo de luz natural em cidades em ruínas | Custo moderado de GPU, alto ganho visual |
+| **Virtual Shadow Maps** | Sombras nítidas e detalhadas para o cabelo de planta | Custo moderado de GPU |
+| **Temporal Super Resolution** | Upscaling integrado para taxas de quadros estáveis | Reduz o processamento de renderização nativa |
+
+<Callout type="tip" title="Dica Visual">
+O Unreal Engine 5 permite que o cabelo de planta de Emma reaja de forma realista ao vento, movimento e colisões ambientais. Isso não é apenas cosmético; ele suporta diretamente sua mecânica de travessia ao escalar paredes altas ou realizar assassinatos em queda.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Plataformas Alvo e Perfis de Desempenho">
+
+O jogo é otimizado para o hardware da geração atual, pulando inteiramente os consoles da geração anterior para evitar gargalos de desempenho. Jogadores de PlayStation 5, Xbox Series X|S e Windows PC experimentarão perfis gráficos personalizados, projetados para equilibrar a fidelidade visual com a ação em ritmo acelerado.
+
+| Plataforma | Resolução Alvo | Taxa de Quadros Alvo | Recursos Especiais |
+| --- | --- | --- | --- |
+| **PC (Steam/Windows)** | Até 4K Nativo | Ilimitada | Customização gráfica total, suporte ultra-wide |
+| **PlayStation 5** | 4K Dinâmico | 60 FPS (Desempenho) | Haptics DualSense, gatilhos adaptáveis, melhorias para PS5 Pro |
+| **Xbox Series X** | 4K Dinâmico | 60 FPS (Desempenho) | Smart Delivery, Quick Resume, Play Anywhere |
+| **Xbox Series S** | 1080p Dinâmico | 30/60 FPS | Otimização para pegada compacta |
+
+<CardGrid cols={3}>
+  <Card title="Recursos do PlayStation 5">
+    - **Integração DualSense**: Sinta a tensão dos parries de Emma e da execução de comandos de Koo.
+    - **Melhorias para PS5 Pro**: Ray-tracing aprimorado e resoluções base mais altas.
+    - **Remote Play**: Totalmente suportado em dispositivos portáteis compatíveis.
+  </Card>
+  <Card title="Benefícios do Ecossistema Xbox">
+    - **Day One Game Pass**: Jogue imediatamente no Game Pass Ultimate no lançamento em 4 de agosto de 2026.
+    - **Xbox Play Anywhere**: Compre uma vez digitalmente e jogue no Xbox e no Windows PC.
+    - **Cloud Gaming**: Transmita seu progresso em configurações compatíveis de celular e tablet.
+  </Card>
+  <Card title="Customização para PC">
+    - **Upscaling Avançado**: Suporte para DLSS, FSR e XeSS, além do TSR nativo do UE5.
+    - **Flexibilidade de Entrada**: Remapeamento total de controle e otimização para mouse/teclado.
+    - **Shaders**: Etapas de pré-compilação para eliminar engasgos (stutter) de travessia durante o jogo.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso de Plataforma">
+Devido a ajustes de fuso horário das lojas regionais, a loja Steam pode exibir uma data de lançamento de 3 de agosto de 2026 em certas zonas ocidentais, enquanto as plataformas de console lançam globalmente em 4 de agosto de 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Requisitos de Sistema para PC e Guia de Otimização">
+
+Para desfrutar dos ativos de alta fidelidade e cálculos de física da build **Beast of Reincarnation unreal engine 5**, os jogadores de PC devem visar as especificações recomendadas. Abaixo está a configuração oficial de hardware necessária para rodar o jogo sem problemas.
+
+| Componente de Hardware | Especificações Mínimas (1080p / 30 FPS / Baixo) | Especificações Recomendadas (1080p / 60 FPS / Alto) | Especificações de Ponta (1440p+ / 60+ FPS / Ultra) |
+| --- | --- | --- | --- |
+| **SO** | Windows 10 (64-bit) | Windows 10/11 (64-bit) | Windows 11 (64-bit) |
+| **Processador** | Intel Core i5-8400 / AMD Ryzen 5 2600 | Intel Core i7-10700K / AMD Ryzen 7 3700X | Intel Core i5-13600K / AMD Ryzen 7 7700X |
+| **Memória** | 12 GB RAM | 16 GB RAM | 32 GB RAM |
+| **Placa de Vídeo** | GTX 1070 / RX 5600 XT | RTX 2070 Super / RX 6700 XT | RTX 4070 / RX 7800 XT |
+| **DirectX** | Versão 12 | Versão 12 | Versão 12 |
+| **Armazenamento** | 70 GB SSD | 70 GB NVMe SSD | 70 GB NVMe SSD |
+
+<Callout type="info" title="Requisito de Armazenamento">
+Um SSD é estritamente necessário para este jogo. As transformações ambientais dinâmicas e o streaming de ativos do Unreal Engine 5 sofrerão engasgos pesados em discos rígidos mecânicos tradicionais.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Como Otimizar o Desempenho no Dia do Lançamento">
+
+Se você experimentar quedas de quadros durante sequências de combate intenso ou ao entrar em uma Floresta Degradada recém-gerada, siga estas etapas para otimizar suas configurações.
+
+<Steps>
+  <Step num="1" title="Ativar Upscaling">
+    Navegue até o menu de Gráficos e ligue o Temporal Super Resolution (TSR), DLSS ou FSR. Definir isso para "Qualidade" oferece um enorme aumento de desempenho com impacto mínimo na clareza da imagem.
+  </Step>
+  <Step num="2" title="Reduzir Qualidade da Folhagem">
+    Como o jogo renderiza florestas densas dinamicamente, reduzir a Qualidade da Folhagem de Ultra para Alta ou Média reduz significativamente a carga de CPU e GPU em áreas degradadas.
+  </Step>
+  <Step num="3" title="Ajustar Qualidade das Sombras">
+    Os sistemas de sombra do Unreal Engine 5 são altamente detalhados, mas exigentes. Reduzir a resolução das sombras ou desligar sombras locais com ray-tracing estabilizará as taxas de quadros durante lutas contra chefes.
+  </Step>
+  <Step num="4" title="Limitar Aplicativos em Segundo Plano">
+    O motor é altamente multitarefa e depende muito do desempenho da CPU para transmitir ativos. Feche navegadores em segundo plano e softwares de gravação para liberar recursos do sistema.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist Técnico de Pré-lançamento">
+
+Prepare sua configuração de jogo para o lançamento global em 4 de agosto de 2026, para garantir uma experiência suave no primeiro dia.
+
+<Checklist
+  id="pre-launch-prep"
+  title="Checklist de Prontidão Técnica:"
+  items={[
+    "Verifique se o armazenamento do seu PC tem pelo menos 70 GB de espaço livre em um SSD de alta velocidade.",
+    "Atualize os drivers da sua placa de vídeo para a versão mais recente pronta para o jogo, lançada para agosto de 2026.",
+    "Certifique-se de que seu sistema operacional Windows 10/11 esteja totalmente atualizado para suportar os recursos do DirectX 12 Ultimate.",
+    "Pré-instale o jogo se estiver jogando via Xbox Game Pass Ultimate ou Steam para entrar imediatamente no momento do desbloqueio.",
+    "Configure as definições do seu controle e calibre as opções de HDR nas configurações de exibição do seu console ou PC."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "O Beast of Reincarnation usa Unreal Engine 5?",
+    answer: "Sim, o jogo é construído inteiramente no Unreal Engine 5, utilizando seus pipelines de renderização avançados para lidar com transformações ambientais dinâmicas, física de plantas e iluminação de alta fidelidade."
+  },
+  {
+    question: "Existe um modo de desempenho no PS5 e Xbox Series X?",
+    answer: "Sim, as versões de console apresentam um Modo de Desempenho visando 60 FPS estáveis em resoluções dinâmicas, além de um Modo de Qualidade visando 4K nativo a 30 FPS."
+  },
+  {
+    question: "Posso jogar o jogo em um Disco Rígido padrão (HDD)?",
+    answer: "É altamente desaconselhável. O jogo depende de streaming rápido de ativos para transformar planícies em florestas degradadas em tempo real. Um SSD é necessário para evitar engasgos graves."
+  },
+  {
+    question: "Existem bônus de pré-venda que afetam gráficos ou cosméticos?",
+    answer: "A pré-venda de qualquer edição concede uma Skin de Shiba Marrom para Koo. A Digital Deluxe Edition ($69.99) adiciona uma Skin de Shiba Preta, o Chapéu Oni de Emma e a espada Big Dipper."
+  }
+]} />
+
+</Section>

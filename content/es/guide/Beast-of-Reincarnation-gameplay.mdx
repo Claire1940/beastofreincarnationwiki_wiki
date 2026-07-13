@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jugabilidad de Beast of Reincarnation: Guía de Combate y Progresión",
+  description: "Domina el combate basado en parries, las sinergias con compañeros y los sistemas de movimiento vertical en la esperada jugabilidad de Beast of Reincarnation.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gameplay+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Beast of Reincarnation",
+  keywords: "Beast of Reincarnation, jugabilidad, combate, guía, parry, Emma, Ku"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mecánica principal**: Domina el combate basado en parries (paradas) para mantener tu medidor y evitar daños graves por aturdimiento.
+- **Sinergia de compañeros**: Coordina las habilidades de Emma y Ku para activar efectos de estado devastadores y curación pasiva.
+- **Exploración vertical**: Utiliza ganchos, zancos de enredadera y puentes para navegar por zonas de múltiples niveles sin daño por caída.
+- **Bucle de progresión**: Derrota a los jefes Nushi para absorber nuevas habilidades y regresa a tu base mecha móvil para fabricar mejoras.
+- **Personalización de build**: Equipa espadas únicas, pasivas de armadura y piedras de alma mejorables para adaptar tu estilo de juego.
+</Callout>
+
+<Section icon={Swords} title="Resumen de la Jugabilidad de Beast of Reincarnation">
+
+El bucle central de la **jugabilidad de Beast of Reincarnation** gira en torno a un intenso combate basado en parries, una exploración altamente vertical y una profunda sinergia entre la protagonista Emma y su compañero Ku. A diferencia de los RPG de acción tradicionales, este título reemplaza la gestión estándar de resistencia por un sistema de medidor dinámico que recompensa las jugadas defensivas agresivas y bien calculadas.
+
+**Puntos destacados del vídeo:**
+- Desglose detallado de las mecánicas de medidor únicas de Emma y Ku.
+- Demostración de los tipos de armas a distancia: arco y ballesta de mano.
+- Muestra de mecánicas de movimiento vertical, incluyendo zancos de enredadera y ganchos.
+- Vista previa de la base mecha móvil, sistemas de fabricación y árboles de habilidades.
+
+<YouTubeEmbed videoId="dYaCMmIBSLM" title="The Complete Gameplay Preview - Beast of Reincarnation Guides, News & Updates" />
+
+### Fundamentos del Combate
+
+Emma posee ataques ligeros y pesados estándar, una guardia y una esquiva. Sin embargo, el parry (parada) sirve como el motor principal de tu eficiencia en combate. Acertar con los parries es la única forma de cargar los medidores de habilidades especializadas tanto de Emma como de Ku.
+
+| Mecánica de Combate | Función Principal | Impacto en el Medidor |
+|--- |--- |--- |
+| **Parada Perfecta** | Desvía ataques entrantes y carga los medidores de combate | Aumenta los medidores de Emma y Ku |
+| **Guardia Estándar** | Reduce el daño entrante pero agota la defensa | Disminuye el medidor de Emma con cada bloqueo |
+| **Esquiva Perfecta** | Evita ataques imbloqueables resaltados en rojo | Sin impacto directo, herramienta de reposicionamiento |
+| **Medidor de Aturdimiento** | Se agota con ataques y paradas para activar ejecuciones | Activa ejecuciones en cadena de gran daño |
+
+<Callout type="warning" title="Advertencia de Agotamiento del Medidor">
+Si el medidor defensivo de Emma se agota por completo debido a bloqueos constantes o por recibir golpes directos, entrará en un estado de aturdimiento temporal. Durante esta ventana, serás completamente vulnerable y recibirás un daño masivo de los ataques de seguimiento del enemigo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sinergia y Mecánicas de Compañeros">
+
+Emma y Ku funcionan como una unidad cohesiva. Mientras Emma se centra en el combate directo con espada, armas a distancia y control del campo de batalla, Ku actúa de forma independiente para aplicar control de masas y acumulaciones elementales. Puedes configurar el comportamiento táctico de Ku para que ataque a tu enemigo actual, se concentre en amenazas específicas o se mantenga al margen durante encuentros peligrosos.
+
+### Diferencias de Habilidades entre Personajes
+
+Comprender cómo se complementan Emma y Ku es vital para sobrevivir a los encuentros más difíciles.
+
+<CardGrid cols={2}>
+  <Card title="Kit de Combate de Emma">
+    - **Enfoque Cuerpo a Cuerpo**: Ataques rápidos de espada y seguimientos tras parries.
+    - **Control del Campo de Batalla**: Genera vida vegetal para rebotar por los aires, engancharse o sumergirse bajo los enemigos.
+    - **Apoyo a Distancia**: Cambia entre arcos potentes y ballestas de mano de disparo rápido con munición elemental.
+  </Card>
+  <Card title="Kit Elemental de Ku">
+    - **Efectos de Estado**: Acceso exclusivo a ataques elementales pesados (quemadura, descarga, veneno, corrosión).
+    - **Control de Masas**: Atrae a los enemigos, aleja las amenazas y enraíza a los objetivos en el sitio.
+    - **Curación Pasiva**: Al usar las habilidades de Ku, Emma se cura automáticamente, con curación adicional en QTE exitosos.
+  </Card>
+</CardGrid>
+
+### Efectos de Estado y Acumulaciones Elementales
+
+Los enemigos poseen medidores de estado dedicados que se llenan al ser golpeados con elementos específicos. Debes coordinar la munición a distancia de Emma y las habilidades de Ku para activar estos poderosos debuffs.
+
+| Elemento / Estado | Efecto Principal en Combate | Mejor Aplicado Por |
+|--- |--- |--- |
+| **Quemadura** | Inflige daño con el tiempo | Habilidades de fuego de Ku / Munición de fuego |
+| **Descarga** | Aturde e interrumpe las acciones del enemigo | Habilidades de rayo de Ku |
+| **Veneno** | Agota lentamente las reservas de salud | Flechas de veneno / Viras de ballesta |
+| **Corrosión** | Reduce los índices de defensa del enemigo | Habilidades elementales especializadas |
+
+<Callout type="tip" title="Consejo de Sinergia">
+Usa las habilidades de creación de plantas de Emma para agrupar a los enemigos, luego activa las habilidades de control de masas de Ku para enraizarlos antes de lanzar un ataque elemental de área de gran daño.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión de Personajes y Personalización">
+
+Tanto Emma como Ku cuentan con árboles de habilidades e inventarios completamente independientes. Debes asignar los Puntos de Habilidad (PE) ganados en combate para desbloquear habilidades activas y mejoras de estadísticas pasivas para cada personaje de forma individual.
+
+### Ranuras de Personalización de Build
+
+El inventario de Emma te permite personalizar tu estilo de juego a través de armas, armaduras y piedras de alma.
+
+| Categoría de Equipo | Impacto en Personalización | Ruta de Mejora |
+|--- |--- |--- |
+| **Espadas** | Otorgan pasivas únicas que se activan tras paradas exitosas | Mejora el daño base y los efectos pasivos |
+| **Armas a Distancia** | Arcos (precisión a larga distancia) vs Ballestas (fijación rápida) | Desbloquea y mejora diversos tipos de munición |
+| **Gambesón (Armadura)** | Pieza única que proporciona defensa y pasivas únicas | Aumenta la defensa y desbloquea ranuras de piedras |
+| **Piedras de Alma** | Modifica crítico, ventana de parry, robo de vida y acumulación | Mejorables para escalar las bonificaciones pasivas |
+
+### Optimización de la Build Paso a Paso
+
+Sigue estos pasos para establecer una build equilibrada al principio de tu partida.
+
+<Steps>
+  <Step num="1" title="Adquirir PE y Desbloquear Habilidades">
+    Derrota a Malefactos y Gólems en las zonas de cuarentena para recolectar PE. Concéntrate en ampliar el tamaño máximo del medidor de Emma y desbloquear las habilidades de control de masas de Ku en sus respectivos árboles.
+  </Step>
+  <Step num="2" title="Equipar Equipo de Sinergia">
+    Encuentra una espada con una pasiva de bonificación por parry y equipa un Gambesón con múltiples ranuras para piedras de alma. Inserta piedras que amplíen tu ventana de parada y aumenten el robo de vida.
+  </Step>
+  <Step num="3" title="Derrotar a los Jefes Nushi">
+    Caza a los jefes Nushi regionales para absorber habilidades poderosas bloqueadas por progresión, que añaden una utilidad única basada en plantas y un alto daño elemental a tu arsenal.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Ventanas de Parada Generosas">
+Aunque el combate se centra mucho en el parry, la ventana de tiempo para realizarlo es relativamente generosa en comparación con los juegos de acción estándar de alta dificultad. Además, hay múltiples ajustes de dificultad disponibles para adaptar el desafío a tu preferencia.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Exploración y Operaciones de Base">
+
+El mundo de Beast of Reincarnation está estructurado como múltiples zonas de cuarentena vastas y verticales, en lugar de un mundo abierto continuo. Navegas entre estas zonas utilizando un enorme mecha móvil personalizable.
+
+### Operaciones de Base dentro del Mecha
+
+Tu mecha móvil sirve como tu centro neurálgico. Aquí, puedes prepararte para las próximas expediciones utilizando varios sistemas de progresión.
+
+- **Cocina**: Combina ingredientes recolectados para preparar comidas que otorgan mejoras temporales de estadísticas y resistencias elementales.
+- **Fabricación**: Usa materiales soltados por los enemigos para forjar nueva munición, objetos y mejoras de equipo.
+- **Investigación**: Desbloquea nuevas recetas, planos y rutas de mejora tanto para tus personajes como para el propio mecha.
+- **Mejoras del Mecha**: Mejora las capacidades del mecha para desbloquear nuevas opciones de travesía y utilidad en las zonas de cuarentena.
+
+### Travesía y Elementos Metroidvania
+
+La exploración depende en gran medida de la verticalidad y del desbloqueo de nuevas habilidades de movimiento. Las áreas cuentan con múltiples pisos llenos de acertijos ambientales, cofres cerrados que requieren códigos y caminos ocultos.
+
+<Checklist
+  id="exploration-milestones"
+  title="Objetivos de Exploración:"
+  items={[
+    "Desbloquear el Gancho para un ascenso vertical rápido",
+    "Dominar los Zancos de Enredadera para cruzar terrenos peligrosos",
+    "Construir Puentes de Enredadera para acceder a plataformas aisladas",
+    "Buscar cofres ocultos que contienen Piedras de Alma raras",
+    "Localizar puntos de control regionales para habilitar el viaje rápido"
+  ]}
+/>
+
+<Callout type="info" title="Sin Daño por Caída">
+Emma no recibe daño por caída, lo que te permite saltar libremente desde estructuras verticales altas para escapar del combate, reposicionarte o buscar caminos ocultos debajo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes (FAQ) de Beast of Reincarnation">
+
+<FAQ items={[
+  {
+    question: "¿Cómo funciona el sistema de medidor en la jugabilidad de Beast of Reincarnation?",
+    answer: "Emma no tiene una barra de resistencia tradicional. En su lugar, depende de un medidor que se llena cuando realizas paradas (parries) con éxito. Bloquear o recibir daño agota el medidor, y vaciarlo por completo te deja aturdido y expuesto a un daño masivo."
+  },
+  {
+    question: "¿Puedo jugar sin centrarme en los parries?",
+    answer: "Aunque el parry es la mecánica central para cargar medidores y activar habilidades, el juego ofrece múltiples ajustes de dificultad y una ventana de parada generosa, haciendo que el combate sea accesible para jugadores que prefieren una experiencia menos exigente."
+  },
+  {
+    question: "¿Emma y Ku comparten el mismo árbol de habilidades e inventario?",
+    answer: "No. Emma y Ku tienen árboles de habilidades e inventarios totalmente separados. Debes ganar PE para mejorar sus habilidades individualmente y gestionar las armas, armaduras y piedras de alma de Emma por separado de la progresión de Ku."
+  },
+  {
+    question: "¿Cómo se viaja entre las diferentes zonas de cuarentena?",
+    answer: "Viajas entre las vastas zonas de cuarentena verticales del juego utilizando un mecha móvil. Este mecha actúa como tu base de operaciones donde puedes cocinar, fabricar munición, investigar nuevos planos y mejorar tu equipo."
+  }
+]} />
+
+</Section>

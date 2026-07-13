@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "release": "Lanzamiento",
+    "purchase": "Compra",
+    "platforms": "Plataformas",
+    "technical": "Técnico",
+    "guide": "Guía",
+    "characters": "Personajes",
+    "development": "Desarrollo",
+    "media": "Medios"
+  }
+}

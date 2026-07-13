@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Beast of Reincarnation en Steam Deck: Soporte de lanzamiento y guía de configuración",
+  description: "Obtén las últimas actualizaciones sobre el soporte de Beast of Reincarnation en Steam Deck, las expectativas de rendimiento, la optimización de Unreal Engine 5 y los ajustes recomendados.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Steam+Deck+Support+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Beast of Reincarnation"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Soporte para Steam Deck**: Se ha confirmado el soporte oficial de lanzamiento para la plataforma portátil.
+- **Rendimiento Objetivo**: Los jugadores pueden esperar unos 30 FPS estables usando configuraciones gráficas bajas y escalado (upscaling).
+- **Obstáculos del Motor**: El juego utiliza Unreal Engine 5, lo que requiere una optimización específica para evitar tirones (stuttering).
+- **Precio y Reserva**: Disponible en Steam por $59.99, con la opción de añadir a la lista de deseos actualmente abierta.
+- **Sistema de Combate**: Un híbrido único de mecánicas en tiempo real y por turnos diseñado para una participación activa.
+</Callout>
+
+<Section icon={Shield} title="Soporte de Lanzamiento de Beast of Reincarnation en Steam Deck">
+
+Los jugadores de consolas portátiles pueden esperar jugar al juego sobre la marcha, ya que se planea soporte oficial para el próximo lanzamiento. La distribuidora Fictions ha confirmado que optimizar la experiencia de Beast of Reincarnation en Steam Deck está activamente en su hoja de ruta de desarrollo. Esta confirmación temprana ofrece tranquilidad a los jugadores que prefieren el juego portátil frente a las configuraciones de escritorio tradicionales. 
+
+Dado que la desarrolladora, Game Freak, es conocida por sus filosofías de diseño centradas en dispositivos portátiles, se espera que los controles y la interfaz de usuario se adapten de forma natural a la pantalla de Steam Deck. Sin embargo, debido a que este título supera los límites visuales, la optimización del hardware será fundamental para lograr un rendimiento de juego estable.
+
+**Puntos Destacados del Video:**
+- Confirmación oficial del soporte para Steam Deck directamente por parte de la distribuidora.
+- Objetivos de rendimiento previstos y expectativas de hardware para el día de lanzamiento.
+- Resumen del estilo visual y problemas de rendimiento específicos del motor.
+- Detalles de la reserva y estructura de precios en la tienda de Steam.
+
+<YouTubeEmbed videoId="4DJJAeur72U" title="Beast of Reincarnation tendrá soporte para Steam Deck en el lanzamiento" />
+
+Para ayudarte a prepararte para el lanzamiento, aquí tienes el perfil oficial del juego y el resumen del lanzamiento:
+
+| Detalle | Especificación |
+|---|---|
+| Desarrolladora | Game Freak |
+| Distribuidora | Fictions |
+| Motor | Unreal Engine 5 |
+| Precio en Steam | $59.99 |
+| Estado en Steam Deck | Soporte planeado para el lanzamiento |
+| Estilo de Combate | Híbrido en tiempo real y por turnos |
+
+<Callout type="success" title="Confirmación de Lanzamiento">
+La distribuidora ha verificado oficialmente que la optimización portátil está en sus planes. Esto garantiza que los esquemas de control y la compatibilidad básica se abordarán antes del lanzamiento del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Expectativas de Rendimiento en Steam Deck">
+
+Ejecutar un título moderno de Unreal Engine 5 en hardware portátil presenta desafíos únicos. Unreal Engine 5 cuenta con sistemas avanzados de iluminación y geometría que pueden sobrecargar significativamente la APU personalizada de Steam Deck. Los jugadores de portátiles deben tener expectativas realistas con respecto a las tasas de fotogramas y la fidelidad visual.
+
+Lograr unos 60 FPS estables es muy poco probable sin comprometer gravemente la calidad de imagen. En su lugar, un límite objetivo de 30 FPS proporcionará una experiencia de juego mucho más fluida y constante. Esto evita un consumo agresivo de la batería y mantiene las temperaturas del sistema dentro de umbrales seguros durante las sesiones de juego prolongadas.
+
+| Ajuste Gráfico | Valor Recomendado | Impacto en el Rendimiento |
+|---|---|---|
+| Resolución | 1280x800 | Resolución nativa de la pantalla, alto impacto |
+| Sombras | Bajo a Medio | Reduce significativamente la carga de la CPU |
+| Textures | Medio | Se ajusta a la VRAM compartida de la Deck |
+| Escalado (Upscaling) | FSR / TSR activado | Esencial para tasas de fotogramas estables |
+| Límite de Fotogramas | 30 FPS | Evita el estrangulamiento térmico y los tirones |
+
+<Callout type="warning" title="Tirones en Unreal Engine 5">
+Muchos lanzamientos modernos de UE5 sufren de tirones por compilación de sombreadores (shaders). Mantener SteamOS actualizado y usar las cachés de sombreadores precompiladas proporcionadas por Steam será esencial para minimizar estas caídas de rendimiento.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Optimización Paso a Paso">
+
+Para garantizar la mejor experiencia posible al iniciar el juego por primera vez, sigue este procedimiento de configuración paso a paso. Ajustar tanto la configuración del sistema como las opciones del juego maximizará la estabilidad.
+
+<Steps>
+  <Step num="1" title="Actualizar SteamOS y Proton">
+    Navega al menú de ajustes de tu Steam Deck y busca actualizaciones del sistema. Asegúrate de estar ejecutando la última versión estable de SteamOS para recibir las optimizaciones más recientes de los controladores de la GPU.
+  </Step>
+  <Step num="2" title="Forzar Herramienta de Compatibilidad">
+    Ve a las propiedades del juego en tu biblioteca de Steam. En la pestaña de Compatibilidad, marca la casilla para forzar el uso de una herramienta específica y selecciona Proton Experimental o la versión de Proton Hotfix más reciente.
+  </Step>
+  <Step num="3" title="Establecer Límite de Fotogramas del Sistema">
+    Abre el Menú de Acceso Rápido presionando el botón de tres puntos en el lado derecho de tu Steam Deck. En la pestaña de Rendimiento, establece el límite de tasa de fotogramas en 30 FPS y ajusta la frecuencia de actualización a 60Hz o 90Hz según tu modelo.
+  </Step>
+  <Step num="4" title="Ajustar el Escalado en el Juego">
+    Una vez en el menú de opciones del juego, navega a los ajustes de video. Activa AMD FSR o la superresolución temporal (TSR) de Unreal Engine y configúrala en modo Equilibrado o Calidad para mejorar la eficiencia de renderizado.
+  </Step>
+</Steps>
+
+| Capa de Compatibilidad | Estabilidad de Rendimiento | Notas |
+|---|---|---|
+| Proton Stable | Alta | Recomendado para compatibilidad general |
+| Proton Experimental | Moderada | Corrige errores gráficos específicos del día de lanzamiento |
+| Proton GE (Personalizado) | Alta | A menudo proporciona una compatibilidad superior para la reproducción de video |
+
+<Callout type="tip" title="Consejo para Ahorrar Batería">
+Reducir el límite de TDP (Thermal Design Power) a 10W o 11W en el Menú de Acceso Rápido puede prolongar la duración de la batería hasta 30 minutos mientras se mantienen unos 30 FPS estables.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Controles Portátiles y Mecánicas de Combate">
+
+El juego presenta un sistema de combate innovador que combina el movimiento en tiempo real con la estrategia por turnos. Los jugadores navegan por un mundo hermoso junto a su compañero canino, pasando sin problemas a enfrentamientos tácticos. Debido a este diseño híbrido, tener un esquema de control receptivo es vital.
+
+En Steam Deck, puedes aprovechar los trackpads y los botones de agarre traseros para asignar menús complejos u objetos de curación rápida. Esta configuración te permite mantener los pulgares en los sticks analógicos durante las fases de movimiento en tiempo real.
+
+<CardGrid cols={2}>
+  <Card title="Fase en Tiempo Real">
+    - **Movimiento activo** y posicionamiento alrededor de los enemigos.
+    - Esquiva rápida y posicionamiento físico.
+    - Activación de comandos del compañero en tiempo real.
+  </Card>
+  <Card title="Fase por Turnos">
+    - **Selección táctica de menú** para hechizos mágicos.
+    - Gestión precisa de recursos y planificación de turnos.
+    - Coordinación estratégica con tu perro de compañía.
+  </Card>
+</CardGrid>
+
+| Entrada de Botón | Acción Predeterminada | Asignación Recomendada de Steam Input |
+|---|---|---|
+| Joystick Izquierdo | Movimiento del personaje | Movimiento del personaje |
+| Joystick Derecho | Control de cámara | Control de cámara |
+| Gatillo Derecho | Atacar / Confirmar | Atacar / Confirmar |
+| Agarre Izquierdo (L4) | Comando del compañero | Objeto de curación rápida |
+| Agarre Derecho (R4) | Esquivar | Esquivar / Desplazamiento |
+
+<Callout type="info" title="Personalización de Controles">
+Steam Input te permite crear conjuntos de acciones personalizados. Recomendamos asignar la navegación del menú al trackpad izquierdo para seleccionar hechizos rápidamente durante las fases intensas de combate.
+</Callout>
+
+Antes de adentrarte en el mundo, asegúrate de haber completado los siguientes pasos de preparación para garantizar una experiencia fluida el día del lanzamiento:
+
+<Checklist
+  id="launch-prep"
+  title="Lista de verificación para el día de lanzamiento:"
+  items={[
+    "Añade el juego a tu lista de deseos de Steam o completa la reserva",
+    "Libera al menos 50 GB de espacio de almacenamiento interno en tu Deck o tarjeta SD",
+    "Configura tu Steam Deck para descargar actualizaciones automáticamente en segundo plano",
+    "Instala la última capa de compatibilidad de Proton GE a través de ProtonUp-Qt"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Funcionará Beast of Reincarnation a 60 FPS en Steam Deck?",
+    answer: "Es muy poco probable. Debido a las altas exigencias de hardware de Unreal Engine 5, los jugadores deberían apuntar a unos 30 FPS estables en ajustes bajos a medios con el escalado activado."
+  },
+  {
+    question: "¿Admite el juego el juego sin conexión en dispositivos portátiles?",
+    answer: "Sí, la aventura para un solo jugador se puede jugar sin conexión una vez que se completen la instalación inicial y la verificación de Steam."
+  },
+  {
+    question: "¿Hay alguna demo disponible para probar el rendimiento antes de comprar?",
+    answer: "Actualmente, no se ha anunciado ninguna demo. Los jugadores pueden seguir las primeras reseñas y los informes de rendimiento de la comunidad el día del lanzamiento para verificar la estabilidad."
+  },
+  {
+    question: "¿Se utilizan los trackpads de Steam Deck en el esquema de control predeterminado?",
+    answer: "Aunque la configuración predeterminada utiliza distribuciones de control estándar, los jugadores pueden personalizar completamente los trackpads usando Steam Input para la navegación por los menús."
+  }
+]} />
+
+<Callout type="success" title="Veredicto Final">
+Con el soporte planeado para el lanzamiento y la flexibilidad de las herramientas de optimización de SteamOS, los jugadores de portátiles pueden esperar una experiencia portátil sumamente disfrutable.
+</Callout>
+
+</Section>

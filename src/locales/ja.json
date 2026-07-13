@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "release": "リリース",
+    "purchase": "購入",
+    "platforms": "プラットフォーム",
+    "technical": "技術",
+    "guide": "ガイド",
+    "characters": "キャラクター",
+    "development": "開発",
+    "media": "メディア"
+  }
+}

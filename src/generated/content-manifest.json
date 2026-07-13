@@ -1,1 +1,714 @@
-{}
+{
+  "en": {
+    "characters": [
+      {
+        "slug": "Beast-of-Reincarnation-characters",
+        "file": "Beast-of-Reincarnation-characters"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-emma",
+        "file": "Beast-of-Reincarnation-emma"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-koo",
+        "file": "Beast-of-Reincarnation-koo"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-story",
+        "file": "Beast-of-Reincarnation-story"
+      }
+    ],
+    "development": [
+      {
+        "slug": "Beast-of-Reincarnation-director",
+        "file": "Beast-of-Reincarnation-director"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-game-freak",
+        "file": "Beast-of-Reincarnation-game-freak"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-studio",
+        "file": "Beast-of-Reincarnation-studio"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-unreal-engine-5",
+        "file": "Beast-of-Reincarnation-unreal-engine-5"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Beast-of-Reincarnation-bosses",
+        "file": "Beast-of-Reincarnation-bosses"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-combat",
+        "file": "Beast-of-Reincarnation-combat"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-difficulty",
+        "file": "Beast-of-Reincarnation-difficulty"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-gameplay",
+        "file": "Beast-of-Reincarnation-gameplay"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-is-it-a-soulslike",
+        "file": "Beast-of-Reincarnation-is-it-a-soulslike"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-open-world",
+        "file": "Beast-of-Reincarnation-open-world"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-walkthrough",
+        "file": "Beast-of-Reincarnation-walkthrough"
+      }
+    ],
+    "media": [
+      {
+        "slug": "Beast-of-Reincarnation-reddit",
+        "file": "Beast-of-Reincarnation-reddit"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-review",
+        "file": "Beast-of-Reincarnation-review"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-trailer",
+        "file": "Beast-of-Reincarnation-trailer"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Beast-of-Reincarnation-cross-platform",
+        "file": "Beast-of-Reincarnation-cross-platform"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-game-pass",
+        "file": "Beast-of-Reincarnation-game-pass"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-pc",
+        "file": "Beast-of-Reincarnation-pc"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-ps5",
+        "file": "Beast-of-Reincarnation-ps5"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-steam",
+        "file": "Beast-of-Reincarnation-steam"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-switch-2",
+        "file": "Beast-of-Reincarnation-switch-2"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-xbox",
+        "file": "Beast-of-Reincarnation-xbox"
+      }
+    ],
+    "purchase": [
+      {
+        "slug": "Beast-of-Reincarnation-big-dipper",
+        "file": "Beast-of-Reincarnation-big-dipper"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-deluxe-edition",
+        "file": "Beast-of-Reincarnation-deluxe-edition"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-physical-edition",
+        "file": "Beast-of-Reincarnation-physical-edition"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-pre-order-bonus",
+        "file": "Beast-of-Reincarnation-pre-order-bonus"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-pre-order",
+        "file": "Beast-of-Reincarnation-pre-order"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-price",
+        "file": "Beast-of-Reincarnation-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Beast-of-Reincarnation-demo",
+        "file": "Beast-of-Reincarnation-demo"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-length",
+        "file": "Beast-of-Reincarnation-length"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-pre-install",
+        "file": "Beast-of-Reincarnation-pre-install"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-release-date",
+        "file": "Beast-of-Reincarnation-release-date"
+      }
+    ],
+    "technical": [
+      {
+        "slug": "Beast-of-Reincarnation-dlss",
+        "file": "Beast-of-Reincarnation-dlss"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-framerate",
+        "file": "Beast-of-Reincarnation-framerate"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-ps5-pro",
+        "file": "Beast-of-Reincarnation-ps5-pro"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-steam-deck",
+        "file": "Beast-of-Reincarnation-steam-deck"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-system-requirements",
+        "file": "Beast-of-Reincarnation-system-requirements"
+      }
+    ]
+  },
+  "es": {
+    "characters": [
+      {
+        "slug": "Beast-of-Reincarnation-characters",
+        "file": "Beast-of-Reincarnation-characters"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-emma",
+        "file": "Beast-of-Reincarnation-emma"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-koo",
+        "file": "Beast-of-Reincarnation-koo"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-story",
+        "file": "Beast-of-Reincarnation-story"
+      }
+    ],
+    "development": [
+      {
+        "slug": "Beast-of-Reincarnation-director",
+        "file": "Beast-of-Reincarnation-director"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-game-freak",
+        "file": "Beast-of-Reincarnation-game-freak"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-studio",
+        "file": "Beast-of-Reincarnation-studio"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-unreal-engine-5",
+        "file": "Beast-of-Reincarnation-unreal-engine-5"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Beast-of-Reincarnation-bosses",
+        "file": "Beast-of-Reincarnation-bosses"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-combat",
+        "file": "Beast-of-Reincarnation-combat"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-difficulty",
+        "file": "Beast-of-Reincarnation-difficulty"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-gameplay",
+        "file": "Beast-of-Reincarnation-gameplay"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-is-it-a-soulslike",
+        "file": "Beast-of-Reincarnation-is-it-a-soulslike"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-open-world",
+        "file": "Beast-of-Reincarnation-open-world"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-walkthrough",
+        "file": "Beast-of-Reincarnation-walkthrough"
+      }
+    ],
+    "media": [
+      {
+        "slug": "Beast-of-Reincarnation-reddit",
+        "file": "Beast-of-Reincarnation-reddit"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-review",
+        "file": "Beast-of-Reincarnation-review"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-trailer",
+        "file": "Beast-of-Reincarnation-trailer"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Beast-of-Reincarnation-cross-platform",
+        "file": "Beast-of-Reincarnation-cross-platform"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-game-pass",
+        "file": "Beast-of-Reincarnation-game-pass"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-pc",
+        "file": "Beast-of-Reincarnation-pc"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-ps5",
+        "file": "Beast-of-Reincarnation-ps5"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-steam",
+        "file": "Beast-of-Reincarnation-steam"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-switch-2",
+        "file": "Beast-of-Reincarnation-switch-2"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-xbox",
+        "file": "Beast-of-Reincarnation-xbox"
+      }
+    ],
+    "purchase": [
+      {
+        "slug": "Beast-of-Reincarnation-big-dipper",
+        "file": "Beast-of-Reincarnation-big-dipper"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-deluxe-edition",
+        "file": "Beast-of-Reincarnation-deluxe-edition"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-physical-edition",
+        "file": "Beast-of-Reincarnation-physical-edition"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-pre-order-bonus",
+        "file": "Beast-of-Reincarnation-pre-order-bonus"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-pre-order",
+        "file": "Beast-of-Reincarnation-pre-order"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-price",
+        "file": "Beast-of-Reincarnation-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Beast-of-Reincarnation-demo",
+        "file": "Beast-of-Reincarnation-demo"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-length",
+        "file": "Beast-of-Reincarnation-length"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-pre-install",
+        "file": "Beast-of-Reincarnation-pre-install"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-release-date",
+        "file": "Beast-of-Reincarnation-release-date"
+      }
+    ],
+    "technical": [
+      {
+        "slug": "Beast-of-Reincarnation-dlss",
+        "file": "Beast-of-Reincarnation-dlss"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-framerate",
+        "file": "Beast-of-Reincarnation-framerate"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-ps5-pro",
+        "file": "Beast-of-Reincarnation-ps5-pro"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-steam-deck",
+        "file": "Beast-of-Reincarnation-steam-deck"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-system-requirements",
+        "file": "Beast-of-Reincarnation-system-requirements"
+      }
+    ]
+  },
+  "ja": {
+    "characters": [
+      {
+        "slug": "Beast-of-Reincarnation-characters",
+        "file": "Beast-of-Reincarnation-characters"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-emma",
+        "file": "Beast-of-Reincarnation-emma"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-koo",
+        "file": "Beast-of-Reincarnation-koo"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-story",
+        "file": "Beast-of-Reincarnation-story"
+      }
+    ],
+    "development": [
+      {
+        "slug": "Beast-of-Reincarnation-director",
+        "file": "Beast-of-Reincarnation-director"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-game-freak",
+        "file": "Beast-of-Reincarnation-game-freak"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-studio",
+        "file": "Beast-of-Reincarnation-studio"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-unreal-engine-5",
+        "file": "Beast-of-Reincarnation-unreal-engine-5"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Beast-of-Reincarnation-bosses",
+        "file": "Beast-of-Reincarnation-bosses"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-combat",
+        "file": "Beast-of-Reincarnation-combat"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-difficulty",
+        "file": "Beast-of-Reincarnation-difficulty"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-gameplay",
+        "file": "Beast-of-Reincarnation-gameplay"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-is-it-a-soulslike",
+        "file": "Beast-of-Reincarnation-is-it-a-soulslike"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-open-world",
+        "file": "Beast-of-Reincarnation-open-world"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-walkthrough",
+        "file": "Beast-of-Reincarnation-walkthrough"
+      }
+    ],
+    "media": [
+      {
+        "slug": "Beast-of-Reincarnation-reddit",
+        "file": "Beast-of-Reincarnation-reddit"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-review",
+        "file": "Beast-of-Reincarnation-review"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-trailer",
+        "file": "Beast-of-Reincarnation-trailer"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Beast-of-Reincarnation-cross-platform",
+        "file": "Beast-of-Reincarnation-cross-platform"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-game-pass",
+        "file": "Beast-of-Reincarnation-game-pass"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-pc",
+        "file": "Beast-of-Reincarnation-pc"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-ps5",
+        "file": "Beast-of-Reincarnation-ps5"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-steam",
+        "file": "Beast-of-Reincarnation-steam"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-switch-2",
+        "file": "Beast-of-Reincarnation-switch-2"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-xbox",
+        "file": "Beast-of-Reincarnation-xbox"
+      }
+    ],
+    "purchase": [
+      {
+        "slug": "Beast-of-Reincarnation-big-dipper",
+        "file": "Beast-of-Reincarnation-big-dipper"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-deluxe-edition",
+        "file": "Beast-of-Reincarnation-deluxe-edition"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-physical-edition",
+        "file": "Beast-of-Reincarnation-physical-edition"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-pre-order-bonus",
+        "file": "Beast-of-Reincarnation-pre-order-bonus"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-pre-order",
+        "file": "Beast-of-Reincarnation-pre-order"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-price",
+        "file": "Beast-of-Reincarnation-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Beast-of-Reincarnation-demo",
+        "file": "Beast-of-Reincarnation-demo"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-length",
+        "file": "Beast-of-Reincarnation-length"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-pre-install",
+        "file": "Beast-of-Reincarnation-pre-install"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-release-date",
+        "file": "Beast-of-Reincarnation-release-date"
+      }
+    ],
+    "technical": [
+      {
+        "slug": "Beast-of-Reincarnation-dlss",
+        "file": "Beast-of-Reincarnation-dlss"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-framerate",
+        "file": "Beast-of-Reincarnation-framerate"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-ps5-pro",
+        "file": "Beast-of-Reincarnation-ps5-pro"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-steam-deck",
+        "file": "Beast-of-Reincarnation-steam-deck"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-system-requirements",
+        "file": "Beast-of-Reincarnation-system-requirements"
+      }
+    ]
+  },
+  "pt": {
+    "characters": [
+      {
+        "slug": "Beast-of-Reincarnation-characters",
+        "file": "Beast-of-Reincarnation-characters"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-emma",
+        "file": "Beast-of-Reincarnation-emma"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-koo",
+        "file": "Beast-of-Reincarnation-koo"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-story",
+        "file": "Beast-of-Reincarnation-story"
+      }
+    ],
+    "development": [
+      {
+        "slug": "Beast-of-Reincarnation-director",
+        "file": "Beast-of-Reincarnation-director"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-game-freak",
+        "file": "Beast-of-Reincarnation-game-freak"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-studio",
+        "file": "Beast-of-Reincarnation-studio"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-unreal-engine-5",
+        "file": "Beast-of-Reincarnation-unreal-engine-5"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Beast-of-Reincarnation-bosses",
+        "file": "Beast-of-Reincarnation-bosses"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-combat",
+        "file": "Beast-of-Reincarnation-combat"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-difficulty",
+        "file": "Beast-of-Reincarnation-difficulty"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-gameplay",
+        "file": "Beast-of-Reincarnation-gameplay"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-is-it-a-soulslike",
+        "file": "Beast-of-Reincarnation-is-it-a-soulslike"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-open-world",
+        "file": "Beast-of-Reincarnation-open-world"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-walkthrough",
+        "file": "Beast-of-Reincarnation-walkthrough"
+      }
+    ],
+    "media": [
+      {
+        "slug": "Beast-of-Reincarnation-reddit",
+        "file": "Beast-of-Reincarnation-reddit"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-review",
+        "file": "Beast-of-Reincarnation-review"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-trailer",
+        "file": "Beast-of-Reincarnation-trailer"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Beast-of-Reincarnation-cross-platform",
+        "file": "Beast-of-Reincarnation-cross-platform"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-game-pass",
+        "file": "Beast-of-Reincarnation-game-pass"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-pc",
+        "file": "Beast-of-Reincarnation-pc"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-ps5",
+        "file": "Beast-of-Reincarnation-ps5"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-steam",
+        "file": "Beast-of-Reincarnation-steam"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-switch-2",
+        "file": "Beast-of-Reincarnation-switch-2"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-xbox",
+        "file": "Beast-of-Reincarnation-xbox"
+      }
+    ],
+    "purchase": [
+      {
+        "slug": "Beast-of-Reincarnation-big-dipper",
+        "file": "Beast-of-Reincarnation-big-dipper"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-deluxe-edition",
+        "file": "Beast-of-Reincarnation-deluxe-edition"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-physical-edition",
+        "file": "Beast-of-Reincarnation-physical-edition"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-pre-order-bonus",
+        "file": "Beast-of-Reincarnation-pre-order-bonus"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-pre-order",
+        "file": "Beast-of-Reincarnation-pre-order"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-price",
+        "file": "Beast-of-Reincarnation-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "Beast-of-Reincarnation-demo",
+        "file": "Beast-of-Reincarnation-demo"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-length",
+        "file": "Beast-of-Reincarnation-length"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-pre-install",
+        "file": "Beast-of-Reincarnation-pre-install"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-release-date",
+        "file": "Beast-of-Reincarnation-release-date"
+      }
+    ],
+    "technical": [
+      {
+        "slug": "Beast-of-Reincarnation-dlss",
+        "file": "Beast-of-Reincarnation-dlss"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-framerate",
+        "file": "Beast-of-Reincarnation-framerate"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-ps5-pro",
+        "file": "Beast-of-Reincarnation-ps5-pro"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-steam-deck",
+        "file": "Beast-of-Reincarnation-steam-deck"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-system-requirements",
+        "file": "Beast-of-Reincarnation-system-requirements"
+      }
+    ]
+  }
+}

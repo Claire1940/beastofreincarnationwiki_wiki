@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Beast of Reincarnation DLSS: PC Performance & Graphics Settings Guide",
+  description: "Optimize your PC performance in Beast of Reincarnation. Learn about DLSS support, frame generation, system requirements, and the best graphics settings.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a241e/fff?text=DLSS+and+PC+Performance",
+  date: "2026-07-13",
+  author: "Beast of Reincarnation Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Beast of Reincarnation DLSS**: Deep Learning Super Sampling (DLSS) is fully supported on PC to boost framerates in demanding areas.
+- **Launch Date**: The game officially launches on **August 4, 2026** (August 3 in select Steam regions due to local time zones).
+- **Day One Access**: PC players can access the game via Steam, the Windows Store, and Day One on **Xbox Game Pass Ultimate**.
+- **Best Performance**: Combine DLSS with optimized shadow and vegetation settings to tackle the dynamic, transforming blighted forests.
+</Callout>
+
+<Section icon={Shield} title="PC System Requirements & Platform Details">
+
+As a highly anticipated single-player action RPG developed by GAME FREAK and published by Fictions, *Beast of Reincarnation* features a beautiful yet demanding post-apocalyptic world. In the year 4026, Japan is consumed by a transforming plant-based corruption known as the blight. 
+
+To experience this dynamic environment smoothly, PC players must prepare their hardware. Below are the official system requirements to help you determine if your rig can handle the game's advanced visual features.
+
+| Requirement Level | Operating System | Processor (CPU) | Graphics Card (GPU) | System RAM |
+| :--- | :--- | :--- | :--- | :--- |
+| **Minimum** | Windows 10/11 (64-bit) | Intel Core i5-8400 / AMD Ryzen 5 2600 | NVIDIA GTX 1060 / AMD RX 580 | 12 GB RAM |
+| **Recommended** | Windows 10/11 (64-bit) | Intel Core i7-10700K / AMD Ryzen 7 3700X | NVIDIA RTX 3060 Ti / AMD RX 6700 XT | 16 GB RAM |
+| **Ultra (4K/RT)** | Windows 11 (64-bit) | Intel Core i9-12900K / AMD Ryzen 9 5900X | NVIDIA RTX 4070 Ti / AMD RX 7900 XT | 32 GB RAM |
+
+<Callout type="warning" title="Storage Recommendation">
+Regardless of your graphics card, installing *Beast of Reincarnation* on a high-speed Solid State Drive (SSD) is highly recommended. The game features real-time environmental transformations where open plains instantly morph into dense blighted forests, requiring rapid asset streaming.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Beast of Reincarnation DLSS & Upscaling Technologies">
+
+To help players achieve stable framerates, the PC version of *Beast of Reincarnation* features robust support for modern upscaling technologies. **Beast of Reincarnation DLSS** support is integrated directly into the graphics menu from day one, allowing players with NVIDIA GeForce RTX graphics cards to leverage AI-driven super resolution.
+
+Using DLSS is highly beneficial because the game's dense vegetation, complex plant-hair physics for Emma, and real-time blight transformations can heavily tax your GPU. 
+
+### Supported Upscaling Technologies
+
+| Technology | Supported Hardware | Key Feature | Best For |
+| :--- | :--- | :--- | :--- |
+| **NVIDIA DLSS 3** | RTX 40-Series GPUs | Frame Generation & Super Resolution | Maxing out high refresh rate monitors |
+| **NVIDIA DLSS 2** | RTX 20/30-Series GPUs | AI-powered image reconstruction | Balancing image quality and FPS |
+| **AMD FSR 3** | Most modern GPUs | Spatial upscaling & Frame Generation | Non-RTX and handheld PC players |
+| **Intel XeSS** | Intel Arc & major GPUs | Hardware/software reconstruction | Alternative upscaling option |
+
+<CardGrid cols={3}>
+  <Card title="DLSS Quality Mode">
+    - **Render Resolution**: ~67% of native
+    - Best for 1440p and 4K displays
+    - Virtually indistinguishable from native image quality
+  </Card>
+  <Card title="DLSS Balanced Mode">
+    - **Render Resolution**: ~58% of native
+    - Ideal for mid-range RTX cards (e.g., RTX 3060)
+    - Perfect balance of performance boost and clarity
+  </Card>
+  <Card title="DLSS Performance Mode">
+    - **Render Resolution**: ~50% of native
+    - Best for older RTX cards or targeting 1440p/120Hz+
+    - Maximum framerate boost with minor visual artifacts
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="NVIDIA Reflex Integration">
+Enabling **Beast of Reincarnation DLSS** Frame Generation automatically activates NVIDIA Reflex. This is crucial for reducing input latency, ensuring your parry timing remains precise during fast-paced real-time combat.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="How to Optimize Graphics Settings for Maximum FPS">
+
+Achieving the perfect balance between visual fidelity and high performance is essential for mastering the hybrid combat system. If you are experiencing frame drops during intense encounters with Nushi (the giant regional bosses), follow this step-by-step optimization guide.
+
+<Steps>
+  <Step num="1" title="Enable Hardware Accelerated GPU Scheduling">
+    Before launching the game, ensure Windows is optimized. Go to Windows Settings > System > Display > Graphics. Click "Change default graphics settings" and turn on "Hardware-accelerated GPU scheduling." Restart your PC.
+  </Step>
+  <Step num="2" title="Activate DLSS or FSR">
+    Open the in-game graphics menu. Set your Upscaling Method to **DLSS** (if using an RTX card) and choose the **Quality** preset. If you are targeting higher framerates on a 1440p or 4K monitor, switch to **Balanced**.
+  </Step>
+  <Step num="3" title="Adjust Heavy Environmental Settings">
+    The blight effects and dense forests are graphically intensive. Lower **Shadow Quality** and **Foliage Density** from Ultra to Medium. This simple tweak can improve performance by up to 20% without sacrificing overall visual quality.
+  </Step>
+  <Step num="4" title="Configure Motion Blur and Depth of Field">
+    Turn off **Motion Blur** to maintain visual clarity during rapid camera movements. Keep **Depth of Field** on if you prefer cinematic combat menus, or disable it to squeeze out a few extra frames.
+  </Step>
+</Steps>
+
+### Optimized Settings Reference Table
+
+| Setting Option | Recommended Value | Performance Impact | Visual Impact |
+| :--- | :--- | :--- | :--- |
+| **Display Mode** | Fullscreen | Low | None |
+| **Upscaling Method** | DLSS (RTX) / FSR (Non-RTX) | High (Positive Boost) | Low (at Quality preset) |
+| **Shadow Quality** | Medium | High | Medium |
+| **Foliage Density** | Medium | Medium | Medium |
+| **Effects Quality** | High | Medium | High |
+| **Ray Tracing** | Off (unless using RTX 4070+) | Very High | High |
+
+<Callout type="success" title="Handheld Optimization">
+For players using Windows-based handheld devices like the ROG Ally or Lenovo Legion Go, setting the game to 1080p, turning on **AMD FSR 3** to Balanced, and utilizing Medium/Low presets will yield a stable 45-60 FPS.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Exploring the World: PC Performance Considerations">
+
+The world of *Beast of Reincarnation* is set in a ruined, futuristic Japan. As you travel from safe Colonies into the wild wastelands, the environment dynamically reacts to the presence of Nushi. 
+
+Because areas can transform in real time, performance may vary as you move between different regions.
+
+### Regional Performance Profiles
+
+| Region Type | Typical Performance | Primary GPU Bottleneck | Best Optimization Tip |
+| :--- | :--- | :--- | :--- |
+| **The Colony** | Very Stable | CPU (NPC density) | Lower crowd/character details |
+| **Plains & Wastelands** | High | GPU (Draw distance) | Adjust view distance settings |
+| **Blighted Forests** | Moderate / Demanding | GPU (Foliage & Alpha effects) | Enable DLSS/FSR; lower foliage density |
+| **Nushi Boss Arenas** | Demanding | GPU (Particle effects) | Keep effects quality at Medium or High |
+
+<Callout type="info" title="The Sky Warning">
+According to the game's lore, survivors warn travelers never to look up at the sky. From a technical standpoint, looking up actually reduces GPU load significantly! However, to uncover the mysteries of the floating structures, keeping your graphics settings optimized ensures you can look anywhere without stuttering.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Launch Editions & Game Pass Compatibility">
+
+*Beast of Reincarnation* launches on **August 4, 2026**. PC players have multiple avenues to purchase or play the game on day one. 
+
+If you are playing on PC, the digital version supports **Xbox Play Anywhere**. This means a single digital purchase on the Xbox/Windows Store grants you access to the game on both your Xbox Series X|S console and your Windows 10/11 PC, complete with cross-progression and shared cloud saves.
+
+<Checklist
+  id="pre-order-goals"
+  title="PC Launch Checklist:"
+  items={[
+    "Verify your PC meets the recommended system requirements",
+    "Update your NVIDIA or AMD graphics drivers to the latest game-ready version",
+    "Pre-install the game via Steam or Xbox Game Pass to play immediately at launch",
+    "Configure DLSS or FSR settings on your first boot to ensure smooth parry timing"
+  ]}
+/>
+
+### Edition Comparison
+
+| Feature | Standard Edition ($59.99) | Digital Deluxe Edition ($69.99) | Xbox Game Pass Ultimate |
+| :--- | :--- | :--- | :--- |
+| **Base Game** | Included | Included | Included (Day One) |
+| **Koo Skins** | Brown Shiba (Pre-order only) | Black & Brown Shiba Skins | Standard version access |
+| **Special Weapon** | Standard weapons | Big Dipper Sword | Standard version access |
+| **In-Game Currency** | 30,000 Amber (Pre-order only) | 100,000 Amber + 30,000 (Pre-order) | Standard version access |
+| **Farming Items** | None | Various vegetable seedlings | Standard version access |
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does Beast of Reincarnation support DLSS Frame Generation?",
+    answer: "Yes, Beast of Reincarnation DLSS support includes Frame Generation (DLSS 3), which is available for players using NVIDIA GeForce RTX 40-Series graphics cards to significantly boost framerates."
+  },
+  {
+    question: "Can I play Beast of Reincarnation on Steam Deck?",
+    answer: "While GAME FREAK has optimized the game for PC, the dynamic environmental transitions and heavy foliage make it demanding. You will need to utilize AMD FSR and low settings to achieve playable framerates on Steam Deck."
+  },
+  {
+    question: "Is the game included on PC Game Pass?",
+    answer: "Yes, Beast of Reincarnation is confirmed as a Day One release on Xbox Game Pass Ultimate, allowing subscribers to download and play the full PC version on August 4, 2026."
+  },
+  {
+    question: "Why does Steam show a release date of August 3, 2026?",
+    answer: "The official global release date is August 4, 2026. However, due to regional time zone differences, the Steam store page may display August 3 for players in western regions like North America."
+  }
+]} />
+
+</Section>

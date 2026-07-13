@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "FPS de Beast of Reincarnation: Guía de Optimización de PC Paso a Paso",
+  description: "Aumenta los fotogramas por segundo de Beast of Reincarnation y soluciona el lag con esta guía de optimización de PC paso a paso. Aprende ajustes de Nvidia, trucos de Windows y correcciones de inicio.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Framerate+Optimization+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Beast of Reincarnation",
+  keywords: "optimización, fps, rendimiento, beast of reincarnation, guía de pc"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo Principal**: Maximizar tus **FPS en Beast of Reincarnation** y eliminar el retraso de entrada (input lag) tanto en PC de gama baja como de gama alta.
+- **Ajuste Clave de Nvidia**: Cambia la configuración del panel de control de modo calidad a modo rendimiento.
+- **Ajuste de Windows**: Habilita los planes de energía de alto rendimiento y configura el sensor de almacenamiento para limpiar procesos innecesarios en segundo plano.
+- **Prioridad del Lanzador**: Ejecuta el lanzador del juego como administrador y ajusta la prioridad de la tarea a alta.
+- **Actualización de Controladores**: Mantén siempre actualizados los controladores de tu tarjeta gráfica para obtener hasta un 10% de mejora en el rendimiento.
+</Callout>
+
+<Section icon={Sparkles} title="Optimizaciones del Panel de Control de la GPU">
+
+Optimizar el panel de control de tu tarjeta gráfica es la forma más directa de aumentar tus **FPS en Beast of Reincarnation**. Al priorizar el rendimiento sobre la calidad visual pura en los ajustes del controlador de la GPU, puedes desbloquear grandes ganancias de fotogramas sin degradar excesivamente tu experiencia visual.
+
+**Puntos Destacados del Vídeo:**
+- **Panel de Control de Nvidia**: Cambia los ajustes 3D globales de calidad a rendimiento.
+- **Reducción de Resolución**: Bajar ligeramente la resolución nativa puede generar aumentos masivos de FPS.
+- **Alineación de Pantalla**: Asegúrate de que la resolución de Windows coincida con los ajustes del juego para evitar el lag de escalado.
+
+<YouTubeEmbed videoId="tnUwuu0nTn4" title="¡Cómo aumenté Beast of Reincarnation a más de 240 FPS en una PC SÚPER DÉBIL! ✅ (Aumentar FPS y Corregir Lag)" />
+
+| Ajuste | Valor Recomendado | Impacto en el Rendimiento |
+| :--- | :--- | :--- |
+| **Ajustes de imagen 3D** | Usar mi preferencia enfatizando el Rendimiento | Extremadamente Alto |
+| **Escala de Resolución** | 1920x1080 (Nativa) o 1768x992 (Económica) | Alto |
+| **Tasa de Refresco** | La más alta disponible | Medio |
+| **Sincronización Vertical** | Desactivado | Bajo (Reduce el Input Lag) |
+
+<Callout type="tip" title="Consejo de Resolución">
+Si tienes dificultades para alcanzar 60 FPS estables, bajar la resolución de 1920x1080 a 1768x992 en el panel de control de tu GPU puede aumentar instantáneamente el rendimiento hasta un 15% en tarjetas gráficas antiguas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Ajustes de Sistema y Energía de Windows">
+
+Los servicios en segundo plano de Windows a menudo consumen valiosos recursos de hardware que deberían dedicarse al juego. Al ajustar la configuración del sistema, puedes asegurar que tu CPU y memoria se enfoquen por completo en renderizar el juego.
+
+<CardGrid cols={3}>
+  <Card title="Optimización del Plan de Energía">
+    - Modo de **Alto Rendimiento**
+    - Desbloquea la velocidad máxima del reloj de la CPU
+    - Evita la limitación de hardware (throttling)
+  </Card>
+  <Card title="Limpieza del Sensor de Almacenamiento">
+    - Ejecuciones **semanales automatizadas**
+    - Limpia archivos temporales basura
+    - Libera espacio en la unidad del sistema
+  </Card>
+  <Card title="Alineación de Pantalla">
+    - Mantén el escalado al **100%**
+    - Coincide la resolución de Windows y del juego
+    - Reduce el lag en modo ventana
+  </Card>
+</CardGrid>
+
+| Característica | Configuración Recomendada | Propósito |
+| :--- | :--- | :--- |
+| **Plan de Energía** | Alto Rendimiento o Equilibrado (Prueba ambos) | Evita ralentizaciones por ahorro de energía de la CPU |
+| **Sensor de Almacenamiento** | Activo (Ejecutar semanalmente) | Mantiene la unidad del sistema libre de archivos temporales innecesarios |
+| **Escala de Pantalla** | 100% (Recomendado) | Evita el lag de escalado de la interfaz en el juego |
+
+<Callout type="warning" title="Advertencia del Plan de Energía">
+Algunas configuraciones de CPU personalizadas funcionan mejor con el plan 'Equilibrado' en lugar de 'Alto Rendimiento'. Prueba ambas opciones en el juego para ver cuál ofrece un gráfico de tiempo de fotogramas más estable.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuración Paso a Paso del Lanzador y Compatibilidad">
+
+Configurar las propiedades del lanzador del juego garantiza que el sistema operativo otorgue privilegios administrativos al juego y omita capas innecesarias de optimización de pantalla completa que causan micro-tirones.
+
+<Steps>
+  <Step num="1" title="Acceder a las Propiedades del Lanzador">
+    Localiza el lanzador de tu juego (como Steam), haz clic derecho en el icono y selecciona **Propiedades**.
+  </Step>
+  <Step num="2" title="Modificar los Ajustes de Compatibilidad">
+    Navega hasta la pestaña de **Compatibilidad**. Marca la casilla **Ejecutar este programa como administrador**.
+  </Step>
+  <Step num="3" title="Deshabilitar Optimizaciones de Pantalla Completa">
+    Marca la casilla **Deshabilitar optimizaciones de pantalla completa**. Esto obliga a Windows a dejar que el juego gestione su propia presentación de pantalla, reduciendo el retraso de entrada.
+  </Step>
+  <Step num="4" title="Aplicar y Reiniciar">
+    Haz clic en **Aplicar** y luego en **Aceptar**. Reinicia tu PC para asegurar que todos los permisos administrativos se registren correctamente antes de iniciar el juego.
+  </Step>
+</Steps>
+
+| Ajuste de Compatibilidad | Estado | Objetivo |
+| :--- | :--- | :--- |
+| **Ejecutar como administrador** | Habilitado | Otorga acceso total a los recursos del sistema |
+| **Deshabilitar optimizaciones de pantalla completa** | Habilitado | Reduce los micro-tirones y el input lag |
+| **Modo de compatibilidad** | Windows 8 (Opcional) | Resuelve bloqueos en motores antiguos |
+
+<Callout type="info" title="Modo Administrador">
+Ejecutar el lanzador como administrador garantiza que el software en segundo plano no bloquee el acceso del juego a hilos esenciales del hardware.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Aplicaciones en Segundo Plano y Ajuste del Administrador de Tareas">
+
+Ejecutar demasiadas tareas en segundo plano es la causa principal de caídas repentinas de FPS. Debes limpiar tu lista de inicio y ajustar las prioridades de los procesos para garantizar una jugabilidad fluida.
+
+| Acción del Proceso | Ajuste Recomendado | Recurso Ahorrado |
+| :--- | :--- | :--- |
+| **Barra de juegos de Xbox** | Desactivado | CPU / RAM en segundo plano |
+| **Grabación en segundo plano** | Desactivado | Sobrecarga del codificador de la GPU |
+| **Aplicaciones de inicio** | Desactivar todos los elementos no esenciales | Memoria de arranque del sistema |
+| **Prioridad del juego** | Alta o Por encima de lo normal | Programación de núcleos de la CPU |
+
+<Callout type="success" title="Consejo de Prioridad">
+Establecer la prioridad del proceso del juego en 'Alta' en la pestaña de detalles del Administrador de Tareas le indica a tu CPU que procese las instrucciones del juego antes de manejar las tareas del sistema en segundo plano.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación y Objetivos de Rendimiento">
+
+Para lograr el mejor rendimiento posible, trabaja en esta lista de verificación de manera sistemática. El seguimiento de estos hitos garantizará una experiencia estable.
+
+<Checklist
+  id="fps-optimization-milestones"
+  title="Objetivos Esenciales de Optimización:"
+  items={[
+    "Configurar el panel de control de la GPU para el máximo rendimiento",
+    "Hacer coincidir la resolución de Windows con la resolución del juego",
+    "Habilitar el plan de energía de Alto Rendimiento en los ajustes del sistema",
+    "Desactivar la Barra de juegos de Xbox y las herramientas de grabación en segundo plano",
+    "Configurar la compatibilidad del lanzador del juego para ejecutar como administrador",
+    "Actualizar los controladores de la tarjeta gráfica a la última versión"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo soluciono los tirones repentinos y mantengo unos FPS estables en Beast of Reincarnation?",
+    answer: "Deshabilita las optimizaciones de pantalla completa en las propiedades del lanzador, apaga la grabación en segundo plano en los ajustes de Windows y cierra aplicaciones pesadas en segundo plano como navegadores web antes de jugar."
+  },
+  {
+    question: "¿Debo activar o desactivar el Modo de Juego en Windows?",
+    answer: "Cada configuración de hardware de PC responde de manera diferente al Modo de Juego. Se recomienda encarecidamente probar el rendimiento en el juego con el Modo de Juego activado y luego desactivado para ver qué ajuste ofrece mejor estabilidad."
+  },
+  {
+    question: "¿Qué aumento de FPS puedo esperar al actualizar mis controladores de GPU?",
+    answer: "Actualizar a los últimos controladores oficiales de la GPU puede aumentar tu rendimiento hasta un 10% mientras corrige errores comunes de renderizado y bloqueos específicos del motor."
+  },
+  {
+    question: "¿Bajar la resolución degrada demasiado los gráficos del juego?",
+    answer: "Aunque bajar la resolución hace que la imagen sea un poco más suave, pasar de 1080p a una resolución personalizada como 1768x992 ofrece un aumento masivo de rendimiento que hace que el combate rápido se sienta mucho más fluido."
+  }
+]} />
+
+</Section>

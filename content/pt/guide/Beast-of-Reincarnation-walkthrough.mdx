@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Detonado de Beast of Reincarnation: Guia de Maestria em Combate e Progressão",
+  description: "Domine o combate baseado em aparagem e a personalização profunda de Beast of Reincarnation com nosso detonado. Aprenda as melhores builds e estratégias para Emma e Ku.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Beast+of+Reincarnation+Walkthrough",
+  date: "2026-07-13",
+  author: "Equipe da Wiki de Beast of Reincarnation",
+  keywords: "Beast of Reincarnation, detonado, guia de combate, Emma, Ku, aparagem, progressão"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **O detonado de Beast of Reincarnation** foca intensamente no **combate baseado em aparagem (parry)** e na sinergia entre Emma e seu companheiro Ku.
+- **O Medidor da Emma** é seu recurso mais crítico; ele é reabastecido ao aparar ataques e esgotado ao bloquear ou sofrer dano.
+- **As Habilidades do Ku** são especializadas em efeitos de status elementais e controle de multidão, fornecendo suporte essencial durante lutas contra chefes de alta dificuldade.
+- **Mecânicas de Movimentação** como o gancho (grapple) e as pernas de pau de videira são essenciais para explorar o design de níveis vertical e encontrar colecionáveis escondidos.
+- **A Base Mech** serve como seu hub para culinária, criação e pesquisa de melhorias permanentes entre as zonas de exploração.
+</Callout>
+
+<Section icon={Swords} title="Mecânicas Principais de Combate e Maestria">
+
+O sistema de combate neste **detonado de Beast of Reincarnation** é construído sobre uma base de precisão e agressividade. Ao contrário dos RPGs de ação tradicionais, onde a esquiva é a principal ferramenta defensiva, este título exige que os jogadores dominem a aparagem (parry). Emma, a protagonista, depende de seu medidor exclusivo para permanecer na luta. Aparar um ataque com sucesso não apenas evita danos, mas também preenche os medidores de Emma e de seu companheiro, Ku. Se o medidor de Emma for totalmente esgotado por guardas mal executadas ou por sofrer golpes, ela se torna vulnerável a danos massivos, tornando a aparagem uma habilidade de sobrevivência essencial, em vez de um floreio opcional.
+
+**Destaques do Vídeo:**
+- Análise detalhada do sistema de **combate baseado em aparagem** e timing.
+- Explicação dos **Medidores de Emma e Ku** e como eles interagem.
+- Demonstração da variedade de armas à distância, como o **Arco e a Besta de Mão**.
+- Prévia dos **ataques de Execução** e mecânicas de medidor de atordoamento (stagger).
+
+<YouTubeEmbed videoId="dYaCMmIBSLM" title="The Complete Gameplay Preview - Beast of Reincarnation Guides, News & Updates" />
+
+O medidor de Emma permite que ela conjure habilidades rapidamente ou ative um modo "Overdrive" que desacelera o tempo para desferir rajadas de ataques. Enquanto isso, o medidor de Ku permite a seleção de habilidades poderosas que pausam o tempo inteiramente. O uso das habilidades de Ku também fornece uma pequena quantidade de cura para Emma, que pode ser aumentada ao completar com sucesso Quick Time Events (QTEs). Isso cria um ciclo onde a aparagem agressiva leva a mais habilidades, que por sua vez fornecem mais cura e saída de dano.
+
+| Ação de Combate | Efeito no Medidor da Emma | Efeito no Medidor do Ku | Uso Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Aparagem Perfeita** | Grande Aumento | Aumento Moderado | Contra todos os ataques padrão |
+| **Guarda Padrão** | Diminuição Moderada | Sem Alteração | Use apenas como último recurso |
+| **Sofrer Dano** | Grande Diminuição | Sem Alteração | Evite a todo custo |
+| **QTE Bem-sucedido** | Sem Alteração | Reset/Cooldown | Para cura e dano máximos |
+
+<Callout type="success" title="Sinergia de Combate">
+Sempre priorize a aparagem em vez da esquiva para ataques padrão. Embora a esquiva seja eficaz para ataques imbloqueáveis destacados em "Vermelho", a aparagem é a única maneira de sustentar seu ímpeto ofensivo e manter seus medidores cheios.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Progressão de Personagem e Personalização de Build">
+
+A progressão em Beast of Reincarnation é dividida entre Emma e Ku, cada um possuindo suas próprias árvores de habilidades e inventários independentes. Conforme você se envolve em combate, ganha SP (Pontos de Habilidade) que podem ser alocados para qualquer um dos personagens. A árvore de habilidades de Emma foca em movimento, vida e engajamento corpo a corpo, enquanto a árvore de Ku aprimora a potência elemental e o controle de multidão.
+
+A personalização vai além dos pontos de habilidade. Emma pode equipar diferentes espadas, cada uma apresentando passivas únicas que normalmente são ativadas após uma aparagem bem-sucedida. Além disso, o sistema de Pedras de Alma (Soul Stones) atua como uma camada profunda de criação de builds. Essas pedras podem ser encaixadas na armadura de Emma (o Gambeson) para fornecer uma ampla gama de bônus, desde o aumento das taxas de acerto crítico até janelas de aparagem aprimoradas.
+
+<CardGrid cols={3}>
+  <Card title="Build Focada em Combate Próximo">
+    - **Espada**: Passivas de alto dano de aparagem
+    - **Soul Stones**: Chance crítica, roubo de vida
+    - **Habilidade Chave**: Aproximações baseadas em plantas da Emma
+  </Card>
+  <Card title="Build de Longo Alcance e Status">
+    - **Arma**: Besta de Mão com munição de Veneno
+    - **Soul Stones**: Acúmulo de status, cadência de tiro
+    - **Habilidade Chave**: Ataques elementais em área (AOE) do Ku
+  </Card>
+  <Card title="Build de Sobrevivência">
+    - **Armadura**: Gambeson aprimorado para mais slots
+    - **Soul Stones**: Reposição de medidor, vida
+    - **Habilidade Chave**: Cura aprimorada por QTE do Ku
+  </Card>
+</CardGrid>
+
+| Tipo de Equipamento | Opções de Personalização | Função Principal |
+| :--- | :--- | :--- |
+| **Espadas** | Passivas, Dano Bruto | Ferramenta principal de corpo a corpo e aparagem |
+| **Armadura** | Slots de Pedra de Alma | Defesa e utilidade da build |
+| **Arco** | Tipos de Munição (Fogo, Choque) | Precisão de longo alcance e status |
+| **Pedras de Alma** | Níveis de Melhoria | Ajuste fino de estatísticas específicas |
+
+<Callout type="warning" title="Gerenciamento de Inventário">
+Lembre-se de que Emma e Ku possuem inventários separados. Quando encontrar materiais de alto nível ou Pedras de Alma, verifique ambos os personagens para ver quem se beneficia mais com a melhoria antes de comprometer seus recursos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Mecânicas de Exploração e Movimentação">
+
+O mundo de Beast of Reincarnation não é um mundo aberto único, mas uma coleção de vastas "Zonas de Quarentena". A navegação dentro dessas zonas é altamente vertical, exigindo o uso criativo das habilidades de movimento da Emma. O design de níveis muitas vezes se assemelha a um Metroidvania, onde certas áreas são inacessíveis até que você desbloqueie melhorias específicas ou domine a física do ambiente.
+
+<Steps>
+  <Step num="1" title="Domine o Gancho">
+    Use o gancho (grapple) para alcançar andares de alta altitude ou balançar através de fendas. Muitas vezes é a maneira mais rápida de se reposicionar durante o combate.
+  </Step>
+  <Step num="2" title="Implante Pernas de Pau de Videira">
+    Crie plataformas temporárias ou pontes usando a vida vegetal. Elas são essenciais para atravessar terrenos perigosos ou alcançar baús escondidos.
+  </Step>
+  <Step num="3" title="Utilize a Verticalidade">
+    O jogo não possui dano de queda. Use isso a seu favor caindo sobre os inimigos para execuções furtivas ou escapando de situações ruins.
+  </Step>
+</Steps>
+
+A exploração é recompensada com saques, ingredientes de criação e lore. No entanto, muitas zonas são guardadas por "Nushi", chefes de área poderosos que devem ser derrotados para progredir. Esses chefes concedem novas habilidades após a derrota, muitas vezes fornecendo a própria habilidade de movimento necessária para explorar totalmente a zona anterior.
+
+| Ferramenta de Movimento | Utilidade em Combate | Utilidade em Exploração |
+| :--- | :--- | :--- |
+| **Gancho** | Reposicionamento rápido | Alcançar andares superiores |
+| **Pernas de Pau de Videira** | Controle de campo de batalha | Atravessar fendas e buracos |
+| **Pontes de Plantas** | Vantagem de altura | Acessar varandas trancadas |
+| **Cobertura Furtiva** | Quebrar linha de visão | Passar furtivamente por patrulhas de Golems |
+
+<Callout type="info" title="Sem Dano de Queda">
+Não tenha medo de pular de bordas altas. A falta de dano de queda incentiva a exploração vertical e permite pontos de entrada criativos em acampamentos inimigos.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Efeitos de Status Elementais e Tipos de Inimigos">
+
+Entender o sistema elemental é crucial para um **detonado de Beast of Reincarnation** bem-sucedido. Os inimigos possuem medidores de atordoamento que, quando esgotados, permitem ataques de execução devastadores. Esse processo é acelerado pela aplicação de efeitos elementais que exploram fraquezas específicas dos inimigos. Existem quatro tipos elementais primários: Queimadura, Choque, Veneno e Corrosão.
+
+<Checklist
+  id="elemental-mastery"
+  title="Checklist de Prontidão para Combate:"
+  items={[
+    "Identifique as fraquezas elementais dos inimigos antes de atacar",
+    "Equipe o tipo de munição correto para seu Arco ou Besta",
+    "Coordene as habilidades elementais do Ku com os ataques corpo a corpo da Emma",
+    "Monitore o medidor de atordoamento do inimigo para oportunidades de execução"
+  ]}
+/>
+
+Os inimigos geralmente se dividem em duas categorias: Malefatos (seres vivos corrompidos) e Golems (sentinelas mecânicas). Enquanto os Malefatos são frequentemente suscetíveis a Queimadura e Veneno, os Golems podem exigir Choque ou Corrosão para desativar sua armadura pesada. Os chefes Nushi são o teste final deste sistema, muitas vezes exigindo múltiplas aplicações de status para criar uma abertura.
+
+| Elemento | Efeito de Status | Melhor Contra |
+| :--- | :--- | :--- |
+| **Queimadura** | Dano ao longo do tempo | Malefatos com muita vida |
+| **Choque** | Atordoamento e Interrupção | Golems de movimento rápido |
+| **Veneno** | Decaimento gradual de vida | Grupos de inimigos orgânicos |
+| **Corrosão** | Redução de armadura | Chefes Nushi pesadamente blindados |
+
+<Callout type="tip" title="Bônus de Sinergia">
+Ku tem acesso exclusivo a muitas habilidades elementais. Use o Ku para aplicar um efeito de status como Choque, então siga com os ataques pesados da Emma para maximizar o acúmulo de atordoamento.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="A Base Mech: Criação e Pesquisa">
+
+O Mech atua como sua base de operações móvel, viajando entre as Zonas de Quarentena. É aqui que ocorre a maior parte da sua progressão fora de combate. Dentro do Mech, você pode cozinhar refeições para bônus temporários, criar novos equipamentos e pesquisar melhorias para o próprio Mech para desbloquear mais capacidades.
+
+A progressão na base Mech requer materiais coletados durante a exploração. Ingredientes para cozinhar podem ser encontrados na natureza, enquanto componentes de criação são frequentemente derrubados por Golems derrotados ou encontrados em baús trancados. Pesquisar novas receitas e projetos é vital para manter seu equipamento relevante à medida que a dificuldade das Zonas de Quarentena aumenta.
+
+| Instalação da Base | Atividade | Resultado Principal |
+| :--- | :--- | :--- |
+| **Cozinha** | Culinária | Bônus de atributos temporários e itens de cura |
+| **Forja** | Criação/Melhoria | Armas de maior dano e armaduras melhores |
+| **Lab de Pesquisa** | Análise de Projetos | Novas receitas e aprimoramentos do Mech |
+| **Área de Descanso** | Descansar | Reseta inimigos do mundo e restaura a vida |
+
+<Callout type="info" title="Melhorias do Mech">
+Não negligencie as próprias melhorias do Mech. Aprimorar o Mech pode desbloquear novos pontos de viagem rápida ou fornecer bônus passivos que afetam Emma e Ku mesmo quando estão em campo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="FAQ do Detonado de Beast of Reincarnation">
+
+<FAQ items={[
+  {
+    question: "Como eu lido com o tempo de aparagem (parry) em Beast of Reincarnation?",
+    answer: "O tempo de aparagem é geralmente considerado generoso em comparação com outros jogos do estilo souls-like. Foque no movimento da arma do inimigo em vez do corpo dele. Se tiver dificuldade, procure por Pedras de Alma que aumentam especificamente a janela de aparagem."
+  },
+  {
+    question: "Existe uma maneira de se curar sem usar as habilidades do Ku?",
+    answer: "Sim, você tem cargas de cura padrão que podem ser reabastecidas em checkpoints. No entanto, confiar nas habilidades do Ku para cura passiva através de QTEs é essencial para a sobrevivência a longo prazo em zonas difíceis."
+  },
+  {
+    question: "Posso jogar o jogo sem focar no sistema de aparagem?",
+    answer: "Embora a esquiva e a guarda sejam possíveis, o jogo é construído quase inteiramente em torno da aparagem para preencher seus medidores. Jogar sem aparar tornará o jogo significativamente mais difícil e limitará seu acesso a habilidades poderosas."
+  },
+  {
+    question: "Em quais plataformas Beast of Reincarnation está disponível?",
+    answer: "O jogo está disponível para Steam, PlayStation 5 e Xbox Series S/X. Também foi um lançamento de primeiro dia no Xbox Game Pass em 2026."
+  }
+]} />
+
+</Section>

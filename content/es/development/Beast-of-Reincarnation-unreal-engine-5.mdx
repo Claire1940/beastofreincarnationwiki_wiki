@@ -1,0 +1,159 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Beast of Reincarnation Unreal Engine 5: Gráficos y Especificaciones Técnicas",
+  description: "Explora las características técnicas de Unreal Engine 5, los ajustes gráficos y la optimización del rendimiento de Beast of Reincarnation en PC, PS5 y Xbox.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/151b16/fff?text=Unreal+Engine+5+Tech+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Beast of Reincarnation",
+  keywords: "unreal engine 5, especificaciones técnicas, rendimiento, requisitos pc, ps5, xbox"
+}
+
+<Callout type="info" title="Resumen Técnico Rápido">
+- **Motor Principal**: Construido íntegramente en **Beast of Reincarnation unreal engine 5** para físicas avanzadas e iluminación realista.
+- **Característica Visual Clave**: Transformaciones ambientales en tiempo real donde las llanuras abiertas se convierten dinámicamente en densos bosques asolados.
+- **Plataformas Objetivo**: Lanzamiento el 4 de agosto de 2026 en PC, PlayStation 5 y Xbox Series X|S (Día uno en Game Pass Ultimate).
+- **Sistema de Doble Protagonista**: Combate híbrido fluido que vincula las acciones de espada en tiempo real de Emma con las habilidades tácticas basadas en comandos de Koo.
+</Callout>
+
+<Section icon={Sparkles} title="Características Técnicas de Beast of Reincarnation en Unreal Engine 5">
+
+El próximo RPG de acción de Game Freak aprovecha las capacidades avanzadas de la arquitectura de **Beast of Reincarnation unreal engine 5** para ofrecer una impactante visión postapocalíptica de Japón en el año 4026. Al utilizar flujos de trabajo modernos del motor, el equipo de desarrollo ha construido un mundo donde la estética tradicional japonesa se mezcla con ruinas de ciencia ficción en decadencia bajo el peso opresivo de la Plaga (Blight).
+
+La hazaña técnica más exigente impulsada por el motor es la transformación ambiental en tiempo real. Mientras Emma y Koo viajan por el páramo, las llanuras circundantes pueden transformarse abruptamente en densos y hostiles bosques asolados. Esta transición se gestiona dinámicamente sin pantallas de carga, cambiando la geometría, la densidad del follaje y la iluminación atmosférica sobre la marcha.
+
+| Característica del Motor | Implementación en el Juego | Impacto en el Rendimiento |
+| --- | --- | --- |
+| **Follaje Dinámico** | Crecimiento del bosque en tiempo real | Alta carga de CPU/GPU durante las transiciones |
+| **Iluminación Global** | Rebote de luz natural en ciudades en ruinas | Coste de GPU moderado, gran resultado visual |
+| **Virtual Shadow Maps** | Sombras nítidas y detalladas para el cabello vegetal | Coste de GPU moderado |
+| **Temporal Super Resolution** | Escalado integrado para tasas de fotogramas estables | Reduce la carga de renderizado nativo |
+
+<Callout type="tip" title="Consejo Visual">
+Unreal Engine 5 permite que el cabello de Emma, similar a una planta, reaccione de forma realista al viento, al movimiento y a las colisiones ambientales. Esto no es solo estético; apoya directamente sus mecánicas de movimiento al escalar muros altos o realizar asesinatos en caída.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Plataformas Objetivo y Perfiles de Rendimiento">
+
+El juego está optimizado para el hardware de la generación actual, omitiendo por completo las consolas de la generación anterior para evitar cuellos de botella en el rendimiento. Los jugadores de PlayStation 5, Xbox Series X|S y Windows PC experimentarán perfiles gráficos personalizados diseñados para equilibrar la fidelidad visual con la acción trepidante.
+
+| Plataforma | Resolución Objetivo | Tasa de Fotogramas Objetivo | Características Especiales |
+| --- | --- | --- | --- |
+| **PC (Steam/Windows)** | Hasta 4K Nativo | Ilimitado | Personalización gráfica completa, soporte ultra-wide |
+| **PlayStation 5** | 4K Dinámico | 60 FPS (Rendimiento) | Háptica DualSense, gatillos adaptativos, mejoras de PS5 Pro |
+| **Xbox Series X** | 4K Dinámico | 60 FPS (Rendimiento) | Smart Delivery, Quick Resume, Play Anywhere |
+| **Xbox Series S** | 1080p Dinámico | 30/60 FPS | Optimización de tamaño compacto |
+
+<CardGrid cols={3}>
+  <Card title="Características de PlayStation 5">
+    - **Integración DualSense**: Siente la tensión de los desvíos de Emma y la ejecución de comandos de Koo.
+    - **Mejoras de PS5 Pro**: Trazado de rayos mejorado y resoluciones base más altas.
+    - **Remote Play**: Totalmente compatible con dispositivos portátiles compatibles.
+  </Card>
+  <Card title="Beneficios del Ecosistema Xbox">
+    - **Día Uno en Game Pass**: Juega inmediatamente en Game Pass Ultimate en el lanzamiento el 4 de agosto de 2026.
+    - **Xbox Play Anywhere**: Compra una vez digitalmente y juega en Xbox y Windows PC.
+    - **Juego en la Nube**: Transmite tu progreso en configuraciones móviles y tablets compatibles.
+  </Card>
+  <Card title="Personalización en PC">
+    - **Escalado Avanzado**: Soporte para DLSS, FSR y XeSS junto con el TSR nativo de UE5.
+    - **Flexibilidad de Control**: Reasignación completa de botones y optimización para ratón y teclado.
+    - **Shaders**: Pasos de pre-compilación para eliminar tirones (stutter) durante el movimiento en el juego.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Aviso de Plataforma">
+Debido a ajustes en los horarios de las tiendas regionales, la tienda de Steam puede mostrar una fecha de lanzamiento del 3 de agosto de 2026 en ciertas zonas horarias occidentales, mientras que las plataformas de consola se lanzan globalmente el 4 de agosto de 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Requisitos del Sistema para PC y Guía de Optimización">
+
+Para disfrutar de los activos de alta fidelidad y los cálculos físicos de la versión de **Beast of Reincarnation unreal engine 5**, los jugadores de PC deben apuntar a las especificaciones recomendadas. A continuación se muestra la configuración de hardware oficial requerida para ejecutar el juego sin problemas.
+
+| Componente de Hardware | Mínimos (1080p / 30 FPS / Bajo) | Recomendados (1080p / 60 FPS / Alto) | Gama Alta (1440p+ / 60+ FPS / Ultra) |
+| --- | --- | --- | --- |
+| **SO** | Windows 10 (64-bit) | Windows 10/11 (64-bit) | Windows 11 (64-bit) |
+| **Procesador** | Intel Core i5-8400 / AMD Ryzen 5 2600 | Intel Core i7-10700K / AMD Ryzen 7 3700X | Intel Core i5-13600K / AMD Ryzen 7 7700X |
+| **Memoria** | 12 GB RAM | 16 GB RAM | 32 GB RAM |
+| **Gráficos** | GTX 1070 / RX 5600 XT | RTX 2070 Super / RX 6700 XT | RTX 4070 / RX 7800 XT |
+| **DirectX** | Versión 12 | Versión 12 | Versión 12 |
+| **Almacenamiento** | 70 GB SSD | 70 GB NVMe SSD | 70 GB NVMe SSD |
+
+<Callout type="info" title="Requisito de Almacenamiento">
+Se requiere estrictamente un SSD para este juego. Las transformaciones ambientales dinámicas y la transmisión de activos (streaming) de Unreal Engine 5 sufrirán tirones graves en discos duros mecánicos tradicionales.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Cómo Optimizar el Rendimiento el Día del Lanzamiento">
+
+Si experimentas caídas de fotogramas durante secuencias de combate intensas o al entrar en un Bosque Asolado recién generado, sigue estos pasos para optimizar tus ajustes.
+
+<Steps>
+  <Step num="1" title="Activar el Escalado">
+    Navega al menú de Gráficos y activa Temporal Super Resolution (TSR), DLSS o FSR. Establecer esto en "Calidad" ofrece un aumento masivo de rendimiento con un impacto mínimo en la claridad de la imagen.
+  </Step>
+  <Step num="2" title="Reducir la Calidad del Follaje">
+    Dado que el juego renderiza bosques densos de forma dinámica, reducir la Calidad del Follaje de Ultra a Alto o Medio reduce significativamente la carga de CPU y GPU en las áreas asoladas.
+  </Step>
+  <Step num="3" title="Ajustar la Calidad de las Sombras">
+    Los sistemas de sombras de Unreal Engine 5 son muy detallados pero exigentes. Reducir la resolución de las sombras o desactivar las sombras locales con trazado de rayos estabilizará la tasa de fotogramas durante las peleas contra jefes.
+  </Step>
+  <Step num="4" title="Limitar Aplicaciones en Segundo Plano">
+    El motor utiliza muchos hilos y depende en gran medida del rendimiento de la CPU para transmitir activos. Cierra los navegadores y el software de grabación en segundo plano para liberar recursos del sistema.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación Técnica Previa al Lanzamiento">
+
+Prepara tu equipo de juego para el lanzamiento global el 4 de agosto de 2026 para asegurar una experiencia fluida desde el primer día.
+
+<Checklist
+  id="pre-launch-prep"
+  title="Lista de Verificación de Preparación Técnica:"
+  items={[
+    "Verifica que el almacenamiento de tu PC tenga al menos 70 GB de espacio libre en un SSD de alta velocidad.",
+    "Actualiza los controladores de tu tarjeta gráfica a la última versión 'game-ready' lanzada para agosto de 2026.",
+    "Asegúrate de que tu sistema operativo Windows 10/11 esté totalmente actualizado para admitir las funciones de DirectX 12 Ultimate.",
+    "Preinstala el juego si vas a jugar a través de Xbox Game Pass Ultimate o Steam para entrar inmediatamente al momento del desbloqueo.",
+    "Configura los ajustes de tu mando y calibra las opciones de HDR dentro de los ajustes de pantalla de tu consola o PC."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Utiliza Beast of Reincarnation Unreal Engine 5?",
+    answer: "Sí, el juego está construido íntegramente en Unreal Engine 5, utilizando sus flujos de renderizado avanzados para gestionar transformaciones ambientales dinámicas, físicas de plantas e iluminación de alta fidelidad."
+  },
+  {
+    question: "¿Hay un modo de rendimiento en PS5 y Xbox Series X?",
+    answer: "Sí, las versiones de consola cuentan con un Modo Rendimiento que apunta a unos fluidos 60 FPS con resoluciones dinámicas, junto con un Modo Calidad que apunta a 4K nativo a 30 FPS."
+  },
+  {
+    question: "¿Puedo jugar al juego en un disco duro estándar (HDD)?",
+    answer: "Se desaconseja totalmente. El juego depende de la transmisión rápida de activos para transformar llanuras en bosques asolados en tiempo real. Se requiere un SSD para evitar tirones severos."
+  },
+  {
+    question: "¿Hay algún bono de reserva que afecte a los gráficos o cosméticos?",
+    answer: "Reservar cualquier edición otorga un aspecto de Shiba Marrón para Koo. La Digital Deluxe Edition ($69.99) añade un aspecto de Shiba Negro, el Sombrero de Oni de Emma y la espada Gran Carro (Big Dipper)."
+  }
+]} />
+
+</Section>

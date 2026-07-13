@@ -1,0 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Beast of Reincarnation Unreal Engine 5: Graphics & Tech Specs",
+  description: "Explore the Unreal Engine 5 technical features, graphic settings, and performance optimization for Beast of Reincarnation on PC, PS5, and Xbox.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/151b16/fff?text=Unreal+Engine+5+Tech+Guide",
+  date: "2026-07-13",
+  author: "Beast of Reincarnation Wiki Team"
+}
+
+<Callout type="info" title="Quick Tech Overview">
+- **Core Engine**: Built entirely on **Beast of Reincarnation unreal engine 5** for advanced physics and realistic lighting.
+- **Key Visual Feature**: Real-time environmental transformations where open plains shift into dense blighted forests dynamically.
+- **Target Platforms**: Launching August 4, 2026, on PC, PlayStation 5, and Xbox Series X|S (Day One on Game Pass Ultimate).
+- **Dual Protagonist System**: Seamless hybrid combat linking Emma's real-time blade actions with Koo's command-based tactical skills.
+</Callout>
+
+<Section icon={Sparkles} title="Beast of Reincarnation Unreal Engine 5 Tech Features">
+
+The upcoming action RPG from Game Freak leverages the advanced capabilities of the **Beast of Reincarnation unreal engine 5** architecture to deliver a striking post-apocalyptic vision of Japan in the year 4026. By utilizing modern engine pipelines, the development team has constructed a world where traditional Japanese aesthetics blend with decaying science-fiction ruins under the oppressive weight of the Blight.
+
+The most demanding technical feat powered by the engine is the real-time environmental transformation. As Emma and Koo travel across the wasteland, the surrounding plains can abruptly morph into dense, hostile blighted forests. This transition is handled dynamically without loading screens, shifting geometry, foliage density, and atmospheric lighting on the fly.
+
+| Engine Feature | Game Implementation | Performance Impact |
+| --- | --- | --- |
+| **Dynamic Foliage** | Real-time forest growth | High CPU/GPU load during transitions |
+| **Global Illumination** | Natural light bounce in ruined cities | Moderate GPU cost, high visual payoff |
+| **Virtual Shadow Maps** | Sharp, detailed shadows for plant hair | Moderate GPU cost |
+| **Temporal Super Resolution** | Built-in upscaling for stable frame rates | Lowers native rendering overhead |
+
+<Callout type="tip" title="Visual Tip">
+Unreal Engine 5 allows Emma's plant-like hair to react realistically to wind, movement, and environmental collisions. This is not just cosmetic; it directly supports her traversal mechanics when climbing high walls or launching falling assassinations.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Target Platforms and Performance Profiles">
+
+The game is optimized for current-generation hardware, skipping previous-generation consoles entirely to prevent performance bottlenecks. PlayStation 5, Xbox Series X|S, and Windows PC players will experience tailored graphical profiles designed to balance visual fidelity with fast-paced action.
+
+| Platform | Target Resolution | Target Frame Rate | Special Features |
+| --- | --- | --- | --- |
+| **PC (Steam/Windows)** | Up to Native 4K | Uncapped | Full graphics customization, ultra-wide support |
+| **PlayStation 5** | Dynamic 4K | 60 FPS (Performance) | DualSense haptics, adaptive triggers, PS5 Pro enhancements |
+| **Xbox Series X** | Dynamic 4K | 60 FPS (Performance) | Smart Delivery, Quick Resume, Play Anywhere |
+| **Xbox Series S** | Dynamic 1080p | 30/60 FPS | Compact footprint optimization |
+
+<CardGrid cols={3}>
+  <Card title="PlayStation 5 Features">
+    - **DualSense Integration**: Feel the tension of Emma's parries and Koo's command execution.
+    - **PS5 Pro Enhancements**: Improved ray-tracing and higher baseline resolutions.
+    - **Remote Play**: Fully supported on compatible handheld devices.
+  </Card>
+  <Card title="Xbox Ecosystem benefits">
+    - **Day One Game Pass**: Play immediately on Game Pass Ultimate at launch on August 4, 2026.
+    - **Xbox Play Anywhere**: Buy once digitally and play across Xbox and Windows PC.
+    - **Cloud Gaming**: Stream your progress on compatible mobile and tablet setups.
+  </Card>
+  <Card title="PC Customization">
+    - **Advanced Upscaling**: Support for DLSS, FSR, and XeSS alongside UE5's native TSR.
+    - **Input Flexibility**: Full controller remapping and mouse/keyboard optimization.
+    - **Shaders**: Pre-compilation steps to eliminate mid-game traversal stutter.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Platform Notice">
+Due to regional store timing adjustments, the Steam storefront may display a release date of August 3, 2026, in certain western time zones, while console platforms launch globally on August 4, 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="PC System Requirements and Optimization Guide">
+
+To enjoy the high-fidelity assets and physics calculations of the **Beast of Reincarnation unreal engine 5** build, PC players should target the recommended specifications. Below is the official hardware configuration required to run the game smoothly.
+
+| Hardware Component | Minimum Specs (1080p / 30 FPS / Low) | Recommended Specs (1080p / 60 FPS / High) | High-End Specs (1440p+ / 60+ FPS / Ultra) |
+| --- | --- | --- | --- |
+| **OS** | Windows 10 (64-bit) | Windows 10/11 (64-bit) | Windows 11 (64-bit) |
+| **Processor** | Intel Core i5-8400 / AMD Ryzen 5 2600 | Intel Core i7-10700K / AMD Ryzen 7 3700X | Intel Core i5-13600K / AMD Ryzen 7 7700X |
+| **Memory** | 12 GB RAM | 16 GB RAM | 32 GB RAM |
+| **Graphics** | GTX 1070 / RX 5600 XT | RTX 2070 Super / RX 6700 XT | RTX 4070 / RX 7800 XT |
+| **DirectX** | Version 12 | Version 12 | Version 12 |
+| **Storage** | 70 GB SSD | 70 GB NVMe SSD | 70 GB NVMe SSD |
+
+<Callout type="info" title="Storage Requirement">
+An SSD is strictly required for this game. The dynamic environmental transformations and asset streaming of Unreal Engine 5 will stutter heavily on traditional mechanical hard drives.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="How to Optimize Performance on Launch Day">
+
+If you experience frame drops during heavy combat sequences or when entering a newly spawned Blighted Forest, follow these steps to optimize your settings.
+
+<Steps>
+  <Step num="1" title="Enable Upscaling">
+    Navigate to the Graphics menu and turn on Temporal Super Resolution (TSR), DLSS, or FSR. Setting this to "Quality" offers a massive performance boost with minimal impact on image clarity.
+  </Step>
+  <Step num="2" title="Lower Foliage Quality">
+    Because the game renders dense forests dynamically, lowering Foliage Quality from Ultra to High or Medium significantly reduces CPU and GPU overhead in blighted areas.
+  </Step>
+  <Step num="3" title="Adjust Shadow Quality">
+    Unreal Engine 5's shadow systems are highly detailed but demanding. Reducing shadow resolution or turning off local ray-traced shadows will stabilize frame rates during boss fights.
+  </Step>
+  <Step num="4" title="Limit Background Applications">
+    The engine is highly threaded and relies heavily on CPU performance to stream assets. Close background browsers and recording software to free up system resources.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Pre-Launch Technical Checklist">
+
+Prepare your gaming setup for the global launch on August 4, 2026, to ensure a smooth, day-one experience.
+
+<Checklist
+  id="pre-launch-prep"
+  title="Technical Readiness Checklist:"
+  items={[
+    "Verify your PC storage has at least 70 GB of free space on a high-speed SSD.",
+    "Update your graphics card drivers to the latest game-ready version released for August 2026.",
+    "Ensure your Windows 10/11 operating system is fully updated to support DirectX 12 Ultimate features.",
+    "Pre-install the game if you are playing via Xbox Game Pass Ultimate or Steam to jump in immediately at unlock.",
+    "Configure your controller settings and calibrate HDR options inside your console or PC display settings."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does Beast of Reincarnation use Unreal Engine 5?",
+    answer: "Yes, the game is built entirely on Unreal Engine 5, utilizing its advanced rendering pipelines to handle dynamic environmental transformations, plant physics, and high-fidelity lighting."
+  },
+  {
+    question: "Is there a performance mode on PS5 and Xbox Series X?",
+    answer: "Yes, console versions feature a Performance Mode targeting a smooth 60 FPS at dynamic resolutions, alongside a Quality Mode targeting native 4K at 30 FPS."
+  },
+  {
+    question: "Can I play the game on a standard Hard Drive (HDD)?",
+    answer: "It is highly discouraged. The game relies on fast asset streaming to transform plains into blighted forests in real time. An SSD is required to prevent severe stuttering."
+  },
+  {
+    question: "Are there any pre-order bonuses that affect graphics or cosmetics?",
+    answer: "Pre-ordering any edition grants a Brown Shiba Skin for Koo. The Digital Deluxe Edition ($69.99) adds a Black Shiba Skin, Emma's Oni's Hat, and the Big Dipper sword."
+  }
+]} />
+
+</Section>

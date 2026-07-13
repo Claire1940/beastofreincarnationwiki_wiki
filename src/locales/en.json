@@ -10,7 +10,16 @@
       "twitterDescription": "Beast of Reincarnation Wiki with release details, combat guides, Emma and Koo builds, bosses, skills, gear, story, maps, editions, and updates."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "purchase": "Purchase",
+    "platforms": "Platforms",
+    "technical": "Technical",
+    "guide": "Guide",
+    "characters": "Characters",
+    "development": "Development",
+    "media": "Media"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -597,98 +606,118 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Beast of Reincarnation Guides",
-      "description": "Complete Beast of Reincarnation guides from beginner basics to advanced combat, exploration, and boss strategies.",
-      "metaTitle": "Beast of Reincarnation Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Beast of Reincarnation guides covering beginner tips, combat, parries, exploration, and expert tactics for Emma and Koo's journey.",
+    "release": {
+      "title": "Beast of Reincarnation Release",
+      "description": "Release date, game length, playable demo, and pre-load details for Beast of Reincarnation.",
+      "metaTitle": "Beast of Reincarnation Release Date, Demo & Pre-Load",
+      "metaDescription": "Beast of Reincarnation release date, length, demo, and pre-load info. GAME FREAK's action RPG launches August 4, 2026 on PC, PS5, and Xbox Series X|S.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Release?",
+      "whatIsDescription": "Beast of Reincarnation is developed by GAME FREAK and published by Fictions, launching worldwide on August 4, 2026 for PC, PS5, and Xbox Series X|S, with day-one Xbox Game Pass Ultimate access.",
+      "why": "Why track the release?",
+      "whySteps": {
+        "step1Title": "Lock the Launch Date",
+        "step1Description": "Plan around the August 4, 2026 worldwide release",
+        "step2Title": "Try the Demo First",
+        "step2Description": "Sample Emma and Koo's combat loop before buying",
+        "step3Title": "Pre-Load Early",
+        "step3Description": "Install ahead of launch and pre-register for rewards"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Release Guides"
+    },
+    "purchase": {
+      "title": "Beast of Reincarnation Purchase",
+      "description": "Standard vs Digital Deluxe editions, pricing, pre-order bonuses, and where to buy Beast of Reincarnation.",
+      "metaTitle": "Beast of Reincarnation Purchase - Editions, Price & Pre-Order",
+      "metaDescription": "Compare Beast of Reincarnation editions and prices: Standard vs Digital Deluxe, Big Dipper sword, Oni's Hat, Amber, Koo skins, and pre-order bonuses.",
+      "categoryLabel": "EDITIONS & PRE-ORDER",
+      "whatIs": "What are the Editions?",
+      "whatIsDescription": "Beast of Reincarnation offers a Standard Edition and a Digital Deluxe Edition. The Deluxe adds the Big Dipper sword, Oni's Hat, 100,000 Amber, Koo skins, and seedlings.",
+      "why": "Why compare editions?",
+      "whySteps": {
+        "step1Title": "Check the Price",
+        "step1Description": "Compare the Standard and Digital Deluxe editions side by side",
+        "step2Title": "Review the Bonuses",
+        "step2Description": "See cosmetic, weapon, and currency rewards in each edition",
+        "step3Title": "Claim Pre-Order Rewards",
+        "step3Description": "Get the Brown Shiba Skin for Koo and bonus Amber"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Purchase Guides"
+    },
+    "platforms": {
+      "title": "Beast of Reincarnation Platforms",
+      "description": "PC, PS5, Xbox Series X|S, Game Pass, and Switch 2 availability for Beast of Reincarnation.",
+      "metaTitle": "Beast of Reincarnation Platforms - PC, PS5, Xbox & Game Pass",
+      "metaDescription": "Beast of Reincarnation platform guide: PC, PS5, Xbox Series X|S, day-one Game Pass, cross-platform support, and Switch 2 details.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What Platforms Are Supported?",
+      "whatIsDescription": "Beast of Reincarnation releases on PC (Steam), PS5, and Xbox Series X|S, joining Xbox Game Pass Ultimate on day one. Each platform's store page is live with pre-orders open.",
+      "why": "Why pick a platform?",
+      "whySteps": {
+        "step1Title": "Match Your Hardware",
+        "step1Description": "Confirm PS5, Xbox Series X|S, or PC availability",
+        "step2Title": "Use Game Pass",
+        "step2Description": "Play on day one through Xbox Game Pass Ultimate",
+        "step3Title": "Check Cross-Platform",
+        "step3Description": "Understand storefront, region, and access differences"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Platform Guides"
+    },
+    "technical": {
+      "title": "Beast of Reincarnation Technical",
+      "description": "System requirements, framerate, DLSS, PS5 Pro enhancement, and Steam Deck performance.",
+      "metaTitle": "Beast of Reincarnation Technical - System Requirements & FPS",
+      "metaDescription": "Beast of Reincarnation technical specs: PC system requirements, framerate targets, DLSS support, PS5 Pro enhancement, and Steam Deck compatibility.",
+      "categoryLabel": "TECHNICAL SPECS",
+      "whatIs": "What are the Technical Specs?",
+      "whatIsDescription": "Beast of Reincarnation runs on Unreal Engine 5 with targeted high framerates, upscaling options like DLSS, and enhanced modes for PS5 Pro. PC players get detailed minimum and recommended requirements.",
+      "why": "Why check the specs?",
+      "whySteps": {
+        "step1Title": "Match PC Requirements",
+        "step1Description": "Verify your GPU, CPU, and RAM meet the recommended specs",
+        "step2Title": "Pick an Upscaler",
+        "step2Description": "Choose DLSS or other upscaling for smoother framerates",
+        "step3Title": "Optimize Your Platform",
+        "step3Description": "Compare PS5 Pro, base consoles, and Steam Deck performance"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Technical Guides"
+    },
+    "guide": {
+      "title": "Beast of Reincarnation Guide",
+      "description": "Gameplay mechanics, combat, bosses, walkthrough, and difficulty for Beast of Reincarnation.",
+      "metaTitle": "Beast of Reincarnation Guide - Combat, Bosses & Walkthrough",
+      "metaDescription": "Complete Beast of Reincarnation guide: gameplay mechanics, Emma's parry combat, Koo's commands, Nushi bosses, walkthrough, difficulty, and open-world exploration.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive Beast of Reincarnation guides covering gameplay mechanics, exploration, combat systems, and progression. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+      "whatIs": "What are the Guides?",
+      "whatIsDescription": "Beast of Reincarnation guides cover Emma's real-time katana combat and Just-Guard parries, Koo's command techniques, the Nushi bosses that rule blighted regions, and the open world of 4026 Japan.",
+      "why": "Why read the guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand Beast of Reincarnation's combat, parries, and companion commands",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive blighted regions and defeat Nushi",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration, builds, and boss encounters"
+        "step1Description": "Master parries, companion commands, and traversal",
+        "step2Title": "Beat the Bosses",
+        "step2Description": "Read Nushi patterns, weaknesses, and parry windows",
+        "step3Title": "Plan Your Run",
+        "step3Description": "Follow the walkthrough and choose the right difficulty"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "combat": {
-      "title": "Beast of Reincarnation Combat",
-      "description": "Master Emma's swordplay, parry timing, and Koo's command techniques across every encounter.",
-      "metaTitle": "Beast of Reincarnation Combat - Parry and Command Guide",
-      "metaDescription": "Master Beast of Reincarnation combat with parry timing, Koo's command menu, skill points, and technique selection for every enemy.",
-      "categoryLabel": "COMBAT SYSTEM",
-      "whatIs": "What is Combat?",
-      "whatIsDescription": "Beast of Reincarnation's combat blends Emma's real-time katana actions with Koo's command-based techniques. Successful parries generate the points that unlock Koo's abilities.",
-      "why": "Why master combat?",
-      "whySteps": {
-        "step1Title": "Read Enemy Attacks",
-        "step1Description": "Identify wind-up, direction, and impact timing of incoming strikes",
-        "step2Title": "Time Your Parries",
-        "step2Description": "Just-guard to protect Emma and earn command points for Koo",
-        "step3Title": "Command Koo",
-        "step3Description": "Open the slowed command menu and select the right technique"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Combat Guides"
-    },
-    "builds": {
-      "title": "Beast of Reincarnation Builds",
-      "description": "Skill trees, Spirit Stones, katanas, and Charms for aggressive, ranged, and stealth playstyles.",
-      "metaTitle": "Beast of Reincarnation Builds - Skill Trees, Gear & Spirit Stones",
-      "metaDescription": "Build Emma and Koo in Beast of Reincarnation with skill trees, Spirit Stones, katanas, and Charms for aggressive, ranged, stealth, and tactical loadouts.",
-      "categoryLabel": "BUILDS & GEAR",
-      "whatIs": "What are Builds?",
-      "whatIsDescription": "Beast of Reincarnation builds combine Emma's skill trees and katanas with Koo's Charms and Spirit Stones to shape how the pair fights across blighted Japan.",
-      "why": "Why plan builds?",
-      "whySteps": {
-        "step1Title": "Choose a Playstyle",
-        "step1Description": "Pick aggressive melee, ranged control, or stealth ambush",
-        "step2Title": "Equip the Right Gear",
-        "step2Description": "Pair katanas, Charms, and Spirit Stones that support your actions",
-        "step3Title": "Grow the Skill Tree",
-        "step3Description": "Upgrade the nodes that reinforce your chosen combat loop"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Build Guides"
-    },
-    "bosses": {
-      "title": "Beast of Reincarnation Bosses",
-      "description": "Nushi locations, attack patterns, weaknesses, and the powers Emma and Koo absorb after victory.",
-      "metaTitle": "Beast of Reincarnation Bosses - Nushi Locations & Strategies",
-      "metaDescription": "Complete Beast of Reincarnation boss and Nushi guide with locations, attack patterns, weaknesses, and rewards for every major encounter.",
-      "categoryLabel": "BOSSES & NUSHI",
-      "whatIs": "What are Bosses?",
-      "whatIsDescription": "Beast of Reincarnation bosses are led by the Nushi, giant malefacts that generate blighted forests. Defeating them grants Emma and Koo new powers and skills.",
-      "why": "Why study bosses?",
-      "whySteps": {
-        "step1Title": "Find the Nushi",
-        "step1Description": "Track blighted forests to the giant creature controlling each region",
-        "step2Title": "Learn Attack Patterns",
-        "step2Description": "Read wind-ups and parry windows for every major encounter",
-        "step3Title": "Absorb Their Power",
-        "step3Description": "Claim Nushi abilities that open new routes and combat options"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Boss Guides"
-    },
     "characters": {
       "title": "Beast of Reincarnation Characters",
-      "description": "Emma, Koo, colony residents, and the bonds that drive the story of Beast of Reincarnation.",
+      "description": "Emma, Koo, colony residents, and the story driving Beast of Reincarnation.",
       "metaTitle": "Beast of Reincarnation Characters - Emma, Koo & Story",
       "metaDescription": "Meet the characters of Beast of Reincarnation: Emma the Sealer, Koo the malefact companion, colony survivors, and the central story of the year 4026.",
       "categoryLabel": "CHARACTERS & STORY",
       "whatIs": "Who are the Characters?",
-      "whatIsDescription": "Beast of Reincarnation follows Emma, a Sealer born with blight, and Koo, a malefact hunted as a threat. Their bond shapes both the story and the combat.",
+      "whatIsDescription": "Beast of Reincarnation follows Emma, a Sealer born with blight, and Koo, a malefact hunted as a threat. Their bond shapes both the story and the combat across the journey west.",
       "why": "Why follow the story?",
       "whySteps": {
         "step1Title": "Understand the Bond",
-        "step1Description": "Learn how Emma and Koo's partnership drives the journey west",
+        "step1Description": "Learn how Emma and Koo's partnership drives the journey",
         "step2Title": "Meet the Survivors",
         "step2Description": "Discover the colony residents carrying major secrets",
         "step3Title": "Uncover the World",
@@ -697,65 +726,45 @@
       "featured": "Featured & Essential",
       "all": "All Character Guides"
     },
-    "world": {
-      "title": "Beast of Reincarnation World",
-      "description": "Colonies, wastelands, blighted forests, and the ever-changing Japan of 4026.",
-      "metaTitle": "Beast of Reincarnation World - Maps & Exploration Guide",
-      "metaDescription": "Explore Beast of Reincarnation's world: colonies, plains, wastelands, ruined cities, blighted forests, traversal, and the real-time environmental transformation.",
-      "categoryLabel": "WORLD & EXPLORATION",
-      "whatIs": "What is the World?",
-      "whatIsDescription": "Beast of Reincarnation's world spans colonies, plains, wastelands, ruined cities, and blighted forests. Blight reshapes these regions in real time as Emma and Koo travel.",
-      "why": "Why explore the world?",
+    "development": {
+      "title": "Beast of Reincarnation Development",
+      "description": "GAME FREAK, Fictions, the director, and Unreal Engine 5 behind Beast of Reincarnation.",
+      "metaTitle": "Beast of Reincarnation Development - Studio, Director & Engine",
+      "metaDescription": "Beast of Reincarnation development: GAME FREAK as developer, Fictions as publisher, the director's vision, and the Unreal Engine 5 technology powering the game.",
+      "categoryLabel": "DEVELOPMENT",
+      "whatIs": "Who Made the Game?",
+      "whatIsDescription": "Beast of Reincarnation is developed by GAME FREAK, the studio behind the Pokémon mainline series, and published by Fictions. It is built on Unreal Engine 5 and led by a director pursuing a new action-RPG direction.",
+      "why": "Why learn the development?",
       "whySteps": {
-        "step1Title": "Use Plant-Hair Traversal",
-        "step1Description": "Cross collapsed bridges, walls, and elevated routes with Emma's hair",
-        "step2Title": "Adapt to Change",
-        "step2Description": "React as plains turn into forests and new threats appear",
-        "step3Title": "Find Equipment",
-        "step3Description": "Discover katanas, Charms, and gear hidden across the world"
+        "step1Title": "Know the Studio",
+        "step1Description": "Understand GAME FREAK's history and new direction",
+        "step2Title": "Meet the Publisher",
+        "step2Description": "Learn how Fictions supports the release",
+        "step3Title": "See the Tech",
+        "step3Description": "Explore how Unreal Engine 5 shapes the world and combat"
       },
       "featured": "Featured & Essential",
-      "all": "All World Guides"
+      "all": "All Development Guides"
     },
-    "editions": {
-      "title": "Beast of Reincarnation Editions",
-      "description": "Standard vs Digital Deluxe prices, bonuses, and pre-order rewards.",
-      "metaTitle": "Beast of Reincarnation Editions - Standard vs Digital Deluxe",
-      "metaDescription": "Compare Beast of Reincarnation editions: Standard and Digital Deluxe prices, Big Dipper sword, Oni's Hat, Amber, Koo skins, and pre-order bonuses.",
-      "categoryLabel": "EDITIONS & PRE-ORDER",
-      "whatIs": "What are the Editions?",
-      "whatIsDescription": "Beast of Reincarnation offers a Standard Edition and a Digital Deluxe Edition. The Deluxe adds the Big Dipper sword, Oni's Hat, 100,000 Amber, Koo skins, and seedlings.",
-      "why": "Why compare editions?",
+    "media": {
+      "title": "Beast of Reincarnation Media",
+      "description": "Official trailers, reviews, and the Reddit community around Beast of Reincarnation.",
+      "metaTitle": "Beast of Reincarnation Media - Trailers, Reviews & Reddit",
+      "metaDescription": "Beast of Reincarnation media hub: official Reveal and Release Date trailers, early reviews and previews, and the active Reddit community discussing the game.",
+      "categoryLabel": "MEDIA & COMMUNITY",
+      "whatIs": "What is the Media?",
+      "whatIsDescription": "Beast of Reincarnation media covers the official trailers from Fictions, PlayStation, and Xbox, plus press reviews, previews, and the player-run Reddit community sharing questions and discoveries.",
+      "why": "Why follow the media?",
       "whySteps": {
-        "step1Title": "Check the Price",
-        "step1Description": "Compare the $59.99 Standard and $69.99 Digital Deluxe editions",
-        "step2Title": "Review the Bonuses",
-        "step2Description": "See cosmetic, weapon, and currency rewards in each edition",
-        "step3Title": "Claim Pre-Order Rewards",
-        "step3Description": "Get the Brown Shiba Skin for Koo and 30,000 Amber"
+        "step1Title": "Watch the Trailers",
+        "step1Description": "Catch the Reveal, Release Date, and Pre-Order trailers",
+        "step2Title": "Read the Reviews",
+        "step2Description": "See what critics say about the combat and world",
+        "step3Title": "Join the Community",
+        "step3Description": "Discuss strategies and news on the Reddit hub"
       },
       "featured": "Featured & Essential",
-      "all": "All Edition Guides"
-    },
-    "news": {
-      "title": "Beast of Reincarnation News",
-      "description": "Release date updates, trailers, interviews, and post-launch patches.",
-      "metaTitle": "Beast of Reincarnation News - Trailers, Updates & Patches",
-      "metaDescription": "Follow Beast of Reincarnation news: release date updates, official trailers, developer interviews, patch notes, and DLC announcements.",
-      "categoryLabel": "NEWS & UPDATES",
-      "whatIs": "What is News?",
-      "whatIsDescription": "Beast of Reincarnation news covers official announcements, trailers, interviews, and patch notes with dates. Permanent guides live in the other sections.",
-      "why": "Why follow news?",
-      "whySteps": {
-        "step1Title": "Track Trailers",
-        "step1Description": "Follow Reveal, Developer Direct, Release Date, and Pre-Order trailers",
-        "step2Title": "Stay Updated",
-        "step2Description": "Catch release timing, platform, and language announcements",
-        "step3Title": "Read Patch Notes",
-        "step3Description": "Stay current on post-launch fixes and DLC news"
-      },
-      "featured": "Featured & Essential",
-      "all": "All News"
+      "all": "All Media Guides"
     }
   }
 }

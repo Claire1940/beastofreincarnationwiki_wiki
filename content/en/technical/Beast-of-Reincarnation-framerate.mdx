@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Beast of Reincarnation Framerate: Step-by-Step PC Optimization Guide",
+  description: "Boost your Beast of Reincarnation framerate and fix lag with this step-by-step PC optimization guide. Learn Nvidia settings, Windows tweaks, and startup fixes.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Framerate+Optimization+Guide",
+  date: "2026-07-13",
+  author: "Beast of Reincarnation Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Goal**: Maximize your **Beast of Reincarnation framerate** and eliminate input lag on low-end and high-end PCs.
+- **Key Nvidia Tweak**: Switch your control panel settings from quality to performance mode.
+- **Windows Adjustment**: Enable high-performance power plans and configure storage settings to clear background bloat.
+- **Launcher Priority**: Run your game launcher as an administrator and adjust task priority to high.
+- **Driver Updates**: Always keep your graphics card drivers updated to capture up to a 10% performance uplift.
+</Callout>
+
+<Section icon={Sparkles} title="GPU Control Panel Optimizations">
+
+Optimizing your graphics card control panel is the most direct way to boost your **Beast of Reincarnation framerate**. By prioritizing performance over raw visual quality in your GPU driver settings, you can unlock massive frame rate gains without heavily degrading your visual experience.
+
+**Video Highlights:**
+- **Nvidia Control Panel**: Switch global 3D settings from quality to performance.
+- **Resolution Downscaling**: Lowering native resolution slightly can yield massive FPS boosts.
+- **Display Alignment**: Ensure your Windows resolution matches your in-game settings to prevent scaling lag.
+
+<YouTubeEmbed videoId="tnUwuu0nTn4" title="How I Boosted Beast of Reincarnation to 240+ FPS on a SUPER WEAK PC! ✅ (Boost FPS & Fix Lag)" />
+
+| Setting | Recommended Value | Performance Impact |
+| :--- | :--- | :--- |
+| **3D Image Settings** | Use my preference emphasizing Performance | Extremely High |
+| **Resolution Scale** | 1920x1080 (Native) or 1768x992 (Budget) | High |
+| **Refresh Rate** | Highest Available | Medium |
+| **Vertical Sync** | Off | Low (Reduces Input Lag) |
+
+<Callout type="tip" title="Resolution Tip">
+If you are struggling to hit a stable 60 FPS, lowering your resolution from 1920x1080 to 1768x992 in your GPU control panel can instantly increase performance by up to 15% on older graphics cards.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Windows System and Power Tweaks">
+
+Windows background services often consume valuable hardware resources that should be dedicated to your game. By adjusting your system settings, you can ensure your CPU and memory focus entirely on rendering the game.
+
+<CardGrid cols={3}>
+  <Card title="Power Plan Optimization">
+    - **High Performance** Mode
+    - Unlocks maximum CPU clock speed
+    - Prevents hardware throttling
+  </Card>
+  <Card title="Storage Sense Cleanup">
+    - **Automated weekly** runs
+    - Clears temporary junk files
+    - Frees up system drive space
+  </Card>
+  <Card title="Display Alignment">
+    - Keep scaling at **100%**
+    - Match Windows & game resolution
+    - Reduces windowed-mode lag
+  </Card>
+</CardGrid>
+
+| Feature | Recommended Configuration | Purpose |
+| :--- | :--- | :--- |
+| **Power Plan** | High Performance or Balanced (Test both) | Prevents CPU power-saving slowdowns |
+| **Storage Sense** | Active (Run weekly) | Keeps system drive free of temporary bloat |
+| **Display Scale** | 100% (Recommended) | Prevents UI scaling lag in-game |
+
+<Callout type="warning" title="Power Plan Warning">
+Some custom CPU configurations perform better on the 'Balanced' plan rather than 'High Performance'. Test both options in-game to see which offers a more stable frame time graph.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Launcher and Compatibility Setup">
+
+Configuring your game launcher properties ensures that the operating system grants the game administrative privileges and bypasses unnecessary full-screen optimization layers that cause micro-stutters.
+
+<Steps>
+  <Step num="1" title="Access Launcher Properties">
+    Locate your game launcher (such as Steam), right-click the icon, and select **Properties**.
+  </Step>
+  <Step num="2" title="Modify Compatibility Settings">
+    Navigate to the **Compatibility** tab. Check the box to **Run this program as an administrator**.
+  </Step>
+  <Step num="3" title="Disable Fullscreen Optimizations">
+    Check the box to **Disable fullscreen optimizations**. This forces Windows to let the game manage its own display presentation, reducing input delay.
+  </Step>
+  <Step num="4" title="Apply and Restart">
+    Click **Apply**, then **OK**. Restart your PC to ensure all administrative permissions register correctly before launching.
+  </Step>
+</Steps>
+
+| Compatibility Setting | Status | Objective |
+| :--- | :--- | :--- |
+| **Run as Administrator** | Enabled | Grants full access to system resources |
+| **Disable Fullscreen Optimizations** | Enabled | Reduces micro-stutters and input lag |
+| **Compatibility Mode** | Windows 8 (Optional) | Resolves legacy engine crashes |
+
+<Callout type="info" title="Admin Mode">
+Running your launcher as an administrator ensures that background software cannot block the game from accessing essential hardware threads.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Background Applications and Task Manager Tuning">
+
+Running too many background tasks is the primary cause of sudden framerate drops. You must clean up your startup list and adjust process priorities to guarantee smooth gameplay.
+
+| Process Action | Recommended Setting | Resource Saved |
+| :--- | :--- | :--- |
+| **Xbox Game Bar** | Disabled | Background CPU / RAM |
+| **Background Recording** | Disabled | GPU Encoder overhead |
+| **Startup Apps** | Disable all non-essential items | System boot memory |
+| **Game Priority** | High or Above Normal | CPU Core scheduling |
+
+<Callout type="success" title="Priority Tip">
+Setting your game process priority to 'High' in the Task Manager details tab tells your CPU to process game instructions before handling background system tasks.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Performance Checklist and Goals">
+
+To achieve the best possible performance, work through this checklist systematically. Tracking these milestones will guarantee a stable experience.
+
+<Checklist
+  id="fps-optimization-milestones"
+  title="Essential Optimization Goals:"
+  items={[
+    "Configure GPU control panel for maximum performance",
+    "Match Windows resolution with your in-game resolution",
+    "Enable High Performance power plan in system settings",
+    "Disable Xbox Game Bar and background recording tools",
+    "Set game launcher compatibility to run as administrator",
+    "Update graphics card drivers to the latest version"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I fix sudden stutters and maintain a stable Beast of Reincarnation framerate?",
+    answer: "Disable fullscreen optimizations in the launcher properties, turn off background recording in Windows settings, and close heavy background apps like web browsers before playing."
+  },
+  {
+    question: "Should I turn Game Mode on or off in Windows?",
+    answer: "Every PC hardware configuration responds differently to Game Mode. It is highly recommended to test your in-game performance with Game Mode turned on, and then turned off, to see which setting yields better stability."
+  },
+  {
+    question: "How much of an FPS boost can I expect from updating my GPU drivers?",
+    answer: "Updating to the latest official GPU drivers can increase your performance by up to 10% while fixing common rendering bugs and engine-specific crashes."
+  },
+  {
+    question: "Does lowering the resolution degrade the game graphics too much?",
+    answer: "While lowering the resolution makes the image slightly softer, dropping from 1080p to a custom resolution like 1768x992 offers a massive performance boost that makes fast-paced combat feel much smoother."
+  }
+]} />
+
+</Section>

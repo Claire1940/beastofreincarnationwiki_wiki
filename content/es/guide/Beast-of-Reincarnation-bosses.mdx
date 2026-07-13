@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jefes de Beast of Reincarnation: Estrategias y mecánicas de encuentros de élite",
+  description: "Domina a los jefes de Beast of Reincarnation con nuestra guía estratégica. Aprende las mecánicas de combate, la sinergia entre Emma y Ku, y cómo derrotar al Ciervo Mutante en la Zona Oguchi.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Boss+Encounters+Guide",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Beast of Reincarnation"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Los jefes de Beast of Reincarnation** son objetivos principales que se encuentran al final de extensas zonas de cuarentena.
+- **La sinergia es obligatoria**, ya que los desvíos (parries) de Emma generan Puntos Fluorescentes (FP) necesarios para los ataques tácticos de Ku.
+- **La exploración ambiental** a menudo otorga equipo crítico, como armaduras encontradas cerca de hogueras, antes de una pelea contra un jefe.
+- **La dificultad dinámica** permite a los jugadores ajustar el desafío a través del menú de pausa en cualquier momento.
+- **El Ciervo Mutante** sirve como la primera gran prueba de habilidad, requiriendo una mezcla de desvíos y disparos de arco a larga distancia.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo el ecosistema de los jefes">
+
+En el paisaje postapocalíptico de 2026, los **jefes de Beast of Reincarnation** representan la manifestación definitiva de la plaga: una fusión de flora y fauna. Estas "bestias asoladas" actúan como guardianes de las diversas zonas de cuarentena, como la Zona de Amortiguamiento de Oguchi. A diferencia de los enemigos estándar, estos encuentros principales están diseñados como zonas de juego en sí mismas, requiriendo a menudo que los jugadores utilicen las habilidades de desplazamiento de Emma y el apoyo táctico de Ku para sobrevivir.
+
+**Puntos destacados del video:**
+- Descripción general del sistema de combate dinámico que presenta a Emma y su leal compañero, Ku.
+- Demostración del menú táctico de habilidades en "cámara lenta" para las habilidades del compañero.
+- Imágenes del primer gran encuentro contra un jefe: el Ciervo Mutante.
+- Explicación del sistema de Puntos Fluorescentes (FP) y las mecánicas de desvío.
+
+<YouTubeEmbed videoId="hv-lKqk0bX4" title="Beast of Reincarnation is a Stunning Action-RPG with a Tactical Twist | IGN Preview" />
+
+Cada zona es un enorme entorno abierto lleno de secretos. Antes de enfrentarte a un jefe, se recomienda encarecidamente explorar las ruinas, los mechas oxidados y las estructuras derrumbadas. Estas áreas a menudo contienen ingredientes de artesanía o armas superiores que pueden cambiar el rumbo de una batalla difícil.
+
+| Característica | Descripción | Valor Estratégico |
+| :--- | :--- | :--- |
+| **Zonas de Cuarentena** | Extensos entornos abiertos con enemigos mecánicos y monstruosos | Alto (Recolección de recursos) |
+| **Bestias Asoladas** | Jefes principales que se encuentran al final de los objetivos de zona | Crítico (Progresión de la historia) |
+| **Base Móvil** | Centro para limpiar a Ku, gestionar equipamiento y ver recuerdos | Medio (Preparación) |
+| **Hogueras** | Puntos de descanso que a menudo esconden tesoros cercanos | Alto (Mejoras de equipo) |
+
+<Callout type="success" title="Recompensa de Exploración">
+No corras directamente hacia el marcador del jefe. El mundo está lleno de cofres. Por ejemplo, la hoguera que da al cubil del Ciervo Mutante contiene una armadura de cota de malla que aumenta significativamente la defensa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sinergia de combate: Emma y Ku">
+
+El núcleo del combate contra los **jefes de Beast of Reincarnation** radica en el sistema del "dúo dinámico y letal". Emma proporciona el poder cuerpo a cuerpo puro y los desvíos defensivos, mientras que Ku ofrece versatilidad táctica. Esta relación se rige por los Puntos Fluorescentes (FP), que funcionan de manera similar al maná o los puntos de magia en los JRPG tradicionales.
+
+El papel principal de Emma es entablar combates a corta distancia con su katana o encargarse de los enemigos voladores con su ballesta de muñeca. Sin embargo, su herramienta más importante es el desvío. Lograr un desvío en el momento justo no solo expone al jefe a un movimiento final, sino que es el método principal para generar FP.
+
+| Rol | Acciones Principales | Interacción con Recursos |
+| :--- | :--- | :--- |
+| **Emma** | Combos de espada, desvíos, ballesta, desplazamiento | Genera FP mediante desvíos |
+| **Ku** | Mordiscos automáticos, coletazos, habilidades tácticas | Consume FP para movimientos especiales |
+
+Las habilidades de Ku se activan presionando un botón para pausar el campo de batalla en cámara lenta. Esto te permite elegir entre seis habilidades especiales diferentes. Estas varían desde bolas de fuego ofensivas hasta raíces de control de masas que pueden inmovilizar a un jefe en su lugar.
+
+| Habilidad de Ku | Efecto | Mejor Caso de Uso |
+| :--- | :--- | :--- |
+| **Bola de Fuego** | Daño de fuego a distancia / Recuperación de HP al golpear | Mantener la salud de Emma |
+| **Raíces de Tierra** | Rompe escudos / Inmoviliza enemigos | Romper la guardia de jefes blindados |
+| **Coletazo** | Retroceso en área de efecto (AoE) | Controlar enemigos menores durante jefes |
+
+<Callout type="tip" title="Domina los QTE">
+Cada vez que Ku despliega un ataque, aparece un evento de tiempo rápido (QTE) en la pantalla. Acertar en estos eventos regenera una parte sustancial de la barra de salud de Emma, reduciendo la dependencia de los objetos de curación.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Análisis del jefe: El Ciervo Mutante">
+
+El primer gran obstáculo entre los **jefes de Beast of Reincarnation** es el Ciervo Mutante de la Zona de Amortiguamiento de Oguchi. Esta criatura es un "gigante pesado" con sentidos extraordinarios, capaz de castigar a los jugadores que confían únicamente en la agresividad. La pelea se divide en distintas fases en las que el ciervo utiliza sus astas para realizar ataques cuerpo a cuerpo de gran alcance y su cuerpo infundido de flora para lanzar proyectiles.
+
+<Steps>
+  <Step num="1" title="Preparación y Reconocimiento">
+    Localiza la hoguera que da al cubil del lago. Registra el cofre cercano en busca de la armadura de cota de malla y asegúrate de que tu ballesta esté completamente cargada.
+  </Step>
+  <Step num="2" title="Desvía los Ataques de Asta">
+    El ataque principal del ciervo es un barrido de asta de gran alcance. Concéntrate en sincronizar tus desvíos para acumular FP rápidamente. La ventana de desvío es generosa, así que mantén la calma.
+  </Step>
+  <Step num="3" title="Despliega las Raíces Inmovilizadoras de Ku">
+    Una vez que tengas suficiente FP, usa la habilidad de raíces de Ku para enredar los tobillos del ciervo. Esto inmovilizará a la bestia en el sitio, permitiendo a Emma asestar fuertes golpes de katana de forma segura.
+  </Step>
+  <Step num="4" title="Transición a Distancia">
+    Cuando el ciervo se retire o dispare espinas desde lejos, cambia al arco de largo alcance o a la ballesta de muñeca. Apunta a los puntos brillantes asolados en su lomo.
+  </Step>
+</Steps>
+
+| Patrón de Ataque | Tipo | Estrategia de Contraataque |
+| :--- | :--- | :--- |
+| **Barrido de Asta** | Cuerpo a cuerpo / AoE | Desvío perfecto para acumular FP |
+| **Espinas Mortales** | Distancia / Proyectil | Esquivar o bloquear usando el terreno |
+| **Embestida Pesada** | Lineal / Gran daño | Dar un paso lateral y contraatacar con la bola de fuego de Ku |
+| **Pulso Asolado** | Explosión AoE | Moverse fuera del radio inmediato |
+
+<Callout type="warning" title="Retirada del Jefe">
+Derrotar al Ciervo Mutante en el primer encuentro puede no ser el final. Los jefes en este mundo son resistentes y pueden retirarse a sus guaridas, lo que te obligará a rastrearlos para un enfrentamiento final más adelante en la historia.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Desplazamiento avanzado y equipo">
+
+El éxito contra los **jefes de Beast of Reincarnation** a menudo se decide antes de que comience la pelea. El cabello de Emma no es solo estético; es una herramienta de desplazamiento multifuncional que permite realizar saltos al estilo "hair Jordans" y crear puentes sólidos de enredaderas. Usar estas herramientas para alcanzar puntos de ventaja puede permitirte iniciar una pelea contra un jefe con un ataque sigiloso o un golpe descendente.
+
+<CardGrid cols={3}>
+  <Card title="Gancho de Agarre">
+    - **Función**: Convierte el cabello en enredaderas
+    - **Uso**: Alcanzar repisas distantes
+    - **Combate**: Reposicionamiento rápido
+  </Card>
+  <Card title="Zancos de Cabello">
+    - **Función**: Impulso temporal de altura
+    - **Uso**: Acceder a objetos fuera de alcance
+    - **Combate**: Evitar ataques AoE terrestres
+  </Card>
+  <Card title="Plataformas Sólidas">
+    - **Función**: Crear puentes
+    - **Uso**: Cruzar brechas en el terreno
+    - **Combate**: Preparación para caídas sigilosas
+  </Card>
+</CardGrid>
+
+Más allá del desplazamiento, Ku sirve como un radar viviente. Alerta a Emma de los enemigos cercanos y olfatea cajas de objetos. Algunas de estas cajas están bloqueadas tras acertijos ambientales o cerraduras de combinación, y a menudo contienen los materiales necesarios para los profundos sistemas de artesanía y cocina del juego.
+
+| Categoría de Equipo | Impacto en Jefes | Método de Obtención |
+| :--- | :--- | :--- |
+| **Conjuntos de Armadura** | Reduce el daño / Añade potenciadores | Se encuentra en cajas de las zonas de cuarentena |
+| **Modificaciones de Armas** | Añade daño elemental | Se fabrican en la base móvil |
+| **Platos de Cocina** | Potenciadores temporales de estadísticas | Recolección y caza en la naturaleza |
+
+<Callout type="info" title="Utilidad de la Base Móvil">
+Regresa a tu base móvil con frecuencia. Es el único lugar donde puedes limpiar la sangre del pelaje de Ku y ver recuerdos jugables que explican el vínculo entre Emma y su compañero.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresión y preparación final">
+
+A medida que avances en la historia, los **jefes de Beast of Reincarnation** se volverán cada vez más elaborados, presentando QTEs más complejos y variadas resistencias elementales. Desarrollar un árbol de habilidades equilibrado que mejore tanto el manejo de la espada de Emma como el apoyo mágico de Ku es esencial para los desafíos de final de juego que llegarán el 4 de agosto de 2026.
+
+<Checklist
+  id="boss-prep-checklist"
+  title="Lista de preparación antes del jefe:"
+  items={[
+    "Explora la zona de cuarentena local en busca del 'Cofre de la Hoguera'",
+    "Equipa el conjunto de armadura más adecuado para el tipo de daño del jefe",
+    "Asegúrate de que la ballesta de Emma esté abastecida con virotes especializados",
+    "Practica el desvío con bestias asoladas más pequeñas para maximizar los FP",
+    "Revisa la base móvil para ver si hay mejoras de armas disponibles"
+  ]}
+/>
+
+El vínculo entre Emma y Ku es el arma definitiva. Aunque el combate con espada es satisfactoriamente visceral, el toque táctico que proporciona tu peludo amigo es lo que define la experiencia. Ya sea creando puentes de cabello para caer sobre un centinela robot o usando bolas de fuego para curarte durante una fase frenética de un jefe, la sinergia sigue siendo el pilar central de la jugabilidad.
+
+<Callout type="success" title="Consejo Final">
+Sí, puedes acariciar al perro. Hacerlo en la base móvil no es solo para aparentar; refuerza el vínculo inquebrantable que impulsa la narrativa y las mecánicas de combate del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo genero Puntos Fluorescentes (FP) para los ataques de Ku?",
+    answer: "Los FP se obtienen principalmente al desviar con éxito los ataques enemigos con la espada de Emma. La ventana de tiempo es generosa, lo que lo hace accesible incluso para aquellos que no están acostumbrados a los RPG de acción hardcore."
+  },
+  {
+    question: "¿Puedo cambiar la dificultad si un jefe es demasiado difícil?",
+    answer: "Sí, Beast of Reincarnation te permite bajar o subir la dificultad en cualquier momento a través del menú de pausa, asegurando que no te quedes atascado en un encuentro específico."
+  },
+  {
+    question: "¿Las peleas de jefes son en un mundo abierto?",
+    answer: "Aunque el juego cuenta con enormes 'zonas de cuarentena' de estilo sandbox, no es un mundo abierto tradicional. Cada zona contiene una única bestia jefe principal que debes rastrear y eliminar."
+  },
+  {
+    question: "¿Cuál es la mejor manera de curarse durante una pelea de jefe?",
+    answer: "La forma más efectiva de curarse es usando el ataque de bola de fuego de Ku. Cada golpe exitoso recupera un porcentaje de la vida de Emma, y completar los QTE asociados proporciona un aumento de salud aún mayor."
+  }
+]} />
+
+</Section>

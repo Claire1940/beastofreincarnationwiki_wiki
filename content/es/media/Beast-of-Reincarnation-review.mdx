@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Análisis de Beast of Reincarnation: Combate y Jugabilidad para 2026",
+  description: "Una reseña profesional de Beast of Reincarnation que cubre el combate basado en desvíos (parry), la progresión de personajes y las mecánicas de exploración para el lanzamiento de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Beast+of+Reincarnation+Review",
+  date: "2026-07-13",
+  author: "Equipo de la Wiki de Beast of Reincarnation",
+  keywords: "Beast of Reincarnation, análisis, combate, jugabilidad, guía, parry, Souls-like"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Análisis de Beast of Reincarnation**: El juego presenta un sistema de **combate basado en desvíos (parry)** de alto riesgo centrado en Emma y su compañero Ku.
+- **Disponibilidad de plataformas**: Se lanzará el 4 de agosto de 2026 en **Steam, PS5 y Xbox Series S/X** (disponible desde el primer día en Game Pass).
+- **Progresión central**: Cuenta con **árboles de habilidades e inventarios** separados para ambos protagonistas, lo que enfatiza una profunda sinergia de construcciones (builds).
+- **Diseño del mundo**: Se centra en la **exploración vertical** utilizando habilidades de movimiento únicas como ganchos y puentes de enredaderas.
+- **Perspectiva técnica**: Desarrollado por Game Freak, marcando su primera gran incursión en el género de **RPG de acción Souls-like**.
+</Callout>
+
+<Section icon={Swords} title="Mecánicas de Combate: El Arte del Desvío">
+
+El núcleo de cualquier **análisis de Beast of Reincarnation** debe comenzar con su combate. A diferencia de los RPG de acción tradicionales que permiten machacar botones sin pensar, este título exige precisión. La jugabilidad gira en torno a Emma, la protagonista, y Ku, su misterioso compañero. Mientras Emma se encarga del enfrentamiento físico directo, Ku proporciona un apoyo esencial mediante el control elemental y la gestión de masas. La sinergia entre estos dos personajes no es solo una característica; es el latido del corazón de cada encuentro.
+
+**Puntos Destacados del Video:**
+- **Sistema de Desvío (Parry)**: Análisis detallado de cómo el desvío llena los medidores de combate tanto de Emma como de Ku.
+- **Sinergia de Habilidades**: Demostración del reposicionamiento basado en plantas de Emma combinado con los efectos de estado elementales de Ku.
+- **Movimientos de Ejecución**: Exhibición visual de ejecuciones en cadena y eliminaciones sigilosas.
+- **Combate a Distancia**: Comparación entre el arco de precisión y la ballesta de mano de disparo rápido.
+
+<YouTubeEmbed videoId="dYaCMmI8SLM" title="The Complete Gameplay Preview - Beast of Reincarnation Guides, News & Updates" />
+
+El desvío sirve como el método principal para la generación de recursos. Emma no utiliza una barra de resistencia estándar; en su lugar, depende de un medidor especializado. Lograr un desvío con éxito aumenta este medidor, mientras que bloquear o recibir golpes lo agota. Si el medidor llega a cero, Emma se vuelve vulnerable a sufrir daños masivos. Esta mecánica obliga a los jugadores a mantenerse agresivos y recompensa la precisión temporal por encima de una estrategia defensiva pasiva.
+
+| Acción de Combate | Efecto en Emma | Efecto en Ku |
+| :--- | :--- | :--- |
+| **Desvío Perfecto** | Aumenta el medidor, abre ejecución | Aumenta el medidor, habilita habilidades |
+| **Bloqueo Normal** | Disminuye el medidor lentamente | Sin cambios significativos |
+| **Recibir Daño** | Gran agotamiento del medidor, pérdida de PS | Sin cambios |
+| **Esquiva (Rojo)** | Evita ataques imbloqueables | Se posiciona para el contraataque |
+
+<Callout type="tip" title="Consejo Pro">
+Concéntrate en dominar el tiempo de desvío desde el principio. Aunque la ventana de tiempo es más permisiva que en juegos como Sekiro, toda la economía de tus habilidades y curación depende de tu capacidad para desviar los golpes entrantes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progresión de Personajes y Personalización de Builds">
+
+La profundidad en las métricas de evaluación de **Beast of Reincarnation** a menudo se mide por la libertad que tiene el jugador sobre su build. El juego ofrece un sistema de progresión de doble vía donde Emma y Ku suben de nivel de forma independiente. Esto asegura que los jugadores deban considerar las fortalezas de ambos personajes para maximizar su efectividad en las zonas de cuarentena.
+
+El inventario de Emma se centra en sus espadas y armadura (el Gambesón), mientras que su árbol de habilidades enfatiza el movimiento y el control del campo de batalla. Ku, por otro lado, se especializa en los cuatro tipos elementales principales. Equilibrar estos elementos es crucial para enfrentarse al diverso repertorio de enemigos compuesto por Malefactos y Gólems.
+
+| Elemento | Efecto Principal | Mejor Usado Contra |
+| :--- | :--- | :--- |
+| **Quemadura** | Daño en el tiempo (DOT) | Malefactos orgánicos con mucha vida |
+| **Descarga** | Aturdimiento e interrupción | Gólems de movimiento rápido |
+| **Veneno** | Erosión de salud a largo plazo | Jefes (Nushi) con alta defensa |
+| **Corrosión** | Reducción de defensa | Enemigos mecánicos fuertemente acorazados |
+
+<CardGrid cols={2}>
+  <Card title="Enfoque de Emma">
+    - **Pasivas de Espada**: Efectos únicos activados específicamente al realizar desvíos.
+    - **Vida Vegetal**: Creación de coberturas, plataformas de salto y puntos de enganche.
+    - **Movimiento**: Reposicionamiento a alta velocidad y ejecuciones aéreas.
+  </Card>
+  <Card title="Enfoque de Ku">
+    - **Hechizos Elementales**: Aplicación directa de Quemadura, Descarga y Veneno.
+    - **Control de Masas**: Enraizar, paralizar y arrastrar enemigos.
+    - **Curación Pasiva**: Emma se cura una pequeña cantidad cada vez que Ku usa una habilidad.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Sinergia de la Build">
+Las Piedras de Alma son el secreto para las builds de nivel alto. Estas piedras se pueden engastar en la armadura de Emma para mejorar estadísticas específicas como las ventanas de desvío, el robo de vida o las tasas de acumulación elemental. Combina siempre tus Piedras de Alma con el tipo elemental preferido de Ku.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Exploración y Verticalidad del Mundo">
+
+El mundo de Beast of Reincarnation no es un mapa abierto único, sino una serie de vastas zonas de cuarentena interconectadas. La exploración está fuertemente influenciada por elementos de estilo "Metroidvania", donde ciertas áreas permanecen inaccesibles hasta que Emma desbloquea habilidades de movimiento específicas. El diseño de niveles es notablemente vertical, presentando a menudo cuatro o más pisos dentro de una sola zona.
+
+<Steps>
+  <Step num="1" title="Domina el Movimiento">
+    Desbloquea el Gancho, los Zancos de Enredadera y los Puentes para navegar por los entornos de múltiples niveles.
+  </Step>
+  <Step num="2" title="Identifica el Meca">
+    Utiliza la base móvil del Meca para viajar entre biomas, cocinar alimentos e investigar nuevas mejoras.
+  </Step>
+  <Step num="3" title="Localiza los Puntos de Control">
+    Activa los lugares de descanso para viajar rápido, subir de nivel tus PE (Puntos de Experiencia) y reponer tus cargas de curación.
+  </Step>
+  <Step num="4" title="Derrota al Nushi">
+    Caza a los jefes de zona para purificar la tierra y absorber nuevos poderes para Emma y Ku.
+  </Step>
+</Steps>
+
+El Meca sirve como tu base de operaciones. Dentro de este centro móvil, puedes dedicarte a la artesanía, la cocina y la investigación de planos encontrados durante tus viajes. Mejorar el propio Meca también es una vía de progresión viable, ya que ofrece mejores herramientas de supervivencia para los biomas más hostiles.
+
+| Herramienta de Exploración | Función Principal | Utilidad en Combate |
+| :--- | :--- | :--- |
+| **Gancho** | Ascensión vertical | Acercamiento rápido a los enemigos |
+| **Zanco de Enredadera** | Cruce de brechas / Elevación | Creación de terreno elevado para disparar |
+| **Puente de Enredadera** | Creación de nuevos caminos | Canalización de enemigos hacia trampas |
+| **Base del Meca** | Artesanía y viaje rápido | Investigación de las debilidades enemigas |
+
+<Callout type="warning" title="Vigila tu Entorno">
+El juego no incluye daño por caída, lo que anima a los jugadores a asumir riesgos con la verticalidad. Utiliza esto a tu favor para iniciar ejecuciones sigilosas desde las alturas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="La Narrativa: Una Historia de Corrupción">
+
+In este **análisis de Beast of Reincarnation**, examinamos la historia de Emma, una "Seela" que ha sido corrompida por la plaga recurrente. Su estatus como Seela le permite absorber los poderes de los Nushi, pero a costa de sus propios recuerdos y emociones. Esto crea una dinámica fascinante entre ella y Ku, un Malefacto que la ayuda a pesar de sus propias intenciones desconocidas.
+
+<Checklist
+  id="story-milestones"
+  title="Objetivos Narrativos Clave:"
+  items={[
+    "Formar el vínculo inicial con Ku en las tierras del exilio",
+    "Identificar el origen de la plaga corrupta de 100 años",
+    "Cazar a la Bestia de la Reencarnación para evitar la extinción",
+    "Descubrir la verdad detrás de los recuerdos perdidos de Emma",
+    "Interactuar con compañeros clave como Brad y Kagora"
+  ]}
+/>
+
+El escenario es una mezcla de mitología japonesa y fantasía postapocalíptica. Personajes como Kunai, que empuña un Kirin, añaden sabor a un mundo que se siente tan antiguo como moribundo. La historia se desarrolla de forma natural a través de la exploración, las tramas secundarias y la purificación de las diversas tierras que visita Emma.
+
+<Callout type="info" title="Nota del Compañero">
+Ku es más que una simple mascota de combate. Sus interacciones con Emma y el entorno aportan gran parte del peso emocional del juego, especialmente porque Emma lucha contra la pérdida de sus sentimientos humanos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Vedicto Final y Preocupaciones de Rendimiento">
+
+Al concluir este **análisis de Beast of Reincarnation**, hay varios factores a considerar. Esta es la primera gran incursión de Game Freak en el espacio de los RPG de acción de alta fidelidad. Aunque los avances de la jugabilidad parecen prometedores, el rendimiento técnico sigue siendo un punto de preocupación. El sistema de combate, que se inspira en Sekiro y en los títulos modernos de Final Fantasy, requiere una estabilidad absoluta en la tasa de fotogramas para funcionar correctamente.
+
+**Preocupaciones Clave para el Lanzamiento:**
+- **Rendimiento**: ¿Mantendrá el juego unos 60 FPS estables en consolas durante los complejos combates contra jefes?
+- **Refinamiento del Combate**: ¿Podrá Game Freak igualar las precisas cajas de colisión (hitboxes) y los controles receptivos de los desarrolladores consagrados de Souls-like?
+- **Ventana de Lanzamiento**: El juego se lanza en un período altamente competitivo, lo que podría afectar su visibilidad a largo plazo.
+
+A pesar de estas preocupaciones, el juego se abre un camino único. Su enfoque en la sinergia entre dos personajes, combinado con unas mecánicas de movimiento refrescantes, lo hace destacar en un mercado que a menudo está saturado de clones.
+
+| Aspecto | Calificación | Resumen |
+| :--- | :--- | :--- |
+| **Combate** | ★★★★☆ | Profundo, gratificante y centrado en los desvíos. |
+| **Exploración** | ★★★★★ | La verticalidad y el movimiento son de primer nivel. |
+| **Visuales** | ★★★★☆ | Diseño artístico único con una atmósfera fuerte. |
+| **Dificultad** | ★★★☆☆ | Ventanas de desvío permisivas con múltiples ajustes. |
+
+<Callout type="tip" title="Vedicto Final">
+Si disfrutas del combate basado en desvíos y de los juegos que recompensan el movimiento inteligente, Beast of Reincarnation es un título imprescindible para jugar en 2026. Su inclusión en Game Pass lo hace muy accesible para aquellos que tengan curiosidad por la nueva dirección de Game Freak.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Beast of Reincarnation un verdadero Souls-like?",
+    answer: "Sí, cuenta con elementos esenciales de los Souls-like, como un combate de alta dificultad, mecánicas de desvío, puntos de control (hogueras) y una progresión guiada por jefes. Sin embargo, el tiempo de desvío se considera generalmente más permisivo que el de Sekiro."
+  },
+  {
+    question: "¿Necesito gestionar la resistencia en este juego?",
+    answer: "No, el juego reemplaza la resistencia tradicional por un sistema de Medidor. Construyes tu medidor realizando desvíos y lo pierdes al bloquear o recibir golpes. Gestionar este medidor es la clave para usar tus habilidades especiales."
+  },
+  {
+    question: "¿Puedo jugar a Beast of Reincarnation en Game Pass?",
+    answer: "Sí, el juego estará disponible desde el primer día de su lanzamiento en Xbox Game Pass tanto para PC como para las consolas Xbox Series S/X, a partir del 4 de agosto de 2026."
+  },
+  {
+    question: "¿Cómo funciona el sistema cooperativo o de compañeros?",
+    answer: "Actualmente, Ku es un compañero controlado por la IA cuyo comportamiento puedes personalizar (por ejemplo, atacar al mismo enemigo o mantenerse rezagado). Aunque ataca de forma independiente, tú controlas cuándo utiliza sus habilidades elementales principales."
+  }
+]} />
+
+</Section>

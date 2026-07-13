@@ -1,12 +1,770 @@
 {
+  "seo": {
+    "home": {
+      "title": "Beast of Reincarnation Wiki - ガイド、ビルド＆ボス",
+      "description": "発売情報、戦闘ガイド、EmmaとKooのビルド、ボス、スキル、装備、ストーリー、マップ、エディション、アップデート情報を掲載したBeast of Reincarnation Wiki。",
+      "keywords": "Beast of Reincarnation, wiki, ガイド, ビルド, ボス, スキル, 装備, Emma, Koo",
+      "ogTitle": "Beast of Reincarnation Wiki - ガイド、ビルド＆ボス",
+      "ogDescription": "発売情報、戦闘ガイド、EmmaとKooのビルド、ボス、スキル、装備、ストーリー、マップ、エディション、アップデート情報を掲載したBeast of Reincarnation Wiki。",
+      "twitterTitle": "Beast of Reincarnation Wiki - ガイド、ビルド＆ボス",
+      "twitterDescription": "発売情報、戦闘ガイド、EmmaとKooのビルド、ボス、スキル、装備、ストーリー、マップ、エディション、アップデート情報を掲載したBeast of Reincarnation Wiki。"
+    }
+  },
   "nav": {
     "release": "リリース",
     "purchase": "購入",
     "platforms": "プラットフォーム",
-    "technical": "技術",
+    "technical": "テクニカル",
     "guide": "ガイド",
     "characters": "キャラクター",
     "development": "開発",
     "media": "メディア"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "その他",
+    "playNow": "Steamでプレイ",
+    "switchLanguage": "言語切り替え",
+    "switchTheme": "テーマ切り替え",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定"
+  },
+  "hero": {
+    "badge": "一人と一匹のアクションRPG",
+    "title": "Beast of Reincarnation Wiki",
+    "description": "EmmaとKooのハイブリッド戦闘を極め、崩壊後の日本を探索し、ヌシを倒し、スキルを解放して、すべてのボスやストーリーの謎に備えよう。",
+    "getFreeCodesCTA": "ガイドを見る",
+    "playOnSteamCTA": "Steamで予約注文",
+    "stats": {
+      "stat1": {
+        "value": "2026年8月4日",
+        "label": "発売日"
+      },
+      "stat2": {
+        "value": "3",
+        "label": "対応プラットフォーム"
+      },
+      "stat3": {
+        "value": "11",
+        "label": "対応言語"
+      },
+      "stat4": {
+        "value": "デイワン",
+        "label": "Game Pass Ultimate"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Beast of Reincarnation ゲームプレイ",
+    "description": "リアルタイムの剣戟アクションでEmmaを操作し、戦術的な技でKooに指示を出し、パリィでスキルポイントを獲得しながら、疫病によって変貌した終末世界の日本で巨大なヌシを狩ろう。"
+  },
+  "tools": {
+    "title": "Beast of Reincarnation",
+    "titleHighlight": "リソース",
+    "subtitle": "疫病に冒された日本を巡るEmmaとKooの旅を極めるために必要なすべて",
+    "cards": [
+      {
+        "icon": "カレンダー",
+        "title": "発売日",
+        "description": "2026年8月4日の発売、対応プラットフォーム、Game Pass、対応言語"
+      },
+      {
+        "icon": "ショッピングバッグ",
+        "title": "エディション",
+        "description": "スタンダード版とデジタルデラックス版、予約特典"
+      },
+      {
+        "icon": "ブックオープン",
+        "title": "初心者向けガイド",
+        "description": "難易度、探索、パリィ、序盤の装備"
+      },
+      {
+        "icon": "ソード",
+        "title": "戦闘とパリィ",
+        "description": "Emmaの剣術とKooの指示アクション"
+      },
+      {
+        "icon": "ハンマー",
+        "title": "ビルドと装備",
+        "description": "スキルツリー、霊石、刀、お守り"
+      },
+      {
+        "icon": "スカル",
+        "title": "ヌシとボス",
+        "description": "巨大な魔物、出現場所、行動パターン、報酬"
+      },
+      {
+        "icon": "ユーザー",
+        "title": "キャラクターとストーリー",
+        "description": "Emma、Koo、封印者の絆、そして4026年"
+      },
+      {
+        "icon": "マップ",
+        "title": "世界と探索",
+        "description": "コロニー、荒れ地、病に冒された森、移動アクション"
+      }
+    ]
+  },
+  "modules": {
+    "releaseDateAndPlatforms": {
+      "eyebrow": "リリース情報",
+      "title": "Beast of Reincarnationの発売日と対応プラットフォーム",
+      "subtitle": "Beast of Reincarnationは2026年8月にPS5、Xbox Series X|S、Windows PC向けに発売予定で、Xbox Game Pass、Play Anywhere、クラウド、および携帯ゲーム機に対応します。",
+      "intro": "ゲームフリークが贈る「一人と一匹」のアクションRPGのコンソール版は、2026年8月4日に世界同時発売されます。Steamストアでは、地域のストア配信タイミング調整により、8月3日と表示される場合があります。",
+      "items": [
+        {
+          "label": "世界同時発売",
+          "value": "2026年8月4日",
+          "details": "PlayStation StoreおよびXbox Storeでは、Beast of Reincarnationの発売日が2026年8月4日と記載されています。"
+        },
+        {
+          "label": "Steam版の発売日",
+          "value": "2026年8月3日",
+          "details": "PC版のアンロック日時は地域のストア配信タイミングに準拠するため、一部の地域ではSteamストアに8月3日と表示されます。"
+        },
+        {
+          "label": "PlayStation",
+          "value": "PlayStation 5",
+          "details": "『Beast of Reincarnation』はオフラインのシングルプレイヤー、PS Remote Play、DualSenseの振動およびトリガーエフェクト、PS5 Proの強化機能に対応しています。"
+        },
+        {
+          "label": "XboxおよびPC",
+          "value": "Xbox Series X|SおよびWindows 10/11",
+          "details": "Xbox版は、スマートデリバリー、4K Ultra HD、Xbox実績、およびXboxクラウドセーブに対応しています。"
+        },
+        {
+          "label": "Game PassおよびPlay Anywhere",
+          "value": "発売初日から対応",
+          "details": "『Beast of Reincarnation』は発売日よりGame Passに含まれます。Xbox Play Anywhereにより、一度のデジタル購入で対応するXbox本体とWindows PCの両方でプレイ可能です。"
+        },
+        {
+          "label": "クラウドおよび携帯端末でのプレイ",
+          "value": "Xboxクラウドおよび携帯端末向けに最適化",
+          "details": "Xbox版は、対象となるGame Passプランを通じたクラウドプレイに対応しており、対応するWindows携帯ゲーム機向けに最適化されています。"
+        },
+        {
+          "label": "対応テキスト言語",
+          "value": "11言語",
+          "details": "『Beast of Reincarnation』は、英語、フランス語、ドイツ語、スペイン語（スペイン）、日本語、韓国語、ポルトガル語（ブラジル）、簡体字中国語、繁体字中国語、イタリア語、スペイン語（ラテンアメリカ）に対応しています。"
+        },
+        {
+          "label": "フルボイス音声",
+          "value": "英語および日本語",
+          "details": "『Beast of Reincarnation』は英語と日本語のフルボイスに対応しており、その他の言語はインターフェースと字幕でサポートされています。"
+        }
+      ]
+    },
+    "editionsAndPreOrder": {
+      "eyebrow": "エディション比較",
+      "title": "『Beast of Reincarnation』各エディションと予約特典",
+      "subtitle": "『Beast of Reincarnation』の2つのデジタルエディション、米国価格、およびすべての特典内容を比較します。どちらのエディションも発売前に予約可能です。",
+      "intro": "スタンダードエディションには『Beast of Reincarnation』のゲーム本編が含まれ価格は59.99ドルです。69.99ドルのデジタルデラックスエディションには、外見変更用装備、特別な剣、琥珀、野菜の苗が追加されます。予約特典として、別途Kooのスキンとゲーム内通貨のボーナスが付属します。",
+      "items": [
+        {
+          "feature": "米国価格",
+          "standard": "59.99ドル",
+          "digitalDeluxe": "69.99ドル"
+        },
+        {
+          "feature": "ゲーム本編",
+          "standard": "含まれる",
+          "digitalDeluxe": "含まれる"
+        },
+        {
+          "feature": "Kooのスキン",
+          "standard": "予約特典：茶色の柴犬スキン",
+          "digitalDeluxe": "黒および茶色の柴犬スキン"
+        },
+        {
+          "feature": "Emmaの見た目アイテム",
+          "standard": "含まれない",
+          "digitalDeluxe": "鬼の面"
+        },
+        {
+          "feature": "Emmaの武器",
+          "standard": "通常のゲーム内装備",
+          "digitalDeluxe": "北斗の剣"
+        },
+        {
+          "feature": "デラックス版琥珀",
+          "standard": "含まれない",
+          "digitalDeluxe": "100,000琥珀"
+        },
+        {
+          "feature": "農業用アイテム",
+          "standard": "含まれていません",
+          "digitalDeluxe": "様々な野菜の苗"
+        },
+        {
+          "feature": "予約特典",
+          "standard": "クー専用スキン「茶柴」＆30,000アンバー",
+          "digitalDeluxe": "デラックス版のコンテンツに加え、クー専用スキン「茶柴」＆30,000アンバー"
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "eyebrow": "はじめに",
+      "title": "Beast of Reincarnation ビギナーズガイド",
+      "subtitle": "エマとクーによる探索、進行、そして戦闘の基本ループを学びましょう。このスタートステップでは、パリィ、相棒への指示（コマンド）、そして実用的な装備構成（ロードアウト）の構築に焦点を当てます。",
+      "intro": "プレイヤーはリアルタイムの探索や剣戟アクションでエマを操作しつつ、タクティカルメニューを通じてクーに指示を出します。瘴気に侵された地域を渡り歩き、マレファクトやヌシを倒してその力を吸収し、装備やスキルツリーを通じて両キャラクターを育成することでゲームが進行します。",
+      "items": [
+        {
+          "step": 1,
+          "title": "自分に合った難易度の選択",
+          "description": "Beast of Reincarnationのアクションシステム、敵の攻撃タイミング、そしてクーのコマンドメカニクスに慣れるまでは、低い難易度を選択してください。",
+          "tip": "クーのサポートアビリティやスキルツリーは、困難な戦闘における負担を軽減するための追加の手段を提供してくれます。"
+        },
+        {
+          "step": 2,
+          "title": "変化する環境の探索",
+          "description": "探索中、瘴気によって平原や荒野が鬱蒼とした森へと変貌し、新たなマレファクトとの遭遇が発生することがあります。",
+          "tip": "メインルートをただ辿るだけでなく、崩落した橋や壁、高低差のある地形を渡るルートがないか注意深く観察しましょう。"
+        },
+        {
+          "step": 3,
+          "title": "エマの植物の能力の活用",
+          "description": "エマは植物のような自身の髪を操ることで、環境内の障害物を乗り越えたり、様々な位置から敵に接近したりすることができます。",
+          "tip": "敵の頭上に位置しているとき、エマは髪を伸ばして落下暗殺を実行できます。"
+        },
+        {
+          "step": 4,
+          "title": "早いうちにパリィを練習しよう",
+          "description": "Beast of Reincarnationにおいて、パリィに成功すると、正確なタイミングで敵の攻撃を防ぐと同時に、クーの技を使用するためのポイントが生成されます。",
+          "tip": "連続でパリィを試みる前に、まずは敵を1体ずつ観察し、その攻撃モーションに集中しましょう。"
+        },
+        {
+          "step": 5,
+          "title": "好みのスタイルに合わせたビルド構築",
+          "description": "スキルツリー、装備、そして精霊石を使用して、エマとクーの攻撃的な近接戦闘、遠距離戦闘、または隠密重視のロードアウトを構築しましょう。",
+          "tip": "すべてのプレイスタイルに満遍なくアップグレードを分散させるのではなく、自分が最もよく使用するアクションを強化する装備から手をつけていきましょう。"
+        },
+        {
+          "step": 6,
+          "title": "マレファクトとヌシの撃破",
+          "description": "Beast of Reincarnationでは、瘴気に侵された森を戦い抜き、各地域を支配する強力なヌシを倒してその力を吸収します。",
+          "tip": "ヌシとの遭遇はゲーム進行上の重要なボス戦となるため、挑む前にエマの装備とクーの使用可能な技を整えておきましょう。"
+        }
+      ]
+    },
+    "combatAndParryGuide": {
+      "eyebrow": "戦闘システム",
+      "title": "Beast of Reincarnation 戦闘＆パリィガイド",
+      "subtitle": "戦闘は、エマによるリアルタイムの剣戟アクションと、クーのコマンド式の技を組み合わせて行われます。パリィに成功することで、クーのアビリティを発動するために必要なポイントが生成され、これら2つのシステムが連動します。",
+      "intro": "Beast of Reincarnationの核となる戦闘ループは、敵の攻撃を見極め、エマでパリィを行い、獲得したポイントをクーの技へと変換することを中心に構築されています。クーのコマンドメニューを開くと戦闘の進行が遅くなり、プレイヤーは次の行動を選択する前に戦況を冷静に分析することができます。",
+      "items": [
+        {
+          "step": 1,
+          "action": "敵の攻撃の見極め",
+          "result": "放たれる攻撃の予備動作、方向、そしてヒットするタイミングを見極めましょう。",
+          "playerFocus": "敵が明確な攻撃モーションを開始したときは、むやみに攻撃を続けないようにしましょう。"
+        },
+        {
+          "step": 2,
+          "action": "ジャストガード・パリィの実行",
+          "result": "正確なタイミングでのパリィはエマの身を守り、クーが使用するポイントを生成します。",
+          "playerFocus": "攻撃がエマに届く直前のタイミングで、防御の入力を行ってください。"
+        },
+        {
+          "step": 3,
+          "action": "クーのコマンドメニューを開く",
+          "result": "使用可能な相棒の技が表示されている間、戦闘の速度が低下します。",
+          "playerFocus": "PS5では、△ボタンでKooのコマンドメニューを開きます。"
+        },
+        {
+          "step": 4,
+          "action": "Kooの技を選択する",
+          "result": "パリィで獲得したポイントを消費して、選択した相棒のアビリティを発動します。",
+          "playerFocus": "現在の敵、位置取り、戦場の戦況に合わせて技を選択します。"
+        },
+        {
+          "step": 5,
+          "action": "Emmaのリアルタイム攻撃を再開する",
+          "result": "剣戟戦闘に戻り、Kooが作り出した隙を突きます。",
+          "playerFocus": "相棒の技は単発の攻撃としてではなく、一連の連携攻撃の一部として組み込みましょう。"
+        },
+        {
+          "step": 6,
+          "action": "コンバットループを適応させる",
+          "result": "敵の行動の変化に応じて、攻撃、パリィ、コマンドを切り替えます。",
+          "playerFocus": "スキルツリー、装備、魂石を通じてEmmaとKooを強化し、遠距離、隠密、あるいはアグレッシブな戦術に対応させます。"
+        }
+      ]
+    },
+    "buildsAndGearGuide": {
+      "eyebrow": "ビルド＆装備",
+      "title": "Beast of Reincarnation ビルド＆装備ガイド",
+      "subtitle": "スキルツリー、魂石、刀、そしてKooのお守りを組み合わせることで、EmmaとKooの戦い方を構築できます。対応するアプローチには、アグレッシブな剣戟、遠距離からの牽制、隠密などがあります。",
+      "intro": "Beast of Reincarnationにおいて、EmmaとKooは一つの戦闘システムを共有していますが、使用するツールは異なります。Emmaはリアルタイム of 刀アクションとパリィを行い、Kooのコマンドスキルは戦術的なサポートを提供します。探索で発見した装備は、両キャラクターのスキルツリーと組み合わせることができる特化ボーナスを付与します。",
+      "items": [
+        {
+          "name": "アグレッシブ刀ビルド",
+          "playstyle": "素早い近接戦闘と頻繁なパリィ",
+          "coreTools": [
+            "Emmaの刀",
+            "Emmaのスキルツリー",
+            "戦闘時に発動する魂石",
+            "Kooの攻撃コマンド"
+          ],
+          "howItWorks": "敵に接近し、敵の攻撃をパリィして、獲得したコマンドポイントをKooのアビリティに変換します。探索中に発見した新しい刀は、さまざまなビルドに特化したボーナスをもたらします。"
+        },
+        {
+          "name": "タクティカルコマンドビルド",
+          "playstyle": "コマンドメニューを定期的に使用する、慎重で計画的な戦闘",
+          "coreTools": [
+            "Koo의 コマンドスキル",
+            "Kooのお守り",
+            "Emmaのパリィ",
+            "魂石"
+          ],
+          "howItWorks": "Emmaのパリィでポイントを生成し、Kooのコマンドメニューを開いて戦闘をスローダウンさせ、状況に適したアビリティを選択します。探索で発見したお守りは、Kooの装備スロットに特化したボーナスを付与します。"
+        },
+        {
+          "name": "遠距離コントロールビルド",
+          "playstyle": "距離の管理と相棒のサポート",
+          "coreTools": [
+            "遠距離攻撃",
+            "Kooのコマンドスキル",
+            "スキルツリーのアップグレード",
+            "特化型装備"
+          ],
+          "howItWorks": "遠距離から敵にプレッシャーを与えつつ、Kooのアビリティを使って危険な状況を制御します。このプレイスタイルは、絶え間ない近接戦よりも、位置取りや戦術的な選択を好むプレイヤーに適しています。"
+        },
+        {
+          "name": "ステルス＆奇襲ビルド",
+          "playstyle": "垂直移動と先制攻撃",
+          "coreTools": [
+            "Emmaの植物のような髪",
+            "落下暗殺",
+            "ステルス特化スキル",
+            "探索ルート"
+          ],
+          "howItWorks": "エマの蔓のような髪を使って崩れた地形を渡り、高所に到達し、敵の頭上へと伸ばして、直接戦闘が始まる前に落下暗殺を実行します。"
+        },
+        {
+          "name": "霊石のロードアウト",
+          "playstyle": "アクション誘発型のパッシブ効果",
+          "coreTools": [
+            "霊石",
+            "エマの戦闘アクション",
+            "スキルツリー",
+            "刀と護符のボーナス"
+          ],
+          "howItWorks": "霊石は戦闘中に行うアクションに応じて異なる効果を付与します。その効果をエマの武器、クーの護符、そして両キャラクターの解放済みスキルと組み合わせましょう。"
+        },
+        {
+          "name": "ビッグディッパー",
+          "playstyle": "デジタルデラックス版の刀",
+          "coreTools": [
+            "エマの刀",
+            "デジタルデラックスエディション"
+          ],
+          "howItWorks": "「ビッグディッパー」は、クーのスキン、「鬼の帽子」、琥珀、野菜の苗木と共に、Beast of Reincarnationのデジタルデラックスエディションに付属するエマ専用の名刀です。"
+        }
+      ]
+    },
+    "nushiAndBossesGuide": {
+      "eyebrow": "ボスとヌシ",
+      "title": "Beast of Reincarnation ヌシ＆ボス攻略ガイド",
+      "subtitle": "ヌシは世界中に穢れの森を生み出す巨大な穢れし獣です。エマとクーは穢れの源に立ち向かう前に、彼らを倒してその力を獲得しなければなりません。",
+      "intro": "Beast of Reincarnationにおける主要な戦闘は、エマとクーの連携を中心に構築されています。エマがリアルタイムの剣戟とパリィを担当し、クーは戦闘速度が低下している間に選択するコマンド式の技でサポートします。",
+      "items": [
+        {
+          "name": "ヌシ",
+          "type": "巨大な穢れし獣のボス",
+          "location": "ヌシによって生み出された穢れの森の中心にて",
+          "encounterFlow": "変貌した森を進み、そこに生息する穢れし獣たちと戦いながら、そのエリアを支配する巨大な生物のもとを目指します。",
+          "combatFocus": "エマの刀アクションとパリィを利用して、クーのコマンドスキルの機会を作り出します。",
+          "reward": "エマとクーはヌシの強大な力を吸収し、旅に必要な新たなスキルを獲得します。"
+        },
+        {
+          "name": "穢れの森の守護者",
+          "type": "ヌシに遭遇する前に立ちはだかる穢れし獣たち",
+          "location": "平原や荒野に突如として現れるうっそうとした森",
+          "encounterFlow": "エリアの主たるヌシに到達する前に、敵対的な生物や変化する地形を突破して戦い抜きます。",
+          "combatFocus": "地形に応じて、直接的な攻撃、遠距離からの牽制、ステルスによる奇襲を選択します。",
+          "reward": "ヌシとの遭遇に向けた進行と、装備品が存在する探索ルートへのアクセス。"
+        },
+        {
+          "name": "ヌシの力の獲得",
+          "type": "ボス撃破後の進行",
+          "location": "ヌシを倒した後",
+          "encounterFlow": "その勝利は、エマとクーが最終目標へ向けて長期的な準備を整えるための一部となります。",
+          "combatFocus": "新たに獲得した能力により、エマのリアルタイムアクションとクーのコマンド技術との戦術的な連携が広がります。",
+          "reward": "エマとクーの追加の力とスキル。"
+        },
+        {
+          "name": "Beast of Reincarnation",
+          "type": "すべての穢れの源",
+          "location": "エマとクーの西への旅の最終目的地",
+          "encounterFlow": "世界中のヌシを倒してその力を奪い、日本を蝕む穢れの源へと進み続けます。",
+          "combatFocus": "旅を通じて二人は、互いの能力を合わせる必要がある最後の決戦へと備えます。",
+          "reward": "腐敗の時代を終わらせ、穢れの拡散を阻止する好機。"
+        }
+      ]
+    },
+    "charactersAndStory": {
+      "eyebrow": "キャラクター＆ストーリー",
+      "title": "Beast of Reincarnationのキャラクターとストーリー",
+      "subtitle": "Beast of Reincarnationの物語は、決して共存してはならない二つの存在、すなわち穢れを宿して生まれたシーラーと、脅威として追われるマレファクトの歩みを描きます。二人の絆は、物語と戦闘の両方において中心的な役割を果たします。",
+      "intro": "西暦4026年の日本。エマとクーは東の地で出会い、遥かなる西を目指す旅に出ます。道中、二人はヌシを狩ってその力を吸収し、周囲の人々が抱える秘密を明らかにしていきます。",
+      "items": [
+        {
+          "name": "エマ",
+          "role": "主人公でありシーラー",
+          "identity": "穢れに侵されて生まれ、植物と融合した若き追放者",
+          "abilities": "エマは植物のような髪を操り、移動や攻撃、落下暗殺を行います。戦闘では、素早い刀のアクションと受け流し（パリィ）を駆使して、クーのスキルに必要なポイントを生成します。",
+          "story": "エマには記憶も感情もなく、周囲の人々から恐れられています。シーラーとしてマレファクトを狩り、その穢れを自身の体に吸収します。"
+        },
+        {
+          "name": "クー",
+          "role": "エマの相棒である犬",
+          "identity": "世界にとって深刻な脅威とみなされている存在、「マレファクト」の一体",
+          "abilities": "クーは、プレイヤーが行動を選択する間戦闘の進行が遅くなるコマンドメニューを通じて、技を繰り出します。",
+          "story": "クーの存在はシーラーとしてのエマの使命と矛盾しますが、二人の出会いは旅を通じて強固になっていく相棒関係の始まりとなります。"
+        },
+        {
+          "name": "Beast of Reincarnation",
+          "role": "中心的な脅威",
+          "identity": "世界に広がる穢れの源",
+          "abilities": "その腐敗は、日本を覆う変貌した景色、マレファクト、そして穢れの森へと繋がっています。",
+          "story": "エマとクーはこれに対峙するため、遥かなる西へと旅をしながら、倒したヌシの力を集めます。"
+        },
+        {
+          "name": "ヌシ",
+          "role": "主要な敵であり、地域を支配する者たち",
+          "identity": "穢れの森を生み出す力を持つ巨大なマレファクト",
+          "abilities": "彼らの影響により、開けた土地が突如として鬱蒼とした敵対的な森へと変貌することがあります。",
+          "story": "ヌシを倒すことで、エマとクーはその強大な力を吸収し、最後の旅に必要なスキルを獲得することができます。"
+        },
+        {
+          "name": "コロニーの住民と協力者",
+          "role": "旅の途中で出会う生存者たち",
+          "identity": "荒廃した世界に残された、わずかな居住可能エリアで暮らす人々",
+          "abilities": "彼らは、エマとクーが荒れ果てた国を横断する中で、人々との繋がりや支援を提供してくれます。",
+          "story": "エマとクーが出会う人々は重大な秘密を抱えており、それがBeast of Reincarnationの核心となるストーリーと絡み合っていきます。"
+        }
+      ]
+    },
+    "worldAndExplorationGuide": {
+      "eyebrow": "ワールド＆探索",
+      "title": "Beast of Reincarnation ワールド＆探索ガイド",
+      "subtitle": "和風のビジュアル、崩壊したテクノロジー、そして生命を宿した森が、探索中に変貌を遂げる世界を形作ります。エマの植物の能力は、損壊し草木の生い茂る地形を切り開くルートを作り出します。",
+      "intro": "Beast of Reincarnationにおける旅はコロニーから始まり、平原、荒野、遺跡、そして穢れの森へと続いていきます。周囲の環境は単なる背景にとどまりません。エマとクーが旅をする間にも、穢れの影響によってエリア全体が作り変えられ、新たな脅威が現れることがあります。",
+      "items": [
+        {
+          "name": "コロニー",
+          "regionType": "居住可能な集落",
+          "description": "Beast of Reincarnationの物語は、荒廃した世界で人々が今なお暮らすことのできる数少ないエリアの一つである、コロニーの内部から始まります。",
+          "explorationFeatures": [
+            "物語の始まりの地",
+            "生存者のコミュニティ",
+            "孤独なエマの紹介と、封印者としての役割"
+          ],
+          "dangersAndRewards": "「コロニー」は、残された人類の集落と、外側に広がる穢れた土地との対比を描き出している。"
+        },
+        {
+          "name": "平原と荒野",
+          "regionType": "開けた廃墟の景色",
+          "description": "広大な平原や荒野は、枯れ病の影響によって、徐々に、あるいは突如として鬱蒼とした森へと変貌することがある。",
+          "explorationFeatures": [
+            "開けた地形",
+            "目に見える環境の変化",
+            "戦闘への多様なアプローチ"
+          ],
+          "dangersAndRewards": "一見すると開けたルートが草木に覆われ、それまで見たこともないマレファクトが出現することがある。"
+        },
+        {
+          "name": "枯れ病の森",
+          "regionType": "ヌシに支配された敵対地域",
+          "description": "これらの森は「ヌシ」と呼ばれる巨大なマレファクトによって生み出され、短期間で荒野から突如として出現する。",
+          "explorationFeatures": [
+            "鬱蒼とした植生",
+            "マレファクトとの遭遇",
+            "ヌシへと続くルート"
+          ],
+          "dangersAndRewards": "森を戦い抜いてヌシのもとへ到達し、勝利することでその力とスキルを吸収することができる。"
+        },
+        {
+          "name": "荒廃した都市地域",
+          "regionType": "終末世界の都市の跡",
+          "description": "植生や朽ち果てたインフラの下に日本の都市の面影が姿を現し、伝統的な文化的要素とSF的な廃墟が融合している。",
+          "explorationFeatures": [
+            "崩壊した建造物",
+            "高い壁",
+            "崩落した橋",
+            "垂直方向のルート"
+          ],
+          "dangersAndRewards": "損壊した建築物は移動の障害となる一方で、エマが植物のような髪を使って到達できる高所を作り出す。"
+        },
+        {
+          "name": "植物の髪による移動",
+          "regionType": "エマの探索能力",
+          "description": "エマはツルのような髪を操り、通常の旅人では越えられない地形を移動することができる。",
+          "explorationFeatures": [
+            "崩落した橋を渡る",
+            "高い壁を登る、または越える",
+            "高所の攻撃ポジションへ到達する",
+            "落下暗殺を実行する"
+          ],
+          "dangersAndRewards": "垂直ルートを利用することで、敵へのより安全なアプローチや、別のルートへのアクセスが可能になる。"
+        },
+        {
+          "name": "探索装備",
+          "regionType": "ワールド報酬",
+          "description": "探索は、『Beast of Reincarnation』においてエマとクーの戦闘の選択肢を広げるための主要な手段の一つである。",
+          "explorationFeatures": [
+            "エマ用の新しい刀を発見する",
+            "クー専用のお守りを見つける",
+            "さまざまな装備の組み合わせを構築する"
+          ],
+          "dangersAndRewards": "発見した武器やお守りは特化型のボーナスを提供し、これらは霊石やスキルツリーの選択と組み合わせることができる。"
+        },
+        {
+          "name": "変化する環境",
+          "regionType": "世界変貌システム",
+          "description": "Blightは平原や荒野を森林へと変貌させ、新たな脅威を生み出しながら、リアルタイムで環境を変化させていきます。",
+          "explorationFeatures": [
+            "緩やかな景観の変化",
+            "急激な森林の成長",
+            "新たな敵の出現",
+            "息づく環境のサイクル"
+          ],
+          "dangersAndRewards": "地形そのものが試練の一部となり、旅の途中でルートや戦闘条件を変化させます。"
+        },
+        {
+          "name": "空",
+          "regionType": "世界の謎",
+          "description": "世界の遥か上空に何かが浮遊していると言われているため、古くからの掟は旅人に決して空を見上げないよう警告しています。",
+          "explorationFeatures": [
+            "環境ストーリーテリング",
+            "古代の伝説",
+            "世界の秘密へと繋がる、繰り返される謎"
+          ],
+          "dangersAndRewards": "その警告は、荒廃した世界とその歴史を取り巻く、より大きな謎の一部となっています。"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "よくある",
+    "titleHighlight": "質問",
+    "subtitle": "Beast of Reincarnationについて知っておくべきことすべて",
+    "questions": [
+      {
+        "question": "Beast of Reincarnationとは何ですか？",
+        "answer": "Beast of Reincarnationは、Game Freakが開発し、Fictionsがパブリッシングを行う「一人と一匹」のアクションRPGです。プレイヤーはリアルタイムの剣戟戦闘でEmmaを操作し、相棒の犬であるKooに戦術的な指示を出します。"
+      },
+      {
+        "question": "Beast of Reincarnationの発売日はいつですか？",
+        "answer": "Beast of Reincarnationは、2026年8月4日にPS5、Xbox Series X|S、Windows PC向けに世界同時発売予定です。地域のストア配信時間の都合上、一部の地域ではSteamストアに8月3日と表示される場合があります。"
+      },
+      {
+        "question": "Beast of Reincarnationの対応プラットフォームは何ですか？",
+        "answer": "Beast of ReincarnationはPlayStation 5、Xbox Series X|S、Windows PC向けに発売され、発売初日からXbox Game Pass Ultimateに対応し、Xbox Play Anywhereもサポートします。"
+      },
+      {
+        "question": "Beast of Reincarnationの戦闘システムはどのようなものですか？",
+        "answer": "Beast of Reincarnationは、Emmaのリアルタイムな刀アクションと、Kooへの指示テクニックを融合させています。受け流し（パリィ）に成功するとポイントが溜まり、Kooのアビリティが解放されます。また、コマンドメニューを開くと戦闘スピードが遅くなり、次の行動を選択できます。"
+      },
+      {
+        "question": "Beast of Reincarnationにおける「ヌシ」とは何ですか？",
+        "answer": "ヌシは、Beast of Reincarnationの世界中に枯れ果てた森を生み出す巨大な魔物です。ヌシを撃破することで、EmmaとKooはその力を吸収し、これからの旅に向けた新たなスキルを解放することができます。"
+      },
+      {
+        "question": "Beast of Reincarnationにはどのようなエディションがありますか？",
+        "answer": "Beast of Reincarnationでは、59.99ドルのStandard Editionと、Big Dipperの刀、Oni's Hat、100,000 Amber、Kooのスキン、苗木がセットになった69.99ドルのDigital Deluxe Editionをご用意しています。また、予約特典としてKoo用のBrown Shibaスキンと30,000 Amberを入手できます。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "旅を始める準備はできましたか？",
+    "description": "DiscordのBeast of Reincarnationコミュニティに参加し、Steam、PlayStation Store、またはXboxで予約注文して、EmmaとKooの「一人と一匹」のアドベンチャーに備えましょう。",
+    "joinCommunity": "Discordに参加する",
+    "joinGame": "Steamで予約注文する"
+  },
+  "footer": {
+    "title": "Beast of Reincarnation Wiki",
+    "description": "Beast of Reincarnationのガイド、ビルド、ボス、戦闘、キャラクター、ストーリーに関する情報を網羅した総合リソースハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的情報",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "youtube": "YouTube",
+    "steamStore": "Steamストア",
+    "about": "当サイトについて",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 Beast of Reincarnation Wiki. GAME FREAKおよびFictionsとは関係ありません。",
+    "disclaimer": "非公式のファン作成リソースサイトです。"
+  },
+  "pages": {
+    "release": {
+      "title": "Beast of Reincarnation 発売情報",
+      "description": "Beast of Reincarnation の発売日、プレイ時間、体験版、プリロードの詳細。",
+      "metaTitle": "Beast of Reincarnation 発売日、体験版、プリロード",
+      "metaDescription": "Beast of Reincarnation の発売日、プレイ時間、体験版、プリロード情報。GAME FREAKのアクションRPGは、2026年8月4日にPC、PS5、Xbox Series X|Sで発売されます。",
+      "categoryLabel": "発売情報",
+      "whatIs": "発売情報について",
+      "whatIsDescription": "Beast of Reincarnation はGAME FREAKが開発、Fictionsが販売を担当し、2026年8月4日にPC、PS5、Xbox Series X|Sで世界同時発売されます。発売初日からXbox Game Pass Ultimateに対応します。",
+      "why": "発売情報をチェックする理由",
+      "whySteps": {
+        "step1Title": "発売日をチェック",
+        "step1Description": "2026年8月4日の世界同時発売に向けて予定を立てる",
+        "step2Title": "まずは体験版をプレイ",
+        "step2Description": "購入前にEmmaとKooの戦闘サイクルを体験",
+        "step3Title": "早期プリロード",
+        "step3Description": "発売前にインストールし、事前登録して特典を獲得"
+      },
+      "featured": "おすすめ・必須情報",
+      "all": "すべての発売ガイド"
+    },
+    "purchase": {
+      "title": "Beast of Reincarnation 購入ガイド",
+      "description": "Standard版とDigital Deluxe版の比較、価格、予約特典、Beast of Reincarnation の購入場所。",
+      "metaTitle": "Beast of Reincarnation 購入 - エディション、価格、予約特典",
+      "metaDescription": "Beast of Reincarnation のエディションと価格を比較：Standard vs Digital Deluxe、武器「Big Dipper sword」、鬼の帽子、アンバー、Koo用スキン、予約特典。",
+      "categoryLabel": "エディション＆予約特典",
+      "whatIs": "エディションの種類",
+      "whatIsDescription": "Beast of Reincarnation には Standard Edition と Digital Deluxe Edition があります。Deluxe版には武器「Big Dipper sword」、鬼の帽子、100,000アンバー、Koo用スキン、苗木が付属します。",
+      "why": "エディションを比較する理由",
+      "whySteps": {
+        "step1Title": "価格を確認",
+        "step1Description": "Standard版とDigital Deluxe版を並べて比較",
+        "step2Title": "特典を確認",
+        "step2Description": "各エディションの外見アイテム、武器、通貨報酬をチェック",
+        "step3Title": "予約特典を受け取る",
+        "step3Description": "Koo用の茶柴スキンとボーナスアンバーを入手"
+      },
+      "featured": "おすすめ・必須情報",
+      "all": "すべての購入ガイド"
+    },
+    "platforms": {
+      "title": "Beast of Reincarnation の対応機種",
+      "description": "Beast of Reincarnation のPC、PS5、Xbox Series X|S、Game Pass、およびSwitch 2の対応状況。",
+      "metaTitle": "Beast of Reincarnation の対応機種 - PC、PS5、Xbox、Game Pass",
+      "metaDescription": "Beast of Reincarnation プラットフォームガイド：PC、PS5、Xbox Series X|S、発売初日からのGame Pass対応、クロスプラットフォーム対応、Switch 2の詳細。",
+      "categoryLabel": "対応機種",
+      "whatIs": "対応プラットフォームは？",
+      "whatIsDescription": "Beast of Reincarnation はPC（Steam）、PS5、Xbox Series X|Sで発売され、発売初日からXbox Game Pass Ultimateに対応します。各プラットフォームのストアページが公開され、予約受付が開始されています。",
+      "why": "プラットフォームを選ぶ理由は？",
+      "whySteps": {
+        "step1Title": "お手持ちのハードウェアに合わせる",
+        "step1Description": "PS5、Xbox Series X|S、またはPCでの対応状況を確認する",
+        "step2Title": "Game Passを利用する",
+        "step2Description": "Xbox Game Pass Ultimateで発売初日からプレイする",
+        "step3Title": "クロスプラットフォームを確認する",
+        "step3Description": "ストア、地域、アクセス権の違いを理解する"
+      },
+      "featured": "おすすめ＆必須情報",
+      "all": "すべてのプラットフォームガイド"
+    },
+    "technical": {
+      "title": "Beast of Reincarnation 技術仕様",
+      "description": "システム要件、フレームレート、DLSS、PS5 Proでの拡張機能、Steam Deckでのパフォーマンス。",
+      "metaTitle": "Beast of Reincarnation 技術仕様 - システム要件とフレームレート",
+      "metaDescription": "Beast of Reincarnation の技術仕様：PCシステム要件、ターゲットフレームレート、DLSSサポート、PS5 Proでの拡張機能、Steam Deckの互換性。",
+      "categoryLabel": "技術仕様",
+      "whatIs": "技術仕様は？",
+      "whatIsDescription": "Beast of Reincarnation はUnreal Engine 5で動作し、高いターゲットフレームレート、DLSSなどのアップスケーリングオプション、PS5 Pro向けのエンハンスドモードに対応しています。PC版プレイヤー向けには、詳細な最低動作環境と推奨動作環境が用意されています。",
+      "why": "スペックを確認する理由は？",
+      "whySteps": {
+        "step1Title": "PCの動作環境に合わせる",
+        "step1Description": "GPU、CPU、RAMが推奨スペックを満たしているか確認する",
+        "step2Title": "アップスケーラーを選択する",
+        "step2Description": "より滑らかなフレームレートのためにDLSSやその他のアップスケーリングを選択する",
+        "step3Title": "お手持ちのプラットフォームを最適化する",
+        "step3Description": "PS5 Pro、標準ゲーム機、Steam Deckのパフォーマンスを比較する"
+      },
+      "featured": "おすすめ＆必須情報",
+      "all": "すべての技術ガイド"
+    },
+    "guide": {
+      "title": "Beast of Reincarnation ガイド",
+      "description": "Beast of Reincarnation のゲームプレイメカニクス、戦闘、ボス、攻略、難易度。",
+      "metaTitle": "Beast of Reincarnation ガイド - 戦闘、ボス、攻略",
+      "metaDescription": "Beast of Reincarnation 完全ガイド：ゲームプレイメカニクス、Emmaのパリィ戦闘、Kooへの指示コマンド、ヌシ（ボス）、攻略、難易度、オープンワールド探索。",
+      "categoryLabel": "ゲームガイド",
+      "whatIs": "ガイドの内容は？",
+      "whatIsDescription": "Beast of Reincarnation のガイドでは、Emmaのリアルタイムな刀戦闘とジャストガード（パリィ）、Kooのコマンドテクニック、荒廃した地域を支配するヌシ（ボス）、そして西暦4026年の日本のオープンワールドについて解説します。",
+      "why": "ガイドを読む理由は？",
+      "whySteps": {
+        "step1Title": "基本システムを学ぶ",
+        "step1Description": "パリィ、相棒への指示、探索アクションを極める",
+        "step2Title": "ボスを撃破する",
+        "step2Description": "ヌシの行動パターン、弱点、パリィのタイミングを見極める",
+        "step3Title": "攻略ルートを計画する",
+        "step3Description": "攻略チャートに従い、適切な難易度を選択する"
+      },
+      "featured": "おすすめ＆必須情報",
+      "all": "すべてのガイド"
+    },
+    "characters": {
+      "title": "Beast of Reincarnationのキャラクター",
+      "description": "Emma、Koo、コロニーの住民、そしてBeast of Reincarnationを突き動かすストーリー。",
+      "metaTitle": "Beast of Reincarnationのキャラクター - Emma、Koo、そしてストーリー",
+      "metaDescription": "Beast of Reincarnationのキャラクターたちを紹介：封印者Emma、マレファクトの相棒Koo、コロニーの生存者たち、そして西暦4026年を舞台とする中心ストーリー。",
+      "categoryLabel": "キャラクター＆ストーリー",
+      "whatIs": "登場キャラクターは？",
+      "whatIsDescription": "Beast of Reincarnationは、穢れを宿して生まれた封印者Emmaと、脅威として追われるマレファクトKooの物語。二人の絆は、西方への旅路におけるストーリーと戦闘の双方を形作っていく。",
+      "why": "なぜストーリーを追うのか？",
+      "whySteps": {
+        "step1Title": "絆を理解する",
+        "step1Description": "EmmaとKooのパートナーシップがどのように旅を突き動かすかを知る",
+        "step2Title": "生存者たちと出会う",
+        "step2Description": "重大な秘密を抱えるコロニーの住民たちを紹介",
+        "step3Title": "世界を解き明かす",
+        "step3Description": "穢れと西暦4026年の謎を解き明かす"
+      },
+      "featured": "おすすめ＆必須情報",
+      "all": "すべてのキャラクターガイド"
+    },
+    "development": {
+      "title": "Beast of Reincarnationの開発",
+      "description": "Beast of Reincarnationの背後にあるGAME FREAK、Fictions、ディレクター、そしてUnreal Engine 5。",
+      "metaTitle": "Beast of Reincarnationの開発 - スタジオ、ディレクター、ゲームエンジン",
+      "metaDescription": "Beast of Reincarnationの開発：デベロッパーのGAME FREAK、パブリッシャーのFictions、ディレクターのビジョン、そしてゲームを支えるUnreal Engine 5の技術。",
+      "categoryLabel": "開発",
+      "whatIs": "誰がゲームを作ったのか？",
+      "whatIsDescription": "Beast of Reincarnationは、『ポケットモンスター』本編シリーズを手がけるスタジオのGAME FREAKが開発し、Fictionsがパブリッシングを担当。Unreal Engine 5で構築され、新たなアクションRPGの方向性を追求するディレクターが率いている。",
+      "why": "なぜ開発について知るのか？",
+      "whySteps": {
+        "step1Title": "スタジオを知る",
+        "step1Description": "GAME FREAKの歴史と新たな方向性を理解する",
+        "step2Title": "パブリッシャーを知る",
+        "step2Description": "Fictionsがどのようにリリースをサポートしているかを知る",
+        "step3Title": "テクノロジーを見る",
+        "step3Description": "Unreal Engine 5がどのように世界と戦闘を形作っているかを探る"
+      },
+      "featured": "おすすめ＆必須情報",
+      "all": "すべての開発ガイド"
+    },
+    "media": {
+      "title": "Beast of Reincarnation メディア",
+      "description": "Beast of Reincarnationの公式トレーラー、レビュー、そしてRedditコミュニティ。",
+      "metaTitle": "Beast of Reincarnation メディア - トレーラー、レビュー＆Reddit",
+      "metaDescription": "Beast of Reincarnation メディアハブ：公式の初公開＆発売日トレーラー、先行レビューやプレビュー、そしてゲームについて語り合う活発なRedditコミュニティ。",
+      "categoryLabel": "メディア＆コミュニティ",
+      "whatIs": "メディアとは？",
+      "whatIsDescription": "Beast of Reincarnationのメディアでは、Fictions、PlayStation、Xboxによる公式トレーラーに加え、プレスレビューやプレビュー、そしてプレイヤーが質問や発見を共有するRedditコミュニティをまとめています。",
+      "why": "メディアをチェックする理由",
+      "whySteps": {
+        "step1Title": "トレーラーを見る",
+        "step1Description": "初公開、発売日、予約開始トレーラーをチェック",
+        "step2Title": "レビューを読む",
+        "step2Description": "戦闘や世界観に関する批評家の声をチェック",
+        "step3Title": "コミュニティに参加する",
+        "step3Description": "Redditハブで攻略法や最新情報を語り合おう"
+      },
+      "featured": "注目＆必須情報",
+      "all": "すべてのメディアガイド"
+    }
   }
 }

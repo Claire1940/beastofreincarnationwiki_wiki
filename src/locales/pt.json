@@ -1,12 +1,770 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Beast of Reincarnation - Guias, Builds e Chefes",
+      "description": "Wiki de Beast of Reincarnation com detalhes de lançamento, guias de combate, builds de Emma e Koo, chefes, habilidades, equipamentos, história, mapas, edições e atualizações.",
+      "keywords": "Beast of Reincarnation, wiki, guias, builds, chefes, habilidades, equipamentos, Emma, Koo",
+      "ogTitle": "Wiki de Beast of Reincarnation - Guias, Builds e Chefes",
+      "ogDescription": "Wiki de Beast of Reincarnation com detalhes de lançamento, guias de combate, builds de Emma e Koo, chefes, habilidades, equipamentos, história, mapas, edições e atualizações.",
+      "twitterTitle": "Wiki de Beast of Reincarnation - Guias, Builds e Chefes",
+      "twitterDescription": "Wiki de Beast of Reincarnation com detalhes de lançamento, guias de combate, builds de Emma e Koo, chefes, habilidades, equipamentos, história, mapas, edições e atualizações."
+    }
+  },
   "nav": {
     "release": "Lançamento",
-    "purchase": "Compra",
+    "purchase": "Comprar",
     "platforms": "Plataformas",
     "technical": "Técnico",
     "guide": "Guia",
     "characters": "Personagens",
     "development": "Desenvolvimento",
     "media": "Mídia"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogue no Steam",
+    "switchLanguage": "Alterar Idioma",
+    "switchTheme": "Alterar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Leia Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "RPG de Ação de Uma Pessoa e Um Cão",
+    "title": "Wiki de Beast of Reincarnation",
+    "description": "Domine o combate híbrido de Emma e Koo, explore o Japão pós-apocalíptico, derrote Nushi, desbloqueie habilidades e prepare-se para cada chefe e segredo da história.",
+    "getFreeCodesCTA": "Ver Guias",
+    "playOnSteamCTA": "Reserve no Steam",
+    "stats": {
+      "stat1": {
+        "value": "4 de ago. de 2026",
+        "label": "Data de Lançamento"
+      },
+      "stat2": {
+        "value": "3",
+        "label": "Plataformas de Lançamento"
+      },
+      "stat3": {
+        "value": "11",
+        "label": "Idiomas Suportados"
+      },
+      "stat4": {
+        "value": "Day One",
+        "label": "Game Pass Ultimate"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jogabilidade de Beast of Reincarnation",
+    "description": "Controle Emma em combates de espada em tempo real, comande Koo com técnicas táticas, apare ataques para ganhar pontos de habilidade e cace o gigante Nushi por um Japão pós-apocalíptico transformado pela praga."
+  },
+  "tools": {
+    "title": "Beast of Reincarnation",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para dominar a jornada de Emma e Koo pelo Japão assolado pela praga",
+    "cards": [
+      {
+        "icon": "Calendar",
+        "title": "Data de Lançamento",
+        "description": "Lançamento em 4 de agosto de 2026, plataformas, Game Pass e idiomas"
+      },
+      {
+        "icon": "ShoppingBag",
+        "title": "Edições",
+        "description": "Padrão vs. Digital Deluxe e bônus de pré-venda"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes",
+        "description": "Dificuldade, exploração, aparos e equipamentos iniciais"
+      },
+      {
+        "icon": "Swords",
+        "title": "Combate e Aparo",
+        "description": "A esgrima de Emma e as técnicas de comando de Koo"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Builds e Equipamentos",
+        "description": "Árvores de habilidades, Pedras Espirituais, katanas e Amuletos"
+      },
+      {
+        "icon": "Skull",
+        "title": "Nushi e Chefes",
+        "description": "Criaturas malignas gigantes, locais, padrões e recompensas"
+      },
+      {
+        "icon": "Users",
+        "title": "Personagens e História",
+        "description": "Emma, Koo, o vínculo do Selador e o ano 4026"
+      },
+      {
+        "icon": "Map",
+        "title": "Mundo e Exploração",
+        "description": "Colônias, terras devastadas, florestas assoladas pela praga e travessia"
+      }
+    ]
+  },
+  "modules": {
+    "releaseDateAndPlatforms": {
+      "eyebrow": "Informações de Lançamento",
+      "title": "Data de Lançamento e Plataformas de Beast of Reincarnation",
+      "subtitle": "Beast of Reincarnation será lançado em agosto de 2026 para PS5, Xbox Series X|S e Windows PC, com suporte para Xbox Game Pass, Play Anywhere, nuvem e consoles portáteis.",
+      "intro": "O RPG de ação de \"uma pessoa e um cachorro\" da Game Freak tem data de lançamento mundial nos consoles em 4 de agosto de 2026. A página da Steam pode exibir 3 de agosto porque sua data de lançamento é ajustada de acordo com o fuso horário regional da loja.",
+      "items": [
+        {
+          "label": "Lançamento Mundial",
+          "value": "4 de agosto de 2026",
+          "details": "As lojas do PlayStation e do Xbox listam Beast of Reincarnation para 4 de agosto de 2026."
+        },
+        {
+          "label": "Lançamento na Steam",
+          "value": "3 de agosto de 2026",
+          "details": "A página da Steam exibe 3 de agosto em algumas regiões porque as datas de desbloqueio no PC usam o fuso horário regional da loja."
+        },
+        {
+          "label": "PlayStation",
+          "value": "PlayStation 5",
+          "details": "Beast of Reincarnation inclui suporte offline para um jogador, PS Remote Play, vibração e efeitos de gatilho do DualSense e aprimoramentos para o PS5 Pro."
+        },
+        {
+          "label": "Xbox e PC",
+          "value": "Xbox Series X|S e Windows 10/11",
+          "details": "A versão para Xbox suporta Smart Delivery, 4K Ultra HD, conquistas do Xbox e salvamentos em nuvem do Xbox."
+        },
+        {
+          "label": "Game Pass e Play Anywhere",
+          "value": "Disponível no Dia Um",
+          "details": "Beast of Reincarnation está incluído no Game Pass no lançamento. O Xbox Play Anywhere permite que uma única compra digital funcione em consoles Xbox e PCs com Windows compatíveis."
+        },
+        {
+          "label": "Jogo em nuvem e portáteis",
+          "value": "Otimizado para Xbox Cloud e portáteis",
+          "details": "A versão para Xbox suporta jogo em nuvem através de planos qualificados do Game Pass e é otimizada para dispositivos portáteis Windows compatíveis."
+        },
+        {
+          "label": "Idiomas de texto suportados",
+          "value": "11 idiomas",
+          "details": "Beast of Reincarnation suporta inglês, francês, alemão, espanhol da Espanha, japonês, coreano, português brasileiro, chinês simplificado, chinês tradicional, italiano e espanhol latino-americano."
+        },
+        {
+          "label": "Dublagem completa",
+          "value": "Inglês e japonês",
+          "details": "Beast of Reincarnation conta com dublagem completa em inglês e japonês, além de suporte de interface e legendas para os outros idiomas listados."
+        }
+      ]
+    },
+    "editionsAndPreOrder": {
+      "eyebrow": "Comparativo de edições",
+      "title": "Edições de Beast of Reincarnation e bônus de pré-venda",
+      "subtitle": "Compare as duas edições digitais de Beast of Reincarnation, seus preços nos EUA e todos os bônus incluídos. Ambas as edições estão disponíveis para pré-venda antes do lançamento.",
+      "intro": "A Edição Padrão contém o jogo Beast of Reincarnation completo por US$ 59,99, enquanto a Edição Deluxe Digital de US$ 69,99 adiciona equipamentos cosméticos, uma espada especial, Âmbar e mudas de vegetais. A pré-venda também garante um visual adicional para Koo e um bônus de moeda.",
+      "items": [
+        {
+          "feature": "Preço nos EUA",
+          "standard": "US$ 59,99",
+          "digitalDeluxe": "US$ 69,99"
+        },
+        {
+          "feature": "Jogo base",
+          "standard": "Incluso",
+          "digitalDeluxe": "Incluso"
+        },
+        {
+          "feature": "Visuais de Koo",
+          "standard": "Visual de Shiba marrom na pré-venda",
+          "digitalDeluxe": "Visuais de Shiba preto e marrom"
+        },
+        {
+          "feature": "Cosmético de Emma",
+          "standard": "Não incluso",
+          "digitalDeluxe": "Chapéu de Oni"
+        },
+        {
+          "feature": "Arma de Emma",
+          "standard": "Equipamento padrão do jogo",
+          "digitalDeluxe": "Espada Big Dipper"
+        },
+        {
+          "feature": "Âmbar Deluxe",
+          "standard": "Não incluso",
+          "digitalDeluxe": "100.000 Âmbar"
+        },
+        {
+          "feature": "Itens de Cultivo",
+          "standard": "Não incluído",
+          "digitalDeluxe": "Várias mudas de vegetais"
+        },
+        {
+          "feature": "Bônus de Pré-venda",
+          "standard": "Visual de Shiba Marrom para Koo e 30.000 de Âmbar",
+          "digitalDeluxe": "Visual de Shiba Marrom para Koo e 30.000 de Âmbar, além do conteúdo Deluxe"
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "eyebrow": "Primeiros Passos",
+      "title": "Guia de Iniciante de Beast of Reincarnation",
+      "subtitle": "Aprenda o ciclo básico de exploração, progressão e combate seguido por Emma e Koo. Estes passos iniciais focam em aparar, comandos de companheiro e na criação de um conjunto de equipamentos prático.",
+      "intro": "Os jogadores controlam Emma durante a exploração em tempo real e o combate com espada, enquanto dão comandos a Koo através de um menu tático. O progresso vem ao atravessar regiões assoladas pela praga, derrotar malefactos e Nushi, coletar seus poderes e desenvolver ambos os personagens por meio de equipamentos e árvores de habilidades.",
+      "items": [
+        {
+          "step": 1,
+          "title": "Escolha uma Dificuldade Confortável",
+          "description": "Selecione uma dificuldade mais baixa enquanto aprende os sistemas de ação de Beast of Reincarnation, o tempo de ataque dos inimigos e as mecânicas de comando de Koo.",
+          "tip": "As habilidades de suporte de Koo e as árvores de habilidades oferecem formas adicionais de reduzir a pressão de confrontos difíceis."
+        },
+        {
+          "step": 2,
+          "title": "Explore o Ambiente em Mudança",
+          "description": "A praga pode transformar planícies e terras devastadas em florestas densas enquanto você explora, abrindo encontros com novos malefactos.",
+          "tip": "Fique atento a rotas através de pontes desmoronadas, muros e terrenos elevados em vez de seguir apenas o caminho principal."
+        },
+        {
+          "step": 3,
+          "title": "Use as Habilidades de Planta de Emma",
+          "description": "Emma pode manipular seu cabelo semelhante a plantas para atravessar obstáculos ambientais e se aproximar dos inimigos de diferentes posições.",
+          "tip": "Quando posicionada acima de um inimigo, Emma pode estender seu cabelo para realizar um assassinato aéreo."
+        },
+        {
+          "step": 4,
+          "title": "Pratique Aparar desde Cedo",
+          "description": "Um aparo bem-sucedido bloqueia um ataque recebido no momento correto e gera pontos para as técnicas de Koo em Beast of Reincarnation.",
+          "tip": "Estude um inimigo de cada vez e foque em sua animação de ataque antes de tentar aparos repetidos."
+        },
+        {
+          "step": 5,
+          "title": "Crie sua Build em Torno do seu Estilo Preferido",
+          "description": "Use árvores de habilidades, equipamentos e Pedras Espirituais para desenvolver configurações focadas em combate corpo a corpo agressivo, à distância ou furtividade para Emma e Koo.",
+          "tip": "Comece com equipamentos que apoiem as ações que você mais usa, em vez de espalhar melhorias por todos os estilos de jogo."
+        },
+        {
+          "step": 6,
+          "title": "Derrote Malefactos e Nushi",
+          "description": "Lute em florestas assoladas pela praga, derrote os poderosos Nushi que controlam cada região e absorva seus poderes em Beast of Reincarnation.",
+          "tip": "Os encontros com Nushi são batalhas importantes de progressão, então prepare os equipamentos de Emma e as técnicas disponíveis de Koo antes de entrar."
+        }
+      ]
+    },
+    "combatAndParryGuide": {
+      "eyebrow": "Sistema de Combate",
+      "title": "Guia de Combate e Aparo de Beast of Reincarnation",
+      "subtitle": "O combate combina as ações de espada em tempo real de Emma com as técnicas baseadas em comandos de Koo. Aparos bem-sucedidos conectam os dois sistemas ao gerar os pontos necessários para ativar as habilidades de Koo.",
+      "intro": "O ciclo central de combate em Beast of Reincarnation é construído em torno de ler ataques, aparar com Emma e converter os pontos obtidos em técnicas de Koo. Abrir o menu de comandos de Koo desacelera a ação, permitindo que os jogadores avaliem o campo de batalha antes de selecionar seu próximo movimento.",
+      "items": [
+        {
+          "step": 1,
+          "action": "Leia o Ataque Inimigo",
+          "result": "Identifique a preparação, direção e o tempo de impacto do golpe recebido.",
+          "playerFocus": "Evite atacar continuamente quando um inimigo tiver iniciado uma animação clara de ataque."
+        },
+        {
+          "step": 2,
+          "action": "Realize um Aparo de Guarda Perfeita",
+          "result": "Um aparo no tempo correto protege Emma e gera pontos usados por Koo.",
+          "playerFocus": "Pressione o comando defensivo próximo ao momento em que o ataque atinge Emma."
+        },
+        {
+          "step": 3,
+          "action": "Abra o Menu de Comandos de Koo",
+          "result": "O combate desacelera enquanto as técnicas disponíveis do companheiro são exibidas.",
+          "playerFocus": "No PS5, o menu de comandos de Koo é aberto com o botão Triângulo."
+        },
+        {
+          "step": 4,
+          "action": "Selecione uma Técnica de Koo",
+          "result": "Gaste os pontos gerados por meio de aparadas para ativar a habilidade escolhida do companheiro.",
+          "playerFocus": "Combine a técnica com o inimigo atual, o posicionamento e a pressão no campo de batalha."
+        },
+        {
+          "step": 5,
+          "action": "Retome os ataques em tempo real de Emma",
+          "result": "Volte ao combate de espada e aproveite a brecha criada por Koo.",
+          "playerFocus": "Use a técnica do companheiro como parte de uma sequência combinada, em vez de um ataque isolado."
+        },
+        {
+          "step": 6,
+          "action": "Adapte o Loop de Combate",
+          "result": "Alterne entre ataques, aparadas e comandos conforme o comportamento do inimigo muda.",
+          "playerFocus": "Desenvolva Emma e Koo por meio de árvores de habilidades, equipamentos e Pedras Espirituais para dar suporte a táticas à distância, furtivas ou agressivas."
+        }
+      ]
+    },
+    "buildsAndGearGuide": {
+      "eyebrow": "Builds e Equipamentos",
+      "title": "Guia de Builds e Equipamentos de Beast of Reincarnation",
+      "subtitle": "Combine árvores de habilidades, Pedras Espirituais, katanas e os Amuletos de Koo para moldar como Emma e Koo lutam. As abordagens suportadas incluem combate agressivo com espada, pressão à distância e furtividade.",
+      "intro": "Emma e Koo compartilham um único sistema de combate em Beast of Reincarnation, mas usam ferramentas diferentes. Emma realiza ações com katana e aparadas em tempo real, enquanto as habilidades de comando de Koo oferecem suporte tático. Equipamentos descobertos na exploração concedem bônus especializados que podem ser combinados com as árvores de habilidades de ambos os personagens.",
+      "items": [
+        {
+          "name": "Build de Katana Agressiva",
+          "playstyle": "Combate corpo a corpo rápido e aparadas frequentes",
+          "coreTools": [
+            "A katana de Emma",
+            "A árvore de habilidades de Emma",
+            "Pedras Espirituais ativadas por combate",
+            "Comandos ofensivos de Koo"
+          ],
+          "howItWorks": "Fique perto dos inimigos, apare os ataques recebidos e converta os pontos de comando obtidos em habilidades para Koo. Novas katanas encontradas durante a exploração oferecem bônus especializados para diferentes configurações."
+        },
+        {
+          "name": "Build de Comando Tático",
+          "playstyle": "Combate calculado com uso regular do menu de comandos",
+          "coreTools": [
+            "Habilidades de comando de Koo",
+            "Amuletos de Koo",
+            "A aparada de Emma",
+            "Pedras Espirituais"
+          ],
+          "howItWorks": "Use as aparadas de Emma para gerar pontos, depois abra o menu de comandos de Koo para desacelerar o combate e selecionar uma habilidade adequada para a situação atual. Amuletos encontrados durante a exploração adicionam bônus especializados ao lado de Koo na configuração."
+        },
+        {
+          "name": "Build de Controle à Distância",
+          "playstyle": "Gerenciamento de distância e suporte do companheiro",
+          "coreTools": [
+            "Ataques à distância",
+            "Habilidades de comando de Koo",
+            "Melhorias da árvore de habilidades",
+            "Equipamentos especializados"
+          ],
+          "howItWorks": "Pressione os inimigos à distância enquanto usa as habilidades de Koo para controlar situações perigosas. Essa abordagem atende a jogadores que preferem posicionamento e escolhas táticas em vez de confrontos constantes de curto alcance."
+        },
+        {
+          "name": "Build de Furtividade e Emboscada",
+          "playstyle": "Movimento vertical e ataques de abertura",
+          "coreTools": [
+            "O cabelo semelhante a planta de Emma",
+            "Assassinato em queda",
+            "Habilidades focadas em furtividade",
+            "Rotas de exploração"
+          ],
+          "howItWorks": "Use o cabelo semelhante a videiras de Emma para atravessar terrenos acidentados, alcançar posições elevadas e se estender acima de um inimigo para realizar um assassinato em queda antes do início do combate direto."
+        },
+        {
+          "name": "Configuração de Pedras Espirituais",
+          "playstyle": "Efeitos passivos ativados por ação",
+          "coreTools": [
+            "Pedras Espirituais",
+            "Ações de combate de Emma",
+            "Árvores de habilidades",
+            "Bônus de Katana e Amuletos"
+          ],
+          "howItWorks": "As Pedras Espirituais concedem efeitos diferentes em resposta às ações realizadas durante a batalha. Combine seus efeitos com a arma de Emma, os Amuletos de Koo e as habilidades desbloqueadas para ambos os personagens."
+        },
+        {
+          "name": "Big Dipper",
+          "playstyle": "Opção de espada da Edição Digital Deluxe",
+          "coreTools": [
+            "Espada de Emma",
+            "Edição Digital Deluxe"
+          ],
+          "howItWorks": "Big Dipper é uma espada com nome para Emma incluída na Edição Digital Deluxe de Beast of Reincarnation, junto com visuais para Koo, o Chapéu de Oni, Âmbar e mudas de vegetais."
+        }
+      ]
+    },
+    "nushiAndBossesGuide": {
+      "eyebrow": "Chefes e Nushi",
+      "title": "Guia de Chefes e Nushi de Beast of Reincarnation",
+      "subtitle": "Nushi são malefactos gigantes que geram florestas assoladas pelo mundo. Emma e Koo devem derrotá-los e adquirir seu poder antes de confrontar a fonte da assolação.",
+      "intro": "Os principais confrontos em Beast of Reincarnation são construídos em torno da parceria entre Emma e Koo. Emma cuida do combate de espada em tempo real e de aparadas, enquanto Koo fornece técnicas baseadas em comandos selecionadas enquanto o combate desacelera.",
+      "items": [
+        {
+          "name": "Nushi",
+          "type": "Chefe malefacto gigante",
+          "location": "No coração de uma floresta assolada criada pelo Nushi",
+          "encounterFlow": "Viaje pela floresta transformada, lute contra os malefactos que vivem nela e alcance a criatura gigante que controla a área.",
+          "combatFocus": "Use as ações de katana e aparadas de Emma para criar oportunidades para as habilidades de comando de Koo.",
+          "reward": "Emma e Koo absorvem o imenso poder do Nushi e adquirem novas habilidades necessárias para a jornada."
+        },
+        {
+          "name": "Guardiões da Floresta Assolada",
+          "type": "Malefactos encontrados antes de um Nushi",
+          "location": "Florestas densas que surgem de repente em planícies e terras devastadas",
+          "encounterFlow": "Lute contra criaturas hostis e terrenos em constante mudança antes de alcançar o Nushi principal da área.",
+          "combatFocus": "Escolha entre agressão direta, pressão à distância e aberturas furtivas de acordo com o terreno.",
+          "reward": "Avance em direção ao confronto com o Nushi e acesse rotas de exploração que contêm equipamentos."
+        },
+        {
+          "name": "Aquisição de Poder do Nushi",
+          "type": "Progressão pós-chefe",
+          "location": "Após derrotar um Nushi",
+          "encounterFlow": "A vitória se torna parte da preparação a longo prazo de Emma e Koo para o alvo final.",
+          "combatFocus": "As habilidades recém-adquiridas expandem a relação tática entre as ações em tempo real de Emma e as técnicas de comando de Koo.",
+          "reward": "Poderes e habilidades adicionais para Emma e Koo."
+        },
+        {
+          "name": "A Besta da Reencarnação",
+          "type": "Fonte de toda a assolação",
+          "location": "O destino final da jornada de Emma e Koo rumo ao oeste",
+          "encounterFlow": "Derrote Nushi pelo mundo, capture seus poderes e continue em direção à fonte da corrupção que consome o Japão.",
+          "combatFocus": "---",
+          "reward": "A jornada prepara ambos os personagens para um confronto final que exige suas habilidades combinadas."
+        }
+      ]
+    },
+    "charactersAndStory": {
+      "eyebrow": "A oportunidade de encerrar a era da corrupção e interromper a propagação da praga.",
+      "title": "Personagens e História",
+      "subtitle": "Personagens e História de Beast of Reincarnation",
+      "intro": "A história de Beast of Reincarnation acompanha dois seres que jamais deveriam coexistir: uma Seladora nascida com a praga e um malefacto caçado como uma ameaça. O vínculo entre eles torna-se central tanto para a narrativa quanto para o combate.",
+      "items": [
+        {
+          "name": "No Japão do ano 4026, Emma e Koo se encontram nas terras orientais e iniciam uma jornada rumo ao extremo Oeste. Pelo caminho, eles caçam Nushi, absorvem seu poder e revelam os segredos guardados pelas pessoas ao seu redor.",
+          "role": "Emma",
+          "identity": "Protagonist e Seladora",
+          "abilities": "Uma jovem excluída, nascida corrompida pela praga e fundida com plantas",
+          "story": "Emma manipula seu cabelo vegetal para travessia, ataques e assassinatos em queda. No combate, ela utiliza ações rápidas de katana e aparagens para gerar pontos para as habilidades de Koo."
+        },
+        {
+          "name": "Emma não possui memórias ou emoções e é temida pelas pessoas ao seu redor. Como uma Seladora, ela caça malefactos e absorve a praga deles em seu próprio corpo.",
+          "role": "Koo",
+          "identity": "O companheiro canino de Emma",
+          "abilities": "Um malefacto, um dos seres considerados uma séria ameaça ao mundo",
+          "story": "Koo desfere técnicas através de um menu de comandos que desacelera o combate enquanto o jogador escolhe uma ação."
+        },
+        {
+          "name": "A existência de Koo entra em conflito com o dever de Emma como Seladora, mas o encontro deles dá início a uma parceria que se fortalece ao longo da jornada.",
+          "role": "The Beast of Reincarnation",
+          "identity": "Ameaça central",
+          "abilities": "A fonte da praga que se espalha pelo mundo",
+          "story": "Sua corrupção está ligada às paisagens transformadas, aos malefactos e às florestas assoladas pela praga que cobrem o Japão."
+        },
+        {
+          "name": "Emma e Koo viajam rumo ao extremo Oeste e reúnem os poderes dos Nushi derrotados para que possam enfrentá-la.",
+          "role": "Nushi",
+          "identity": "Inimigos principais e governantes regionais",
+          "abilities": "Malefactos gigantes capazes de gerar florestas assoladas pela praga",
+          "story": "Sua influência pode transformar abruptamente campos abertos em florestas densas e hostis."
+        },
+        {
+          "name": "Derrotar os Nushi permite que Emma e Koo absorvam seu imenso poder e adquiram as habilidades necessárias para a jornada final.",
+          "role": "Residentes da Colônia e Aliados",
+          "identity": "Sobreviventes encontrados durante a jornada",
+          "abilities": "Pessoas que vivem nas poucas áreas habitáveis restantes no mundo devastado",
+          "story": "Eles oferecem conexões humanas e apoio enquanto Emma e Koo atravessam o país em ruínas."
+        }
+      ]
+    },
+    "worldAndExplorationGuide": {
+      "eyebrow": "As pessoas que Emma e Koo encontram guardam segredos importantes que se entrelaçam com a história central de Beast of Reincarnation.",
+      "title": "Mundo e Exploração",
+      "subtitle": "Guia de Mundo e Exploração de Beast of Reincarnation",
+      "intro": "Imagens tradicionais japonesas, tecnologia em ruínas e florestas vivas formam um mundo que pode se transformar durante a exploração. As habilidades vegetais de Emma abrem rotas através de terrenos danificados e tomados pela vegetação.",
+      "items": [
+        {
+          "name": "A jornada em Beast of Reincarnation começa em uma Colônia e continua por planícies, terras desoladas, ruínas e florestas assoladas pela praga. O ambiente não é um cenário estático: a influência da praga pode remodelar áreas inteiras e introduzir novas ameaças enquanto Emma e Koo viajam.",
+          "regionType": "The Colony",
+          "description": "Assentamento habitável",
+          "explorationFeatures": [
+            "A história de Beast of Reincarnation começa dentro de uma Colônia, uma das poucas áreas onde as pessoas ainda podem viver no mundo devastado.",
+            "Localização inicial da história",
+            "Introdução ao isolamento de Emma e seu papel como Seladora"
+          ],
+          "dangersAndRewards": "A Colônia estabelece o contraste entre os assentamentos humanos restantes e as terras corrompidas do exterior."
+        },
+        {
+          "name": "Planícies e Terras Devastadas",
+          "regionType": "Paisagens abertas em ruínas",
+          "description": "Planícies e terras devastadas extensas podem se transformar, gradual ou subitamente, em florestas densas sob a influência da praga.",
+          "explorationFeatures": [
+            "Terreno aberto",
+            "Transformações ambientais visíveis",
+            "Múltiplas abordagens de combate"
+          ],
+          "dangersAndRewards": "Uma rota aparentemente aberta pode ser tomada pela vegetação e gerar malefactos antes nunca vistos."
+        },
+        {
+          "name": "Florestas Assoladas pela Praga",
+          "regionType": "Áreas hostis controladas por Nushi",
+          "description": "Estas florestas são geradas por malefactos gigantes conhecidos como Nushi e podem surgir da terra devastada em um curto período de tempo.",
+          "explorationFeatures": [
+            "Vegetação densa",
+            "Encontros com malefactos",
+            "Rotas que levam a um Nushi"
+          ],
+          "dangersAndRewards": "Lute pela floresta para alcançar seu Nushi, cujo poder e habilidades podem ser absorvidos após a vitória."
+        },
+        {
+          "name": "Áreas Urbanas em Ruínas",
+          "regionType": "Destroços de cidades pós-apocalípticas",
+          "description": "Vestígios de cidades japonesas surgem sob a vegetação e a infraestrutura em decadência, misturando elementos culturais tradicionais com ruínas de ficção científica.",
+          "explorationFeatures": [
+            "Estruturas desmoronadas",
+            "Muros altos",
+            "Pontes destruídas",
+            "Rotas verticais"
+          ],
+          "dangersAndRewards": "A arquitetura danificada cria obstáculos de movimentação e posições elevadas que Emma pode alcançar com seu cabelo semelhante a plantas."
+        },
+        {
+          "name": "Travessia com Cabelo de Planta",
+          "regionType": "Habilidade de exploração de Emma",
+          "description": "Emma pode manipular seu cabelo semelhante a cipós para se mover por terrenos que viajantes comuns não conseguem atravessar.",
+          "explorationFeatures": [
+            "Atravessar pontes desmoronadas",
+            "Escalar ou passar por muros altos",
+            "Alcançar posições de ataque elevadas",
+            "Realizar assassinatos em queda"
+          ],
+          "dangersAndRewards": "Usar rotas verticais pode proporcionar abordagens mais seguras aos inimigos e acesso a caminhos alternativos."
+        },
+        {
+          "name": "Equipamento de Exploração",
+          "regionType": "Recompensas do mundo",
+          "description": "A exploração é uma das principais maneiras de expandir as opções de combate de Emma e Koo em Beast of Reincarnation.",
+          "explorationFeatures": [
+            "Descobrir novas katanas para Emma",
+            "Encontrar Amuletos especializados para Koo",
+            "Criar diferentes combinações de equipamentos"
+          ],
+          "dangersAndRewards": "Armas e Amuletos descobertos fornecem bônus especializados que podem ser combinados com Pedras Espirituais e escolhas na árvore de habilidades."
+        },
+        {
+          "name": "O Ambiente em Transformação",
+          "regionType": "Sistema de transformação do mundo",
+          "description": "A Blight altera o ambiente em tempo real, enquanto planícies e terras desoladas se tornam florestas e novas ameaças surgem.",
+          "explorationFeatures": [
+            "Mudanças graduais na paisagem",
+            "Crescimento súbito de florestas",
+            "Surgimento de novos inimigos",
+            "Ciclos ambientais vivos"
+          ],
+          "dangersAndRewards": "O próprio terreno torna-se parte do desafio, alterando rotas e condições de combate durante a jornada."
+        },
+        {
+          "name": "O Céu",
+          "regionType": "Mistério do mundo",
+          "description": "Uma regra antiga adverte os viajantes a nunca olharem para o céu, pois dizem que algo flutua acima do mundo.",
+          "explorationFeatures": [
+            "Narrativa ambiental",
+            "Lendas antigas",
+            "Um mistério recorrente conectado aos segredos do mundo"
+          ],
+          "dangersAndRewards": "O aviso faz parte de um mistério maior que envolve o mundo arruinado e sua história."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre Beast of Reincarnation",
+    "questions": [
+      {
+        "question": "O que é Beast of Reincarnation?",
+        "answer": "Beast of Reincarnation é um RPG de ação de \"uma pessoa e um cão\" desenvolvido pela Game Freak e publicado pela Fictions. Os jogadores controlam Emma em combates de espada em tempo real e emitem comandos táticos para seu companheiro canino Koo."
+      },
+      {
+        "question": "Quando Beast of Reincarnation será lançado?",
+        "answer": "Beast of Reincarnation tem data de lançamento mundial em 4 de agosto de 2026 para PS5, Xbox Series X|S e Windows PC. A loja do Steam pode exibir 3 de agosto em algumas regiões devido aos horários regionais da loja."
+      },
+      {
+        "question": "Em quais plataformas Beast of Reincarnation está disponível?",
+        "answer": "Beast of Reincarnation será lançado para PlayStation 5, Xbox Series X|S e Windows PC, e estará disponível no Xbox Game Pass Ultimate no primeiro dia com suporte ao Xbox Play Anywhere."
+      },
+      {
+        "question": "Como funciona o combate em Beast of Reincarnation?",
+        "answer": "Beast of Reincarnation combina as ações de katana em tempo real da Emma com as técnicas de comando do Koo. Aparagens bem-sucedidas geram pontos que desbloqueiam as habilidades do Koo, e abrir o menu de comandos desacelera o combate para você escolher seu próximo movimento."
+      },
+      {
+        "question": "O que são Nushi em Beast of Reincarnation?",
+        "answer": "Nushi são malefacts gigantes em Beast of Reincarnation que geram florestas da Blight pelo mundo. Derrotar um Nushi permite que Emma e Koo absorvam seu poder e desbloqueiem novas habilidades para a jornada."
+      },
+      {
+        "question": "Quais edições Beast of Reincarnation possui?",
+        "answer": "Beast of Reincarnation oferece uma Edição Padrão de US$ 59,99 e uma Edição Digital Deluxe de US$ 69,99 que inclui a espada Big Dipper, o Oni's Hat, 100.000 Âmbar, visuais para o Koo e mudas. A pré-venda também garante o Visual de Shiba Marrom para o Koo e 30.000 Âmbar."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para começar a jornada?",
+    "description": "Junte-se à comunidade de Beast of Reincarnation no Discord e faça a pré-venda no Steam, PlayStation Store ou Xbox para a aventura de \"uma pessoa e um cão\" de Emma e Koo.",
+    "joinCommunity": "Junte-se ao Discord",
+    "joinGame": "Pré-venda no Steam"
+  },
+  "footer": {
+    "title": "Wiki de Beast of Reincarnation",
+    "description": "Sua central completa de recursos para guias, builds, chefes, combate, personagens e cobertura da história de Beast of Reincarnation.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Jurídico",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "youtube": "YouTube",
+    "steamStore": "Loja Steam",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Beast of Reincarnation Wiki. Não afiliado à GAME FREAK ou Fictions.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "release": {
+      "title": "Lançamento de Beast of Reincarnation",
+      "description": "Data de lançamento, duração do jogo, demo jogável e detalhes de pré-carregamento para Beast of Reincarnation.",
+      "metaTitle": "Data de Lançamento, Demo e Pré-Carregamento de Beast of Reincarnation",
+      "metaDescription": "Data de lançamento, duração, demo e informações de pré-carregamento de Beast of Reincarnation. O RPG de ação da GAME FREAK será lançado em 4 de agosto de 2026 para PC, PS5 e Xbox Series X|S.",
+      "categoryLabel": "INFORMAÇÕES DE LANÇAMENTO",
+      "whatIs": "O que é o Lançamento?",
+      "whatIsDescription": "Beast of Reincarnation é desenvolvido pela GAME FREAK e publicado pela Fictions, com lançamento mundial em 4 de agosto de 2026 para PC, PS5 e Xbox Series X|S, com acesso no primeiro dia ao Xbox Game Pass Ultimate.",
+      "why": "Por que acompanhar o lançamento?",
+      "whySteps": {
+        "step1Title": "Marque a Data de Lançamento",
+        "step1Description": "Planeje-se para o lançamento mundial em 4 de agosto de 2026",
+        "step2Title": "Experimente a Demo Primeiro",
+        "step2Description": "Experimente o ciclo de combate de Emma e Koo antes de comprar",
+        "step3Title": "Faça o Pré-Carregamento Antecipado",
+        "step3Description": "Instale antes do lançamento e pré-registre-se para obter recompensas"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Lançamento"
+    },
+    "purchase": {
+      "title": "Compra de Beast of Reincarnation",
+      "description": "Edições Standard vs. Digital Deluxe, preços, bônus de pré-venda e onde comprar Beast of Reincarnation.",
+      "metaTitle": "Compra de Beast of Reincarnation - Edições, Preço e Pré-Venda",
+      "metaDescription": "Compare as edições e preços de Beast of Reincarnation: Standard vs. Digital Deluxe, espada Big Dipper, Chapéu de Oni, Âmbar, skins do Koo e bônus de pré-venda.",
+      "categoryLabel": "EDIÇÕES E PRÉ-VENDA",
+      "whatIs": "Quais são as Edições?",
+      "whatIsDescription": "Beast of Reincarnation oferece uma Edição Standard e uma Edição Digital Deluxe. A Deluxe adiciona a espada Big Dipper, o Chapéu de Oni, 100.000 Âmbar, skins do Koo e mudas.",
+      "why": "Por que comparar as edições?",
+      "whySteps": {
+        "step1Title": "Verifique o Preço",
+        "step1Description": "Compare as edições Standard e Digital Deluxe lado a lado",
+        "step2Title": "Confira os Bônus",
+        "step2Description": "Veja as recompensas de cosméticos, armas e moedas em cada edição",
+        "step3Title": "Resgate as Recompensas de Pré-Venda",
+        "step3Description": "Obtenha a Skin de Shiba Marrom para o Koo e Âmbar bônus"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Compra"
+    },
+    "platforms": {
+      "title": "---",
+      "description": "Plataformas de Beast of Reincarnation",
+      "metaTitle": "Disponibilidade de PC, PS5, Xbox Series X|S, Game Pass e Switch 2 para Beast of Reincarnation.",
+      "metaDescription": "Plataformas de Beast of Reincarnation - PC, PS5, Xbox e Game Pass",
+      "categoryLabel": "Guia de plataformas de Beast of Reincarnation: PC, PS5, Xbox Series X|S, Game Pass no lançamento, suporte multiplataforma e detalhes do Switch 2.",
+      "whatIs": "PLATAFORMAS",
+      "whatIsDescription": "Quais plataformas são suportadas?",
+      "why": "Beast of Reincarnation será lançado para PC (Steam), PS5 e Xbox Series X|S, chegando ao Xbox Game Pass Ultimate no primeiro dia. A página da loja de cada plataforma já está disponível com pré-venda aberta.",
+      "whySteps": {
+        "step1Title": "Por que escolher uma plataforma?",
+        "step1Description": "Combine com seu hardware",
+        "step2Title": "Confirme a disponibilidade para PS5, Xbox Series X|S ou PC",
+        "step2Description": "Use o Game Pass",
+        "step3Title": "Jogue no lançamento através do Xbox Game Pass Ultimate",
+        "step3Description": "Confira o suporte multiplataforma"
+      },
+      "featured": "Entenda as diferenças de loja, região e acesso",
+      "all": "Destaques e Essenciais"
+    },
+    "technical": {
+      "title": "Todos os guias de plataforma",
+      "description": "Aspectos técnicos de Beast of Reincarnation",
+      "metaTitle": "Requisitos de sistema, taxa de quadros, DLSS, melhorias para PS5 Pro e desempenho no Steam Deck.",
+      "metaDescription": "Aspectos técnicos de Beast of Reincarnation - Requisitos de sistema e FPS",
+      "categoryLabel": "Especificações técnicas de Beast of Reincarnation: requisitos de sistema para PC, metas de taxa de quadros, suporte a DLSS, melhorias para PS5 Pro e compatibilidade com Steam Deck.",
+      "whatIs": "ESPECIFICAÇÕES TÉCNICAS",
+      "whatIsDescription": "Quais são as especificações técnicas?",
+      "why": "Beast of Reincarnation roda na Unreal Engine 5 com metas de alta taxa de quadros, opções de upscaling como DLSS e modos aprimorados para PS5 Pro. Jogadores de PC recebem requisitos mínimos e recomendados detalhados.",
+      "whySteps": {
+        "step1Title": "Por que conferir as especificações?",
+        "step1Description": "Verifique os requisitos de PC",
+        "step2Title": "Verifique se sua GPU, CPU e RAM atendem aos requisitos recomendados",
+        "step2Description": "Escolha um upscaler",
+        "step3Title": "Escolha DLSS ou outro upscaling para taxas de quadros mais fluidas",
+        "step3Description": "Otimize sua plataforma"
+      },
+      "featured": "Compare o desempenho do PS5 Pro, consoles base e Steam Deck",
+      "all": "Destaques e Essenciais"
+    },
+    "guide": {
+      "title": "Todos os guias técnicos",
+      "description": "Guia de Beast of Reincarnation",
+      "metaTitle": "Mecânicas de jogabilidade, combate, chefes, detonado e dificuldade de Beast of Reincarnation.",
+      "metaDescription": "Guia de Beast of Reincarnation - Combate, Chefes e Detonado",
+      "categoryLabel": "Guia completo de Beast of Reincarnation: mecânicas de jogabilidade, o combate de aparagem da Emma, comandos do Koo, chefes Nushi, detonado, dificuldade e exploração de mundo aberto.",
+      "whatIs": "GUIAS DE JOGO",
+      "whatIsDescription": "O que são os guias?",
+      "why": "Os guias de Beast of Reincarnation cobrem o combate de katana em tempo real e as aparagens Just-Guard da Emma, as técnicas de comando do Koo, os chefes Nushi que governam regiões assoladas e o mundo aberto do Japão de 4026.",
+      "whySteps": {
+        "step1Title": "Aprenda as mecânicas principais",
+        "step1Description": "Domine aparos, comandos do companheiro e travessia",
+        "step2Title": "Derrote os chefes",
+        "step2Description": "Leia os padrões, fraquezas e janelas de aparo dos Nushi",
+        "step3Title": "Planeje sua jornada",
+        "step3Description": "Siga o detonado e escolha a dificuldade certa"
+      },
+      "featured": "Destaques e essenciais",
+      "all": "Todos os guias"
+    },
+    "characters": {
+      "title": "Personagens de Beast of Reincarnation",
+      "description": "Emma, Koo, moradores da colônia e a história que move Beast of Reincarnation.",
+      "metaTitle": "Personagens de Beast of Reincarnation - Emma, Koo e História",
+      "metaDescription": "Conheça os personagens de Beast of Reincarnation: Emma, a Seladora, Koo, o companheiro malefacto, sobreviventes da colônia e a história central do ano 4026.",
+      "categoryLabel": "PERSONAGENS E HISTÓRIA",
+      "whatIs": "Quem são os personagens?",
+      "whatIsDescription": "Beast of Reincarnation acompanha Emma, uma Seladora nascida com a praga, e Koo, um malefacto caçado como uma ameaça. O vínculo deles molda tanto a história quanto o combate ao longo da jornada para o oeste.",
+      "why": "Por que acompanhar a história?",
+      "whySteps": {
+        "step1Title": "Entenda o vínculo",
+        "step1Description": "Saiba como a parceria de Emma e Koo impulsiona a jornada",
+        "step2Title": "Conheça os sobreviventes",
+        "step2Description": "Descubra os moradores da colônia que guardam grandes segredos",
+        "step3Title": "Desvende o mundo",
+        "step3Description": "Junte as peças do mistério da praga e do ano 4026"
+      },
+      "featured": "Destaques e essenciais",
+      "all": "Todos os guias de personagens"
+    },
+    "development": {
+      "title": "Desenvolvimento de Beast of Reincarnation",
+      "description": "GAME FREAK, Fictions, o diretor e a Unreal Engine 5 por trás de Beast of Reincarnation.",
+      "metaTitle": "Desenvolvimento de Beast of Reincarnation - Estúdio, Diretor e Engine",
+      "metaDescription": "DESENVOLVIMENTO",
+      "categoryLabel": "Quem fez o jogo?",
+      "whatIs": "Beast of Reincarnation é desenvolvido pela GAME FREAK, o estúdio por trás da série principal de Pokémon, e publicado pela Fictions. Ele é construído na Unreal Engine 5 e liderado por um diretor que busca uma nova direção de RPG de ação.",
+      "whatIsDescription": "Por que conhecer o desenvolvimento?",
+      "why": "Conheça o estúdio",
+      "whySteps": {
+        "step1Title": "Entenda a história e a nova direção da GAME FREAK",
+        "step1Description": "Conheça a distribuidora",
+        "step2Title": "Saiba como a Fictions apoia o lançamento",
+        "step2Description": "Veja a tecnologia",
+        "step3Title": "Explore como a Unreal Engine 5 molda o mundo e o combate",
+        "step3Description": "Destaques e essenciais"
+      },
+      "featured": "Todos os guias de desenvolvimento",
+      "all": "Todos os Guias de Desenvolvimento"
+    },
+    "media": {
+      "title": "Mídia de Beast of Reincarnation",
+      "description": "Trailers oficiais, análises e a comunidade do Reddit sobre Beast of Reincarnation.",
+      "metaTitle": "Mídia de Beast of Reincarnation - Trailers, Análises e Reddit",
+      "metaDescription": "Central de mídia de Beast of Reincarnation: trailers oficiais de Revelação e Data de Lançamento, primeiras análises e prévias, e a comunidade ativa do Reddit discutindo o jogo.",
+      "categoryLabel": "MÍDIA E COMUNIDADE",
+      "whatIs": "O que é a Mídia?",
+      "whatIsDescription": "A mídia de Beast of Reincarnation cobre os trailers oficiais da Fictions, PlayStation e Xbox, além de análises da imprensa, prévias e a comunidade do Reddit gerida por jogadores para compartilhar perguntas e descobertas.",
+      "why": "Por que acompanhar a mídia?",
+      "whySteps": {
+        "step1Title": "Assista aos Trailers",
+        "step1Description": "Confira os trailers de Revelação, Data de Lançamento e Pré-venda",
+        "step2Title": "Leia as Análises",
+        "step2Description": "Veja o que os críticos dizem sobre o combate e o mundo",
+        "step3Title": "Junte-se à Comunidade",
+        "step3Description": "Discuta estratégias e novidades no hub do Reddit"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias de Mídia"
+    }
   }
 }

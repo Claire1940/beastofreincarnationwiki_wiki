@@ -52,696 +52,492 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Beast of Reincarnation Gameplay",
+    "description": "Control Emma in real-time sword combat, command Koo through tactical techniques, parry to earn skill points, and hunt the giant Nushi across a post-apocalyptic Japan reshaped by blight."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Beast of Reincarnation",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to master Emma and Koo's journey through blighted Japan",
     "cards": [
+      {
+        "icon": "Calendar",
+        "title": "Release Date",
+        "description": "August 4, 2026 launch, platforms, Game Pass and languages"
+      },
+      {
+        "icon": "ShoppingBag",
+        "title": "Editions",
+        "description": "Standard vs Digital Deluxe and pre-order bonuses"
+      },
       {
         "icon": "BookOpen",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "Difficulty, exploration, parries and early loadouts"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Swords",
+        "title": "Combat & Parry",
+        "description": "Emma's swordplay and Koo's command techniques"
       },
       {
         "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "title": "Builds & Gear",
+        "description": "Skill trees, Spirit Stones, katanas and Charms"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Skull",
+        "title": "Nushi & Bosses",
+        "description": "Giant malefacts, locations, patterns and rewards"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Users",
+        "title": "Characters & Story",
+        "description": "Emma, Koo, the Sealer bond and the year 4026"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Map",
+        "title": "World & Exploration",
+        "description": "Colonies, wastelands, blighted forests and traversal"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
-        {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "releaseDateAndPlatforms": {
+      "eyebrow": "Release Information",
+      "title": "Beast of Reincarnation Release Date and Platforms",
+      "subtitle": "Beast of Reincarnation launches in August 2026 for PS5, Xbox Series X|S and Windows PC, with Xbox Game Pass, Play Anywhere, cloud and handheld support.",
+      "intro": "Game Freak's one-person, one-dog action RPG has a worldwide console release date of August 4, 2026. The Steam storefront may display August 3 because its release date is adjusted for regional store timing.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "label": "Worldwide Release",
+          "value": "August 4, 2026",
+          "details": "The PlayStation and Xbox stores list Beast of Reincarnation for August 4, 2026."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "label": "Steam Release",
+          "value": "August 3, 2026",
+          "details": "The Steam storefront displays August 3 in some regions because PC unlock dates use regional store timing."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "label": "PlayStation",
+          "value": "PlayStation 5",
+          "details": "Beast of Reincarnation includes offline single-player support, PS Remote Play, DualSense vibration and trigger effects, and PS5 Pro enhancements."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "label": "Xbox and PC",
+          "value": "Xbox Series X|S and Windows 10/11",
+          "details": "The Xbox version supports Smart Delivery, 4K Ultra HD, Xbox achievements and Xbox cloud saves."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "label": "Game Pass and Play Anywhere",
+          "value": "Available Day One",
+          "details": "Beast of Reincarnation is included with Game Pass at launch. Xbox Play Anywhere lets one digital purchase work on supported Xbox consoles and Windows PC."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
+          "label": "Cloud and Handheld Play",
+          "value": "Xbox Cloud and Handheld Optimized",
+          "details": "The Xbox version supports cloud play through eligible Game Pass plans and is optimized for supported Windows handheld devices."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
+          "label": "Supported Text Languages",
+          "value": "11 Languages",
+          "details": "Beast of Reincarnation supports English, French, German, Spanish from Spain, Japanese, Korean, Brazilian Portuguese, Simplified Chinese, Traditional Chinese, Italian and Latin American Spanish."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "label": "Full Voice Audio",
+          "value": "English and Japanese",
+          "details": "Beast of Reincarnation ships with complete English and Japanese voice audio, plus interface and subtitle support for the other listed languages."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+    "editionsAndPreOrder": {
+      "eyebrow": "Edition Comparison",
+      "title": "Beast of Reincarnation Editions and Pre-Order Bonuses",
+      "subtitle": "Compare the two digital editions of Beast of Reincarnation, their US prices and every included bonus. Both editions are available to pre-order before launch.",
+      "intro": "The Standard Edition contains the complete Beast of Reincarnation game for $59.99, while the $69.99 Digital Deluxe Edition adds cosmetic equipment, a special sword, Amber and vegetable seedlings. Pre-orders also receive a separate Koo skin and currency bonus.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "feature": "US Price",
+          "standard": "$59.99",
+          "digitalDeluxe": "$69.99"
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "feature": "Base Game",
+          "standard": "Included",
+          "digitalDeluxe": "Included"
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "feature": "Koo Skins",
+          "standard": "Brown Shiba Skin with pre-order",
+          "digitalDeluxe": "Black and Brown Shiba Skins"
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
+          "feature": "Emma Cosmetic",
+          "standard": "Not included",
+          "digitalDeluxe": "Oni's Hat"
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
+          "feature": "Emma Weapon",
+          "standard": "Standard in-game equipment",
+          "digitalDeluxe": "Big Dipper sword"
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
+          "feature": "Deluxe Amber",
+          "standard": "Not included",
+          "digitalDeluxe": "100,000 Amber"
         },
         {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
+          "feature": "Farming Items",
+          "standard": "Not included",
+          "digitalDeluxe": "Various vegetable seedlings"
         },
         {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "feature": "Pre-Order Bonus",
+          "standard": "Brown Shiba Skin for Koo and 30,000 Amber",
+          "digitalDeluxe": "Brown Shiba Skin for Koo and 30,000 Amber, in addition to the Deluxe content"
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
+    "beginnerGuide": {
+      "eyebrow": "Getting Started",
+      "title": "Beast of Reincarnation Beginner Guide",
+      "subtitle": "Learn the basic exploration, progression and combat loop followed by Emma and Koo. These starting steps focus on parrying, companion commands and building a practical loadout.",
+      "intro": "Players control Emma during real-time exploration and sword combat while issuing commands to Koo through a tactical menu. Progress comes from crossing blighted regions, defeating malefacts and Nushi, collecting their power and developing both characters through equipment and skill trees.",
+      "items": [
         {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
+          "step": 1,
+          "title": "Choose a Comfortable Difficulty",
+          "description": "Select a lower difficulty while learning Beast of Reincarnation's action systems, enemy attack timing and Koo's command mechanics.",
+          "tip": "Koo's support abilities and the skill trees provide additional ways to reduce the pressure of difficult encounters."
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
+          "step": 2,
+          "title": "Explore the Changing Environment",
+          "description": "Blight can transform plains and wastelands into dense forests while you explore, opening encounters with new malefacts.",
+          "tip": "Watch for routes across collapsed bridges, walls and elevated terrain instead of following only the main path."
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
+          "step": 3,
+          "title": "Use Emma's Plant Abilities",
+          "description": "Emma can manipulate her plant-like hair to cross environmental obstacles and approach enemies from different positions.",
+          "tip": "When positioned above an enemy, Emma can extend her hair to perform a falling assassination."
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
+          "step": 4,
+          "title": "Practice Parries Early",
+          "description": "A successful parry blocks an incoming attack at the correct moment and generates points for Koo's techniques in Beast of Reincarnation.",
+          "tip": "Study one enemy at a time and focus on its attack animation before attempting repeated parries."
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
+          "step": 5,
+          "title": "Build Around Your Preferred Style",
+          "description": "Use skill trees, gear and Spirit Stones to develop aggressive melee, ranged or stealth-focused loadouts for Emma and Koo.",
+          "tip": "Start with equipment that supports the actions you use most instead of spreading upgrades across every playstyle."
+        },
+        {
+          "step": 6,
+          "title": "Defeat Malefacts and Nushi",
+          "description": "Fight through blighted forests, defeat the powerful Nushi controlling each region and absorb their powers in Beast of Reincarnation.",
+          "tip": "Nushi encounters are major progression battles, so prepare Emma's equipment and Koo's available techniques before entering."
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "combatAndParryGuide": {
+      "eyebrow": "Combat System",
+      "title": "Beast of Reincarnation Combat and Parry Guide",
+      "subtitle": "Combat combines Emma's real-time sword actions with Koo's command-based techniques. Successful parries connect the two systems by generating the points required to activate Koo's abilities.",
+      "intro": "The central combat loop in Beast of Reincarnation is built around reading attacks, parrying with Emma and converting the earned points into Koo techniques. Opening Koo's command menu slows the action, allowing players to assess the battlefield before selecting their next move.",
+      "items": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "step": 1,
+          "action": "Read the Enemy Attack",
+          "result": "Identify the wind-up, direction and impact timing of the incoming strike.",
+          "playerFocus": "Avoid attacking continuously when an enemy has started a clear attack animation."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "step": 2,
+          "action": "Perform a Just-Guard Parry",
+          "result": "A correctly timed parry protects Emma and generates points used by Koo.",
+          "playerFocus": "Press the defensive input close to the moment the attack reaches Emma."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "step": 3,
+          "action": "Open Koo's Command Menu",
+          "result": "Combat slows while the available companion techniques are displayed.",
+          "playerFocus": "On PS5, Koo's command menu is opened with the Triangle button."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "step": 4,
+          "action": "Select a Koo Technique",
+          "result": "Spend the points generated through parries to activate the chosen companion ability.",
+          "playerFocus": "Match the technique to the current enemy, positioning and battlefield pressure."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "step": 5,
+          "action": "Resume Emma's Real-Time Attacks",
+          "result": "Return to sword combat and take advantage of the opening created by Koo.",
+          "playerFocus": "Use the companion technique as part of a combined sequence rather than as an isolated attack."
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "step": 6,
+          "action": "Adapt the Combat Loop",
+          "result": "Switch between attacks, parries and commands as enemy behavior changes.",
+          "playerFocus": "Develop Emma and Koo through skill trees, gear and Spirit Stones to support ranged, stealthy or aggressive tactics."
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
+    "buildsAndGearGuide": {
+      "eyebrow": "Builds & Equipment",
+      "title": "Beast of Reincarnation Builds and Gear Guide",
+      "subtitle": "Combine skill trees, Spirit Stones, katanas and Koo's Charms to shape how Emma and Koo fight. Supported approaches include aggressive sword combat, ranged pressure and stealth.",
+      "intro": "Emma and Koo share one combat system in Beast of Reincarnation but use different tools. Emma performs real-time katana actions and parries, while Koo's command skills provide tactical support. Equipment discovered through exploration adds specialized bonuses that can be combined with both characters' skill trees.",
+      "items": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
+          "name": "Aggressive Katana Build",
+          "playstyle": "Fast melee and frequent parries",
+          "coreTools": [
+            "Emma's katana",
+            "Emma's skill tree",
+            "Combat-triggered Spirit Stones",
+            "Koo's offensive commands"
+          ],
+          "howItWorks": "Stay close to enemies, parry incoming attacks and convert the earned command points into Koo's abilities. New katanas found while exploring provide specialized bonuses for different loadouts."
         },
         {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
+          "name": "Tactical Command Build",
+          "playstyle": "Measured combat with regular command-menu use",
+          "coreTools": [
+            "Koo's command skills",
+            "Koo's Charms",
+            "Emma's parry",
+            "Spirit Stones"
+          ],
+          "howItWorks": "Use Emma's parries to generate points, then open Koo's command menu to slow combat and select an ability suited to the current situation. Charms found through exploration add specialized bonuses to Koo's side of the loadout."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
+          "name": "Ranged Control Build",
+          "playstyle": "Distance management and companion support",
+          "coreTools": [
+            "Ranged attacks",
+            "Koo's command skills",
+            "Skill-tree upgrades",
+            "Specialized gear"
+          ],
+          "howItWorks": "Pressure enemies from range while using Koo's abilities to control dangerous situations. This approach supports players who prefer positioning and tactical choices over constant close-range exchanges."
         },
         {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "name": "Stealth and Ambush Build",
+          "playstyle": "Vertical movement and opening attacks",
+          "coreTools": [
+            "Emma's plant-like hair",
+            "Falling assassination",
+            "Stealth-focused skills",
+            "Exploration routes"
+          ],
+          "howItWorks": "Use Emma's vine-like hair to cross broken terrain, reach elevated positions and extend above an enemy to perform a falling assassination before direct combat begins."
         },
         {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
+          "name": "Spirit Stone Loadout",
+          "playstyle": "Action-triggered passive effects",
+          "coreTools": [
+            "Spirit Stones",
+            "Emma's combat actions",
+            "Skill trees",
+            "Katana and Charm bonuses"
+          ],
+          "howItWorks": "Spirit Stones grant different effects in response to actions performed during battle. Pair their effects with Emma's weapon, Koo's Charms and the skills unlocked for both characters."
+        },
+        {
+          "name": "Big Dipper",
+          "playstyle": "Digital Deluxe sword option",
+          "coreTools": [
+            "Emma's sword",
+            "Digital Deluxe Edition"
+          ],
+          "howItWorks": "Big Dipper is a named sword for Emma included with the Digital Deluxe Edition of Beast of Reincarnation alongside Koo skins, Oni's Hat, Amber and vegetable seedlings."
         }
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
+    "nushiAndBossesGuide": {
+      "eyebrow": "Bosses & Nushi",
+      "title": "Beast of Reincarnation Nushi and Bosses Guide",
+      "subtitle": "Nushi are giant malefacts that generate blighted forests across the world. Emma and Koo must defeat them and acquire their power before confronting the source of the blight.",
+      "intro": "Major encounters in Beast of Reincarnation are built around the partnership between Emma and Koo. Emma handles real-time sword combat and parries, while Koo supplies command-based techniques selected while combat slows down.",
+      "items": [
         {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
+          "name": "Nushi",
+          "type": "Giant malefact boss",
+          "location": "At the heart of a blighted forest created by the Nushi",
+          "encounterFlow": "Travel through the transformed forest, fight the malefacts living inside it and reach the giant creature controlling the area.",
+          "combatFocus": "Use Emma's katana actions and parries to create opportunities for Koo's command skills.",
+          "reward": "Emma and Koo absorb the Nushi's immense power and acquire new skills needed for the journey."
         },
         {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
+          "name": "Blighted Forest Guardians",
+          "type": "Malefacts encountered before a Nushi",
+          "location": "Dense forests that suddenly emerge from plains and wastelands",
+          "encounterFlow": "Fight through hostile creatures and changing terrain before reaching the area's main Nushi.",
+          "combatFocus": "Choose between direct aggression, ranged pressure and stealth-based openings according to the terrain.",
+          "reward": "Progress toward the Nushi encounter and access to exploration routes containing equipment."
         },
         {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
+          "name": "Nushi Power Acquisition",
+          "type": "Post-boss progression",
+          "location": "After defeating a Nushi",
+          "encounterFlow": "The victory becomes part of Emma and Koo's long-term preparation for the final target.",
+          "combatFocus": "Newly acquired abilities expand the tactical relationship between Emma's real-time actions and Koo's command techniques.",
+          "reward": "Additional powers and skills for Emma and Koo."
         },
         {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
+          "name": "The Beast of Reincarnation",
+          "type": "Source of all blight",
+          "location": "The final destination of Emma and Koo's westward journey",
+          "encounterFlow": "Defeat Nushi across the world, capture their powers and continue toward the source of the corruption consuming Japan.",
+          "combatFocus": "The journey prepares both characters for a final confrontation requiring their combined abilities.",
+          "reward": "The opportunity to end the age of corruption and stop the spread of blight."
         }
       ]
     },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
+    "charactersAndStory": {
+      "eyebrow": "Characters & Story",
+      "title": "Beast of Reincarnation Characters and Story",
+      "subtitle": "The story of Beast of Reincarnation follows two beings who should never coexist: a Sealer born with blight and a malefact hunted as a threat. Their bond becomes central to both the narrative and combat.",
+      "intro": "In Japan in the year 4026, Emma and Koo meet in the eastern lands and begin a journey toward the far West. Along the way, they hunt Nushi, absorb their power and uncover the secrets carried by the people around them.",
+      "items": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "name": "Emma",
+          "role": "Protagonist and Sealer",
+          "identity": "A young outcast born corrupted by blight and fused with plants",
+          "abilities": "Emma manipulates her plant-like hair for traversal, attacks and falling assassinations. In combat, she uses fast katana actions and parries to generate points for Koo's skills.",
+          "story": "Emma has no memories or emotions and is feared by the people around her. As a Sealer, she hunts malefacts and absorbs their blight into her own body."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "name": "Koo",
+          "role": "Emma's canine companion",
+          "identity": "A malefact, one of the beings considered a serious threat to the world",
+          "abilities": "Koo unleashes techniques through a command menu that slows combat while the player chooses an action.",
+          "story": "Koo's existence conflicts with Emma's duty as a Sealer, but their meeting begins a partnership that grows stronger throughout the journey."
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "name": "The Beast of Reincarnation",
+          "role": "Central threat",
+          "identity": "The source of the blight spreading across the world",
+          "abilities": "Its corruption is connected to the transformed landscapes, malefacts and blighted forests covering Japan.",
+          "story": "Emma and Koo travel toward the far West and gather the powers of defeated Nushi so they can confront it."
+        },
+        {
+          "name": "Nushi",
+          "role": "Major enemies and regional rulers",
+          "identity": "Giant malefacts capable of generating blighted forests",
+          "abilities": "Their influence can abruptly transform open land into dense, hostile forest.",
+          "story": "Defeating Nushi allows Emma and Koo to absorb their immense power and acquire skills required for the final journey."
+        },
+        {
+          "name": "Colony Residents and Allies",
+          "role": "Survivors encountered during the journey",
+          "identity": "People living in the few habitable areas remaining in the devastated world",
+          "abilities": "They provide human connections and support as Emma and Koo cross the ruined country.",
+          "story": "The people Emma and Koo meet carry major secrets that become intertwined with the central story of Beast of Reincarnation."
         }
       ]
     },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
+    "worldAndExplorationGuide": {
+      "eyebrow": "World & Exploration",
+      "title": "Beast of Reincarnation World and Exploration Guide",
+      "subtitle": "Traditional Japanese imagery, ruined technology and living forests form a world that can transform during exploration. Emma's plant abilities open routes across damaged and overgrown terrain.",
+      "intro": "The journey in Beast of Reincarnation begins in a Colony and continues through plains, wastelands, ruins and blighted forests. The environment is not a static backdrop: the influence of blight can reshape entire areas and introduce new threats while Emma and Koo are travelling.",
+      "items": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "name": "The Colony",
+          "regionType": "Habitable settlement",
+          "description": "The story of Beast of Reincarnation begins inside a Colony, one of the few areas where people can still live in the devastated world.",
+          "explorationFeatures": [
+            "Opening story location",
+            "Survivor community",
+            "Introduction to Emma's isolation and role as a Sealer"
+          ],
+          "dangersAndRewards": "The Colony establishes the contrast between the remaining human settlements and the corrupted lands outside."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "name": "Plains and Wastelands",
+          "regionType": "Open ruined landscapes",
+          "description": "Wide plains and wastelands can gradually or suddenly transform into dense forests under the influence of blight.",
+          "explorationFeatures": [
+            "Open terrain",
+            "Visible environmental transformations",
+            "Multiple approaches to combat"
+          ],
+          "dangersAndRewards": "A seemingly open route can become overgrown and produce previously unseen malefacts."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "name": "Blighted Forests",
+          "regionType": "Nushi-controlled hostile areas",
+          "description": "These forests are generated by giant malefacts known as Nushi and can erupt from the wasteland in a short period of time.",
+          "explorationFeatures": [
+            "Dense vegetation",
+            "Malefact encounters",
+            "Routes leading toward a Nushi"
+          ],
+          "dangersAndRewards": "Fight through the forest to reach its Nushi, whose power and skills can be absorbed after victory."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "name": "Ruined Urban Areas",
+          "regionType": "Post-apocalyptic city remains",
+          "description": "Remnants of Japanese cities appear beneath vegetation and decaying infrastructure, blending traditional cultural elements with science-fiction ruins.",
+          "explorationFeatures": [
+            "Collapsed structures",
+            "High walls",
+            "Broken bridges",
+            "Vertical routes"
+          ],
+          "dangersAndRewards": "Damaged architecture creates traversal obstacles and elevated positions that Emma can reach with her plant-like hair."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "name": "Plant-Hair Traversal",
+          "regionType": "Emma's exploration ability",
+          "description": "Emma can manipulate her vine-like hair to move across terrain that normal travellers cannot cross.",
+          "explorationFeatures": [
+            "Cross collapsed bridges",
+            "Climb or pass high walls",
+            "Reach elevated attack positions",
+            "Perform falling assassinations"
+          ],
+          "dangersAndRewards": "Using vertical routes can provide safer approaches to enemies and access to alternate paths."
+        },
+        {
+          "name": "Exploration Equipment",
+          "regionType": "World rewards",
+          "description": "Exploration is one of the main ways to expand Emma and Koo's combat options in Beast of Reincarnation.",
+          "explorationFeatures": [
+            "Discover new katanas for Emma",
+            "Find specialized Charms for Koo",
+            "Build different equipment combinations"
+          ],
+          "dangersAndRewards": "Discovered weapons and Charms provide specialized bonuses that can be combined with Spirit Stones and skill-tree choices."
+        },
+        {
+          "name": "The Changing Environment",
+          "regionType": "World transformation system",
+          "description": "Blight changes the environment in real time as plains and wastelands become forests and new threats emerge.",
+          "explorationFeatures": [
+            "Gradual landscape changes",
+            "Abrupt forest growth",
+            "New enemy appearances",
+            "Living environmental cycles"
+          ],
+          "dangersAndRewards": "The terrain itself becomes part of the challenge, changing routes and combat conditions during the journey."
+        },
+        {
+          "name": "The Sky",
+          "regionType": "World mystery",
+          "description": "An ancient rule warns travellers never to look up at the sky because something is said to be floating above the world.",
+          "explorationFeatures": [
+            "Environmental storytelling",
+            "Ancient legends",
+            "A recurring mystery connected to the world's secrets"
+          ],
+          "dangersAndRewards": "The warning forms part of the larger mystery surrounding the ruined world and its history."
         }
       ]
     }
@@ -749,31 +545,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Beast of Reincarnation",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Beast of Reincarnation?",
+        "answer": "Beast of Reincarnation is a one-person, one-dog action RPG developed by Game Freak and published by Fictions. Players control Emma in real-time sword combat and issue tactical commands to her canine companion Koo."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "When does Beast of Reincarnation release?",
+        "answer": "Beast of Reincarnation has a worldwide release date of August 4, 2026 on PS5, Xbox Series X|S and Windows PC. The Steam storefront may display August 3 in some regions due to regional store timing."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What platforms is Beast of Reincarnation on?",
+        "answer": "Beast of Reincarnation launches on PlayStation 5, Xbox Series X|S and Windows PC, and it is available on Xbox Game Pass Ultimate on day one with Xbox Play Anywhere support."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How does combat work in Beast of Reincarnation?",
+        "answer": "Beast of Reincarnation combines Emma's real-time katana actions with Koo's command techniques. Successful parries generate points that unlock Koo's abilities, and opening the command menu slows combat so you can choose your next move."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What are Nushi in Beast of Reincarnation?",
+        "answer": "Nushi are giant malefacts in Beast of Reincarnation that generate blighted forests across the world. Defeating a Nushi lets Emma and Koo absorb its power and unlock new skills for the journey ahead."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "What editions does Beast of Reincarnation have?",
+        "answer": "Beast of Reincarnation offers a $59.99 Standard Edition and a $69.99 Digital Deluxe Edition that adds the Big Dipper sword, Oni's Hat, 100,000 Amber, Koo skins and seedlings. Pre-orders also receive a Brown Shiba Skin for Koo and 30,000 Amber."
       }
     ]
   },
@@ -802,124 +598,164 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Beast of Reincarnation Guides",
+      "description": "Complete Beast of Reincarnation guides from beginner basics to advanced combat, exploration, and boss strategies.",
+      "metaTitle": "Beast of Reincarnation Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Beast of Reincarnation guides covering beginner tips, combat, parries, exploration, and expert tactics for Emma and Koo's journey.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive Beast of Reincarnation guides covering gameplay mechanics, exploration, combat systems, and progression. Learn everything from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand Beast of Reincarnation's combat, parries, and companion commands",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven paths to survive blighted regions and defeat Nushi",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for exploration, builds, and boss encounters"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "combat": {
+      "title": "Beast of Reincarnation Combat",
+      "description": "Master Emma's swordplay, parry timing, and Koo's command techniques across every encounter.",
+      "metaTitle": "Beast of Reincarnation Combat - Parry and Command Guide",
+      "metaDescription": "Master Beast of Reincarnation combat with parry timing, Koo's command menu, skill points, and technique selection for every enemy.",
+      "categoryLabel": "COMBAT SYSTEM",
+      "whatIs": "What is Combat?",
+      "whatIsDescription": "Beast of Reincarnation's combat blends Emma's real-time katana actions with Koo's command-based techniques. Successful parries generate the points that unlock Koo's abilities.",
+      "why": "Why master combat?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Read Enemy Attacks",
+        "step1Description": "Identify wind-up, direction, and impact timing of incoming strikes",
+        "step2Title": "Time Your Parries",
+        "step2Description": "Just-guard to protect Emma and earn command points for Koo",
+        "step3Title": "Command Koo",
+        "step3Description": "Open the slowed command menu and select the right technique"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Combat Guides"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "builds": {
+      "title": "Beast of Reincarnation Builds",
+      "description": "Skill trees, Spirit Stones, katanas, and Charms for aggressive, ranged, and stealth playstyles.",
+      "metaTitle": "Beast of Reincarnation Builds - Skill Trees, Gear & Spirit Stones",
+      "metaDescription": "Build Emma and Koo in Beast of Reincarnation with skill trees, Spirit Stones, katanas, and Charms for aggressive, ranged, stealth, and tactical loadouts.",
+      "categoryLabel": "BUILDS & GEAR",
+      "whatIs": "What are Builds?",
+      "whatIsDescription": "Beast of Reincarnation builds combine Emma's skill trees and katanas with Koo's Charms and Spirit Stones to shape how the pair fights across blighted Japan.",
+      "why": "Why plan builds?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Choose a Playstyle",
+        "step1Description": "Pick aggressive melee, ranged control, or stealth ambush",
+        "step2Title": "Equip the Right Gear",
+        "step2Description": "Pair katanas, Charms, and Spirit Stones that support your actions",
+        "step3Title": "Grow the Skill Tree",
+        "step3Description": "Upgrade the nodes that reinforce your chosen combat loop"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Build Guides"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "bosses": {
+      "title": "Beast of Reincarnation Bosses",
+      "description": "Nushi locations, attack patterns, weaknesses, and the powers Emma and Koo absorb after victory.",
+      "metaTitle": "Beast of Reincarnation Bosses - Nushi Locations & Strategies",
+      "metaDescription": "Complete Beast of Reincarnation boss and Nushi guide with locations, attack patterns, weaknesses, and rewards for every major encounter.",
+      "categoryLabel": "BOSSES & NUSHI",
+      "whatIs": "What are Bosses?",
+      "whatIsDescription": "Beast of Reincarnation bosses are led by the Nushi, giant malefacts that generate blighted forests. Defeating them grants Emma and Koo new powers and skills.",
+      "why": "Why study bosses?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Find the Nushi",
+        "step1Description": "Track blighted forests to the giant creature controlling each region",
+        "step2Title": "Learn Attack Patterns",
+        "step2Description": "Read wind-ups and parry windows for every major encounter",
+        "step3Title": "Absorb Their Power",
+        "step3Description": "Claim Nushi abilities that open new routes and combat options"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Boss Guides"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "characters": {
+      "title": "Beast of Reincarnation Characters",
+      "description": "Emma, Koo, colony residents, and the bonds that drive the story of Beast of Reincarnation.",
+      "metaTitle": "Beast of Reincarnation Characters - Emma, Koo & Story",
+      "metaDescription": "Meet the characters of Beast of Reincarnation: Emma the Sealer, Koo the malefact companion, colony survivors, and the central story of the year 4026.",
+      "categoryLabel": "CHARACTERS & STORY",
+      "whatIs": "Who are the Characters?",
+      "whatIsDescription": "Beast of Reincarnation follows Emma, a Sealer born with blight, and Koo, a malefact hunted as a threat. Their bond shapes both the story and the combat.",
+      "why": "Why follow the story?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Understand the Bond",
+        "step1Description": "Learn how Emma and Koo's partnership drives the journey west",
+        "step2Title": "Meet the Survivors",
+        "step2Description": "Discover the colony residents carrying major secrets",
+        "step3Title": "Uncover the World",
+        "step3Description": "Piece together the mystery of the blight and the year 4026"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Character Guides"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "world": {
+      "title": "Beast of Reincarnation World",
+      "description": "Colonies, wastelands, blighted forests, and the ever-changing Japan of 4026.",
+      "metaTitle": "Beast of Reincarnation World - Maps & Exploration Guide",
+      "metaDescription": "Explore Beast of Reincarnation's world: colonies, plains, wastelands, ruined cities, blighted forests, traversal, and the real-time environmental transformation.",
+      "categoryLabel": "WORLD & EXPLORATION",
+      "whatIs": "What is the World?",
+      "whatIsDescription": "Beast of Reincarnation's world spans colonies, plains, wastelands, ruined cities, and blighted forests. Blight reshapes these regions in real time as Emma and Koo travel.",
+      "why": "Why explore the world?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Use Plant-Hair Traversal",
+        "step1Description": "Cross collapsed bridges, walls, and elevated routes with Emma's hair",
+        "step2Title": "Adapt to Change",
+        "step2Description": "React as plains turn into forests and new threats appear",
+        "step3Title": "Find Equipment",
+        "step3Description": "Discover katanas, Charms, and gear hidden across the world"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All World Guides"
+    },
+    "editions": {
+      "title": "Beast of Reincarnation Editions",
+      "description": "Standard vs Digital Deluxe prices, bonuses, and pre-order rewards.",
+      "metaTitle": "Beast of Reincarnation Editions - Standard vs Digital Deluxe",
+      "metaDescription": "Compare Beast of Reincarnation editions: Standard and Digital Deluxe prices, Big Dipper sword, Oni's Hat, Amber, Koo skins, and pre-order bonuses.",
+      "categoryLabel": "EDITIONS & PRE-ORDER",
+      "whatIs": "What are the Editions?",
+      "whatIsDescription": "Beast of Reincarnation offers a Standard Edition and a Digital Deluxe Edition. The Deluxe adds the Big Dipper sword, Oni's Hat, 100,000 Amber, Koo skins, and seedlings.",
+      "why": "Why compare editions?",
+      "whySteps": {
+        "step1Title": "Check the Price",
+        "step1Description": "Compare the $59.99 Standard and $69.99 Digital Deluxe editions",
+        "step2Title": "Review the Bonuses",
+        "step2Description": "See cosmetic, weapon, and currency rewards in each edition",
+        "step3Title": "Claim Pre-Order Rewards",
+        "step3Description": "Get the Brown Shiba Skin for Koo and 30,000 Amber"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Edition Guides"
+    },
+    "news": {
+      "title": "Beast of Reincarnation News",
+      "description": "Release date updates, trailers, interviews, and post-launch patches.",
+      "metaTitle": "Beast of Reincarnation News - Trailers, Updates & Patches",
+      "metaDescription": "Follow Beast of Reincarnation news: release date updates, official trailers, developer interviews, patch notes, and DLC announcements.",
+      "categoryLabel": "NEWS & UPDATES",
+      "whatIs": "What is News?",
+      "whatIsDescription": "Beast of Reincarnation news covers official announcements, trailers, interviews, and patch notes with dates. Permanent guides live in the other sections.",
+      "why": "Why follow news?",
+      "whySteps": {
+        "step1Title": "Track Trailers",
+        "step1Description": "Follow Reveal, Developer Direct, Release Date, and Pre-Order trailers",
+        "step2Title": "Stay Updated",
+        "step2Description": "Catch release timing, platform, and language announcements",
+        "step3Title": "Read Patch Notes",
+        "step3Description": "Stay current on post-launch fixes and DLC news"
+      },
+      "featured": "Featured & Essential",
+      "all": "All News"
     }
   }
 }

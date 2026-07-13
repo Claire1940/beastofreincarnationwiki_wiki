@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { ExternalLink } from "lucide-react";
 
 interface VideoFeatureProps {
@@ -15,21 +15,48 @@ export function VideoFeature({
   poster = "/images/hero.webp",
 }: VideoFeatureProps) {
   const [playing, setPlaying] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   const watchUrl = useMemo(
     () => `https://www.youtube.com/watch?v=${videoId}`,
     [videoId],
   );
 
+  // autoplay + mute + loop (loop requires playlist=videoId for single videos)
   const embedUrl = useMemo(
     () =>
-      `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&rel=0`,
+      `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&loop=1&playsinline=1&rel=0&playlist=${videoId}`,
     [videoId],
   );
+
+  // Auto-play when the video scrolls at least 50% into view (one-shot).
+  // Click on the poster remains a manual fallback.
+  useEffect(() => {
+    if (playing || typeof IntersectionObserver === "undefined") return;
+    const node = containerRef.current;
+    if (!node) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+            setPlaying(true);
+            observer.disconnect();
+            break;
+          }
+        }
+      },
+      { threshold: [0, 0.5, 1] },
+    );
+
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [playing]);
 
   return (
     <div className="space-y-4">
       <div
+        ref={containerRef}
         className="relative w-full overflow-hidden rounded-lg bg-black"
         style={{ paddingBottom: "56.25%" }}
       >

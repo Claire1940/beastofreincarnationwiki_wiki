@@ -27,6 +27,12 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Star: LucideIcons.Star,
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
+  // Beast of Reincarnation 主题图标
+  Calendar: LucideIcons.Calendar,
+  ShoppingBag: LucideIcons.ShoppingBag,
+  Swords: LucideIcons.Swords,
+  Skull: LucideIcons.Skull,
+  Map: LucideIcons.Map,
 
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,

@@ -66,3 +66,8 @@ site.json
 # refactor orchestrator temp files
 .refactor-pid
 .refactor-start-time
+
+# 静态导出 / Workers 构建产物
+out/
+.open-next/
+.wrangler/

@@ -10,14 +10,7 @@
       "twitterDescription": "Beast of Reincarnation Wiki with release details, combat guides, Emma and Koo builds, bosses, skills, gear, story, maps, editions, and updates."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",

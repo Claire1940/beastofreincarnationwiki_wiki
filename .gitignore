@@ -62,3 +62,7 @@ test-cards.html
 
 # 站点清单（含全部域名，禁止提交到 public repo）
 site.json
+
+# refactor orchestrator temp files
+.refactor-pid
+.refactor-start-time

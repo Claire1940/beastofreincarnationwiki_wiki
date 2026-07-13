@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Beast of Reincarnation Wiki - Guides, Builds & Bosses",
+      "description": "Beast of Reincarnation Wiki with release details, combat guides, Emma and Koo builds, bosses, skills, gear, story, maps, editions, and updates.",
+      "keywords": "Beast of Reincarnation, wiki, guides, builds, bosses, skills, gear, Emma, Koo",
+      "ogTitle": "Beast of Reincarnation Wiki - Guides, Builds & Bosses",
+      "ogDescription": "Beast of Reincarnation Wiki with release details, combat guides, Emma and Koo builds, bosses, skills, gear, story, maps, editions, and updates.",
+      "twitterTitle": "Beast of Reincarnation Wiki - Guides, Builds & Bosses",
+      "twitterDescription": "Beast of Reincarnation Wiki with release details, combat guides, Emma and Koo builds, bosses, skills, gear, story, maps, editions, and updates."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "One-Person, One-Dog Action RPG",
+    "title": "Beast of Reincarnation Wiki",
+    "description": "Master Emma and Koo's hybrid combat, explore post-apocalyptic Japan, defeat Nushi, unlock skills, and prepare for every boss and story secret.",
+    "getFreeCodesCTA": "View Guides",
+    "playOnSteamCTA": "Pre-Order on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Aug 4, 2026",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "3",
+        "label": "Launch Platforms"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "11",
+        "label": "Supported Languages"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "Day One",
+        "label": "Game Pass Ultimate"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Begin the Journey?",
+    "description": "Join the Beast of Reincarnation community on Discord and pre-order on Steam, PlayStation Store, or Xbox for Emma and Koo's one-person, one-dog adventure.",
     "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "joinGame": "Pre-Order on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Beast of Reincarnation Wiki",
+    "description": "Your complete resource hub for Beast of Reincarnation guides, builds, bosses, combat, characters, and story coverage.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
+    "youtube": "YouTube",
     "steamStore": "Steam Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Beast of Reincarnation Wiki. Not affiliated with GAME FREAK or Fictions.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

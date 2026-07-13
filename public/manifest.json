@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Beast of Reincarnation Wiki - Guides, Builds & Bosses",
+  "short_name": "Beast of Reincarnation",
+  "description": "Beast of Reincarnation Wiki with release details, combat guides, Emma and Koo builds, bosses, skills, gear, story, maps, editions, and updates.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#c59420",
+  "background_color": "#0c100d",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

@@ -1,14 +1,21 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { ExternalLink } from "lucide-react";
 
 interface VideoFeatureProps {
   videoId: string;
   title: string;
+  poster?: string;
 }
 
-export function VideoFeature({ videoId, title }: VideoFeatureProps) {
+export function VideoFeature({
+  videoId,
+  title,
+  poster = "/images/hero.webp",
+}: VideoFeatureProps) {
+  const [playing, setPlaying] = useState(false);
+
   const watchUrl = useMemo(
     () => `https://www.youtube.com/watch?v=${videoId}`,
     [videoId],
@@ -22,15 +29,48 @@ export function VideoFeature({ videoId, title }: VideoFeatureProps) {
 
   return (
     <div className="space-y-4">
-      <div className="relative w-full overflow-hidden rounded-lg" style={{ paddingBottom: "56.25%" }}>
-        <iframe
-          className="absolute top-0 left-0 w-full h-full"
-          src={embedUrl}
-          title={title}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        />
+      <div
+        className="relative w-full overflow-hidden rounded-lg bg-black"
+        style={{ paddingBottom: "56.25%" }}
+      >
+        {playing ? (
+          <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            src={embedUrl}
+            title={title}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
+        ) : (
+          <button
+            type="button"
+            onClick={() => setPlaying(true)}
+            className="absolute top-0 left-0 h-full w-full cursor-pointer group"
+            aria-label={`Play video: ${title}`}
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={poster}
+              alt={title}
+              className="absolute top-0 left-0 h-full w-full object-cover"
+              loading="eager"
+              draggable={false}
+            />
+            <span className="absolute inset-0 flex items-center justify-center bg-black/30 transition-colors group-hover:bg-black/20">
+              <span className="flex h-16 w-16 items-center justify-center rounded-full bg-[hsl(var(--nav-theme))] shadow-lg shadow-black/40 transition-transform group-hover:scale-110 md:h-20 md:w-20">
+                <svg
+                  viewBox="0 0 24 24"
+                  className="h-7 w-7 translate-x-0.5 text-white md:h-9 md:w-9"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </span>
+            </span>
+          </button>
+        )}
       </div>
 
       <div className="flex justify-center">

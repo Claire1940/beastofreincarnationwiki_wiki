@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Beast of Reincarnation Weapons: Loadout Combinations & Combat Stats",
+  description: "Master the hybrid combat system in Beast of Reincarnation with our breakdown of Emma's katanas, bows, crossbows, and elemental loadouts.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Weapons+and+Loadouts+Guide",
+  date: "2026-07-14",
+  author: "Beast of Reincarnation Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Beast of Reincarnation weapons** define your active combat capabilities, featuring Emma's signature katana for melee alongside ranged backup.
+- **Hybrid combat** relies on building the Entanglement Gauge with melee strikes to trigger Koo's heavy-hitting Blooming Arts.
+- **Ranged versatility** is dictated by equipping three swappable slots of elemental arrows and crossbow bolts.
+- **Spirit Stones** stack directly onto your katana parries to grant passive stat boosts, elemental tracking, and Vigor buffs.
+</Callout>
+
+<Section icon={Swords} title="Beast of Reincarnation Weapons Overview">
+
+The combat system of **Beast of Reincarnation** blends fast-paced, real-time melee action with a tactical command menu. As Emma, your primary tool of destruction is your katana, paired with a bow and a crossbow for ranged flexibility. Meanwhile, your wolf companion Koo uses specialized Blooming Arts to control the battlefield. Understanding how your weapon loadout interacts with your equipment slots is vital for surviving the corrupted ruins of 4026 AD Japan.
+
+**Video Highlights:**
+- Detailed breakdown of Emma and Koo's synergistic hybrid combat.
+- Explanation of the command menu which slows down time to execute Blooming Arts.
+- Preview of boss fights against corrupted flora and fauna known as Nushi.
+
+<YouTubeEmbed videoId="3IDJ-0qkgQg" title="Story, Gameplay, Combat & Release Details | Beast of Reincarnation Explained" />
+
+Emma's offense is split between close-quarters swordplay and tactical ranged status effects. By executing precise parries and physical strikes, you fill up your combat gauge to unleash Koo's abilities. Below is a breakdown of the primary weapon categories available in your loadout.
+
+| Weapon Category | Primary Range | Resource Cost | Main Combat Role |
+|--- |--- |--- |--- |
+| **Katana** | Close Range | None (Generates Gauges) | Deflecting, building Entanglement, fast melee combos |
+| **Bow** | Medium to Long | Elemental Arrows | Applying status ailments, pulling single targets |
+| **Crossbow** | Medium Range | Elemental Bolts | High fire-rate pressure, rapid elemental buildup |
+
+<Callout type="tip" title="Synergy Tip">
+Always initiate combat with ranged elemental shots to apply status ailments like Burn or Poison. This triggers specific Spirit Stone modifiers that increase your melee damage against afflicted targets.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Melee Mechanics and Katana Customization">
+
+Emma's katana is her primary tool for survival. Rather than relying on ammunition or mana, melee combat is governed by the **Entanglement Gauge** at the bottom center of the screen. Striking enemies and executing perfect parries charges this gauge, allowing you to execute high-tier physical skills such as aerial downward strikes and vine-piercing summons.
+
+To customize your playstyle, you can slot **Spirit Stones** directly into your equipment. These stones stack passive buffs whenever you perform a successful parry.
+
+<CardGrid cols={3}>
+  <Card title="Vigor Build">
+    Focuses on equipping Spirit Stones that grant the **Vigor buff** after parrying, boosting overall speed and physical attack power.
+  </Card>
+  <Card title="Elemental Hunter">
+    Uses stones that modify ranged shots to track targets automatically while boosting damage against unalerted enemies.
+  </Card>
+  <Card title="Adrenaline Edge">
+    A high-risk setup that significantly boosts your critical rate and raw attack power when Emma's HP drops below a specific threshold.
+  </Card>
+</CardGrid>
+
+Your katana's performance is heavily influenced by your armor's available slots. Emma's default Light Gambeson provides four slots for Spirit Stones, but advanced armors found throughout the world can hold up to six slots.
+
+| Katana Stat | Impact on Gameplay | Recommended Modification |
+|--- |--- |--- |
+| **Attack** | Increases raw physical damage | Stack physical damage Spirit Stones |
+| **Critical Rate** | Probability of dealing double damage | Combine with low-HP high-crit armor sets |
+| **Skill Power** | Boosts the damage of vine-based skills | Equip stones that regenerate HP on hit |
+
+<Callout type="warning" title="Parry Timing">
+Parrying is not just defensive. Failing to parry drops your Entanglement build-up, preventing you from using Emma's crowd-control vine skills when surrounded by hostile Golems.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ranged Arsenal and Elemental Ammunition">
+
+While the katana handles close-range threats, your bow and crossbow are essential for managing crowds and exploiting elemental weaknesses. Emma can equip up to three active slots of specialized ammunition, allowing quick swaps mid-battle.
+
+Your ranged arsenal relies on a variety of elemental affinities, which can be crafted or found as drops from corrupted Malefacts.
+
+<Steps>
+  <Step num="1" title="Equip Ammunition">
+    Assign up to three different elemental arrows or crossbow bolts to your quick-access weapon slots.
+  </Step>
+  <Step num="2" title="Apply Status Ailments">
+    Fire at distant targets to inflict status effects such as Burn or Poison before they close the distance.
+  </Step>
+  <Step num="3" title="Trigger Blooming Arts Mods">
+    Use Koo's customized Blooming Arts that deal bonus damage or grant Koo focus points (FP) when hitting afflicted targets.
+  </Step>
+</Steps>
+
+| Ammunition Type | Elemental Affinity | Best Used Against | Primary Effect |
+|--- |--- |--- |--- |
+| **Fire Arrow** | Fire | Plant-based Malefacts | Deals damage over time, triggers fire mods |
+| **Poison Bolt** | Poison | High-HP Golems | Slowly drains health pools during long evasive phases |
+| **Tracking Arrow** | Physical / Utility | Fast-moving aerial beasts | Automatically curves toward targets when fired |
+
+<Callout type="info" title="Crossbow vs Bow">
+The crossbow offers a much higher rate of fire, making it the superior choice for rapidly building up elemental status bars on bosses. The standard bow excels at long-range precision shots on unalerted targets.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Koo's Blooming Arts and Synergistic Skills">
+
+You cannot master the **beast of reincarnation weapons** without utilizing Koo, your Malefact companion. While Emma is controlled directly, Koo is commanded via a tactical menu that slows down time. Selecting a Blooming Art triggers quick-time events (QTEs) that execute coordinated duo attacks.
+
+Koo's abilities cost Focus Points (FP), which are displayed at the bottom right corner of the screen.
+
+| Blooming Art | FP Cost | Target Range | Primary Combat Effect |
+|--- |--- |--- |--- |
+| **Flame Strike** | Low | Single Target | Deals fire damage, applies burn status |
+| **Earth Restrain** | Medium | Area of Effect | Summons vines to group and immobilize up to four foes |
+| **Aerial Launch** | Medium | Single Target | Launches enemies into the air for Emma's downward strike |
+
+You can further customize Koo's Blooming Arts by attaching specialized **mods** that alter their behavior based on Emma's active weapon state.
+
+<Checklist
+  id="koo-mods-checklist"
+  title="Recommended Blooming Art Mods:"
+  items={[
+    "Vigor Mod: Grants Emma a speed buff when attacking status-afflicted foes.",
+    "Regen Mod: Restores a small percentage of Emma's HP upon successful hits.",
+    "Focus Mod: Generates bonus FP for Koo when hitting burned targets with melee strikes.",
+    "Breaker Mod: Increases shield-breaking damage against armored Golems."
+  ]}
+/>
+
+<Callout type="success" title="Duo Combo">
+Use Koo's Aerial Launch to send a target airborne, then immediately follow up with Emma's downward strike skill from her katana skill tree to deal massive impact damage.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Weapon Progression and Boss Rewards">
+
+Upgrading your weapons and expanding your tactical options requires defeating the giant bosses of the blight, known as Nushi. Defeating a Nushi rewards Emma with unique flowers that sprout in her hair, unlocking new skills and marking your progression through the game's timeline.
+
+| Boss Encounter | Reward Unlocked | Combat Application |
+|--- |--- |--- |
+| **Carnivorous Plant Nushi** | Shakuyaku Flower | Unlocks resurrection mechanic and initial vine skills |
+| **Deer Nushi** | Sakura Flower / Purple Tendrils | Enhances melee range and adds tracking to ranged shots |
+| **Bear Nushi** | Eleven-Flower Mastery | Unlocks high-tier skill tree paths for both Emma and Koo |
+
+<Callout type="info" title="Equipment Customization">
+Koo's attributes can also be modified using collectible charms. These charms alter his defensive capabilities and his FP regeneration rates during intense boss encounters.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I upgrade my beast of reincarnation weapons?",
+    answer: "Weapons are upgraded by slotting Spirit Stones into your armor slots and spending Skill Points (SP) on Emma and Koo's respective skill trees."
+  },
+  {
+    question: "Can I equip different melee weapons besides the katana?",
+    answer: "No, Emma's primary melee weapon is always her katana. However, you can completely alter its performance, attack speed, and elemental properties using Spirit Stones."
+  },
+  {
+    question: "How do I swap between the bow and the crossbow in combat?",
+    answer: "You can equip up to three ammunition configurations in your quick-swap slots, allowing you to transition between rapid crossbow fire and heavy bow shots seamlessly."
+  },
+  {
+    question: "What is the benefit of parrying over dodging?",
+    answer: "Parrying builds up your Entanglement Gauge much faster than dodging, allowing you to use Emma's powerful plant-based active skills more frequently."
+  }
+]} />
+
+</Section>

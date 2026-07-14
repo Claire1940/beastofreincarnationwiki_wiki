@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Armas de Beast of Reincarnation: Combinaciones de Equipamiento y Estadísticas de Combate",
+  description: "Domina el sistema de combate híbrido en Beast of Reincarnation con nuestro desglose de las katanas, arcos, ballestas y equipamientos elementales de Emma.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Weapons+and+Loadouts+Guide",
+  date: "2026-07-14",
+  author: "Equipo de la Wiki de Beast of Reincarnation"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Las armas de Beast of Reincarnation** definen tus capacidades de combate activo, destacando la katana característica de Emma para el cuerpo a cuerpo junto con apoyo a distancia.
+- **El combate híbrido** se basa en llenar el Medidor de Entrelazamiento con ataques cuerpo a cuerpo para activar las poderosas Artes Florecientes de Koo.
+- **La versatilidad a distancia** se gestiona equipando tres ranuras intercambiables de flechas elementales y virotes de ballesta.
+- **Las Piedras Espirituales** se acumulan directamente en los desvíos de tu katana para otorgar mejoras de estadísticas pasivas, rastreo elemental y potenciadores de Vigor.
+</Callout>
+
+<Section icon={Swords} title="Descripción General de las Armas de Beast of Reincarnation">
+
+El sistema de combate de **Beast of Reincarnation** combina una acción cuerpo a cuerpo rápida en tiempo real con un menú de comandos tácticos. Como Emma, tu herramienta principal de destrucción es tu katana, complementada con un arco y una ballesta para flexibilidad a distancia. Mientras tanto, tu compañero lobo Koo utiliza Artes Florecientes especializadas para controlar el campo de batalla. Comprender cómo interactúa tu equipamiento de armas con tus ranuras de equipo es vital para sobrevivir en las ruinas corruptas del Japón del año 4026 d.C.
+
+**Puntos Destacados del Vídeo:**
+- Desglose detallado del combate híbrido sinérgico de Emma y Koo.
+- Explicación del menú de comandos que ralentiza el tiempo para ejecutar Artes Florecientes.
+- Vista previa de las batallas contra jefes, la flora y fauna corrupta conocida como Nushi.
+
+<YouTubeEmbed videoId="3IDJ-0qkgQg" title="Historia, Jugabilidad, Combate y Detalles de Lanzamiento | Beast of Reincarnation Explicado" />
+
+La ofensiva de Emma se divide entre el juego de espada a corta distancia y los efectos de estado tácticos a distancia. Al ejecutar desvíos precisos y ataques físicos, llenas tu medidor de combate para desatar las habilidades de Koo. A continuación, se presenta un desglose de las categorías de armas principales disponibles en tu inventario.
+
+| Categoría de Arma | Alcance Principal | Coste de Recurso | Rol de Combate Principal |
+|--- |--- |--- |--- |
+| **Katana** | Corto Alcance | Ninguno (Genera Medidores) | Desviar, generar Entrelazamiento, combos rápidos |
+| **Arco** | Medio a Largo | Flechas Elementales | Aplicar estados alterados, atraer objetivos individuales |
+| **Ballesta** | Medio Alcance | Virotes Elementales | Presión de alta cadencia, acumulación elemental rápida |
+
+<Callout type="tip" title="Consejo de Sinergia">
+Inicia siempre el combate con disparos elementales a distancia para aplicar estados alterados como Quemadura o Veneno. Esto activa modificadores específicos de las Piedras Espirituales que aumentan tu daño cuerpo a cuerpo contra objetivos afectados.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Mecánicas de Combate Cuerpo a Cuerpo y Personalización de la Katana">
+
+La katana de Emma es su herramienta principal de supervivencia. En lugar de depender de munición o maná, el combate cuerpo a cuerpo se rige por el **Medidor de Entrelazamiento** en la parte inferior central de la pantalla. Golpear a los enemigos y ejecutar desvíos perfectos carga este medidor, permitiéndote ejecutar habilidades físicas de alto nivel, como golpes descendentes aéreos e invocaciones de enredaderas perforantes.
+
+Para personalizar tu estilo de juego, puedes engarzar **Piedras Espirituales** directamente en tu equipo. Estas piedras acumulan mejoras pasivas cada vez que realizas un desvío con éxito.
+
+<CardGrid cols={3}>
+  <Card title="Configuración de Vigor">
+    Se centra en equipar Piedras Espirituales que otorgan la **mejora de Vigor** tras desviar, aumentando la velocidad general y el poder de ataque físico.
+  </Card>
+  <Card title="Cazador Elemental">
+    Utiliza piedras que modifican los disparos a distancia para rastrear objetivos automáticamente, al tiempo que aumentan el daño contra enemigos desprevenidos.
+  </Card>
+  <Card title="Filo de Adrenalina">
+    Una configuración de alto riesgo que aumenta significativamente tu tasa crítica y tu poder de ataque base cuando los PV de Emma caen por debajo de un umbral específico.
+  </Card>
+</CardGrid>
+
+El rendimiento de tu katana está fuertemente influenciado por las ranuras disponibles en tu armadura. El Gambesón Ligero inicial de Emma ofrece cuatro ranuras para Piedras Espirituales, pero las armaduras avanzadas que se encuentran por el mundo pueden albergar hasta seis ranuras.
+
+| Estadística de Katana | Impacto en el Juego | Modificación Recomendada |
+|--- |--- |--- |
+| **Ataque** | Aumenta el daño físico base | Acumular Piedras Espirituales de daño físico |
+| **Tasa Crítica** | Probabilidad de infligir el doble de daño | Combinar con conjuntos de armadura de baja vida y alto crítico |
+| **Poder de Habilidad** | Potencia el daño de las habilidades de enredadera | Equipar piedras que regeneran PV al golpear |
+
+<Callout type="warning" title="Sincronización del Desvío">
+Desviar no es solo defensivo. No lograr desviar reduce tu acumulación de Entrelazamiento, lo que te impide usar las habilidades de enredadera de control de masas de Emma cuando estás rodeada de Golems hostiles.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Arsenal a Distancia y Munición Elemental">
+
+Mientras que la katana se encarga de las amenazas a corta distancia, tu arco y ballesta son esenciales para gestionar grupos y explotar debilidades elementales. Emma puede equipar hasta tres ranuras activas de munición especializada, lo que permite cambios rápidos a mitad de la batalla.
+
+Tu arsenal a distancia depende de una variedad de afinidades elementales, que pueden fabricarse o encontrarse como botín de los Malefactos corruptos.
+
+<Steps>
+  <Step num="1" title="Equipar Munición">
+    Asigna hasta tres tipos diferentes de flechas elementales o virotes de ballesta a tus ranuras de acceso rápido.
+  </Step>
+  <Step num="2" title="Aplicar Estados Alterados">
+    Dispara a objetivos lejanos para infligir efectos de estado como Quemadura o Veneno antes de que acorten la distancia.
+  </Step>
+  <Step num="3" title="Activar Mods de Artes Florecientes">
+    Usa las Artes Florecientes personalizadas de Koo que infligen daño adicional u otorgan puntos de foco (PF) a Koo al golpear objetivos afectados.
+  </Step>
+</Steps>
+
+| Tipo de Munición | Afinidad Elemental | Mejor contra | Efecto Principal |
+|--- |--- |--- |--- |
+| **Flecha de Fuego** | Fuego | Malefactos vegetales | Inflige daño en el tiempo, activa mods de fuego |
+| **Virote de Veneno** | Veneno | Golems de gran vida | Drena lentamente la salud durante fases evasivas largas |
+| **Flecha de Rastreo** | Físico / Utilidad | Bestias aéreas rápidas | Se curva automáticamente hacia los objetivos al disparar |
+
+<Callout type="info" title="Ballesta vs Arco">
+La ballesta ofrece una cadencia de fuego mucho mayor, lo que la convierte en la opción superior para acumular rápidamente barras de estado elemental en los jefes. El arco estándar destaca en disparos de precisión a larga distancia contra objetivos que no te han detectado.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Artes Florecientes de Koo y Habilidades Sinérgicas">
+
+No puedes dominar las **armas de Beast of Reincarnation** sin utilizar a Koo, tu compañero Malefacto. Mientras que Emma se controla directamente, a Koo se le dan órdenes a través de un menú táctico que ralentiza el tiempo. Seleccionar un Arte Floreciente activa eventos de tiempo rápido (QTE) que ejecutan ataques coordinados en dúo.
+
+Las habilidades de Koo cuestan Puntos de Foco (PF), que se muestran en la esquina inferior derecha de la pantalla.
+
+| Arte Floreciente | Coste de PF | Alcance del Objetivo | Efecto de Combate Principal |
+|--- |--- |--- |--- |
+| **Golpe de Llama** | Bajo | Objetivo Único | Inflige daño de fuego, aplica estado de quemadura |
+| **Restricción de Tierra** | Medio | Área de Efecto | Invoca enredaderas para agrupar e inmovilizar hasta cuatro enemigos |
+| **Lanzamiento Aéreo** | Medio | Objetivo Único | Lanza a los enemigos por los aires para el golpe descendente de Emma |
+
+Puedes personalizar aún más las Artes Florecientes de Koo añadiendo **mods** especializados que alteran su comportamiento según el estado del arma activa de Emma.
+
+<Checklist
+  id="koo-mods-checklist"
+  title="Mods de Artes Florecientes Recomendados:"
+  items={[
+    "Mod de Vigor: Otorga a Emma una mejora de velocidad al atacar a enemigos con estados alterados.",
+    "Mod de Regeneración: Restaura un pequeño porcentaje de los PV de Emma tras golpes exitosos.",
+    "Mod de Foco: Genera PF adicional para Koo al golpear objetivos quemados con ataques cuerpo a cuerpo.",
+    "Mod de Rompedor: Aumenta el daño de ruptura de escudo contra Golems blindados."
+  ]}
+/>
+
+<Callout type="success" title="Combo de Dúo">
+Usa el Lanzamiento Aéreo de Koo para enviar a un objetivo al aire y, acto seguido, utiliza la habilidad de golpe descendente de la katana del árbol de habilidades de Emma para infligir un daño de impacto masivo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresión de Armas y Recompensas de Jefes">
+
+Mejorar tus armas y ampliar tus opciones tácticas requiere derrotar a los jefes gigantes de la plaga, conocidos como Nushi. Derrotar a un Nushi recompensa a Emma con flores únicas que brotan en su cabello, desbloqueando nuevas habilidades y marcando tu progreso a través de la cronología del juego.
+
+| Encuentro con Jefe | Recompensa Desbloqueada | Aplicación en Combate |
+|--- |--- |--- |
+| **Nushi Planta Carnívora** | Flor Shakuyaku | Desbloquea la mecánica de resurrección y habilidades de enredadera iniciales |
+| **Nushi Ciervo** | Flor de Sakura / Zarcillos Púrpura | Mejora el alcance cuerpo a cuerpo y añade rastreo a los disparos a distancia |
+| **Nushi Oso** | Maestría de las Once Flores | Desbloquea rutas de árboles de habilidades de alto nivel para Emma y Koo |
+
+<Callout type="info" title="Personalización de Equipo">
+Los atributos de Koo también pueden modificarse mediante amuletos coleccionables. Estos amuletos alteran sus capacidades defensivas y sus tasas de regeneración de PF durante los intensos encuentros con jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo mejoro mis armas de Beast of Reincarnation?",
+    answer: "Las armas se mejoran engarzando Piedras Espirituales en las ranuras de tu armadura y gastando Puntos de Habilidad (PH) en los respectivos árboles de habilidades de Emma y Koo."
+  },
+  {
+    question: "¿Puedo equipar diferentes armas cuerpo a cuerpo además de la katana?",
+    answer: "No, el arma cuerpo a cuerpo principal de Emma es siempre su katana. Sin embargo, puedes alterar completamente su rendimiento, velocidad de ataque y propiedades elementales usando Piedras Espirituales."
+  },
+  {
+    question: "¿Cómo cambio entre el arco y la ballesta en combate?",
+    answer: "Puedes equipar hasta tres configuraciones de munición en tus ranuras de cambio rápido, lo que te permite pasar del fuego rápido de la ballesta a los disparos pesados del arco sin interrupciones."
+  },
+  {
+    question: "¿Cuál es el beneficio de desviar sobre esquivar?",
+    answer: "Desviar llena tu Medidor de Entrelazamiento mucho más rápido que esquivar, permitiéndote usar las poderosas habilidades activas basadas en plantas de Emma con más frecuencia."
+  }
+]} />
+
+</Section>

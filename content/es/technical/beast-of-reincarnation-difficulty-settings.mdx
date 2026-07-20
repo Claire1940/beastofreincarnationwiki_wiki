@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Configuración de dificultad en Beast of Reincarnation: Guía de inicio y consejos de combate",
+  description: "Configura los ajustes de dificultad de Beast of Reincarnation con nuestra guía. Aprende a ajustar los desafíos de combate, los árboles de habilidades y las opciones de juego.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/ffffff?text=Difficulty+Settings+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Beast of Reincarnation",
+  keywords: "dificultad, beast of reincarnation, guía, combate, habilidades"
+}
+
+<Callout type="info" title="Guía rápida">
+- Los **ajustes de dificultad de Beast of Reincarnation** pueden modificarse para dar la bienvenida a jugadores que no están familiarizados con los juegos de acción de ritmo rápido.
+- La **personalización del árbol de habilidades** permite a los jugadores mitigar encuentros de combate complejos centrándose en estilos de juego cuerpo a cuerpo, sigilo o a distancia.
+- Los **puntos de habilidad compartidos** entre la protagonista Emma y su compañero lobo Ku brindan una gran flexibilidad en la creación de builds.
+- Las **ventanas de parry generosas** hacen que el juego sea mucho más accesible que otros títulos tipo Soulslike tradicionales.
+- El **ensayo y error** es altamente fomentado por los desarrolladores, con múltiples caminos hacia la victoria en cada encuentro con jefes.
+</Callout>
+
+<Section icon={Shield} title="Comprendiendo los ajustes de dificultad de Beast of Reincarnation">
+
+Ajustar tus **ajustes de dificultad de Beast of Reincarnation** es el primer paso para personalizar tu viaje postapocalíptico. Desarrollado por Game Freak y publicado por Fictions, este RPG de acción y ciencia ficción combina mecánicas de parry al estilo Sekiro con elementos profundos de rol táctico. En una entrevista con la publicación japonesa [Famitsu](https://www.famitsu.com), el director del juego, Kota Furushima, confirmó que el juego cuenta con opciones de dificultad ajustables diseñadas para evitar que los jugadores se queden atascados.
+
+A diferencia de los lanzamientos estrictos de FromSoftware, el equipo de desarrollo quiso asegurarse de que los jugadores de todos los niveles de habilidad pudieran experimentar la historia de Emma y Ku sin enfrentarse a una frustración abrumadora. Los ajustes de dificultad alteran principalmente el escalado de daño, la agresividad de los enemigos y la precisión requerida para las maniobras defensivas.
+
+**Momentos destacados del video:**
+- **Entorno postapocalíptico**: Explora un mundo 2.000 años en el futuro dominado por entornos cubiertos de vegetación y máquinas rebeldes.
+- **Sistema de combate dinámico**: Combina el manejo de la espada de Emma y su desplazamiento basado en el cabello con el lanzamiento de hechizos tácticos de Ku.
+- **Ventanas de parry generosas**: Aprende cómo las mecánicas defensivas del juego están diseñadas para ser accesibles pero profundamente satisfactorias.
+- **Menú de comandos ATB**: Ordena a Ku que lance hechizos, inmovilice enemigos o cree plataformas usando un sistema de batalla en tiempo activo.
+
+<YouTubeEmbed videoId="sUqtfP9P4aU" title="Beast of Reincarnation: El avance final" />
+
+| Modo | Daño recibido | Ventana de Parry | Recomendado para |
+|---|---|---|---|
+| Historia | Bajo | Extremadamente generosa | Jugadores casuales de historia |
+| Estándar | Moderado | Generosa | Experiencia de acción equilibrada |
+| Táctico | Alto | Estándar | Jugadores de acción experimentados |
+
+<Callout type="info" title="Filosofía del director">
+El director Kota Furushima enfatizó que, aunque el juego fomenta el ensayo y error, no está diseñado para obligar a los jugadores a repetir encuentros docenas o cientos de veces. El objetivo es la accesibilidad sin sacrificar la profundidad.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Cómo los árboles de habilidades y estilos de juego mitigan los desafíos de combate">
+
+Más allá de los **ajustes de dificultad de Beast of Reincarnation** estándar, los jugadores pueden reducir dinámicamente la dificultad del juego mediante una creación inteligente de builds. Tanto Emma como su compañero lobo Ku cuentan con tres árboles de habilidades distintos. Debido a que comparten un único grupo de puntos de habilidad, puedes personalizar tu estrategia de combate para que coincida con tu nivel de comodidad mecánica.
+
+Para los jugadores que tienen dificultades con el parry de alta velocidad y el combate cuerpo a cuerpo a corta distancia, invertir mucho en las habilidades de Ku ofrece una alternativa excelente. Ku puede actuar como un lanzador de hechizos de largo alcance, controlando el campo de batalla con efectos de estado mientras Emma se centra en la evasión y los ataques oportunistas.
+
+<CardGrid cols={3}>
+  <Card title="Enfoque cuerpo a cuerpo">
+    - **Alto daño de espada**
+    - Recuperación rápida de parry
+    - Estilo de juego agresivo
+  </Card>
+  <Card title="Enfoque de hechizos">
+    - **Hechizos centrados en Ku**
+    - Daño elemental
+    - Posicionamiento seguro
+  </Card>
+  <Card title="Sigilo y a distancia">
+    - **Ataques con arco**
+    - Evasión de alta movilidad
+    - Inmovilizadores de control de masas
+  </Card>
+</CardGrid>
+
+| Árbol de habilidades | Área de enfoque | Beneficio principal | Nivel de mitigación |
+|---|---|---|---|
+| Emma Cuerpo a cuerpo | Artes de espada y parries | Alto daño directo | Moderado |
+| Ku Hechizos | Hechizos elementales a distancia | Efectos de estado y control de masas | Alto |
+| Sigilo y a distancia | Arco y evasión | Evita daño directo | Alto |
+
+<Callout type="tip" title="Consejo de creación de builds">
+Si te encuentras luchando contra un jefe en particular, intenta reembolsar tus puntos de habilidad compartidos para cambiar el enfoque de los ataques cuerpo a cuerpo de Emma a los hechizos elementales de Ku. Esto puede cambiar completamente el flujo de la batalla.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía paso a paso para personalizar tu experiencia de juego">
+
+Para sacar el máximo provecho de tu experiencia, debes configurar activamente tanto los ajustes de tu menú como tu build dentro del juego. Sigue estos pasos para optimizar tu configuración según tu nivel de desafío preferido.
+
+<Steps>
+  <Step num="1" title="Selecciona tu dificultad base">
+    Elige tu ajuste de dificultad inicial al comenzar una nueva partida. Puedes ajustar este parámetro más tarde si encuentras el combate demasiado castigador o demasiado simple.
+  </Step>
+  <Step num="2" title="Asigna puntos de habilidad compartidos">
+    Equilibra tus puntos de habilidad entre Emma y Ku. Si prefieres un combate intenso, céntrate en las artes de espada de Emma. Si prefieres los RPG tácticos, céntrate en el menú de comandos de Ku.
+  </Step>
+  <Step num="3" title="Configura los atajos de comando de Ku">
+    Configura los hechizos de batalla en tiempo activo (ATB) de Ku. Asegúrate de tener al menos un hechizo de control de masas, como "inmovilizar", y un hechizo elemental, como "bolas de fuego", equipados.
+  </Step>
+  <Step num="4" title="Adáptate mediante ensayo y error">
+    Cuando seas derrotado, no dudes en cambiar tu enfoque. Intercambia habilidades, ajusta tu equipo o utiliza diferentes métodos de desplazamiento ambiental.
+  </Step>
+</Steps>
+
+| Acción | Tiempo de entrada | Beneficio táctico | Coste compartido |
+|---|---|---|---|
+| Parry perfecto | Justo antes del impacto | Reduce la barra de aturdimiento | Ninguno |
+| Plataforma de cabello | Durante el salto | Ventaja de altura | Medio |
+| Hechizo de Ku | Barra ATB llena | Inflige quemadura o inmovilización | Alto |
+
+<Callout type="success" title="Sinergia de combate">
+El tiempo se detiene por completo cuando abres el menú de comandos de Ku. Usa esta pausa para evaluar el campo de batalla, planificar tu próximo movimiento y ejecutar potentes combos elementales.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategia de combate en Beast of Reincarnation: Parrying y mecánicas de jefes">
+
+El combate en *Beast of Reincarnation* es altamente dinámico, mezclando un manejo rápido de la espada con comandos tácticos para el compañero. Aunque el tiempo de parry es generoso en comparación con los títulos Soulslike tradicionales, comprender los patrones de ataque de los enemigos sigue siendo crucial para derrotar a los jefes más difíciles del juego, como el imponente ciervo monstruoso que se encuentra en la cuenca del río.
+
+Emma puede usar sus poderes de cabello para crear plataformas en el aire, lo que le permite saltar sobre ataques de barrido y lanzar devastadores ataques aéreos. Mientras tanto, Ku acumula puntos ATB durante la acción, que pueden gastarse en lanzar hechizos poderosos que complementan la destreza cuerpo a cuerpo de Emma.
+
+<Checklist
+  id="boss-prep"
+  title="Lista de preparación para jefes:"
+  items={[
+    "Verifica tu ajuste de dificultad actual en el menú de opciones",
+    "Equipa a Ku con hechizos complementarios de control de masas y elementales",
+    "Asegúrate de que tus puntos de habilidad compartidos estén optimizados para tu estilo de juego elegido",
+    "Practica el tiempo de parry con enemigos normales cercanos para desarrollar memoria muscular"
+  ]}
+/>
+
+| Ataque del jefe | Animación de aviso | Estrategia de contraataque | Nivel de riesgo |
+|---|---|---|---|
+| Balanceo de astas | Baja la cabeza | Parry perfecto | Alto |
+| Embestida de carga | Raspa el casco | Evasión de esquiva o salto de cabello | Medio |
+| Explosión de plaga | El cuerpo brilla | Inmovilización de Ku para interrumpir | Alto |
+
+<Callout type="warning" title="Gestión de la cámara">
+Durante las peleas contra jefes físicamente imponentes, la cámara puede tener dificultades ocasionalmente cuando te arrinconan. Usa las plataformas de cabello de Emma para saltar hacia arriba y restablecer tu posición.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Tiene Beast of Reincarnation opciones de dificultad?",
+    answer: "Sí, el director Kota Furushima confirmó que los ajustes de dificultad de Beast of Reincarnation están disponibles para hacer que el juego sea acogedor para los jugadores que no están familiarizados con los juegos de acción de ritmo rápido."
+  },
+  {
+    question: "¿Puedo cambiar los ajustes de dificultad a mitad de la partida?",
+    answer: "Sí, puedes ajustar los niveles de dificultad en cualquier momento durante tu partida si encuentras que los encuentros de combate son demasiado desafiantes o demasiado fáciles."
+  },
+  {
+    question: "¿Cómo afectan los árboles de habilidades a la dificultad del juego?",
+    answer: "Emma y Ku tienen tres árboles de habilidades cada uno. Al centrarse en las habilidades de lanzamiento de hechizos o sigilo de Ku, los jugadores que tienen dificultades con el parry intenso pueden mitigar los segmentos de combate más difíciles del juego."
+  },
+  {
+    question: "¿Es Beast of Reincarnation tan difícil como Sekiro o Elden Ring?",
+    answer: "No, aunque se inspira en esos juegos, las ventanas de parry son mucho más generosas y los ajustes configurables evitan que los jugadores se queden atascados permanentemente."
+  }
+]} />
+
+<Callout type="info" title="Información de lanzamiento">
+Beast of Reincarnation tiene previsto su lanzamiento el 4 de agosto de 2026 para PlayStation 5, Xbox Series X/S y PC. Mantente atento a más actualizaciones a medida que se acerque la fecha de lanzamiento.
+</Callout>
+
+</Section>

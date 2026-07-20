@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Luta Contra o Chefe Besta da Reencarnação: Guia de Fases e Dicas",
+  description: "Domine a luta contra o chefe Besta da Reencarnação com o nosso guia de 2026. Aprenda as mecânicas de fase, equipamentos ideais e estratégias táticas para a vitória.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Boss+Fight+Walkthrough",
+  date: "2026-07-21",
+  author: "Equipe do Wiki de Beast of Reincarnation"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **A luta contra o chefe Besta da Reencarnação** exige timing preciso para esquivar da mecânica Onda de Choque do Renascimento.
+- **A transição de fase** ocorre em 70% e 30% de Vida, introduzindo novas resistências elementais.
+- **Builds de alta mobilidade** são preferíveis a tanques puros devido ao dano baseado em porcentagem do chefe.
+- **Focar nas Orbes de Alma** na Fase 2 é crítico para evitar que o chefe se cure.
+- **As recompensas de vitória** incluem o Fragmento de Reencarnação, essencial para melhorias de equipamentos no fim do jogo.
+</Callout>
+
+<Section icon={Swords} title="Visão Geral do Confronto com o Chefe Besta da Reencarnação">
+
+A **luta contra o chefe Besta da Reencarnação** representa um teste de habilidade significativo para os jogadores que entram no meio para o fim do jogo da temporada de 2026. Este confronto testa não apenas sua produção de dano bruto, mas também sua habilidade de gerenciar o espaço da arena e reagir a mudanças rápidas de telégrafo. Ao contrário dos chefes de masmorra padrão, a Besta utiliza um sistema exclusivo de "Ciclos da Vida", onde suas habilidades evoluem com base nos tipos de dano que ela recebe com mais frequência.
+
+**Destaques do Vídeo:**
+- **Reconhecimento de Telégrafo**: Identificar a diferença entre o Golpe e a Clivagem de Alma.
+- **Posicionamento**: Permanecer dentro do círculo interno para evitar a deterioração ambiental.
+- **Janelas de Burst**: Utilizar a duração do atordoamento após a Besta errar sua Ultimate.
+
+<YouTubeEmbed videoId="ojIFn6ZvWm8" title="Gameplay da Luta Contra o Chefe Besta da Reencarnação" />
+
+Compreender o ritmo desta batalha é o primeiro passo para conclusões consistentes. A arena do chefe é uma plataforma circular que encolhe lentamente conforme a luta avança, forçando os jogadores a ficarem mais próximos da Besta.
+
+| Aspecto de Combate | Descrição | Nível de Prioridade |
+| :--- | :--- | :--- |
+| **Movimentação** | Movimentação lateral constante para evitar áreas de efeito (AOEs) direcionadas ao chão | Alta |
+| **Gerenciamento de Recursos** | Guardar habilidades supremas para a fúria em 30% de Vida | Médio |
+| **Sinergia de Equipe** | Sincronizar debuffs com as janelas de vulnerabilidade do chefe | Alta |
+| **Consciência Ambiental** | Monitorar o status de deterioração da plataforma | Médio |
+
+<Callout type="success" title="Vantagem Estratégica">
+Trazer pelo menos um personagem com uma habilidade de "Purificação" (Cleanse) reduzirá significativamente a dificuldade da Segunda Fase, já que o chefe aplica uma penalidade acumulativa de "Queimadura de Alma" que aumenta o dano recebido ao longo do tempo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mecânicas do Chefe e Divisão de Fases">
+
+A **luta contra o chefe Besta da Reencarnação** é dividida em três fases distintas, cada uma exigindo uma mudança no foco tático. A falha em se adaptar a essas mudanças geralmente resulta em uma derrota rápida do grupo.
+
+### Fase 1: A Forma Primitiva (100% - 70% de Vida)
+Nesta fase inicial, a Besta confia em sua proeza física. Ela usa ataques de garras varrendo e um rugido voltado para a frente que silencia os jogadores por 3 segundos. O objetivo aqui é manter uma rotação constante de DPS enquanto preserva o vigor para as próximas transições.
+
+### Fase 2: A Transição Etérea (70% - 30% de Vida)
+Assim que o chefe atinge 70% de Vida, ele se torna semitransparente e ganha 50% de resistência a dano físico. Ele começará a invocar Orbes de Alma nas bordas da arena. Se essas orbes alcançarem o chefe, ele recupera 5% de sua vida máxima por orbe.
+
+| Nome do Ataque | Sinal Visual | Estratégia de Resposta |
+| :--- | :--- | :--- |
+| **Clivagem de Alma** | Brilho azul no braço direito da Besta | Esquivar para a esquerda imediatamente |
+| **Onda de Choque do Renascimento** | O chefe salta para o centro e flutua | Pular ou usar um frame de invencibilidade |
+| **Invocação de Orbes** | Três portais roxos aparecem | Dividir o DPS para destruir as orbes instantaneamente |
+| **Sopro Espectral** | O chefe inspira profundamente | Mover-se para trás das pernas do chefe |
+
+<Callout type="warning" title="Aviso Crítico">
+Na Fase 2, não use todas as suas habilidades de mobilidade de uma vez. A Besta frequentemente segue uma Clivagem de Alma com uma Onda de Choque, exigindo duas esquivas consecutivas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipamentos Ideais e Composição de Equipe">
+
+Preparar-se para a **luta contra o chefe Besta da Reencarnação** envolve mais do que apenas trazer seus equipamentos de nível mais alto. Você precisa de um conjunto equilibrado que leve em conta tanto a fase física quanto a etérea da luta.
+
+<CardGrid cols={3}>
+  <Card title="A Vanguarda (Tanque)">
+    - **Atributo Principal**: Mitigação de Dano
+    - **Função Principal**: Atrair a atenção (aggro) e posicionar o chefe longe do centro.
+    - **Equipamento Recomendado**: Conjunto Égide do Renascimento para 20% de resistência a silêncio.
+  </Card>
+  <Card title="O Oráculo (Suporte)">
+    - **Atributo Principal**: Regeneração de Mana
+    - **Função Principal**: Fornecer purificações e buffs de velocidade de movimento.
+    - **Equipamento Recomendado**: Cajado Tecedor de Espíritos para cura aprimorada durante a Fase 3.
+  </Card>
+  <Card title="O Algoz (DPS)">
+    - **Atributo Principal**: Taxa de Acerto Crítico
+    - **Função Principal**: Destruir rapidamente as Orbes de Alma e maximizar o dano durante os atordoamentos.
+    - **Equipamento Recomendado**: Lâminas Tocadas pelo Vazio para o bônus de dano etéreo.
+  </Card>
+</CardGrid>
+
+| Espaço de Equipamento | Item Recomendado | Benefício Principal |
+| :--- | :--- | :--- |
+| **Arma** | Lâmina de Aço Reencarnada | Escalonamento duplo físico/mágico |
+| **Armadura** | Placa do Ciclo Eterno | Vida alta e resistência a queimaduras |
+| **Acessório** | Amuleto de Elo de Alma | Compartilha 10% do dano com aliados |
+| **Consumível** | Elixir da Clareza | Reduz os tempos de recarga em 15% por 60s |
+
+<Callout type="tip" title="Dica de Mestre">
+Equipar o talento passivo "Pés Ligeiros" é altamente recomendado para todos os jogadores. Os 10% adicionais de velocidade de movimento tornam a esquiva do Sopro Espectral significativamente mais fácil sem gastar todo o vigor.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Execução Tática Passo a Passo">
+
+Siga estes passos para garantir uma vitória tranquila na **luta contra o chefe Besta da Reencarnação**. Esta sequência foi projetada para um grupo padrão de quatro jogadores, mas pode ser adaptada para jogo solo com equipamentos de nível superior.
+
+<Steps>
+  <Step num="1" title="O Confronto Inicial">
+    O tanque deve enfrentar o chefe primeiro, puxando-o para a borda norte da arena. Isso mantém o centro livre para os jogadores reagirem à primeira Onda de Choque do Renascimento. O DPS deve se concentrar em acumular suas barras de recursos sem usar as habilidades supremas.
+  </Step>
+  <Step num="2" title="Gerenciando a Transição de 70%">
+    Conforme o chefe se aproxima de 70% de Vida, pare todos os ataques pesados. Espere a Besta entrar em sua animação de invulnerabilidade. Assim que ela se tornar etérea, o DPS deve se mover imediatamente para o perímetro para interceptar a primeira onda de Orbes de Alma.
+  </Step>
+  <Step num="3" title="Lidando com a Fúria de 30%">
+    Aos 30% de Vida, o chefe entra em sua Forma Final, combinando ataques físicos e etéreos. Ele também invocará uma névoa permanente que causa dano leve ao longo do tempo. Use suas habilidades supremas de cura aqui e libere todas as habilidades ofensivas guardadas para terminar a luta rapidamente.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Nota de Mecânica">
+A névoa na Fase 3 não pode ser purificada. É uma mecânica de fúria suave (soft-enrage) projetada para evitar que a luta dure muito tempo. Você deve superar a perda contínua de vida com seu dano.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas, Espólios e Eficiência de Farm">
+
+Concluir com sucesso a **luta contra o chefe Besta da Reencarnação** rende alguns dos materiais mais cobiçados na atualização de 2026. Se você estiver farmando equipamentos específicos, a eficiência é fundamental.
+
+<Checklist
+  id="boss-loot-goals"
+  title="Espólios de Alto Nível para Ficar de Olho:"
+  items={[
+    "Fragmento de Reencarnação (Garantido 1-2)",
+    "Garra Espectral da Besta (15% de Taxa de Queda)",
+    "Essência do Ciclo (Usada para fabricação)",
+    "Tomo Antigo do Renascimento (Cosmético raro)"
+  ]}
+/>
+
+| Dificuldade | Quantidade de Fragmentos | Chance de Lendário | Poder Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Normal** | 1 | 2% | 1.500 |
+| **Heroico** | 2-3 | 8% | 2.800 |
+| **Mítico** | 5+ | 20% | 4.500 |
+
+<Callout type="tip" title="Dica de Eficiência">
+Se você estiver farmando Fragmentos de Reencarnação, geralmente é mais rápido fazer a dificuldade Heroica duas vezes do que sofrer em uma corrida Mítica, a menos que seu grupo esteja com equipamentos muito acima do recomendado para o conteúdo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a mecânica mais perigosa na luta contra o chefe Besta da Reencarnação?",
+    answer: "A Onda de Choque do Renascimento é a mais perigosa porque pode derrotar instantaneamente jogadores com vida baixa. Ela exige um pulo perfeitamente cronometrado ou uma habilidade de invencibilidade para sobreviver."
+  },
+  {
+    question: "As Orbes de Alma podem ser desaceleradas ou atordoadas?",
+    answer: "Não, as Orbes de Alma são imunes a efeitos de controle de grupo. Você deve usar dano bruto para destruí-las antes que alcancem o chefe."
+  },
+  {
+    question: "É possível solar a Besta da Reencarnação?",
+    answer: "Sim, mas exige um nível de Poder muito alto (pelo menos 3.500) e uma build focada em autocura e alta mobilidade para lidar com as mecânicas da Fase 2 sozinho."
+  },
+  {
+    question: "Com que frequência o chefe redefine suas resistências?",
+    answer: "O chefe altera suas resistências apenas durante as transições de fase em 70% e 30% de Vida. Elas não flutuam durante as próprias fases."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+A **luta contra o chefe Besta da Reencarnação** é uma maratona, não uma corrida de velocidade. Concentre-se na sobrevivência e na execução das mecânicas em vez do DPS máximo, e você achará o confronto muito mais controlável. Boa sorte, aventureiros!
+</Callout>
+
+</Section>

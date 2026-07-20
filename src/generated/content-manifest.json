@@ -14,8 +14,32 @@
         "file": "Beast-of-Reincarnation-koo"
       },
       {
+        "slug": "Beast-of-Reincarnation-narrator",
+        "file": "Beast-of-Reincarnation-narrator"
+      },
+      {
         "slug": "Beast-of-Reincarnation-story",
         "file": "Beast-of-Reincarnation-story"
+      },
+      {
+        "slug": "beast-of-reincarnation-character-creation",
+        "file": "beast-of-reincarnation-character-creation"
+      },
+      {
+        "slug": "beast-of-reincarnation-characters",
+        "file": "beast-of-reincarnation-characters"
+      },
+      {
+        "slug": "beast-of-reincarnation-kagura",
+        "file": "beast-of-reincarnation-kagura"
+      },
+      {
+        "slug": "beast-of-reincarnation-voice-actors",
+        "file": "beast-of-reincarnation-voice-actors"
+      },
+      {
+        "slug": "beast-of-reincarnation-yui-ishikawa",
+        "file": "beast-of-reincarnation-yui-ishikawa"
       }
     ],
     "development": [
@@ -34,9 +58,37 @@
       {
         "slug": "Beast-of-Reincarnation-unreal-engine-5",
         "file": "Beast-of-Reincarnation-unreal-engine-5"
+      },
+      {
+        "slug": "beast-of-reincarnation-budget",
+        "file": "beast-of-reincarnation-budget"
+      },
+      {
+        "slug": "beast-of-reincarnation-by-game-freak",
+        "file": "beast-of-reincarnation-by-game-freak"
+      },
+      {
+        "slug": "beast-of-reincarnation-composer",
+        "file": "beast-of-reincarnation-composer"
+      },
+      {
+        "slug": "beast-of-reincarnation-developer",
+        "file": "beast-of-reincarnation-developer"
+      },
+      {
+        "slug": "beast-of-reincarnation-keiichi-okabe",
+        "file": "beast-of-reincarnation-keiichi-okabe"
+      },
+      {
+        "slug": "beast-of-reincarnation-yoko-taro",
+        "file": "beast-of-reincarnation-yoko-taro"
       }
     ],
     "guide": [
+      {
+        "slug": "Beast-of-Reincarnation-achievements",
+        "file": "Beast-of-Reincarnation-achievements"
+      },
       {
         "slug": "Beast-of-Reincarnation-bosses",
         "file": "Beast-of-Reincarnation-bosses"
@@ -58,12 +110,64 @@
         "file": "Beast-of-Reincarnation-is-it-a-soulslike"
       },
       {
+        "slug": "Beast-of-Reincarnation-map",
+        "file": "Beast-of-Reincarnation-map"
+      },
+      {
         "slug": "Beast-of-Reincarnation-open-world",
         "file": "Beast-of-Reincarnation-open-world"
       },
       {
+        "slug": "Beast-of-Reincarnation-outfits",
+        "file": "Beast-of-Reincarnation-outfits"
+      },
+      {
+        "slug": "Beast-of-Reincarnation-trophy-guide",
+        "file": "Beast-of-Reincarnation-trophy-guide"
+      },
+      {
         "slug": "Beast-of-Reincarnation-walkthrough",
         "file": "Beast-of-Reincarnation-walkthrough"
+      },
+      {
+        "slug": "beast-of-reincarnation-boss-fight",
+        "file": "beast-of-reincarnation-boss-fight"
+      },
+      {
+        "slug": "beast-of-reincarnation-co-op",
+        "file": "beast-of-reincarnation-co-op"
+      },
+      {
+        "slug": "beast-of-reincarnation-easy-mode",
+        "file": "beast-of-reincarnation-easy-mode"
+      },
+      {
+        "slug": "beast-of-reincarnation-how-long-to-beat",
+        "file": "beast-of-reincarnation-how-long-to-beat"
+      },
+      {
+        "slug": "beast-of-reincarnation-japanese-name",
+        "file": "beast-of-reincarnation-japanese-name"
+      },
+      {
+        "slug": "beast-of-reincarnation-japanese-title",
+        "file": "beast-of-reincarnation-japanese-title"
+      },
+      {
+        "slug": "beast-of-reincarnation-kunai",
+        "file": "beast-of-reincarnation-kunai"
+      },
+      {
+        "slug": "beast-of-reincarnation-soulslike",
+        "file": "beast-of-reincarnation-soulslike"
+      },
+      {
+        "slug": "beast-of-reincarnation-turn-based",
+        "file": "beast-of-reincarnation-turn-based"
+      },
+      {
+        "slug": "beast-of-reincarnation-weapons",
+        "file": "beast-of-reincarnation-weapons"
       }
     ],
     "media": [
@@ -78,6 +182,34 @@
       {
         "slug": "Beast-of-Reincarnation-trailer",
         "file": "Beast-of-Reincarnation-trailer"
+      },
+      {
+        "slug": "beast-of-reincarnation-art",
+        "file": "beast-of-reincarnation-art"
+      },
+      {
+        "slug": "beast-of-reincarnation-english-dub",
+        "file": "beast-of-reincarnation-english-dub"
+      },
+      {
+        "slug": "beast-of-reincarnation-ign-review",
+        "file": "beast-of-reincarnation-ign-review"
+      },
+      {
+        "slug": "beast-of-reincarnation-ign",
+        "file": "beast-of-reincarnation-ign"
+      },
+      {
+        "slug": "beast-of-reincarnation-impressions",
+        "file": "beast-of-reincarnation-impressions"
+      },
+      {
+        "slug": "beast-of-reincarnation-review-embargo",
+        "file": "beast-of-reincarnation-review-embargo"
+      },
+      {
+        "slug": "beast-of-reincarnation-soundtrack",
+        "file": "beast-of-reincarnation-soundtrack"
       }
     ],
     "platforms": [
@@ -108,6 +240,18 @@
       {
         "slug": "Beast-of-Reincarnation-xbox",
         "file": "Beast-of-Reincarnation-xbox"
+      },
+      {
+        "slug": "beast-of-reincarnation-on-switch",
+        "file": "beast-of-reincarnation-on-switch"
+      },
+      {
+        "slug": "beast-of-reincarnation-platforms",
+        "file": "beast-of-reincarnation-platforms"
+      },
+      {
+        "slug": "beast-of-reincarnation-xbox-play-anywhere",
+        "file": "beast-of-reincarnation-xbox-play-anywhere"
       }
     ],
     "purchase": [
@@ -134,6 +278,22 @@
       {
         "slug": "Beast-of-Reincarnation-price",
         "file": "Beast-of-Reincarnation-price"
+      },
+      {
+        "slug": "beast-of-reincarnation-best-buy",
+        "file": "beast-of-reincarnation-best-buy"
+      },
+      {
+        "slug": "beast-of-reincarnation-collector-s-edition",
+        "file": "beast-of-reincarnation-collector's-edition"
+      },
+      {
+        "slug": "beast-of-reincarnation-deluxe-edition",
+        "file": "beast-of-reincarnation-deluxe-edition"
+      },
+      {
+        "slug": "beast-of-reincarnation-steelbook",
+        "file": "beast-of-reincarnation-steelbook"
       }
     ],
     "release": [
@@ -152,6 +312,10 @@
       {
         "slug": "Beast-of-Reincarnation-release-date",
         "file": "Beast-of-Reincarnation-release-date"
+      },
+      {
+        "slug": "beast-of-reincarnation-release-date",
+        "file": "beast-of-reincarnation-release-date"
       }
     ],
     "technical": [
@@ -174,6 +338,22 @@
       {
         "slug": "Beast-of-Reincarnation-system-requirements",
         "file": "Beast-of-Reincarnation-system-requirements"
+      },
+      {
+        "slug": "beast-of-reincarnation-denuvo",
+        "file": "beast-of-reincarnation-denuvo"
+      },
+      {
+        "slug": "beast-of-reincarnation-difficulty-settings",
+        "file": "beast-of-reincarnation-difficulty-settings"
+      },
+      {
+        "slug": "beast-of-reincarnation-engine",
+        "file": "beast-of-reincarnation-engine"
+      },
+      {
+        "slug": "beast-of-reincarnation-file-size",
+        "file": "beast-of-reincarnation-file-size"
       }
     ]
   },
@@ -194,6 +374,22 @@
       {
         "slug": "Beast-of-Reincarnation-story",
         "file": "Beast-of-Reincarnation-story"
+      },
+      {
+        "slug": "beast-of-reincarnation-character-creation",
+        "file": "beast-of-reincarnation-character-creation"
+      },
+      {
+        "slug": "beast-of-reincarnation-kagura",
+        "file": "beast-of-reincarnation-kagura"
+      },
+      {
+        "slug": "beast-of-reincarnation-voice-actors",
+        "file": "beast-of-reincarnation-voice-actors"
+      },
+      {
+        "slug": "beast-of-reincarnation-yui-ishikawa",
+        "file": "beast-of-reincarnation-yui-ishikawa"
       }
     ],
     "development": [
@@ -212,6 +408,30 @@
       {
         "slug": "Beast-of-Reincarnation-unreal-engine-5",
         "file": "Beast-of-Reincarnation-unreal-engine-5"
+      },
+      {
+        "slug": "beast-of-reincarnation-budget",
+        "file": "beast-of-reincarnation-budget"
+      },
+      {
+        "slug": "beast-of-reincarnation-by-game-freak",
+        "file": "beast-of-reincarnation-by-game-freak"
+      },
+      {
+        "slug": "beast-of-reincarnation-composer",
+        "file": "beast-of-reincarnation-composer"
+      },
+      {
+        "slug": "beast-of-reincarnation-developer",
+        "file": "beast-of-reincarnation-developer"
+      },
+      {
+        "slug": "beast-of-reincarnation-keiichi-okabe",
+        "file": "beast-of-reincarnation-keiichi-okabe"
+      },
+      {
+        "slug": "beast-of-reincarnation-yoko-taro",
+        "file": "beast-of-reincarnation-yoko-taro"
       }
     ],
     "guide": [
@@ -242,6 +462,46 @@
       {
         "slug": "Beast-of-Reincarnation-walkthrough",
         "file": "Beast-of-Reincarnation-walkthrough"
+      },
+      {
+        "slug": "beast-of-reincarnation-boss-fight",
+        "file": "beast-of-reincarnation-boss-fight"
+      },
+      {
+        "slug": "beast-of-reincarnation-co-op",
+        "file": "beast-of-reincarnation-co-op"
+      },
+      {
+        "slug": "beast-of-reincarnation-easy-mode",
+        "file": "beast-of-reincarnation-easy-mode"
+      },
+      {
+        "slug": "beast-of-reincarnation-how-long-to-beat",
+        "file": "beast-of-reincarnation-how-long-to-beat"
+      },
+      {
+        "slug": "beast-of-reincarnation-japanese-name",
+        "file": "beast-of-reincarnation-japanese-name"
+      },
+      {
+        "slug": "beast-of-reincarnation-japanese-title",
+        "file": "beast-of-reincarnation-japanese-title"
+      },
+      {
+        "slug": "beast-of-reincarnation-kunai",
+        "file": "beast-of-reincarnation-kunai"
+      },
+      {
+        "slug": "beast-of-reincarnation-soulslike",
+        "file": "beast-of-reincarnation-soulslike"
+      },
+      {
+        "slug": "beast-of-reincarnation-turn-based",
+        "file": "beast-of-reincarnation-turn-based"
+      },
+      {
+        "slug": "beast-of-reincarnation-weapons",
+        "file": "beast-of-reincarnation-weapons"
       }
     ],
     "media": [
@@ -256,6 +516,34 @@
       {
         "slug": "Beast-of-Reincarnation-trailer",
         "file": "Beast-of-Reincarnation-trailer"
+      },
+      {
+        "slug": "beast-of-reincarnation-art",
+        "file": "beast-of-reincarnation-art"
+      },
+      {
+        "slug": "beast-of-reincarnation-english-dub",
+        "file": "beast-of-reincarnation-english-dub"
+      },
+      {
+        "slug": "beast-of-reincarnation-ign-review",
+        "file": "beast-of-reincarnation-ign-review"
+      },
+      {
+        "slug": "beast-of-reincarnation-ign",
+        "file": "beast-of-reincarnation-ign"
+      },
+      {
+        "slug": "beast-of-reincarnation-impressions",
+        "file": "beast-of-reincarnation-impressions"
+      },
+      {
+        "slug": "beast-of-reincarnation-review-embargo",
+        "file": "beast-of-reincarnation-review-embargo"
+      },
+      {
+        "slug": "beast-of-reincarnation-soundtrack",
+        "file": "beast-of-reincarnation-soundtrack"
       }
     ],
     "platforms": [
@@ -286,6 +574,18 @@
       {
         "slug": "Beast-of-Reincarnation-xbox",
         "file": "Beast-of-Reincarnation-xbox"
+      },
+      {
+        "slug": "beast-of-reincarnation-on-switch",
+        "file": "beast-of-reincarnation-on-switch"
+      },
+      {
+        "slug": "beast-of-reincarnation-platforms",
+        "file": "beast-of-reincarnation-platforms"
+      },
+      {
+        "slug": "beast-of-reincarnation-xbox-play-anywhere",
+        "file": "beast-of-reincarnation-xbox-play-anywhere"
       }
     ],
     "purchase": [
@@ -312,6 +612,18 @@
       {
         "slug": "Beast-of-Reincarnation-price",
         "file": "Beast-of-Reincarnation-price"
+      },
+      {
+        "slug": "beast-of-reincarnation-best-buy",
+        "file": "beast-of-reincarnation-best-buy"
+      },
+      {
+        "slug": "beast-of-reincarnation-collector-s-edition",
+        "file": "beast-of-reincarnation-collector's-edition"
+      },
+      {
+        "slug": "beast-of-reincarnation-steelbook",
+        "file": "beast-of-reincarnation-steelbook"
       }
     ],
     "release": [
@@ -352,6 +664,22 @@
       {
         "slug": "Beast-of-Reincarnation-system-requirements",
         "file": "Beast-of-Reincarnation-system-requirements"
+      },
+      {
+        "slug": "beast-of-reincarnation-denuvo",
+        "file": "beast-of-reincarnation-denuvo"
+      },
+      {
+        "slug": "beast-of-reincarnation-difficulty-settings",
+        "file": "beast-of-reincarnation-difficulty-settings"
+      },
+      {
+        "slug": "beast-of-reincarnation-engine",
+        "file": "beast-of-reincarnation-engine"
+      },
+      {
+        "slug": "beast-of-reincarnation-file-size",
+        "file": "beast-of-reincarnation-file-size"
       }
     ]
   },
@@ -372,6 +700,22 @@
       {
         "slug": "Beast-of-Reincarnation-story",
         "file": "Beast-of-Reincarnation-story"
+      },
+      {
+        "slug": "beast-of-reincarnation-character-creation",
+        "file": "beast-of-reincarnation-character-creation"
+      },
+      {
+        "slug": "beast-of-reincarnation-kagura",
+        "file": "beast-of-reincarnation-kagura"
+      },
+      {
+        "slug": "beast-of-reincarnation-voice-actors",
+        "file": "beast-of-reincarnation-voice-actors"
+      },
+      {
+        "slug": "beast-of-reincarnation-yui-ishikawa",
+        "file": "beast-of-reincarnation-yui-ishikawa"
       }
     ],
     "development": [
@@ -390,6 +734,30 @@
       {
         "slug": "Beast-of-Reincarnation-unreal-engine-5",
         "file": "Beast-of-Reincarnation-unreal-engine-5"
+      },
+      {
+        "slug": "beast-of-reincarnation-budget",
+        "file": "beast-of-reincarnation-budget"
+      },
+      {
+        "slug": "beast-of-reincarnation-by-game-freak",
+        "file": "beast-of-reincarnation-by-game-freak"
+      },
+      {
+        "slug": "beast-of-reincarnation-composer",
+        "file": "beast-of-reincarnation-composer"
+      },
+      {
+        "slug": "beast-of-reincarnation-developer",
+        "file": "beast-of-reincarnation-developer"
+      },
+      {
+        "slug": "beast-of-reincarnation-keiichi-okabe",
+        "file": "beast-of-reincarnation-keiichi-okabe"
+      },
+      {
+        "slug": "beast-of-reincarnation-yoko-taro",
+        "file": "beast-of-reincarnation-yoko-taro"
       }
     ],
     "guide": [
@@ -420,6 +788,46 @@
       {
         "slug": "Beast-of-Reincarnation-walkthrough",
         "file": "Beast-of-Reincarnation-walkthrough"
+      },
+      {
+        "slug": "beast-of-reincarnation-boss-fight",
+        "file": "beast-of-reincarnation-boss-fight"
+      },
+      {
+        "slug": "beast-of-reincarnation-co-op",
+        "file": "beast-of-reincarnation-co-op"
+      },
+      {
+        "slug": "beast-of-reincarnation-easy-mode",
+        "file": "beast-of-reincarnation-easy-mode"
+      },
+      {
+        "slug": "beast-of-reincarnation-how-long-to-beat",
+        "file": "beast-of-reincarnation-how-long-to-beat"
+      },
+      {
+        "slug": "beast-of-reincarnation-japanese-name",
+        "file": "beast-of-reincarnation-japanese-name"
+      },
+      {
+        "slug": "beast-of-reincarnation-japanese-title",
+        "file": "beast-of-reincarnation-japanese-title"
+      },
+      {
+        "slug": "beast-of-reincarnation-kunai",
+        "file": "beast-of-reincarnation-kunai"
+      },
+      {
+        "slug": "beast-of-reincarnation-soulslike",
+        "file": "beast-of-reincarnation-soulslike"
+      },
+      {
+        "slug": "beast-of-reincarnation-turn-based",
+        "file": "beast-of-reincarnation-turn-based"
+      },
+      {
+        "slug": "beast-of-reincarnation-weapons",
+        "file": "beast-of-reincarnation-weapons"
       }
     ],
     "media": [
@@ -434,6 +842,34 @@
       {
         "slug": "Beast-of-Reincarnation-trailer",
         "file": "Beast-of-Reincarnation-trailer"
+      },
+      {
+        "slug": "beast-of-reincarnation-art",
+        "file": "beast-of-reincarnation-art"
+      },
+      {
+        "slug": "beast-of-reincarnation-english-dub",
+        "file": "beast-of-reincarnation-english-dub"
+      },
+      {
+        "slug": "beast-of-reincarnation-ign-review",
+        "file": "beast-of-reincarnation-ign-review"
+      },
+      {
+        "slug": "beast-of-reincarnation-ign",
+        "file": "beast-of-reincarnation-ign"
+      },
+      {
+        "slug": "beast-of-reincarnation-impressions",
+        "file": "beast-of-reincarnation-impressions"
+      },
+      {
+        "slug": "beast-of-reincarnation-review-embargo",
+        "file": "beast-of-reincarnation-review-embargo"
+      },
+      {
+        "slug": "beast-of-reincarnation-soundtrack",
+        "file": "beast-of-reincarnation-soundtrack"
       }
     ],
     "platforms": [
@@ -464,6 +900,18 @@
       {
         "slug": "Beast-of-Reincarnation-xbox",
         "file": "Beast-of-Reincarnation-xbox"
+      },
+      {
+        "slug": "beast-of-reincarnation-on-switch",
+        "file": "beast-of-reincarnation-on-switch"
+      },
+      {
+        "slug": "beast-of-reincarnation-platforms",
+        "file": "beast-of-reincarnation-platforms"
+      },
+      {
+        "slug": "beast-of-reincarnation-xbox-play-anywhere",
+        "file": "beast-of-reincarnation-xbox-play-anywhere"
       }
     ],
     "purchase": [
@@ -490,6 +938,18 @@
       {
         "slug": "Beast-of-Reincarnation-price",
         "file": "Beast-of-Reincarnation-price"
+      },
+      {
+        "slug": "beast-of-reincarnation-best-buy",
+        "file": "beast-of-reincarnation-best-buy"
+      },
+      {
+        "slug": "beast-of-reincarnation-collector-s-edition",
+        "file": "beast-of-reincarnation-collector's-edition"
+      },
+      {
+        "slug": "beast-of-reincarnation-steelbook",
+        "file": "beast-of-reincarnation-steelbook"
       }
     ],
     "release": [
@@ -530,6 +990,22 @@
       {
         "slug": "Beast-of-Reincarnation-system-requirements",
         "file": "Beast-of-Reincarnation-system-requirements"
+      },
+      {
+        "slug": "beast-of-reincarnation-denuvo",
+        "file": "beast-of-reincarnation-denuvo"
+      },
+      {
+        "slug": "beast-of-reincarnation-difficulty-settings",
+        "file": "beast-of-reincarnation-difficulty-settings"
+      },
+      {
+        "slug": "beast-of-reincarnation-engine",
+        "file": "beast-of-reincarnation-engine"
+      },
+      {
+        "slug": "beast-of-reincarnation-file-size",
+        "file": "beast-of-reincarnation-file-size"
       }
     ]
   },
@@ -550,6 +1026,22 @@
       {
         "slug": "Beast-of-Reincarnation-story",
         "file": "Beast-of-Reincarnation-story"
+      },
+      {
+        "slug": "beast-of-reincarnation-character-creation",
+        "file": "beast-of-reincarnation-character-creation"
+      },
+      {
+        "slug": "beast-of-reincarnation-kagura",
+        "file": "beast-of-reincarnation-kagura"
+      },
+      {
+        "slug": "beast-of-reincarnation-voice-actors",
+        "file": "beast-of-reincarnation-voice-actors"
+      },
+      {
+        "slug": "beast-of-reincarnation-yui-ishikawa",
+        "file": "beast-of-reincarnation-yui-ishikawa"
       }
     ],
     "development": [
@@ -568,6 +1060,30 @@
       {
         "slug": "Beast-of-Reincarnation-unreal-engine-5",
         "file": "Beast-of-Reincarnation-unreal-engine-5"
+      },
+      {
+        "slug": "beast-of-reincarnation-budget",
+        "file": "beast-of-reincarnation-budget"
+      },
+      {
+        "slug": "beast-of-reincarnation-by-game-freak",
+        "file": "beast-of-reincarnation-by-game-freak"
+      },
+      {
+        "slug": "beast-of-reincarnation-composer",
+        "file": "beast-of-reincarnation-composer"
+      },
+      {
+        "slug": "beast-of-reincarnation-developer",
+        "file": "beast-of-reincarnation-developer"
+      },
+      {
+        "slug": "beast-of-reincarnation-keiichi-okabe",
+        "file": "beast-of-reincarnation-keiichi-okabe"
+      },
+      {
+        "slug": "beast-of-reincarnation-yoko-taro",
+        "file": "beast-of-reincarnation-yoko-taro"
       }
     ],
     "guide": [
@@ -598,6 +1114,46 @@
       {
         "slug": "Beast-of-Reincarnation-walkthrough",
         "file": "Beast-of-Reincarnation-walkthrough"
+      },
+      {
+        "slug": "beast-of-reincarnation-boss-fight",
+        "file": "beast-of-reincarnation-boss-fight"
+      },
+      {
+        "slug": "beast-of-reincarnation-co-op",
+        "file": "beast-of-reincarnation-co-op"
+      },
+      {
+        "slug": "beast-of-reincarnation-easy-mode",
+        "file": "beast-of-reincarnation-easy-mode"
+      },
+      {
+        "slug": "beast-of-reincarnation-how-long-to-beat",
+        "file": "beast-of-reincarnation-how-long-to-beat"
+      },
+      {
+        "slug": "beast-of-reincarnation-japanese-name",
+        "file": "beast-of-reincarnation-japanese-name"
+      },
+      {
+        "slug": "beast-of-reincarnation-japanese-title",
+        "file": "beast-of-reincarnation-japanese-title"
+      },
+      {
+        "slug": "beast-of-reincarnation-kunai",
+        "file": "beast-of-reincarnation-kunai"
+      },
+      {
+        "slug": "beast-of-reincarnation-soulslike",
+        "file": "beast-of-reincarnation-soulslike"
+      },
+      {
+        "slug": "beast-of-reincarnation-turn-based",
+        "file": "beast-of-reincarnation-turn-based"
+      },
+      {
+        "slug": "beast-of-reincarnation-weapons",
+        "file": "beast-of-reincarnation-weapons"
       }
     ],
     "media": [
@@ -612,6 +1168,34 @@
       {
         "slug": "Beast-of-Reincarnation-trailer",
         "file": "Beast-of-Reincarnation-trailer"
+      },
+      {
+        "slug": "beast-of-reincarnation-art",
+        "file": "beast-of-reincarnation-art"
+      },
+      {
+        "slug": "beast-of-reincarnation-english-dub",
+        "file": "beast-of-reincarnation-english-dub"
+      },
+      {
+        "slug": "beast-of-reincarnation-ign-review",
+        "file": "beast-of-reincarnation-ign-review"
+      },
+      {
+        "slug": "beast-of-reincarnation-ign",
+        "file": "beast-of-reincarnation-ign"
+      },
+      {
+        "slug": "beast-of-reincarnation-impressions",
+        "file": "beast-of-reincarnation-impressions"
+      },
+      {
+        "slug": "beast-of-reincarnation-review-embargo",
+        "file": "beast-of-reincarnation-review-embargo"
+      },
+      {
+        "slug": "beast-of-reincarnation-soundtrack",
+        "file": "beast-of-reincarnation-soundtrack"
       }
     ],
     "platforms": [
@@ -642,6 +1226,18 @@
       {
         "slug": "Beast-of-Reincarnation-xbox",
         "file": "Beast-of-Reincarnation-xbox"
+      },
+      {
+        "slug": "beast-of-reincarnation-on-switch",
+        "file": "beast-of-reincarnation-on-switch"
+      },
+      {
+        "slug": "beast-of-reincarnation-platforms",
+        "file": "beast-of-reincarnation-platforms"
+      },
+      {
+        "slug": "beast-of-reincarnation-xbox-play-anywhere",
+        "file": "beast-of-reincarnation-xbox-play-anywhere"
       }
     ],
     "purchase": [
@@ -668,6 +1264,18 @@
       {
         "slug": "Beast-of-Reincarnation-price",
         "file": "Beast-of-Reincarnation-price"
+      },
+      {
+        "slug": "beast-of-reincarnation-best-buy",
+        "file": "beast-of-reincarnation-best-buy"
+      },
+      {
+        "slug": "beast-of-reincarnation-collector-s-edition",
+        "file": "beast-of-reincarnation-collector's-edition"
+      },
+      {
+        "slug": "beast-of-reincarnation-steelbook",
+        "file": "beast-of-reincarnation-steelbook"
       }
     ],
     "release": [
@@ -708,6 +1316,22 @@
       {
         "slug": "Beast-of-Reincarnation-system-requirements",
         "file": "Beast-of-Reincarnation-system-requirements"
+      },
+      {
+        "slug": "beast-of-reincarnation-denuvo",
+        "file": "beast-of-reincarnation-denuvo"
+      },
+      {
+        "slug": "beast-of-reincarnation-difficulty-settings",
+        "file": "beast-of-reincarnation-difficulty-settings"
+      },
+      {
+        "slug": "beast-of-reincarnation-engine",
+        "file": "beast-of-reincarnation-engine"
+      },
+      {
+        "slug": "beast-of-reincarnation-file-size",
+        "file": "beast-of-reincarnation-file-size"
       }
     ]
   }

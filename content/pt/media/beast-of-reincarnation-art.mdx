@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Artes de Beast of Reincarnation: Guia de Combate e Artes Bloom",
+  description: "Domine o sistema de artes de Beast of Reincarnation. Aprenda a usar as Artes Bloom, aparar ataques e aprimorar a árvore de habilidades de Emma para obter a máxima eficiência.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Bloom+Art+Combat+Guide",
+  date: "2026-07-21",
+  author: "Equipe da Wiki de Beast of Reincarnation"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **A arte de Beast of Reincarnation** refere-se ao sistema de "Artes Bloom", uma mistura única de ação em tempo real e seleção tática de comandos.
+- **Aparar (Parry) é essencial** para preencher o medidor de FP, que serve como o principal recurso para as habilidades poderosas de Koo.
+- **A câmera lenta tática** ocorre durante a seleção das Artes Bloom, permitindo que os jogadores analisem os movimentos preparatórios e as fraquezas dos inimigos.
+- **A árvore de habilidades de Emma** expande a variedade de ataques de acompanhamento e finalizações, criando sinergia entre os dois protagonistas.
+- **Mecânicas de atordoamento** são ativadas por Artes Bloom bem-sucedidas, abrindo oportunidades para a devastadora "Finalização de Um Golpe" (One Hit Finish).
+</Callout>
+
+<Section icon={Swords} title="Entendendo o Sistema de Artes de Beast of Reincarnation">
+
+O combate neste título é definido pelas mecânicas das **artes de Beast of Reincarnation** (Besta da Reencarnação), conhecidas especificamente como Artes Bloom. Diferente dos RPGs de ação tradicionais, onde as habilidades são simplesmente mapeadas em botões, este jogo utiliza um sistema de duas camadas que recompensa tanto os reflexos rápidos quanto a visão tática. Você controla dois personagens, Koo e Emma, cuja coordenação é fundamental para sobreviver aos encontros cada vez mais difíceis pelo mundo.
+
+**Destaques do Vídeo:**
+- **Sistema de Medidor Duplo**: Aprenda a gerenciar os medidores de vida e de postura (down) dos inimigos de forma eficaz.
+- **Geração de FP**: Veja o tempo preciso necessário para aparar e acumular o poder de Koo.
+- **Seleção de Artes Bloom**: Observe como o tempo desacelera para permitir tomadas de decisão táticas.
+- **Sinergia de Equipe**: Assista Koo iniciar os ataques e Emma executar finalizações devastadoras.
+
+<YouTubeEmbed videoId="mhMVMTWDAWU" title="Beast of Reincarnation | Visão Geral do Combate" />
+
+O sistema de "Artes Bloom" atua como a ponte entre a aparada em tempo real e a estratégia baseada em comandos. Quando seu medidor de FP estiver cheio, selecionar uma Arte pausa a ação frenética, dando a você um momento para respirar e escolher o contra-ataque mais eficaz para o estado atual do inimigo.
+
+<Callout type="tip" title="Visão de Combate">
+Fique sempre de olho no "Medidor Down" (Postura) inferior do inimigo. Preencher esta barra costuma ser mais importante do que esvaziar diretamente a barra de vida, pois abre a janela para uma derrubada final cinematográfica e de alto dano.
+</Callout>
+
+| Tipo de Medidor | Função Principal | Estratégia de Gerenciamento |
+| :--- | :--- | :--- |
+| **Barra de Vida** | Rastreia a vida total do inimigo | Esvazie usando ataques padrão e finalizações |
+| **Medidor Down (Postura)** | Rastreia a postura/estabilidade do inimigo | Preencha usando aparadas e Artes Bloom específicas |
+| **Medidor de FP** | Recurso para as Artes de Koo | Preencha aparando com sucesso os golpes recebidos |
+
+</Section>
+
+<Section icon={Shield} title="Dominando as Mecânicas de Aparar e FP">
+
+Aparar (Parry) é o coração do ciclo de jogabilidade das **artes de Beast of Reincarnation**. Cada aparada bem-sucedida nega completamente o dano e fornece um aumento significativo ao seu medidor de FP (Flow Power / Poder de Fluxo). Sem dominar a aparada, você não conseguirá acessar as Artes Bloom necessárias para derrotar chefes maiores e inimigos de elite.
+
+O tempo para aparar é intencional. Você deve observar os movimentos preparatórios de seus oponentes. Chefes colossais costumam telegrafar seus golpes pesados com animações específicas de preparação. Desviar desses golpes não apenas protege sua vida, mas também acelera sua transição para a fase de seleção tática.
+
+| Ação | Ganho de FP | Nível de Risco | Benefício |
+| :--- | :--- | :--- | :--- |
+| **Aparada Perfeita** | Alto | Médio | Dano zero, aumento massivo de FP |
+| **Bloqueio Padrão** | Baixo | Baixo | Dano reduzido, FP mínimo |
+| **Esquiva/Evasão** | Nenhum | Alto | Reposicionamento, sem ganho de FP |
+| **Acerto de Arte Bloom** | Variável | Baixo | Aumento massivo do medidor de atordoamento |
+
+<Callout type="warning" title="Tempo de Aparar">
+Golpes pesados de chefes colossais ainda podem ser desviados, mas a janela de tempo é muito mais estreita do que com inimigos comuns. Se você perder o tempo correto, sofrerá um dano de raspão significativo ou será jogado para trás.
+</Callout>
+
+Assim que o medidor de FP no canto inferior direito estiver brilhando, você estará pronto para liberar uma Arte Bloom. Essa transição da defesa em alta velocidade para a ofensa tática é o que diferencia este sistema de combate.
+
+</Section>
+
+<Section icon={Sparkles} title="Artes Bloom e Seleção Tática">
+
+Quando você ativa uma **arte de Beast of Reincarnation** (Arte Bloom), o tempo desacelera significativamente. Isso não é apenas um efeito visual; é uma necessidade mecânica. Durante essa janela de câmera lenta, você pode observar o quadro de animação atual do inimigo. Se ele estiver no meio de uma investida, você pode selecionar uma Arte de contenção. Se estiver se recuperando, uma lança de alto dano pode ser a melhor opção.
+
+<CardGrid cols={3}>
+  <Card title="Higanbana: Raízes (Roots)">
+    - **Tipo**: Controle de Grupo
+    - **Efeito**: Prende até 3 alvos
+    - **Melhor para**: Batalhas em equipe contra grupos
+  </Card>
+  <Card title="Sakura: Lança (Javelin)">
+    - **Tipo**: Dano de Precisão
+    - **Efeito**: Alto dano de perfuração
+    - **Melhor para**: Explorar fraquezas de chefes
+  </Card>
+  <Card title="Raízes Vinculantes (Binding Roots)">
+    - **Tipo**: Interrupção
+    - **Efeito**: Cancela \"Grandes Golpes\" dos inimigos
+    - **Melhor para**: Utilidade defensiva
+  </Card>
+</CardGrid>
+
+A sinergia entre Koo and Emma é mais visível aqui. Koo normalmente inicia a "Arte", enquanto Emma a segue com uma execução física. Por exemplo, após usar "Higanbana: Raízes" para congelar um grupo de inimigos, Emma pode varrê-los com sua habilidade "Divisor de Elmo" (Helm Splitter) para acabar com todos de uma vez.
+
+<Callout type="success" title="Dica de Estratégia">
+Use "Raízes Vinculantes" (Binding Roots) especificamente quando um chefe estiver carregando um ataque com brilho roxo. Isso geralmente indica um movimento que não pode ser aparado normalmente, e a Arte é a única maneira de cancelar a animação.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Árvore de Habilidades e Progressão de Emma">
+
+Enquanto Koo fornece a base mágica através do sistema de **artes de Beast of Reincarnation**, Emma fornece a força bruta. A eficácia dela é determinada pelos SP (Skill Points / Pontos de Habilidade) que você ganha durante suas aventuras. Esses pontos são gastos em uma árvore de habilidades abrangente que evolui ao longo do jogo.
+
+<Steps>
+  <Step num="1" title="Ganhe SP através do Combate">
+    Participe de batalhas e vença chefes para acumular Pontos de Habilidade. Os chefes fornecem as maiores quantidades de SP necessárias para os nós de nível mais alto.
+  </Step>
+  <Step num="2" title="Desbloqueie Ataques de Acompanhamento">
+    Foque primeiro no ramo de "Sinergia" da árvore. Isso permite que Emma realize ataques de acompanhamento mais complexos depois que Koo usa uma Arte Bloom.
+  </Step>
+  <Step num="3" title="Adquira Finalizações">
+    Desbloqueie habilidades como "Divisor de Elmo" (Helm Splitter) para aumentar o dano causado a inimigos com o Medidor Down cheio.
+  </Step>
+  <Step num="4" title="Melhore a Sinergia de Arte">
+    Novas Artes Bloom obtidas de chefes (como Sakura: Lança) geralmente têm nós dedicados na árvore de Emma para melhorar sua eficácia combinada.
+  </Step>
+</Steps>
+
+| Categoria de Habilidade | Benefício Principal | Recomendado para |
+| :--- | :--- | :--- |
+| **Ataque** | Aumento de dano bruto | Limpeza rápida de inimigos comuns |
+| **Sinergia** | Melhores ataques de acompanhamento | Batalhas de chefes e unidades de elite |
+| **Utilidade** | Redução de tempos de recarga/custos | Jogadores que preferem o uso frequente de Artes |
+| **Defesa** | Bloqueio/recuperação aprimorados | Jogadores iniciantes aprendendo o tempo de aparar |
+
+<Callout type="info" title="Expansão da Árvore de Habilidades">
+A árvore de habilidades não é estática. Cada vez que Emma absorve o poder de um chefe derrotado, um novo ramo da árvore desperta, oferecendo técnicas que antes estavam inacessíveis.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist de Maestria em Combate">
+
+Para dominar verdadeiramente as **artes de Beast of Reincarnation** e se destacar no mundo do RPG mais aguardado de 2026, você deve buscar alcançar estes marcos de combate.
+
+<Checklist
+  id="combat-mastery"
+  title="Objetivos de Excelência em Combate:"
+  items={[
+    "Apare com sucesso 10 ataques em um único confronto",
+    "Desbloqueie e use a Arte Bloom Sakura: Lança (Sakura: Javelin)",
+    "Execute uma contenção de 3 alvos com Higanbana: Raízes (Higanbana: Roots)",
+    "Alcance o nó 'Divisor de Elmo' (Helm Splitter) na Árvore de Habilidades de Emma",
+    "Derrote um Chefe Colossal sem sofrer dano direto",
+    "Domine o tempo da Finalização de Um Golpe (One Hit Finish)"
+  ]}
+/>
+
+À medida que você avança para novas áreas, os inimigos se tornarão mais difíceis, exigindo que você experimente constantemente novas combinações de Artes Bloom e atualizações na Árvore de Habilidades. A emoção do jogo está em encontrar a sinergia perfeita que se adapte ao seu estilo de jogo pessoal.
+
+<Callout type="tip" title="Experimentação">
+Não tenha medo de redefinir sua árvore de habilidades se uma determinada construção não estiver funcionando para um chefe específico. O jogo incentiva a flexibilidade à medida que você desbloqueia Artes mais diversas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como faço para desbloquear mais artes de Beast of Reincarnation?",
+    answer: "Novas Artes Bloom são despertadas em Koo depois que Emma absorve o poder de grandes chefes inimigos derrotados. Elas costumam ser temáticas com base nas próprias habilidades do chefe, como a Sakura: Lança (Sakura: Javelin)."
+  },
+  {
+    question: "Qual é a diferença entre os medidores de Vida (Health) e de Postura (Down)?",
+    answer: "A barra de Vida representa a vida restante do inimigo. O medidor Down representa a estabilidade dele; preenchê-lo completamente atordoa o inimigo e permite uma poderosa finalização de um golpe."
+  },
+  {
+    question: "Posso jogar o jogo sem aparar (parry)?",
+    answer: "Embora você possa se esquivar, aparar é a única maneira de preencher rapidamente o medidor de FP. Sem FP, você não pode usar as Artes Bloom, tornando as batalhas contra chefes significativamente mais difíceis e demoradas."
+  },
+  {
+    question: "A câmera lenta durante a seleção da Arte Bloom dura para sempre?",
+    answer: "Ela dura o suficiente para você fazer uma escolha tática, mas não é infinita. Ela foi projetada para lhe dar um momento para observar os movimentos preparatórios do inimigo e reagir de acordo."
+  }
+]} />
+
+</Section>

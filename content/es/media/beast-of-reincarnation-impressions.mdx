@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Impresiones de Beast of Reincarnation: Análisis Técnico y de Jugabilidad de 2026",
+  description: "Sumérgete en nuestras impresiones de Beast of Reincarnation. Explora el combate Soulslike en Unreal Engine 5 de Game Freak, la construcción del mundo y el rendimiento técnico en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Beast+of+Reincarnation+Impressions",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Beast of Reincarnation",
+  keywords: "Beast of Reincarnation, impresiones, Game Freak, combate, Soulslike, rendimiento técnico, 2026"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Las **impresiones de Beast of Reincarnation** revelan un cambio masivo para Game Freak, pasando de los RPG por turnos a una experiencia **Soulslike técnica**.
+- El juego cuenta con un sistema de combate único llamado **Flow and Freeze** que premia el cuerpo a cuerpo de alta velocidad y las órdenes tácticas a la bestia.
+- Ambientado en el año **4026**, el mundo es un \"cementerio bioluminiscente\" biopunk donde la humanidad ha perdido sus emociones.
+- El rendimiento técnico sigue siendo una **preocupación importante** debido al historial de Game Freak y a los tirones visibles en las primeras versiones.
+- El bucle principal se centra en la sinergia entre la protagonista, **Emma**, y su compañero perro-lobo, **Koo**.
+</Callout>
+
+<Section icon={Map} title="Una nueva era para Game Freak: Primeras impresiones de Beast of Reincarnation">
+
+Durante más de 25 años, Game Freak ha sido sinónimo del acogedor y colorido mundo de Pokémon. Sin embargo, según nuestras primeras **impresiones de Beast of Reincarnation**, el estudio se está despojando oficialmente de su piel exclusiva de Nintendo. Esto no es solo un proyecto secundario experimental; es una potencia multiplataforma en Unreal Engine 5 que llegará a Xbox, PlayStation y PC. Alejándose del \"primer RPG para niños\", Game Freak se dirige a un público maduro con una experiencia AAA oscura, técnica y visualmente inquietante que se siente más cercana a *Sekiro* o *NieR* que a un juego de capturar monstruos.
+
+**Puntos destacados del video:**
+- Desglose detallado de las mecánicas de combate **Flow and Freeze**.
+- Exploración de la **estética biopunk** en un Tokio en ruinas.
+- Análisis de los combates contra jefes **Nushi** y la terraformación ambiental.
+- Mirada crítica a las posibles **alertas rojas técnicas** y problemas de rendimiento.
+
+<YouTubeEmbed videoId="1OWSgIq2TpM" title="¿FF7 Remake se encuentra con Sekiro? Impresiones de Beast of Reincarnation" />
+
+Este cambio de rumbo forma parte del \"Gear Project\" de Game Freak, una iniciativa interna diseñada para permitir a los desarrolladores crear propiedades intelectuales originales. Está claro que han estado guardando su \"energía de jefe final\" para este título. El juego establece un tono sombrío de inmediato, presentando un Japón reclamado por una vida vegetal parásita conocida como la Plaga (Blight). A medida que los jugadores se ponen en la piel de Emma, una Purificadora, el contraste entre las ruinas grises desaturadas y la flora roja de neón crea una identidad visual impactante que lo distingue de los RPG de acción contemporáneos.
+
+| Característica | Serie Pokémon | Beast of Reincarnation |
+| :--- | :--- | :--- |
+| **Género** | RPG por turnos | Acción de personajes / Soulslike |
+| **Motor** | Propietario / Interno | Unreal Engine 5 |
+| **Plataforma** | Exclusivo de Nintendo Switch | Multiplataforma (Xbox, PS5, PC) |
+| **Enfoque del Combate** | Tabla de tipos elementales | Cuerpo a cuerpo de alta velocidad y sinergia |
+| **Tono** | Fantaseoso y amigable | Oscuro, melancólico y técnico |
+
+<Callout type="tip" title="Perspectiva del Desarrollador">
+El director Kota Furishima ha confirmado que, si bien Game Freak se encarga de la dirección creativa, están subcontratando el soporte técnico a socios especializados para garantizar que el juego cumpla con los estándares AAA en consolas de alta gama.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dominando el sistema de combate Flow and Freeze">
+
+El corazón de la jugabilidad reside en el sistema **Flow and Freeze**. A diferencia de los juegos de acción tradicionales que dependen únicamente de machacar botones, este título exige un ritmo táctico. El combate de Emma es pura acción de personajes, utilizando una katana para ataques cuerpo a cuerpo de alta velocidad y un arco para disparos de precisión. Las animaciones son fluidas y coreográficas, pero la profundidad proviene de acumular **Presión de Plaga** (Blight Pressure). Una vez que el medidor de presión está lleno, puedes activar las **Artes de Floración** (Blooming Arts), que ralentizan el tiempo y te permiten ordenar a tu compañero, Koo, que realice ejecuciones cinematográficas devastadoras.
+
+<CardGrid cols={3}>
+  <Card title="La Katana">
+    - Ataques **cuerpo a cuerpo de alta velocidad**
+    - Herramienta principal para acumular presión
+    - Animaciones fluidas y dancísticas
+  </Card>
+  <Card title="El Arco">
+    - Disparos de **precisión a distancia**
+    - Apunta a los puntos débiles de los enemigos
+    - Esencial para los Nushi voladores
+  </Card>
+  <Card title="Koo (Malifact)">
+    - Habilidades **basadas en la sinergia**
+    - Usa Atadura Verde (Verdant Bind) para enraizar enemigos
+    - Ejecuta remates cinematográficos
+  </Card>
+</CardGrid>
+
+La sinergia entre Emma y Koo no es meramente cosmética; es el núcleo del bucle de combate. Emma puede absorber la Plaga para potenciar sus poderes, pero esto conlleva un \"medidor de corrupción\" que tiene consecuencias narrativas. Esta mecánica de \"paradoja viviente\" añade una capa de estrategia, obligando a los jugadores a equilibrar el poder bruto con la pérdida de la humanidad de Emma. Los jefes, conocidos como **Nushi**, representan la cúspide de este desafío. Estos dioses que definen el ecosistema terraforman la arena a medida que reciben daño, creando plataformas y bloqueando caminos con raíces de árboles.
+
+| Mecánica | Descripción | Beneficio en Combate |
+| :--- | :--- | :--- |
+| **Presión de Plaga** | Medidor que se llena con golpes cuerpo a cuerpo | Permite usar Artes de Floración |
+| **Artes de Floración** | Modo táctico en cámara lenta | Permite dar órdenes complejas a Koo |
+| **Atadura Verde** | Habilidad de control de masas de Koo | Enraíza a varios enemigos en el sitio |
+| **Ejecución de Plaga** | Movimiento de remate de gran daño | Recompensa la sincronización perfecta de la sinergia |
+| **Desplazamiento con Cabello** | El cabello de Emma se transforma en enredaderas | Ataques de agarre y látigo |
+
+<Callout type="warning" title="Curva de Aprendizaje">
+Los primeros avances sugieren que el tutorial es mínimo. Los jugadores deben estudiar manualmente el códice del juego en las fogatas para comprender mecánicas avanzadas como los remates y las barras de carga doble en la parte inferior de la pantalla.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Construcción del mundo: El Kanto en ruinas de 4026">
+
+El escenario de *Beast of Reincarnation* está muy lejos de los vibrantes pueblos de los títulos anteriores de Game Freak. En el año **4026**, la civilización colapsó hace mucho tiempo. Los humanos han evolucionado más allá de la necesidad de sentir emociones, pero el \"miasma emocional\" resultante se ha manifestado como la Plaga, convirtiendo el mundo natural en una pesadilla de raíces desbocadas y flores antinaturales. Los jugadores exploran lo que solía ser la región de Kanto, ahora un hermoso pero mortal cementerio bioluminiscente.
+
+**Elementos clave del lore:**
+- **Los Purificadores**: Guerreros especializados como Emma encargados de despachar a los Nushi.
+- **Los Nushi**: Criaturas masivas y mutadas cubiertas de raíces de árboles y flores.
+- **Los Malifacts**: Monstruos que suelen carecer de mente, aunque Koo es una excepción con \"vínculo de alma\".
+- **La Plaga**: Una vida vegetal parásita que alimenta los poderes de Emma pero consume su alma.
+
+El diseño ambiental es \"biopunk en su máxima expresión\". Navegas por las ruinas en un vehículo que parece un cruce entre un AT-ST de *Star Wars* y una caravana Airstream de mediados de siglo. Esta base móvil sirve como tu centro de operaciones mientras viajas a través de ruinas grises desaturadas que contrastan con la flora roja de neón. El propio diseño de Emma refleja este mundo; su cabello es su herramienta de desplazamiento principal, transformándose en zarcillos similares a enredaderas para engancharse a través de los vacíos o crear puentes horizontales temporales.
+
+| Ubicación | Contexto de la Época | Amenaza Principal |
+| :--- | :--- | :--- |
+| **Ruinas de Tokio** | Reclamadas por la bioluminiscencia | Zonas de alta densidad de Plaga |
+| **Aldea Ogouchi** | Asentamiento en ruinas | Habitantes manchados por la Plaga |
+| **Base Subterránea** | Centro de tecnología antigua | Robots golem con pulmones incandescentes |
+| **Tierras Salvajes de Kanto** | Vasto territorio cubierto de maleza | Colosales dioses Nushi |
+
+<Callout type="success" title="Identidad Visual">
+La dirección de arte es singularmente japonesa, mezclando la moda \"gorpcore\" con la estética samurái tradicional y elementos biopunk futuristas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fricción técnica y señales de alerta de rendimiento">
+
+A pesar de la ambiciosa visión, nuestras **impresiones de Beast of Reincarnation** se ven atenuadas por el historial técnico de Game Freak. La transición a Unreal Engine 5 es un paso audaz, pero las primeras revelaciones de jugabilidad han mostrado tirones visibles y un ritmo de fotogramas inconsistente, especialmente en escenas de bosques muy densos. Para un estudio que tuvo dificultades con el rendimiento de *Pokémon Escarlata y Púrpura*, las exigencias técnicas de un juego de acción de alta gama son un obstáculo significativo.
+
+<Steps>
+  <Step num="1" title="Transición de Motor">
+    Pasar de motores propietarios a **Unreal Engine 5** permite una iluminación moderna y recursos de alta fidelidad, pero requiere nueva experiencia en optimización.
+  </Step>
+  <Step num="2" title="Soporte de Subcontratación">
+    Game Freak se está asociando con estudios técnicos especializados para encargarse del trabajo pesado de portabilidad y optimización para **PS5 y Xbox Series X**.
+  </Step>
+  <Step num="3" title="Objetivos de Rendimiento">
+    El objetivo es alcanzar unos 60 fps estables, pero las versiones actuales muestran tartamudeos durante los **combates contra jefes Nushi**, donde la terraformación ambiental es más intensa.
+  </Step>
+  <Step num="4" title="Soporte Post-Lanzamiento">
+    Con una fecha de lanzamiento prevista para el 4 de agosto de 2026, los desarrolladores tienen un tiempo limitado para pulir la \"fricción técnica\" observada en el Developer Direct.
+  </Step>
+</Steps>
+
+| Consola/PC | Rendimiento Esperado | Posibles Problemas |
+| :--- | :--- | :--- |
+| **PlayStation 5** | 4K / 30 fps o 1440p / 60 fps | Inconsistencia de fotogramas en follaje denso |
+| **Xbox Series X** | 4K / 30 fps o 1440p / 60 fps | Tirones ocasionales durante los jefes |
+| **PC de Gama Alta** | Tasa de fotogramas ilimitada | Tirones por compilación de sombreadores (shaders) |
+| **Xbox Series S** | 1080p / 30 fps | Calidad y densidad de texturas reducidas |
+
+<Callout type="warning" title="Preocupación Crítica">
+Si el juego se lanza con unos tartamudeantes 20 fps, la magnífica dirección artística no será suficiente para salvar la experiencia. La estabilidad técnica es el factor determinante para el éxito de este proyecto.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Primeros pasos: Lista de tareas para el inicio del juego">
+
+La secuencia de apertura del juego es un comienzo directo que introduce el movimiento básico y el combate. Sin embargo, el juego rápidamente \"vuelca toda su caja de juguetes sobre tu cabeza\", requiriendo que los jugadores gestionen múltiples árboles de habilidades y complejas mecánicas de desplazamiento casi de inmediato. Para ayudarte a navegar por los primeros 90 minutos, hemos recopilado una lista de tareas de hitos esenciales.
+
+<Checklist
+  id="early-game-goals"
+  title="Hitos de la primera hora:"
+  items={[
+    "Dominar el gancho de enredadera con R2 para el desplazamiento vertical",
+    "Aprender a crear puentes de cabello horizontales manteniendo pulsado R2",
+    "Llegar a la primera fogata en la Aldea Ogouchi",
+    "Desbloquear la primera habilidad de sinergia en el árbol de habilidades de Koo",
+    "Derrotar al Ciervo de Madera Colosal (primer jefe Nushi)"
+  ]}
+/>
+
+Las mecánicas de desplazamiento, en particular las enredaderas de cabello, tienen una curva de aprendizaje empinada. No hay una retícula de apuntado clara para la tirolina, lo que puede llevar a \"lanzar enredaderas\" en la dirección equivocada. Se recomienda a los jugadores pasar tiempo en los menús de tutorial desde el principio para evitar la frustración durante el primer encuentro importante con un jefe.
+
+| Herramienta de Desplazamiento | Método de Entrada | Mejor Caso de Uso |
+| :--- | :--- | :--- |
+| **Enredadera de Tirolina** | Pulsar R2 | Alcanzar plataformas altas rápidamente |
+| **Puente de Cabello** | Mantener pulsado R2 | Cruzar amplios vacíos horizontales |
+| **Látigo de Enredadera** | Combo de combate | Atraer a los enemigos más pequeños |
+| **Gancho de Agarre** | Contextual | Acceso a puntos débiles específicos de los Nushi |
+
+<Callout type="tip" title="Estrategia Pro">
+Usa la fogata para mejorar las estadísticas de Emma y Koo desde el principio. Centrarte en la \"Resistencia a la Plaga\" te permitirá permanecer en el estado Flow por más tiempo sin sufrir los efectos negativos de la corrupción.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Llegará Beast of Reincarnation a Nintendo Switch?",
+    answer: "No, este es el primer gran título multiplataforma de Game Freak dirigido a hardware de alta gama. Se lanzará en PlayStation 5, Windows PC y Xbox Series X/S."
+  },
+  {
+    question: "¿Cómo funciona el sistema de combate 'Flow and Freeze'?",
+    answer: "Combina una acción rápida de personajes (Flow) con un modo táctico en cámara lenta (Freeze) donde puedes dar órdenes específicas a tu compañero lobo, Koo."
+  },
+  {
+    question: "¿Cuáles son las 'impresiones de Beast of Reincarnation' respecto a la dificultad?",
+    answer: "El juego se describe como un RPG de acción exigente con elementos Soulslike. Aunque la dificultad se puede ajustar, las primeras horas son desafiantes debido a las explicaciones mecánicas mínimas."
+  },
+  {
+    question: "¿Quién es el protagonista del juego?",
+    answer: "Juegas como Emma, una guerrera especializada conocida como Purificadora, que tiene la habilidad única de absorber y manipular la Plaga parásita."
+  }
+]} />
+
+<Callout type="info" title="Veredicto Final">
+*Beast of Reincarnation* representa un cambio sorprendente para Game Freak. Aunque persisten las dudas técnicas, la ambición creativa y su singular mundo biopunk lo convierten en uno de los títulos más intrigantes de 2026.
+</Callout>
+
+</Section>

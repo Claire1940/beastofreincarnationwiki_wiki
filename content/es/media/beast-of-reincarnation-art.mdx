@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Arte de la Bestia de la Reencarnación: Guía de Combate y Bloom Art",
+  description: "Domina el sistema de arte de la Bestia de la Reencarnación. Aprende a usar las Bloom Arts, desviar ataques y mejorar el árbol de habilidades de Emma para una eficiencia máxima.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2563eb/fff?text=Bloom+Art+Combat+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Beast of Reincarnation",
+  keywords: "Beast of Reincarnation, combate, Bloom Art, guía, habilidades, parry"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **arte de la Bestia de la Reencarnación** se refiere al sistema "Bloom Art", una mezcla única de acción en tiempo real y selección táctica de comandos.
+- **Hacer parry es esencial** para llenar el indicador de FP, que sirve como recurso principal para las poderosas habilidades de Koo.
+- La **cámara lenta estratégica** ocurre durante la selección de Bloom Art, permitiendo a los jugadores analizar los movimientos preparatorios y las debilidades del enemigo.
+- El **árbol de habilidades de Emma** amplía la gama de ataques de seguimiento y remates, creando sinergia entre los dos protagonistas.
+- Las **mecánicas de aturdimiento** se activan mediante Bloom Arts exitosas, lo que genera oportunidades de "Remate de un golpe" de alto daño.
+</Callout>
+
+<Section icon={Swords} title="Entendiendo el sistema de arte de la Bestia de la Reencarnación">
+
+El combate en este título se define por las mecánicas del **arte de la Bestia de la Reencarnación**, conocidas específicamente como Bloom Arts. A diferencia de los RPG de acción tradicionales donde las habilidades simplemente se asignan a botones, este juego utiliza un sistema de dos capas que recompensa tanto los reflejos rápidos como la previsión táctica. Controlas a dos personajes, Koo y Emma, cuya coordinación es fundamental para sobrevivir a los encuentros cada vez más difíciles por todo el mundo.
+
+**Puntos destacados del video:**
+- **Sistema de indicador doble**: Aprende a gestionar eficazmente la salud del enemigo y los indicadores de derribo.
+- **Generación de FP**: Observa el tiempo preciso requerido para el parry para aumentar el poder de Koo.
+- **Selección de Bloom Art**: Observa cómo el tiempo se ralentiza para permitir la toma de decisiones tácticas.
+- **Sinergia de equipo**: Mira cómo Koo inicia los ataques y Emma ejecuta remates devastadores.
+
+<YouTubeEmbed videoId="mhMVMTWDAWU" title="Beast of Reincarnation | Resumen del combate" />
+
+El sistema "Bloom Art" actúa como puente entre el parry en tiempo real y la estrategia basada en comandos. Cuando tu indicador de FP está lleno, seleccionar un Art pausa la acción frenética, dándote un momento para respirar y elegir el contraataque más efectivo para el estado actual del enemigo.
+
+<Callout type="tip" title="Perspectiva de Combate">
+Vigila siempre el "Indicador de derribo" en la parte inferior de un enemigo. Llenar esta barra suele ser más importante que agotar la barra de salud directamente, ya que abre la ventana para un remate final cinemático y de alto daño.
+</Callout>
+
+| Tipo de indicador | Función principal | Estrategia de gestión |
+| :--- | :--- | :--- |
+| **Barra de salud** | Registra la vida total del enemigo | Agótala usando ataques estándar y remates |
+| **Indicador de derribo** | Registra la postura/estabilidad del enemigo | Llénalo usando parries y Bloom Arts específicas |
+| **Indicador de FP** | Recurso para las Arts de Koo | Llénalo desviando con éxito los ataques entrantes |
+
+</Section>
+
+<Section icon={Shield} title="Dominando el Parry y las mecánicas de FP">
+
+El parry es el corazón del ciclo de juego del **arte de la Bestia de la Reencarnación**. Cada parry exitoso niega el daño por completo y proporciona un impulso significativo a tu indicador de FP (Flow Power). Sin dominar el parry, no podrás acceder a las Bloom Arts necesarias para derrotar a los jefes más grandes y a los enemigos de élite.
+
+El tiempo para los parries es deliberado. Debes observar los movimientos preparatorios de tus oponentes. Los jefes grandes a menudo telegrafían sus golpes pesados con animaciones de carga específicas. Desviar estos ataques no solo protege tu salud, sino que también acelera tu transición a la fase de selección táctica.
+
+| Acción | Ganancia de FP | Nivel de riesgo | Beneficio |
+| :--- | :--- | :--- | :--- |
+| **Parry perfecto** | Alta | Medio | Daño cero, gran aumento de FP |
+| **Bloqueo estándar** | Baja | Bajo | Daño reducido, FP mínimo |
+| **Esquiva/Evasión** | Ninguna | Alto | Reposicionamiento, sin ganancia de FP |
+| **Impacto de Bloom Art** | Variable | Bajo | Aumento masivo del indicador de aturdimiento |
+
+<Callout type="warning" title="Tiempo del Parry">
+Los golpes pesados de los jefes colosales aún pueden ser desviados, pero la ventana de tiempo es mucho más estrecha que con los enemigos estándar. Si pierdes la ventana, recibirás un daño por bloqueo significativo o serás derribado.
+</Callout>
+
+Una vez que el indicador de FP en la esquina inferior derecha esté brillando, estarás listo para desatar una Bloom Art. Esta transición de una defensa de alta velocidad a una ofensiva táctica es lo que distingue a este sistema de combate.
+
+</Section>
+
+<Section icon={Sparkles} title="Bloom Arts y Selección Táctica">
+
+Cuando activas un **arte de la Bestia de la Reencarnación** (Bloom Art), el tiempo se ralentiza significativamente. Esto no es solo un adorno visual; es una necesidad mecánica. Durante esta ventana de cámara lenta, puedes observar el fotograma actual de la animación del enemigo. Si están en medio de una carga, podrías seleccionar un Art de restricción. Si se están recuperando, una jabalina de alto daño podría ser mejor.
+
+<CardGrid cols={3}>
+  <Card title="Higanbana: Roots">
+    - **Tipo**: Control de masas
+    - **Efecto**: Restringe hasta a 3 objetivos
+    - **Ideal para**: Batallas en equipo contra grupos
+  </Card>
+  <Card title="Sakura: Javelin">
+    - **Tipo**: Daño de precisión
+    - **Efecto**: Alto daño de perforación
+    - **Ideal para**: Explotar debilidades de jefes
+  </Card>
+  <Card title="Binding Roots">
+    - **Tipo**: Interrupción
+    - **Efecto**: Cancela los "Grandes movimientos" enemigos
+    - **Ideal para**: Utilidad defensiva
+  </Card>
+</CardGrid>
+
+La sinergia entre Koo y Emma es más visible aquí. Koo típicamente inicia el "Art", mientras que Emma lo sigue con una ejecución física. Por ejemplo, después de usar "Higanbana: Roots" para congelar a un grupo de enemigos, Emma puede barrerlos con su habilidad "Helm Splitter" para acabarlos a todos a la vez.
+
+<Callout type="success" title="Consejo de Estrategia">
+Usa "Binding Roots" específicamente cuando un jefe esté cargando un ataque con brillo púrpura. Esto suele indicar un movimiento que no se puede desviar normalmente, y el Art es la única forma de cancelar la animación.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Árbol de habilidades de Emma y progresión">
+
+Mientras Koo proporciona la base mágica a través del sistema de **arte de la Bestia de la Reencarnación**, Emma proporciona la fuerza bruta. Su efectividad está determinada por los SP (Skill Points) que ganas durante tus aventuras. Estos puntos se gastan en un árbol de habilidades integral que evoluciona a lo largo del juego.
+
+<Steps>
+  <Step num="1" title="Gana SP mediante el combate">
+    Participa en batallas y derrota a jefes para acumular puntos de habilidad. Los jefes proporcionan las mayores cantidades de SP requeridas para los nodos de alto nivel.
+  </Step>
+  <Step num="2" title="Desbloquea ataques de seguimiento">
+    Concéntrate primero en la rama de "Sinergia" del árbol. Esto permite que Emma realice ataques de seguimiento más complejos después de que Koo use una Bloom Art.
+  </Step>
+  <Step num="3" title="Adquiere remates">
+    Desbloquea habilidades como "Helm Splitter" para aumentar el daño infligido a los enemigos con el indicador de derribo lleno.
+  </Step>
+  <Step num="4" title="Mejora la sinergia de Arts">
+    Las nuevas Bloom Arts obtenidas de los jefes (como Sakura: Javelin) suelen tener nodos dedicados en el árbol de Emma para mejorar su efectividad combinada.
+  </Step>
+</Steps>
+
+| Categoría de habilidad | Beneficio principal | Recomendado para |
+| :--- | :--- | :--- |
+| **Ofensiva** | Aumento del daño bruto | Eliminación rápida de enemigos comunes |
+| **Sinergia** | Mejores ataques de seguimiento | Batallas contra jefes y unidades de élite |
+| **Utilidad** | Tiempos de recarga/costes reducidos | Jugadores que prefieren el uso frecuente de Arts |
+| **Defensiva** | Bloqueo/recuperación mejorados | Jugadores principiantes que aprenden el tiempo del parry |
+
+<Callout type="info" title="Expansión del árbol de habilidades">
+El árbol de habilidades no es estático. Cada vez que Emma absorbe el poder de un jefe derrotado, se despierta una nueva rama del árbol, ofreciendo técnicas que antes eran inaccesibles.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación de maestría en combate">
+
+Para dominar verdaderamente el **arte de la Bestia de la Reencarnación** y sobresalir en el mundo del RPG más esperado de 2026, debes intentar completar estos hitos de combate.
+
+<Checklist
+  id="combat-mastery"
+  title="Objetivos de Excelencia en Combate:"
+  items={[
+    "Hacer parry con éxito a 10 ataques en un solo encuentro",
+    "Desbloquear y usar la Bloom Art Sakura: Javelin",
+    "Ejecutar una restricción de 3 objetivos con Higanbana: Roots",
+    "Alcanzar el nodo 'Helm Splitter' en el árbol de habilidades de Emma",
+    "Derrotar a un jefe colosal sin recibir daño directo",
+    "Dominar el tiempo del Remate de un golpe"
+  ]}
+/>
+
+A medida que progreses hacia nuevas áreas, los enemigos se volverán más difíciles, lo que requerirá que experimentes constantemente con nuevas combinaciones de Bloom Arts y mejoras del árbol de habilidades. La emoción del juego reside en encontrar la sinergia perfecta que se adapte a tu estilo de juego personal.
+
+<Callout type="tip" title="Experimentación">
+No tengas miedo de reiniciar tu árbol de habilidades si una determinada configuración no funciona para un jefe específico. El juego fomenta la flexibilidad a medida que desbloqueas Arts más diversas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo desbloqueo más artes de la Bestia de la Reencarnación?",
+    answer: "Nuevas Bloom Arts se despiertan dentro de Koo después de que Emma absorba el poder de los principales jefes enemigos derrotados. Estas suelen estar tematizadas según las propias habilidades del jefe, como la Sakura: Javelin."
+  },
+  {
+    question: "¿Cuál es la diferencia entre los indicadores de salud y de derribo?",
+    answer: "La barra de salud representa la vida restante del enemigo. El indicador de derribo representa su estabilidad; llenarlo por completo aturde al enemigo y permite un poderoso remate de un golpe."
+  },
+  {
+    question: "¿Puedo jugar al juego sin hacer parry?",
+    answer: "Aunque puedes esquivar, hacer parry es la única forma de llenar rápidamente el indicador de FP. Sin FP, no puedes usar Bloom Arts, lo que hace que las batallas contra los jefes sean significativamente más difíciles y lentas."
+  },
+  {
+    question: "¿Dura para siempre la cámara lenta durante la selección de Bloom Art?",
+    answer: "Dura lo suficiente para que tomes una decisión táctica, pero no es infinita. Está diseñada para darte un momento para observar los movimientos preparatorios del enemigo y reaccionar en consecuencia."
+  }
+]} />
+
+</Section>

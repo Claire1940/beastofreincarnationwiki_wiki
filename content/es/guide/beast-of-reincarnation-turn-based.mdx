@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Combate por turnos en Beast of Reincarnation: Guía de configuración de combate",
+  description: "Domina las mecánicas híbridas de combate táctico en tiempo real en Beast of Reincarnation. Aprende a sincronizar a Emma y Koo usando comandos por turnos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Turn+Based+Combat+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Beast of Reincarnation"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Mecánicas híbridas**: El sistema por turnos de Beast of Reincarnation combina la acción de espada en tiempo real con decisiones tácticas basadas en comandos.
+- **Sinergia de compañeros**: Controla a Emma para realizar ataques cuerpo a cuerpo en tiempo real mientras das comandos estratégicos a Koo, el perro plagado.
+- **Bloom Arts**: Activar las Bloom Arts ralentiza el tiempo, dándote espacio para seleccionar técnicas óptimas y explotar las debilidades del enemigo.
+- **Acumulación de FP**: Realiza desvíos (parries) perfectos para llenar tu barra de FP, que sirve como el recurso principal para las habilidades de Koo.
+- **Movimientos de gracia**: Maximiza la barra de derribo del enemigo para activar poderosos golpes de gracia de un solo impacto y asegurar la victoria.
+</Callout>
+
+<Section icon={Swords} title="El sistema de combate híbrido principal">
+
+El combate en este título ofrece una mezcla única de acción en tiempo real y selección de comandos tácticos. Los jugadores controlan a Emma, una marginada que viaja por un Japón postapocalíptico en el año 2026, junto a su compañero Koo, un perro plagado. En esta configuración, el sistema por turnos de Beast of Reincarnation te permite equilibrar ataques rápidos de espada físicos con comandos pausados y deliberados para ejecutar maniobras tácticas.
+
+**Puntos destacados del video:**
+- **Sistema de barra doble**: Realiza un seguimiento de la barra de vida del enemigo y de la barra de derribo para calcular el momento de tus remates finales.
+- **Mecánicas de desvío (Parry)**: Desvía los ataques entrantes para evitar daños y llenar rápidamente la barra de FP.
+- **Selección de Bloom Arts**: Ralentiza el tiempo para buscar y activar ataques especiales cuando la barra de FP esté llena.
+- **Remates de sinergia**: Coordina a Emma y Koo para restringir y eliminar a grupos de enemigos.
+
+<YouTubeEmbed videoId="sia_STs5FTc" title="Beast of Reincarnation - Trailer oficial de descripción general del combate" />
+
+Gestionar tus recursos es fundamental durante los encuentros. Mientras Emma participa en combates cuerpo a cuerpo activos, las habilidades de Koo requieren FP, que se acumula al desviar con éxito los ataques enemigos. Esto crea un ritmo en el que el juego defensivo alimenta directamente tus opciones ofensivas.
+
+| Barra | Función | Cómo llenarla |
+| :--- | :--- | :--- |
+| **Barra de vida** | Representa la fuerza vital restante del enemigo | Inflige daño directo con Emma o Koo |
+| **Barra de derribo** | Mide la postura y estabilidad del enemigo | Conecta ataques pesados y desvía golpes |
+| **Barra de FP** | Potencia las habilidades de comando táctico de Koo | Realiza desvíos y bloqueos en el momento justo |
+
+<Callout type="tip" title="Sincronización del desvío">
+Perfeccionar el tiempo de tu desvío (parry) es la forma más rápida de acumular FP. Observa de cerca las animaciones de preparación del enemigo para desviar golpes pesados.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Dominando los comandos por turnos de Koo">
+
+Cuando la barra de FP en la esquina inferior derecha de la pantalla se llena por completo, obtienes acceso a las Bloom Arts. Activar una Bloom Art inicia una fase de cámara lenta, imitando los menús de comandos tradicionales de los RPG por turnos. Esta pausa táctica te permite evaluar el campo de batalla, predecir los movimientos del enemigo y seleccionar la técnica más efectiva sin la presión de las amenazas en tiempo real.
+
+Puedes personalizar tu enfoque general seleccionando equipamientos que enfaticen diferentes aspectos del combate. Dependiendo de tu preferencia, puedes inclinarte por configuraciones agresivas, a distancia o sigilosas.
+
+<CardGrid cols={3}>
+  <Card title="Equipamiento agresivo">
+    - **Alto daño infligido**
+    - Se centra en golpes de espada a corta distancia
+    - Ideal para despejar enemigos débiles rápidamente
+  </Card>
+  <Card title="Equipamiento a distancia">
+    - **Posicionamiento seguro**
+    - Utiliza habilidades de proyectiles y control de distancias
+    - El mejor para lidiar con enemigos voladores
+  </Card>
+  <Card title="Equipamiento sigiloso">
+    - **Ataques sorpresa**
+    - Se centra en el control de masas y la evasión
+    - Excelente para iniciar batallas difíciles
+  </Card>
+</CardGrid>
+
+Diferentes comandos tácticos sirven para diferentes propósitos. Por ejemplo, algunas habilidades están diseñadas para restringir a múltiples objetivos, mientras que otras infligen daño concentrado a un solo oponente.
+
+| Nombre de la habilidad | Efecto | Uso táctico |
+| :--- | :--- | :--- |
+| **Higunbana Roots** | Restringe hasta a tres objetivos simultáneamente | Control de masas cuando te rodeen enemigos |
+| **Sakura Javelin** | Lanza un proyectil a distancia de alto daño | Explotar debilidades desde una distancia segura |
+| **Binding Roots** | Detiene el movimiento de un solo objetivo | Cancelar ataques de jefes y crear aperturas |
+
+<Callout type="warning" title="Selección de habilidades">
+El tiempo se ralentiza durante la selección de Bloom Arts, pero no se detiene por completo. Toma tus decisiones de manera eficiente para evitar que te sorprendan desprevenido.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión de la sinergia de Emma y Koo">
+
+Para sobrevivir en los hostiles páramos del Japón postapocalíptico, debes mejorar constantemente tanto a Emma como a Koo. Mientras Emma depende de técnicas físicas de espada, las habilidades de Koo se expanden a medida que derrotas a los jefes principales que gobiernan los bosques plagados. Según los detalles de la [página oficial del juego en FICTIONS](https://fictions.com/games/beast-of-reincarnation), capturar los poderes de estos jefes es esencial para derrotar eventualmente a la Bestia de la Reencarnación.
+
+Desbloquear nuevas habilidades requiere gastar SP (Puntos de Habilidad) obtenidos durante tus aventuras. A medida que inviertes en los árboles de habilidades, la sinergia entre Emma y Koo se vuelve más fluida, desbloqueando ataques de seguimiento avanzados.
+
+<Steps>
+  <Step num="1" title="Derrota a los jefes">
+    Supera los encuentros con jefes regionales para absorber su poder y despertar nuevas Bloom Arts para Koo.
+  </Step>
+  <Step num="2" title="Gana puntos de habilidad">
+    Completa misiones y derrota enemigos en los bosques plagados para acumular SP.
+  </Step>
+  <Step num="3" title="Expande los árboles de habilidades">
+    Gasta SP para comprar mejoras pasivas y nuevas maniobras activas para Emma.
+  </Step>
+  <Step num="4" title="Ejecuta combos de remate">
+    Combina las habilidades de atadura de Koo con los ataques físicos mejorados de Emma, como Helm Splitter.
+  </Step>
+</Steps>
+
+La progresión no es lineal, lo que te permite priorizar las habilidades que se adapten a tu estilo de juego preferido. Equilibrar las mejoras físicas con las mejoras de comandos mágicos garantiza que sigas siendo versátil.
+
+| Etapa de progresión | Mejoras recomendadas | Desbloqueo clave de sinergia |
+| :--- | :--- | :--- |
+| **Fase inicial** | Tasa de generación de FP, daño básico de espada | Coordinación con Higunbana Roots |
+| **Fase intermedia** | Acumulación de barra de aturdimiento, distancia de esquive | Seguimiento con Sakura Javelin |
+| **Fase final** | Capacidad máxima de FP, reducción de enfriamiento | Combo de remate con Helm Splitter |
+
+<Callout type="success" title="Piedras espirituales">
+Equipa las piedras espirituales que encuentres en el páramo para obtener bonificaciones pasivas, como ventanas de desvío aumentadas o daño de efecto de estado mejorado.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategias de desvío en batallas contra jefes">
+
+Cada región del juego está custodiada por un enorme jefe enemigo. Estos encuentros ponen a prueba tu capacidad para combinar reflejos en tiempo real con selecciones de comandos tácticos. Debido a que los ataques de los jefes infligen un daño masivo, depender únicamente de esquivar rara vez es suficiente. Debes aprender a desviar sus golpes más pesados para acumular FP rápidamente.
+
+Durante las peleas contra jefes, la ventana de cámara lenta que proporcionan las Bloom Arts es inestimable. Utiliza este tiempo para observar los movimientos preparatorios del jefe y seleccionar una contramedida, como cancelar un ataque importante con habilidades de atadura.
+
+| Estado del jefe | Comportamiento | Estrategia de contraataque |
+| :--- | :--- | :--- |
+| **Neutral** | Patrones de ataque estándar y golpes físicos | Desvía para acumular FP y reducir la barra de derribo |
+| **Preparando movimiento fuerte** | Animación de preparación larga con alto potencial de daño | Usa Binding Roots para cancelar el ataque |
+| **Aturdido / Derribado** | Vulnerable, recibe mayor daño | Desata todo el FP acumulado y activa un remate |
+
+Antes de entrar a la arena de un jefe, asegúrate de haber optimizado tu equipamiento. Un jugador preparado tiene muchas más probabilidades de sobrevivir a estos brutales encuentros.
+
+<Checklist
+  id="boss-prep"
+  title="Lista de preparación para jefes:"
+  items={[
+    "Asegúrate de que la barra de FP esté completamente cargada antes de iniciar la pelea",
+    "Equipa piedras espirituales que mejoren la acumulación de la barra de aturdimiento",
+    "Asigna habilidades de control de masas como Binding Roots a tus ranuras activas",
+    "Mejora el daño de la espada de Emma usando el SP acumulado",
+    "Estudia las señales visuales del jefe para identificar las ventanas de desvío"
+  ]}
+/>
+
+<Callout type="info" title="Absorber poder">
+Derrotar a un jefe otorga inmediatamente un nuevo poder. Asegúrate de revisar el menú de habilidades para equipar tu Bloom Art recién despertada.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+Comprender los matices del sistema de combate es clave para dominar el juego. A continuación se presentan respuestas a preguntas comunes sobre las mecánicas híbridas.
+
+<FAQ items={[
+  {
+    question: "¿Cómo funciona el sistema de combate por turnos de Beast of Reincarnation?",
+    answer: "Combina el movimiento y los golpes de espada en tiempo real para Emma con un menú de pausa táctica para Koo. Cuando tu barra de FP está llena, puedes ralentizar el tiempo para seleccionar y ejecutar los comandos especializados de Koo."
+  },
+  {
+    question: "¿Cuál es la mejor manera de llenar la barra de FP rápidamente?",
+    answer: "Realizar desvíos (parries) perfectos contra los ataques enemigos es el método más eficiente para restaurar y llenar tu barra de FP durante el combate."
+  },
+  {
+    question: "¿Puedo personalizar las habilidades tanto de Emma como de Koo?",
+    answer: "Sí. Puedes personalizar las habilidades de Emma a través del árbol de habilidades usando SP, y desbloquear nuevas Bloom Arts para Koo al derrotar a los jefes por todo el mundo."
+  },
+  {
+    question: "¿Qué sucede cuando la barra de derribo de un enemigo se llena por completo?",
+    answer: "Llenar la barra de derribo aturde al enemigo y crea una breve ventana en la que puedes ejecutar un poderoso remate de un solo golpe."
+  }
+]} />
+
+<Callout type="tip" title="Experimentación">
+No dudes en restablecer tu árbol de habilidades si una pelea contra un jefe resulta demasiado difícil. Se recomienda encarecidamente probar diferentes sinergias.
+</Callout>
+
+</Section>

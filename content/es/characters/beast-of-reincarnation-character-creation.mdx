@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Creación de personajes en Beast of Reincarnation: Guía de habilidades y builds",
+  description: "Domina el sistema de creación de personajes de Beast of Reincarnation. Aprende a personalizar los poderes de la plaga de Emma, los rasgos de Koo y optimiza tu build inicial para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Character+Creation+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Beast of Reincarnation",
+  keywords: "creación de personajes, guía de habilidades, builds, Emma, Koo, Beast of Reincarnation"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Sistema de protagonista**: Juegas como **Emma la Selladora**, una joven de 18 años con rasgos narrativos fijos pero con una profunda personalización mecánica.
+- **Resonancia de la plaga**: El proceso de creación de personajes en Beast of Reincarnation se centra en seleccionar tus especializaciones iniciales de **Poder de la Plaga**.
+- **Sinergia de compañero**: Tu perro, **Koo**, actúa como un personaje secundario con su propio árbol de rasgos que debe complementar el estilo de juego de Emma.
+- **Estilo de combate**: La jugabilidad combina elementos de **Nier: Automata** y **Sekiro**, requiriendo una sincronización precisa y control de masas basado en plantas.
+- **Fecha de lanzamiento**: El lanzamiento oficial está programado para el **4 de agosto de 2026** en las plataformas PS5, PC y Xbox.
+</Callout>
+
+<Section icon={Swords} title="El sistema de creación de personajes de Beast of Reincarnation">
+
+En el último RPG de acción de Game Freak, el concepto de creación de personajes difiere de los RPG occidentales tradicionales. En lugar de crear un avatar desde cero, los jugadores asumen el papel de Emma, una Selladora en el año 4026. Sin embargo, la profundidad de la **creación de personajes de Beast of Reincarnation** radica en la "Fase de Resonancia", donde los jugadores definen la afinidad elemental de Emma con la Plaga y su sinergia con su compañero canino, Koo.
+
+El juego se describe como un "RPG de acción de una persona y un perro", lo que significa que la "creación" es en realidad una configuración estratégica de dos unidades interconectadas. Durante la secuencia de apertura, se te pedirá que elijas el Enfoque de Plaga inicial de Emma, lo que dictará sus animaciones de combate al principio del juego y sus capacidades de manipulación de plantas.
+
+| Característica | Emma la Selladora | Koo el Compañero |
+| :--- | :--- | :--- |
+| **Rol principal** | Infligir daño / Manipulación de plantas | Soporte / Distracción / Movilidad |
+| **Personalización** | Especialización de plaga, Atuendos | Árboles de rasgos, Armadura, Tácticas |
+| **Estilo de combate** | Híbrido de rango y cuerpo a cuerpo | Cuerpo a cuerpo y Control de masas |
+| **Progresión** | Puntos de habilidad por nivel | Desbloqueo de rasgos por vínculo |
+
+<Callout type="tip" title="Perspectiva del editor">
+Aunque no puedes cambiar el nombre ni la historia de Emma, tu elección del Enfoque de Plaga altera significativamente la forma en que te enfrentas a las criaturas corruptas del Japón postapocalíptico. Elige un enfoque que se adapte a tu ritmo de combate preferido.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Personalización visual y opciones estéticas">
+
+A pesar de tener una protagonista fija, *Beast of Reincarnation* ofrece una amplia personalización visual a través de los sistemas de "Guardarropa" y "Aura de Plaga". Estas opciones se desbloquean poco después del tutorial introductorio y permiten a los jugadores modificar la apariencia de Emma para adaptarla al estilo artístico inspirado en Studio Ghibli.
+
+<CardGrid cols={3}>
+  <Card title="Atuendo tradicional">
+    - **Estética**: Túnicas clásicas de Sellador japonés.
+    - **Efecto**: Aumenta la velocidad de recuperación de la Plaga.
+    - **Ideal para**: Jugadores centrados en una gran manipulación de plantas.
+  </Card>
+  <Card title="Equipo de carroñero">
+    - **Estética**: Atuendo de superviviente postapocalíptico.
+    - **Efecto**: Aumenta la tasa de obtención de objetos y la recolección de chatarra.
+    - **Ideal para**: Cultivo de recursos al principio del juego.
+  </Card>
+  <Card title="Armadura infundida de plaga">
+    - **Estética**: Placas orgánicas y brillantes basadas en plantas.
+    - **Efecto**: Añade espinas defensivas a la esquiva de Emma.
+    - **Ideal para**: Builds agresivas centradas en el cuerpo a cuerpo.
+  </Card>
+</CardGrid>
+
+La personalización también se extiende a Koo, el perro callejero. Los jugadores pueden equipar a Koo con diferentes collares y chalecos protectores que cambian su silueta y proporcionan bonificaciones funcionales.
+
+| Categoría de objeto | Profundidad de personalización | Impacto en la jugabilidad |
+| :--- | :--- | :--- |
+| **Atuendos de Emma** | Alta (Más de 15 conjuntos en el lanzamiento) | Moderado (Bonificaciones de estadísticas/ventajas) |
+| **Brillo de plaga** | Baja (Cambios de color) | Solo cosmético |
+| **Equipo de Koo** | Moderada (Más de 10 chalecos) | Alto (Nuevas habilidades para el perro) |
+| **Aspectos de armas** | Baja (Basado en el tipo de Plaga) | Solo cosmético |
+
+<Callout type="info" title="Fidelidad visual">
+El estilo artístico del juego está fuertemente influenciado por *La princesa Mononoke*. Los cambios visuales en Emma a menudo reflejan sus niveles crecientes de corrupción o purificación, lo que hace que su apariencia sea una parte dinámica de la narrativa.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Selección de tu Especialización de Plaga inicial">
+
+La parte más crítica de la **creación de personajes de Beast of Reincarnation** es la selección de tu Especialización de Plaga inicial. Esta elección determina tu árbol de habilidades inicial y los tipos de plantas que Emma puede manipular en el combate.
+
+<Steps>
+  <Step num="1" title="La elección de resonancia">
+    Durante la cinemática del "Despertar", debes elegir entre tres semillas de Plaga: Verdeante, Espinosa o Fúngica.
+  </Step>
+  <Step num="2" title="Definir el flujo de combate">
+    La Verdeante se centra en la movilidad y la curación, la Espinosa en el daño directo y los desvíos (parry), y la Fúngica en los efectos de estado y la denegación de área.
+  </Step>
+  <Step num="3" title="Sincronización de Koo">
+    Una vez elegida la semilla de Emma, el rasgo inicial de Koo se asigna automáticamente para complementarla (por ejemplo, si eliges la Espinosa, Koo obtiene el rasgo 'Acosador').
+  </Step>
+  <Step num="4" title="Primera asignación de puntos de habilidad">
+    Asigna tus primeros tres puntos a las habilidades de 'Raíz' del árbol elegido para desbloquear tu primera habilidad activa de planta.
+  </Step>
+</Steps>
+
+| Especialización | Mecánica principal | Dificultad | Recomendado para |
+| :--- | :--- | :--- | :--- |
+| **Verdeante** | Alta movilidad / Curación rápida | Fácil | Principiantes / Exploración |
+| **Espinosa** | Alto daño / Contraataque | Difícil | Veteranos de *Seciro* |
+| **Fúngica** | Veneno / Control de masas | Medio | Jugadores estratégicos |
+
+<Callout type="warning" title="Elección irreversible">
+Tu especialización inicial no se puede restablecer por completo hasta que llegues a la región del "Corazón de la Plaga" (aproximadamente a las 10 horas de juego). Elige con cuidado según tu arquetipo de RPG de acción preferido.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Personalización del compañero: Rasgos de Koo">
+
+Koo no es solo un seguidor estético; es la mitad de la ecuación de combate. En la fase de **creación de personajes de Beast of Reincarnation**, la personalidad y el comportamiento de combate de Koo se moldean mediante el "Arquetipo de Vínculo" que selecciones. Mientras Emma se encarga del trabajo pesado de la manipulación de plantas, Koo gestiona el flujo del campo de batalla.
+
+| Arquetipo de vínculo | Comportamiento en combate | Habilidad clave |
+| :--- | :--- | :--- |
+| **Guardián** | Permanece cerca de Emma, intercepta proyectiles | Escudo de corteza |
+| **Acechador** | Flanquea enemigos, inflige daño por la espalda | Mordisco sombrío |
+| **Recolector** | Distrae a los enemigos mientras Emma se cura | Aullido de distracción |
+
+El desarrollo de Koo está ligado al "Nivel de Vínculo". A medida que progresas, puedes desbloquear rasgos específicos que permiten a Koo interactuar con el entorno, como desenterrar semillas de Plaga raras o rastrear robots ocultos del año 4026.
+
+<Callout type="success" title="Consejo de sinergia">
+Combinar a una **Emma Fúngica** con un **Koo Guardián** se considera actualmente la build "meta" más estable para jugadores en solitario, ya que permite infligir daño de área de forma segura mientras el perro mantiene a raya a los enemigos.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Progresión del juego temprano e hitos">
+
+Una vez completada la configuración inicial del personaje, comienza tu viaje por el Japón postapocalíptico. Las primeras horas están diseñadas para poner a prueba tu dominio del sistema de doble personaje. Seguir esta lista de verificación te asegurará estar preparado adecuadamente para el primer gran enfrentamiento contra un jefe.
+
+<Checklist
+  id="starting-milestones"
+  title="Lista de verificación del juego temprano:"
+  items={[
+    "Alcanzar el nivel 10 y desbloquear la habilidad 'Enredaderas prensiles'",
+    "Encontrar el primer Santuario de Sellador para mejorar la capacidad de Plaga de Emma",
+    "Equipar a Koo con el 'Chaleco de cuero reforzado' que se encuentra en las ruinas",
+    "Completar la misión secundaria 'Ecos del viejo mundo' para obtener un atuendo único",
+    "Dominar la maniobra 'Golpe de sinergia' con Koo"
+  ]}
+/>
+
+| Hito | Recompensa | Importancia |
+| :--- | :--- | :--- |
+| **Nivel 5** | Segundo espacio de habilidad | Alta |
+| **Primer santuario** | Mejora de PV permanente | Crítica |
+| **Vínculo de Koo Niv. 2** | Habilidad de recoger objetos | Media |
+| **Derrotar al jabalí mutante** | Primera semilla legendaria | Alta |
+
+<Callout type="tip" title="Consejo de exploración">
+El mundo de *Beast of Reincarnation* destaca por su gran verticalidad. Usa la manipulación de plantas de Emma para crear plataformas y enredaderas temporales. A menudo, el mejor equipo está oculto en las copas de los bosques plagados.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo cambiar el género o el nombre de Emma en Beast of Reincarnation?",
+    answer: "No. Emma es una protagonista fija con un rol narrativo específico. La creación de personajes se centra en su build mecánica, habilidades y equipamiento, en lugar de su identidad."
+  },
+  {
+    question: "¿Afecta la elección de creación de personajes al final?",
+    answer: "Aunque tu especialización inicial no cambia el final, tus elecciones durante los eventos de 'Purificación' a lo largo del juego determinarán qué final recibirás."
+  },
+  {
+    question: "¿Hay alguna forma de restablecer mis elecciones de creación de personajes?",
+    answer: "Sí, pero solo después de llegar al nexo a mitad del juego. Necesitarás el objeto 'Semilla de renacimiento' para restablecer tu Especialización de Plaga y tus puntos de habilidad."
+  },
+  {
+    question: "¿Llegará Beast of Reincarnation a PS4 o Xbox One?",
+    answer: "No, el juego es exclusivo de PlayStation 5, Windows PC y Xbox Series X/S para mantener la alta fidelidad de sus efectos visuales inspirados en Studio Ghibli."
+  }
+]} />
+
+</Section>

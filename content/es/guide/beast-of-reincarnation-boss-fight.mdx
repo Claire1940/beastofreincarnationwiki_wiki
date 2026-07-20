@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Combate contra el jefe Bestia de la Reencarnación: Guía de fases y consejos",
+  description: "Domina el combate contra el jefe Bestia de la Reencarnación con nuestra guía de 2026. Aprende las mecánicas de las fases, equipamientos óptimos y estrategias tácticas para la victoria.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Boss+Fight+Walkthrough",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Beast of Reincarnation"
+}
+
+<Callout type="info" title="Guía rápida">
+- El **combate contra el jefe Bestia de la Reencarnación** requiere una sincronización precisa para esquivar la mecánica de la Onda de choque de renacimiento.
+- La **transición de fase** ocurre al 70% y al 30% de PS, introduciendo nuevas resistencias elementales.
+- Se prefieren las **configuraciones de alta movilidad** sobre los tanques puros debido al daño porcentual del jefe.
+- Es fundamental **concentrarse en las Orbes de alma** en la Fase 2 para evitar que el jefe se cure.
+- Las **recompensas de victoria** incluyen el Fragmento de reencarnación, esencial para las mejoras de equipo en el juego tardío.
+</Callout>
+
+<Section icon={Swords} title="Resumen del encuentro con el jefe Bestia de la Reencarnación">
+
+El **combate contra el jefe Bestia de la Reencarnación** representa una prueba de habilidad importante para los jugadores que ingresan a la etapa media-tardía de la temporada 2026. Este encuentro pone a prueba no solo tu producción de daño bruto, sino también tu capacidad para gestionar el espacio de la arena y reaccionar a los rápidos cambios de indicaciones visuales. A diferencia de los jefes de mazmorra estándar, la Bestia utiliza un sistema único de "Ciclos de vida" donde sus habilidades evolucionan según los tipos de daño que recibe con mayor frecuencia.
+
+**Puntos destacados del video:**
+- **Reconocimiento de indicaciones**: Identificar la diferencia entre el Barrido y el Tajo de alma.
+- **Posicionamiento**: Permanecer dentro del círculo interno para evitar el deterioro ambiental.
+- **Ventanas de daño explosivo**: Utilizar la duración del aturdimiento después de que la Bestia falle su habilidad definitiva.
+
+<YouTubeEmbed videoId="ojIFn6ZvWm8" title="Gameplay del combate contra el jefe Bestia de la Reencarnación" />
+
+Comprender el ritmo de esta batalla es el primer paso para lograr victorias consistentes. La arena del jefe es una plataforma circular que se reduce lentamente a medida que avanza el combate, lo que obliga a los jugadores a enfrentarse a la Bestia en espacios más cerrados.
+
+| Aspecto del combate | Descripción | Nivel de prioridad |
+| :--- | :--- | :--- |
+| **Movimiento** | Desplazamiento lateral constante para evitar áreas de efecto (AOE) dirigidas al suelo | Alto |
+| **Gestión de recursos** | Guardar las habilidades definitivas para el enfurecimiento al 30% de PS | Medio |
+| **Sinergia de equipo** | Sincronizar los efectos negativos con las ventanas de vulnerabilidad del jefe | Alto |
+| **Conciencia ambiental** | Monitorear el estado de deterioro de la plataforma | Medio |
+
+<Callout type="success" title="Ventaja estratégica">
+Llevar al menos un personaje con una habilidad de "Purificación" reducirá significativamente la dificultad de la segunda fase, ya que el jefe aplica un efecto acumulativo de "Quemadura de alma" que aumenta el daño recibido con el tiempo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mecánicas del jefe y desglose de fases">
+
+El **combate contra el jefe Bestia de la Reencarnación** se divide en tres fases distintas, cada una de las cuales requiere un cambio en el enfoque táctico. No adaptarse a estos cambios generalmente resulta en la derrota rápida del grupo.
+
+### Fase 1: La forma primordial (100% - 70% de PS)
+En esta etapa inicial, la Bestia depende de su destreza física. Utiliza ataques de garras de barrido y un rugido frontal que silencia a los jugadores durante 3 segundos. El objetivo aquí es mantener una rotación constante de DPS mientras se conserva la resistencia para las próximas transiciones.
+
+### Fase 2: El cambio etéreo (70% - 30% de PS)
+Una vez que el jefe llega al 70% de PS, se vuelve semitransparente y obtiene un 50% de resistencia al daño físico. Comenzará a invocar Orbes de alma en los bordes de la arena. Si estas orbes alcanzan al jefe, este recuperará un 5% de su salud máxima por cada orbe.
+
+| Nombre del ataque | Indicación visual | Estrategia de contraataque |
+| :--- | :--- | :--- |
+| **Tajo de alma** | Brillo azul en el brazo derecho de la Bestia | Deslizarse hacia la izquierda de inmediato |
+| **Onda de choque de renacimiento** | El jefe salta al centro y flota | Saltar o usar un fotograma de invencibilidad |
+| **Invocación de orbes** | Aparecen tres portales morados | Dividir el DPS para destruir las orbes al instante |
+| **Aliento espectral** | El jefe inhala profundamente | Moverse detrás de las patas del jefe |
+
+<Callout type="warning" title="Advertencia crítica">
+En la Fase 2, no uses todas tus habilidades de movilidad a la vez. La Bestia a menudo realiza un Tajo de alma seguido de una Onda de choque, lo que requiere dos esquives consecutivos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipamientos óptimos y composición del equipo">
+
+Prepararse para el **combate contra el jefe Bestia de la Reencarnación** implica más que solo traer tu equipo de mayor nivel. Necesitas un equipamiento equilibrado que tenga en cuenta tanto la fase física como la etérea de la pelea.
+
+<CardGrid cols={3}>
+  <Card title="La Vanguardia (Tanque)">
+    - **Estadística principal**: Mitigación de daño
+    - **Rol clave**: Atraer la atención y posicionar al jefe lejos del centro.
+    - **Equipo recomendado**: Conjunto de Égida de renacimiento para un 20% de resistencia al silencio.
+  </Card>
+  <Card title="El Oráculo (Soporte)">
+    - **Estadística principal**: Regeneración de maná
+    - **Rol clave**: Proporcionar purificaciones y mejoras de velocidad de movimiento.
+    - **Equipo recomendado**: Bastón de tejedor de espíritus para una curación mejorada durante la Fase 3.
+  </Card>
+  <Card title="El Cazador (DPS)">
+    - **Estadística principal**: Tasa de golpe crítico
+    - **Rol clave**: Destruir rápidamente las Orbes de alma y maximizar el daño durante los aturdimientos.
+    - **Equipo recomendado**: Hojas tocadas por el vacío para obtener la bonificación de daño etéreo.
+  </Card>
+</CardGrid>
+
+| Ranura de equipo | Objeto recomendado | Beneficio principal |
+| :--- | :--- | :--- |
+| **Arma** | Hoja de acero reencarnado | Escala dual física/mágica |
+| **Armadura** | Placa del ciclo eterno | Alta salud y resistencia a quemaduras |
+| **Accesorio** | Amuleto de enlace de alma | Comparte un 10% de daño con los compañeros de equipo |
+| **Consumible** | Elixir de claridad | Reduce los tiempos de reutilización en un 15% durante 60 segundos |
+
+<Callout type="tip" title="Consejo profesional">
+Se recomienda encarecidamente equipar el talento pasivo "Pies ligeros" para todos los jugadores. El 10% de velocidad de movimiento adicional hace que esquivar el Aliento espectral sea significativamente más fácil sin agotar la resistencia.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ejecución táctica paso a paso">
+
+Sigue estos pasos para asegurar una victoria sin contratiempos en el **combate contra el jefe Bestia de la Reencarnación**. Esta secuencia está diseñada para un grupo estándar de cuatro jugadores, pero puede adaptarse para el juego en solitario con equipo de nivel superior.
+
+<Steps>
+  <Step num="1" title="El enfrentamiento inicial">
+    El tanque debe enfrentarse al jefe primero, atrayéndolo hacia el borde norte de la arena. Esto mantiene el centro despejado para que los jugadores reaccionen a la primera Onda de choque de renacimiento. Los DPS deben concentrarse en llenar sus barras de recursos sin usar habilidades definitivas.
+  </Step>
+  <Step num="2" title="Gestionar la transición del 70%">
+    A medida que el jefe se acerque al 70% de PS, detén todos los ataques pesados. Espera a que la Bestia entre en su animación de invulnerabilidad. Una vez que se vuelva etérea, los DPS deben moverse inmediatamente al perímetro para interceptar la primera oleada de Orbes de alma.
+  </Step>
+  <Step num="3" title="Manejar el enfurecimiento al 30%">
+    Al 30% de PS, el jefe entra en su forma final, combinando ataques físicos y etéreos. También invocará una niebla permanente que inflige un daño menor con el tiempo. Usa tus habilidades definitivas de curación aquí y desata todas las habilidades ofensivas guardadas para terminar la pelea rápidamente.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Nota de la mecánica">
+La niebla en la Fase 3 no se puede purificar. Es una mecánica de enfurecimiento suave diseñada para evitar que la pelea dure demasiado. Debes superar con daño la pérdida constante de salud.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas, botín y eficiencia de farmeo">
+
+Completar con éxito el **combate contra el jefe Bestia de la Reencarnación** otorga algunos de los materiales más codiciados de la actualización de 2026. Si estás farmeando para conseguir un equipo específico, la eficiencia es clave.
+
+<Checklist
+  id="boss-loot-goals"
+  title="Botines de primer nivel a tener en cuenta:"
+  items={[
+    "Fragmento de reencarnación (1-2 garantizados)",
+    "Garra espectral de la Bestia (15% de probabilidad de caída)",
+    "Esencia del ciclo (Usada para fabricación)",
+    "Tomo antiguo de renacimiento (Cosmético raro)"
+  ]}
+/>
+
+| Dificultad | Cantidad de fragmentos | Probabilidad de legendario | Poder recomendado |
+| :--- | :--- | :--- | :--- |
+| **Normal** | 1 | 2% | 1,500 |
+| **Heroico** | 2-3 | 8% | 2,800 |
+| **Mítico** | 5+ | 20% | 4,500 |
+
+<Callout type="tip" title="Consejo de eficiencia">
+Si estás farmeando Fragmentos de reencarnación, a menudo es más rápido completar la dificultad Heroica dos veces que luchar en una sola partida Mítica, a menos que tu grupo tenga un equipo muy superior al recomendado.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mecánica más peligrosa en el combate contra el jefe Bestia de la Reencarnación?",
+    answer: "La Onda de choque de renacimiento es la más peligrosa porque puede eliminar de un solo golpe a los jugadores con poca salud. Requiere un salto perfectamente sincronizado o una habilidad de invencibilidad para sobrevivir."
+  },
+  {
+    question: "¿Se pueden ralentizar o aturdir las Orbes de alma?",
+    answer: "No, las Orbes de alma son inmunes a los efectos de control de masas. Debes usar daño bruto para destruirlas antes de que alcancen al jefe."
+  },
+  {
+    question: "¿Es posible derrotar a la Bestia de la Reencarnación en solitario?",
+    answer: "Sí, pero requiere un nivel de Poder muy alto (al menos 3,500) y una configuración centrada en la autocuración y la alta movilidad para manejar las mecánicas de la Fase 2 en solitario."
+  },
+  {
+    question: "¿Con qué frecuencia restablece el jefe sus resistencias?",
+    answer: "El jefe cambia sus resistencias solo durante las transiciones de fase al 70% y 30% de PS. No fluctúan durante las fases en sí."
+  }
+]} />
+
+<Callout type="info" title="Nota final">
+El **combate contra el jefe Bestia de la Reencarnación** es un maratón, no una carrera de velocidad. Concéntrate en la supervivencia y la ejecución de las mecánicas en lugar de maximizar el DPS, y descubrirás que el encuentro es mucho más manejable. ¡Buena suerte, aventureros!
+</Callout>
+
+</Section>

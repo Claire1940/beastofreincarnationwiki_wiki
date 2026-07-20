@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Beast of Reincarnation em Turnos: Guia de Configuração de Combate",
+  description: "Domine as mecânicas híbridas de combate tático em tempo real em Beast of Reincarnation. Aprenda a sincronizar Emma e Koo usando comandos em turnos.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Turn+Based+Combat+Guide",
+  date: "2026-07-21",
+  author: "Equipe do Wiki de Beast of Reincarnation"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mecânicas Híbridas**: O sistema em turnos de Beast of Reincarnation mescla ação com espada em tempo real com decisões táticas baseadas em comandos.
+- **Sinergia de Companheiro**: Controle Emma para ataques corpo a corpo em tempo real enquanto emite comandos estratégicos para Koo, o cão assolado.
+- **Artes do Florescer**: Ativar as Artes do Florescer desacelera o tempo, dando espaço para selecionar as técnicas ideais e explorar as fraquezas dos inimigos.
+- **Acúmulo de PF**: Execute aparadas perfeitas para preencher sua barra de PF, que serve como o principal recurso para as habilidades de Koo.
+- **Golpes de Misericórdia**: Maximize a barra de atordoamento do inimigo para acionar finalizações poderosas de um único golpe e garantir vitórias.
+</Callout>
+
+<Section icon={Swords} title="O Sistema de Combate Híbrido Principal">
+
+O combate neste título oferece uma mistura única de ação em tempo real e seleções de comandos táticos. Os jogadores controlam Emma, uma pária viajando por um Japão pós-apocalíptico no ano de 2026, ao lado de seu companheiro Koo, um cão assolado. Nesta configuração, o sistema em turnos de Beast of Reincarnation permite equilibrar golpes físicos rápidos de espada com comandos pausados e deliberados para executar manobras táticas.
+
+**Destaques do Vídeo:**
+- **Sistema de Barra Dupla**: Acompanhe a barra de vida do inimigo e a barra de atordoamento para cronometrar suas finalizações.
+- **Mecânicas de Aparada**: Desvie de golpes recebidos para evitar danos e preencher rapidamente a barra de PF.
+- **Seleção de Arte do Florescer**: Desacelere o tempo para navegar e acionar ataques especiais quando a barra de PF estiver cheia.
+- **Finalizações de Sinergia**: Coordene Emma e Koo para conter e eliminar grupos de inimigos.
+
+<YouTubeEmbed videoId="sia_STs5FTc" title="Beast of Reincarnation - Trailer Oficial de Visão Geral do Combate" />
+
+Gerenciar seus recursos é essencial durante os confrontos. Enquanto Emma se envolve em combates corpo a corpo ativos, as habilidades de Koo exigem PF, que é acumulado ao desviar com sucesso dos ataques inimigos. Isso cria um ritmo onde o jogo defensivo alimenta diretamente suas opções ofensivas.
+
+| Barra | Função | Como Preencher |
+| :--- | :--- | :--- |
+| **Barra de Vida** | Representa a força vital restante do inimigo | Cause dano direto com Emma ou Koo |
+| **Barra de Atordoamento** | Mede a postura e a estabilidade do inimigo | Acerte ataques pesados e apare golpes |
+| **Barra de PF** | Alimenta as habilidades de comando tático de Koo | Realize aparadas e desvios no tempo certo |
+
+<Callout type="tip" title="Tempo de Desvio">
+Aperfeiçoar o tempo da sua aparada é a maneira mais rápida de acumular PF. Observe de perto as animações de preparação do inimigo para desviar de golpes pesados.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Dominando os Comandos em Turnos de Koo">
+
+Quando a barra de PF no canto inferior direito da tela estiver completamente cheia, você ganha acesso às Artes do Florescer. Ativar uma Arte do Florescer inicia uma fase em câmera lenta, imitando os menus tradicionais de comando de RPGs em turnos. Essa pausa tática permite avaliar o campo de batalha, prever os movimentos dos inimigos e selecionar a técnica mais eficaz sem a pressão das ameaças em tempo real.
+
+Você pode personalizar sua abordagem geral selecionando conjuntos de equipamentos (loadouts) que enfatizam diferentes aspects do combate. Dependendo da sua preferência, você pode optar por configurações agressivas, de longo alcance ou furtivas.
+
+<CardGrid cols={3}>
+  <Card title="Conjunto Agressivo">
+    - **Alto dano causado**
+    - Focado em golpes de espada de curto alcance
+    - Ideal para derrotar hordas de inimigos fracos rapidamente
+  </Card>
+  <Card title="Conjunto à Distância">
+    - **Posicionamento seguro**
+    - Utiliza habilidades de projéteis e espaçamento
+    - Melhor para lidar com inimigos voadores
+  </Card>
+  <Card title="Conjunto Furtivo">
+    - **Ataques surpresa**
+    - Focado em controle de grupo e esquiva
+    - Excelente para iniciar batalhas difíceis
+  </Card>
+</CardGrid>
+
+Diferentes comandos táticos servem para propósitos distintos. Por exemplo, algumas habilidades são projetadas para conter vários alvos, enquanto outras causam dano concentrado a um único oponente.
+
+| Nome da Habilidade | Efeito | Uso Tático |
+| :--- | :--- | :--- |
+| **Raízes de Higunbana** | Contém até três alvos simultaneamente | Controle de grupo ao ser cercado por inimigos |
+| **Lança de Sakura** | Lança um projétil de longo alcance com alto dano | Explorar fraquezas a uma distância segura |
+| **Raízes Vinculantes** | Interrompe o movimento de um único alvo | Cancelar ataques de chefes e criar aberturas |
+
+<Callout type="warning" title="Seleção de Habilidades">
+O tempo desacelera durante a seleção da Arte do Florescer, mas não para completamente. Tome suas decisões com eficiência para evitar ser pego de surpresa.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progressão da Sinergia de Emma e Koo">
+
+Para sobreviver às terras devastadas do Japão pós-apocalíptico, você deve atualizar constantemente tanto Emma quanto Koo. Enquanto Emma depende de técnicas físicas de espada, as habilidades de Koo se expandem à medida que você derrota os principais chefes que governam as florestas assoladas. De acordo com detalhes da [Página Oficial do Jogo na FICTIONS](https://fictions.com/games/beast-of-reincarnation), capturar os poderes desses chefes é essencial para eventualmente derrotar a Besta da Reencarnação.
+
+Desbloquear novas habilidades exige gastar PH (Pontos de Habilidade) obtidos durante suas aventuras. À medida que você investe nas árvores de habilidades, a sinergia entre Emma e Koo se torna mais fluida, desbloqueando ataques de acompanhamento avançados.
+
+<Steps>
+  <Step num="1" title="Derrote Chefes">
+    Supere os confrontos contra os chefes regionais para absorver o poder deles e despertar novas Artes do Florescer para Koo.
+  </Step>
+  <Step num="2" title="Ganhe Pontos de Habilidade">
+    Conclua missões e derrote inimigos pelas florestas assoladas para acumular PH.
+  </Step>
+  <Step num="3" title="Expanda as Árvores de Habilidades">
+    Gaste PH para comprar melhorias passivas e novas manobras ativas para Emma.
+  </Step>
+  <Step num="4" title="Execute Combos de Finalização">
+    Combine as habilidades de aprisionamento de Koo com os ataques físicos aprimorados de Emma, como o Divisor de Elmo.
+  </Step>
+</Steps>
+
+A progressão não é linear, permitindo que você priorize as habilidades que combinam com seu estilo de jogo preferido. Equilibrar melhorias físicas com aprimoramentos de comandos mágicos garante que você permaneça versátil.
+
+| Estágio de Progressão | Melhorias Recomendadas | Desbloqueio de Sinergia Chave |
+| :--- | :--- | :--- |
+| **Início do Jogo** | Taxa de geração de PF, dano básico de espada | Coordenação com Raízes de Higunbana |
+| **Meio do Jogo** | Acúmulo da barra de atordoamento, distância de esquiva | Acompanhamento com Lança de Sakura |
+| **Fim do Jogo** | Capacidade máxima de PF, redução de tempo de recarga | Combo de finalização com Divisor de Elmo |
+
+<Callout type="success" title="Pedras Espirituais">
+Equipe pedras espirituais encontradas na terra devastada para conceder bônus passivos, como janelas de aparada maiores ou aumento no dano de efeitos de status.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estratégias de Desvio em Batalhas de Chefe">
+
+Cada região do jogo é guardada por um chefe massivo. Esses encontros testam sua habilidade de combinar reflexos em tempo real com seleções de comandos táticos. Como os ataques dos chefes causam danos massivos, confiar apenas na esquiva raramente é suficiente. Você deve aprender a desviar de seus golpes mais pesados para acumular PF rapidamente.
+
+Durante as lutas contra chefes, a janela de câmera lenta fornecida pelas Artes do Florescer é inestimável. Use esse tempo para observar os movimentos preparatórios do chefe e selecionar uma contramedida, como cancelar um grande ataque com habilidades de aprisionamento.
+
+| Estado do Chefe | Comportamento | Estratégia de Resposta |
+| :--- | :--- | :--- |
+| **Neutro** | Padrões de ataque padrão e golpes físicos | Apare para acumular PF e reduzir a barra de atordoamento |
+| **Preparando Grande Golpe** | Longa animação de preparação com alto potencial de dano | Use as Raízes Vinculantes para cancelar o ataque |
+| **Atordoado / Derrubado** | Vulnerável, sofre mais dano | Liberte todo o PF acumulado e acione uma finalização |
+
+Antes de entrar na arena de um chefe, certifique-se de otimizar sua configuração. Um jogador preparado tem uma chance muito maior de sobreviver a esses encontros brutais.
+
+<Checklist
+  id="boss-prep"
+  title="Lista de Preparação para o Chefe:"
+  items={[
+    "Certifique-se de que a barra de PF esteja totalmente carregada antes de iniciar a luta",
+    "Equipe pedras espirituais que aumentem o acúmulo da barra de atordoamento",
+    "Atribua habilidades de controle de grupo, como as Raízes Vinculantes, aos seus slots ativos",
+    "Aprimore o dano de espada de Emma usando o PH acumulado",
+    "Estude as pistas visuais do chefe para identificar as janelas de aparada"
+  ]}
+/>
+
+<Callout type="info" title="Absorvendo Poder">
+Derrotar um chefe concede imediatamente um novo poder. Lembre-se de verificar o menu de habilidades para equipar sua nova Arte do Florescer despertada.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+Compreender as nuances do sistema de combate é fundamental para dominar o jogo. Abaixo estão as respostas para perguntas comuns sobre as mecânicas híbridas.
+
+<FAQ items={[
+  {
+    question: "Como funciona o sistema de combate em turnos de Beast of Reincarnation?",
+    answer: "Ele combina movimentação e golpes de espada em tempo real para Emma com um menu de pausa tática para Koo. Quando sua barra de PF estiver cheia, você pode desacelerar o tempo para selecionar e executar os comandos especializados de Koo."
+  },
+  {
+    question: "Qual é a melhor maneira de preencher a barra de PF rapidamente?",
+    answer: "Realizar aparadas perfeitas contra os ataques inimigos é o método mais eficiente para restaurar e preencher sua barra de PF durante o combate."
+  },
+  {
+    question: "Posso personalizar as habilidades de Emma e de Koo?",
+    answer: "Sim. Você pode personalizar as habilidades de Emma através da árvore de habilidades usando PH, e desbloquear novas Artes do Florescer para Koo derrotando chefes pelo mundo."
+  },
+  {
+    question: "O que acontece quando a barra de atordoamento de um inimigo é completamente preenchida?",
+    answer: "Preencher a barra de atordoamento atordoa o inimigo e cria uma breve janela onde você pode executar uma finalização poderosa de um único golpe."
+  }
+]} />
+
+<Callout type="tip" title="Experimentação">
+Não hesite em redefinir sua árvore de habilidades se uma luta de chefe for difícil demais. Experimentar diferentes sinergias é altamente incentivado.
+</Callout>
+
+</Section>

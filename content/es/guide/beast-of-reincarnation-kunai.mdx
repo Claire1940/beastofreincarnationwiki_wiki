@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Kunai de Beast of Reincarnation: Guía de las Mejores Builds y Tácticas de Combate",
+  description: "Domina el Kunai de Beast of Reincarnation con nuestra guía de 2026. Aprende sobre las sinergias de Emma y Brad, consejos de rendimiento en UE5 y estrategias de combate de alto nivel.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2d3436/fff?text=Kunai+Combat+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Beast of Reincarnation",
+  keywords: "Beast of Reincarnation, Kunai, guía de combate, Emma, Brad, Unreal Engine 5"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Kunai de Beast of Reincarnation**: Un arma de alta movilidad utilizada principalmente para ataques rápidos y aplicación de estados elementales.
+- **Sinergia de Personajes**: Se combina mejor con **Emma** para builds de crítico basadas en sigilo o con **Brad** para una presión agresiva en el frente.
+- **Ventaja Técnica**: Optimizado para **Unreal Engine 5**, utilizando la iluminación Lumen para rastrear las sombras de los enemigos durante los desplazamientos de kunai a alta velocidad.
+- **Estrategia Clave**: Concéntrate en las zonas subterráneas del "Esqueleto Arruinado", donde la mecánica de rebote del Kunai sobresale en pasillos estrechos.
+- **Meta de 2026**: Las clasificaciones actuales sitúan al Kunai como la opción de Nivel S para speedruns en solitario y farmeo de recursos.
+</Callout>
+
+<Section icon={Map} title="Descripción General del Arma y Rendimiento Técnico">
+
+El **Kunai de Beast of Reincarnation** representa un cambio significativo respecto a los diseños de armas tradicionales de Game Freak. Desarrollado bajo la iniciativa "Gear Project", este sistema de armas aprovecha la potencia de Unreal Engine 5 para ofrecer una experiencia de combate fluida y de alta fidelidad. A diferencia del ritmo más lento de títulos anteriores, el Kunai exige precisión y reflejos rápidos, recompensando a los jugadores que pueden navegar por el "giro de ciencia ficción" del juego sobre la estética tradicional japonesa.
+
+**Puntos Destacados del Vídeo:**
+- **Fidelidad Visual**: Análisis de la iluminación Lumen de UE5 y cómo afecta a la visibilidad del arma en entornos oscuros.
+- **Estabilidad de Rendimiento**: Comparación de la build inicial de 2026 frente a la versión de lanzamiento optimizada a 60 fps.
+- **Perspectivas del Desarrollo**: Discusión sobre cómo el pequeño equipo interno de Game Freak colaboró con estudios externos para activos de alta gama.
+- **Fluidez de Combate**: Un vistazo a la mezcla de animaciones para los ataques de fuego rápido del Kunai.
+
+<YouTubeEmbed videoId="kpREMdxAR7c" title="Beast of Reincarnation: Análisis Técnico" />
+
+El Kunai no es solo un proyectil; es una herramienta para el desplazamiento y la interacción ambiental. En los esqueletos arruinados de tecnología que se encuentran bajo la superficie, el Kunai puede usarse para activar interruptores o distraer a los enemigos golpeando superficies metálicas.
+
+| Característica | Especificación | Impacto en el Juego |
+| :--- | :--- | :--- |
+| **Motor** | Unreal Engine 5 | Efectos de partículas de alta fidelidad al impactar |
+| **Iluminación** | Software Lumen | Las sombras dinámicas ayudan a rastrear las trayectorias del Kunai |
+| **Tasa de Frames** | Objetivo 60 FPS | Esencial para sincronizar paradas (parries) y esquivas perfectas |
+| **Tipo de Proyectil** | Basado en física | La gravedad afecta a los lanzamientos de Kunai a larga distancia |
+
+<Callout type="tip" title="Consejo Pro">
+Si notas caídas de rendimiento en áreas densas con "enredaderas", intenta bajar los ajustes de calidad de las sombras. La efectividad del Kunai depende en gran medida de mantener unos 60 FPS estables para un apuntado preciso.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Combate y Sinergias de Personajes">
+
+Dominar el **Kunai de Beast of Reincarnation** requiere entender cómo interactúa con los dos protagonistas principales: Emma y Brad. Cada personaje utiliza el Kunai de forma diferente, permitiendo diversos estilos de juego que van desde la precisión quirúrgica hasta el daño de área de efecto caótico.
+
+<CardGrid cols={2}>
+  <Card title="Emma: El Filo Fantasmal">
+    - **Enfoque**: Sigilo y Golpes Críticos.
+    - **Rasgo Único**: Los ataques de Kunai por la espalda infligen un 200% de daño adicional.
+    - **Mejor Habilidad**: Desplazamiento Sombrío, que permite a Emma teletransportarse a un Kunai lanzado.
+  </Card>
+  <Card title="Brad: La Tormenta de Hierro">
+    - **Enfoque**: Control de Masas y Agresión.
+    - **Rasgo Único**: Los impactos de Kunai reducen el enfriamiento de los ataques cuerpo a cuerpo pesados.
+    - **Mejor Habilidad**: Explosión de Metralla, que hace que los Kunais exploten al impactar.
+  </Card>
+</CardGrid>
+
+Los atributos base del Kunai se pueden modificar a través del menú de Habilidades y Atributos. En el meta de 2026, los jugadores están priorizando la "Resonancia de Reencarnación", una estadística que permite que el Kunai atraviese a múltiples enemigos, duplicando efectivamente la utilidad del arma en encuentros con hordas.
+
+| Atributo | Valor Base | Modificador de Emma | Modificador de Brad |
+| :--- | :--- | :--- | :--- |
+| **Velocidad de Ataque** | 2.5 golpes/seg | **3.2 golpes/seg** | 2.1 golpes/seg |
+| **Prob. de Crítico** | 10% | **25%** | 5% |
+| **Poder de Aturdimiento** | Bajo | Muy Bajo | **Alto** |
+| **Alcance** | 15 Metros | **25 Metros** | 10 Metros |
+
+<Callout type="warning" title="Advertencia">
+El Kunai tiene un umbral limitado de "Mantenimiento". El uso excesivo del arma sin visitar una Forja resultará en una disminución de la velocidad del proyectil y un menor daño.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso para la Maestría del Kunai">
+
+Para desbloquear completamente el potencial del **Kunai de Beast of Reincarnation**, los jugadores deben seguir una ruta de progresión específica. Esto implica recolectar materiales de los biomas de "belleza natural japonesa" y refinarlos en los laboratorios de ciencia ficción ocultos bajo la corteza.
+
+<Steps>
+  <Step num="1" title="Adquiere la Hoja Prototipo">
+    Completa la misión "Sombras del Pasado" en la aldea inicial. Esto te otorga el conjunto básico de Kunai utilizado por Emma y Brad.
+  </Step>
+  <Step num="2" title="Farmea Fragmentos de Reencarnación">
+    Dirígete a las Ruinas del Esqueleto. Derrota a los guardianes mecánicos para recolectar Fragmentos. Necesitarás aproximadamente 50 Fragmentos para la primera mejora importante.
+  </Step>
+  <Step num="3" title="Desbloquea Ranuras de Atributos">
+    Visita la Estación de Mantenimiento en el Núcleo Central. Usa tus Fragmentos recolectados para desbloquear la ranura de "Infusión Elemental" en tu Kunai.
+  </Step>
+  <Step num="4" title="Domina la Técnica de Rebote">
+    Practica lanzando Kunais en ángulos de 45 grados contra las paredes. En UE5, el motor de física permite hasta tres rebotes antes de que el proyectil pierda impulso.
+  </Step>
+</Steps>
+
+| Nivel de Mejora | Materiales Requeridos | Nueva Habilidad Desbloqueada |
+| :--- | :--- | :--- |
+| **Rango 1** | 10x Chatarra de Hierro | Aumento de la Velocidad de Vuelo |
+| **Rango 2** | 5x Fibras de Enredadera | Revestimiento de Veneno (DOT) |
+| **Rango 3** | 2x Fragmentos de Núcleo | Capacidad de Empuñadura Doble |
+| **Rango 4** | 1x Alma de Reencarnación | Munición Infinita (Basada en enfriamiento) |
+
+<Callout type="success" title="Éxito">
+Alcanzar el Rango 4 con el Kunai elimina eficazmente la necesidad de gestionar la munición manualmente, convirtiéndola en el arma de farmeo más eficiente para el contenido de juego tardío en 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tácticas Avanzadas e Infusiones Elementales">
+
+Una vez que hayas dominado lo básico, el **Kunai de Beast of Reincarnation** puede infundirse con varios elementos encontrados por todo el mundo. Estas infusiones cambian el comportamiento del Kunai y son esenciales para enfrentar los desafiantes encuentros con jefes del juego.
+
+**Tabla de Sinergia Elemental:**
+
+| Elemento | Efecto al Impactar | Mejor Usado Contra |
+| :--- | :--- | :--- |
+| **Eléctrico** | Se encadena a enemigos cercanos | Guardianes Mecánicos / Robots |
+| **Escarcha** | Ralentiza el movimiento y la velocidad de ataque | Jefes Bestia de alta movilidad |
+| **Vacío** | Atrae a los enemigos hacia un pequeño vórtice | Grupos de pequeñas criaturas de "Enredadera" |
+| **Fuego** | Aplica un efecto de Quemadura acumulable | Objetivos biológicos grandes y estacionarios |
+
+Usar estos elementos en combinación con el entorno es una mecánica central. Por ejemplo, lanzar un Kunai Eléctrico a un charco de agua en las ruinas subterráneas creará una onda de choque masiva de área. Esta interacción es un resultado directo de la implementación de física avanzada en el motor del Gear Project.
+
+<Callout type="info" title="Estrategia Experta">
+Cuando juegues como Emma, usa el Kunai de Vacío para agrupar a los enemigos y luego sigue con un Desplazamiento Sombrío para un golpe crítico masivo en todo el grupo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Utilidad Defensiva y Supervivencia">
+
+Aunque es principalmente un arma ofensiva, el Kunai ofrece varias capas defensivas que los nuevos jugadores suelen pasar por alto. En *Beast of Reincarnation*, la supervivencia es tan importante como el daño infligido, especialmente en los modos de dificultad superior "Rebirth".
+
+- **Ventana de Parada**: Puedes desviar proyectiles entrantes sincronizando el lanzamiento de un Kunai justo antes del impacto.
+- **Distracción**: Lanzar un Kunai cerca de un enemigo que no esté alerta hará que investigue el sonido, permitiendo un paso sigiloso.
+- **Escape**: Usar el atributo "Gancho de Agarre" te permite impulsarte hacia un Kunai incrustado en una pared, escapando de efectos peligrosos en el suelo.
+
+| Movimiento Defensivo | Requisito de Entrada | Resultado |
+| :--- | :--- | :--- |
+| **Desvío** | Lanzamiento + Sincronización Precisa | Refleja el proyectil de vuelta al emisor |
+| **Cortina de Humo** | Habilidad + 2 Kunai | Crea una zona de invisibilidad de 5 segundos |
+| **Recuperación Rápida** | Esquiva + Lanzamiento de Kunai | Cancela la animación de aturdimiento inmediatamente |
+
+<Callout type="warning" title="Importante">
+Desviar ataques pesados de jefes consume el doble de la durabilidad normal. Siempre verifica tu estado de Mantenimiento antes de entrar en la arena de un jefe.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Maestría y Preguntas Frecuentes">
+
+Para convertirte en un verdadero experto con el **Kunai de Beast of Reincarnation**, intenta completar los siguientes hitos. Estos no solo mejorarán tu habilidad, sino que también desbloquearán aspectos cosméticos exclusivos para tus armas.
+
+<Checklist
+  id="kunai-mastery"
+  title="Hitos de Maestría del Kunai:"
+  items={[
+    "Alcanzar el Nivel de Jugador 40 con el Kunai equipado",
+    "Realizar 100 asesinatos exitosos con Desplazamiento Sombrío",
+    "Derrotar al jefe 'Enredadera de Acero' usando solo el Kunai",
+    "Desbloquear las 4 Infusiones Elementales",
+    "Mantener 60 FPS durante un encuentro de combate con 10 enemigos"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "¿Es viable el Kunai de Beast of Reincarnation para los jefes de final de juego?",
+    answer: "Sí, especialmente cuando se mejora al Rango 4. Su alta velocidad de ataque y versatilidad elemental lo convierten en una de las armas más fiables para el contenido de final de juego de 2026."
+  },
+  {
+    question: "¿Debería centrarme en Emma o Brad para una build de Kunai?",
+    answer: "Generalmente se considera a Emma como la usuaria de Kunai superior debido a su sigilo y modificadores de crítico, pero la build de Kunai explosivo de Brad es mejor para limpiar grandes grupos de enemigos rápidamente."
+  },
+  {
+    question: "¿Cómo soluciono el aviso de 'baja durabilidad' en mi Kunai?",
+    answer: "Debes visitar una Estación de Mantenimiento o usar un Kit de Reparación Portátil. Descuidar el mantenimiento reduce tu daño hasta en un 40%."
+  },
+  {
+    question: "¿Afecta la iluminación de Unreal Engine 5 al juego?",
+    answer: "Absolutamente. En Beast of Reincarnation, los enemigos pueden ver tu sombra si no tienes cuidado. Usa el Kunai para romper fuentes de luz y permanecer en la oscuridad."
+  }
+]} />
+
+</Section>
